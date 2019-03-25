@@ -6,11 +6,11 @@ Ben je voor het eerst bij CoderDojo?
 ------------------------------------
 Een kleine inleiding voor Scratch kun je <a href="http://www.coderdojo-arnhem.nl/scratch-beginners/">hier</a> vinden.
 
-  - [Muizenvangen](http://www.coderdojo-arnhem.nl/wp-content/uploads/2016/12/Muizenvangen-kaartenset.pdf)
-  - [Apenkooien](http://www.coderdojo-arnhem.nl/wp-content/uploads/2017/01/Boek_apenkooien.pdf)
-  - [Hiphop dans tips](http://www.coderdojo-arnhem.nl/wp-content/uploads/2016/12/hiphop-dans_tips_kaarten.pdf)
-  - [Animeer je naam](http://www.coderdojo-arnhem.nl/wp-content/uploads/2016/12/animeer-je-naam-kaarten.pdf)
-  - [Ontsnap aan de draak](http://www.coderdojo-arnhem.nl/wp-content/uploads/2017/01/Boek_ontsnap-aan-de-draak.pdf)
+  - [Muizenvangen](/static/pdf/Muizenvangen-kaartenset.pdf)
+  - [Apenkooien](/static/pdf/Boek_apenkooien.pdf)
+  - [Hiphop dans tips](/static/pdf/hiphop-dans_tips_kaarten.pdf)
+  - [Animeer je naam](/static/pdf/animeer-je-naam-kaarten.pdf)
+  - [Ontsnap aan de draak](/static/pdf/Boek_ontsnap-aan-de-draak.pdf)
 
 Heb je al vaker iets met Scratch gedaan?
 ----------------------------------------
