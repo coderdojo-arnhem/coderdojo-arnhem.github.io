@@ -9,7 +9,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>
-      {% page.title %} - CoderDojo Arnhem
+      {{ page.title }} - CoderDojo Arnhem
   </title>
   <meta name="description" content="Kinderen leren programmeren" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,7 +35,7 @@
   <meta name="msapplication-TileImage" content="/static/img/cd-270x270.png" />
 </head>
 
-<body class="page-template-default page {% page.title %}" data-template="base.twig">
+<body class="page-template-default page {{ page.class }}">
   <header class="header cd-menu">
     <div class="cd-menu__desktop-nav">
       <div class="cd-menu__first-row">
@@ -165,11 +165,21 @@
   <script>
     // open all external links in target _blank
     $("a").each(function (i, a) { 
-      if (a.href && a.href[0] !== '/' && a.href.indexOf('coderdojo-arnhem.nl') < 0) {
+      if (a.href && a.href.indexOf('coderdojo-arnhem.') < 0) {
         a.target = '_blank'; 
       }
     });
   </script>
+
+  <style>
+    .gallery .article-body ul { list-style:none; padding: 0;}
+    .gallery .article-body ul li { text-align: center; float: left; max-width:29%; margin-right:4%; margin-bottom: 1em; }
+    .gallery .article-body ul li:nth-child(4n+4) { clear: both; }
+    .gallery .article-body ul li > a { display:block; }
+    @media (max-width: 768px){
+      .gallery .article-body ul li { max-width:100%; width:100%; margin-right:0; }
+    }
+  </style>
 </body>
 
 </html>
