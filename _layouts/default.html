@@ -165,7 +165,8 @@
   <script>
     // open all external links in target _blank
     $("a").each(function (i, a) { 
-      if (a.href && a.href.indexOf('coderdojo-arnhem.') < 0) {
+      var href = a.href || "";
+      if (!href.incudes('coderdojo-arnhem.') || a.href.incudes('.pdf')) {
         a.target = '_blank'; 
       }
     });
