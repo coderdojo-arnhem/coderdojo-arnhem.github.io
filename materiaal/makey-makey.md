@@ -11,11 +11,11 @@ We beginnen simpel.
   3. Als je computer een Popup geeft, kun je dit wegklikken. Je hoeft niets op de computer te downloaden of in te stellen.
   4. Haal een krokodillenbekje uit de doos. (Een krokodillenbekje zijn alle gekleurde draadjes  met aan beide kanten een klemmetje!)<br/>![krokodillenbekje](/static/img/mm-Crocodile_Clips.jpg)
   5. Sluit deze aan op de aarde "earth" van de MaKey MaKey<br/>![Aarde](/static/img/mm-earth.jpg)
-  6. Als je de MaKey MaKey gebruikt moet je zorgen dat hij altijd geaard is. Je moet de andere kant van het krokodillenbekje dus vasthouden in je hand.<br/>![Connect](mm-connect-human.jpg)
+  6. Als je de MaKey MaKey gebruikt moet je zorgen dat hij altijd geaard is. Je moet de andere kant van het krokodillenbekje dus vasthouden in je hand.<br/>![Connect](/static/img/mm-connect-human.jpg)
   7. Open nu een programma waarin je kan typen (zoals Word, Notepad, Kladblok of de internet browser met google.com).
   8. Terwijl je de aarde nog vasthoud, klik je met je andere hand op de spatie balk op de MaKey MaKey. Deze heet "space".
   9. Gebeurt er wat?
-  10. Je kunt dit ook doen met een andere krokodillenbekje! Zie het plaatje.<br/>![Touch](mm-touch-animation.gif)
+  10. Je kunt dit ook doen met een andere krokodillenbekje! Zie het plaatje.<br/>![Touch](/static/img/mm-touch-animation.gif)
   11. De MaKey MaKey heeft op de voorkant nog 6 aansluitingen zitten! Je ziet de "space", de pijltjes en de "click" toets. Aan de onderkant zitten 6 plekken om de MaKey MaKey te aarde
 
 Zelf verder
