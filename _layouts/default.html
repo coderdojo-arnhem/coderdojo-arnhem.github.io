@@ -3,7 +3,7 @@
 <!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="nl"> <![endif]-->
 <!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="nl"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en" lang="nl">
+<html class="no-js" lang="nl">
 <!--<![endif]-->
 
 <head>
@@ -11,56 +11,53 @@
   <title>
       {{ page.title }} - CoderDojo Arnhem
   </title>
-  <meta name="description" content="Kinderen leren programmeren" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="Bij CoderDojo Arnhem kunnen kinderen tussen de 7 en 17 jaar op een laagdrempelige manier kennis maken met technologie." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
-  <link rel="shortcut icon" href="/static/cd-theme/img/coderdojo/favicon.ico" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:200,300,400" type="text/css" />
   <link rel="stylesheet" href="/static/cd-theme/css/style.min.css" type="text/css" />
   <link rel="stylesheet" href="/static/cd-theme/css/cd-common.min.css" type="text/css" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-    crossorigin="anonymous"></script>
+  <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/fee0636489.js"></script>
   <script src="/static/cd-theme/js/nav.js"></script>
   <script src="/static/cd-theme/js/cd-common.min.js"></script>
   <link rel="dns-prefetch" href="//fonts.googleapis.com" />
   <link rel="dns-prefetch" href="//s.w.org" />
-  <link rel="canonical" href="/materiaal" />
+  <link rel="canonical" href="{{ page.url }}" />
+  <link rel="shortcut icon" href="/static/cd-theme/img/coderdojo/favicon.ico" />
   <link rel="icon" href="/static/img/cd-32x32.png" sizes="32x32" />
   <link rel="icon" href="/static/img/cd-192x192.png" sizes="192x192" />
   <link rel="apple-touch-icon-precomposed" href="/static/img/cd-180x180.png" />
   <meta name="msapplication-TileImage" content="/static/img/cd-270x270.png" />
+  <style>
+      .gallery .article-body ul { list-style:none; padding: 0;}
+      .gallery .article-body ul li { text-align: center; float: left; max-width:29%; margin-right:4%; margin-bottom: 1em; }
+      .gallery .article-body ul li:nth-child(4n+4) { clear: both; }
+      .gallery .article-body ul li > a { font-weight:bold; display:block; }
+      @media (max-width: 768px){
+        .gallery .article-body ul li { max-width:100%; width:100%; margin-right:0; }
+      }
+    </style>
 </head>
 
 <body class="page-template-default page {{ page.class }}">
   <header class="header cd-menu">
     <div class="cd-menu__desktop-nav">
       <div class="cd-menu__first-row">
-        <a href="/">
+        <a href="http://www.coderdojo-arnhem.nl/">
           <img src="/static/cd-theme/img/coderdojo/coderdojo-arnhem.svg" width="400" height="44" />
         </a>
         <div class="cd-menu__flex-spacer"></div>
       </div>
       <ul class="cd-menu__second-row">
         <li><a href="http://www.coderdojo-arnhem.nl/">Home</a></li>
-        <li>
-          <a href="http://www.coderdojo-arnhem.nl/komendeeditie/">Komende editie</a>
-        </li>
-        <li>
-          <a href="http://www.coderdojo-arnhem.nl/voor-ouders/">Voor ouders</a>
-        </li>
-        <li>
-          <a href="/materiaal">Materiaal</a>
-        </li>
-        <li>
-          <a href="http://www.coderdojo-arnhem.nl/meehelpen/">Meehelpen</a>
-        </li>
-        <li>
-          <a href="http://www.coderdojo-arnhem.nl/overons/">Over ons</a>
-        </li>
+        <li><a href="http://www.coderdojo-arnhem.nl/komendeeditie/">Komende editie</a></li>
+        <li><a href="http://www.coderdojo-arnhem.nl/voor-ouders/">Voor ouders</a></li>
+        <li><a href="/materiaal">Materiaal</a></li>
+        <li><a href="http://www.coderdojo-arnhem.nl/meehelpen/">Meehelpen</a></li>
+        <li><a href="http://www.coderdojo-arnhem.nl/overons/">Over ons</a></li>
         <li><a href="http://www.coderdojo-arnhem.nl/contact/">Contact</a></li>
       </ul>
     </div>
@@ -71,7 +68,7 @@
         <span class="cd-menu__hamburger-bar"></span>
         <span class="cd-menu__hamburger-bar"></span>
       </button>
-      <a href="/">
+      <a href="http://www.codedojo-arnhem.nl">
         <img src="/static/cd-theme/img/coderdojo/coderdojo-arnhem.svg"
           style="max-width:75%; padding-top:10px; padding-left: 5px;" />
       </a>
@@ -85,24 +82,12 @@
         <div class="cd-menu__content-pre">
           <ul class="cd-menu__content-block">
             <li><a href="http://www.coderdojo-arnhem.nl/">Home</a></li>
-            <li>
-              <a href="http://www.coderdojo-arnhem.nl/komendeeditie/">Komende editie</a>
-            </li>
-            <li>
-              <a href="http://www.coderdojo-arnhem.nl/voor-ouders/">Voor ouders</a>
-            </li>
-            <li>
-              <a href="/materiaal">Materiaal</a>
-            </li>
-            <li>
-              <a href="http://www.coderdojo-arnhem.nl/meehelpen/">Meehelpen</a>
-            </li>
-            <li>
-              <a href="http://www.coderdojo-arnhem.nl/overons/">Over ons</a>
-            </li>
-            <li>
-              <a href="http://www.coderdojo-arnhem.nl/contact/">Contact</a>
-            </li>
+            <li><a href="http://www.coderdojo-arnhem.nl/komendeeditie/">Komende editie</a></li>
+            <li><a href="http://www.coderdojo-arnhem.nl/voor-ouders/">Voor ouders</a></li>
+            <li><a href="/materiaal">Materiaal</a></li>
+            <li><a href="http://www.coderdojo-arnhem.nl/meehelpen/">Meehelpen</a></li>
+            <li><a href="http://www.coderdojo-arnhem.nl/overons/">Over ons</a></li>
+            <li><a href="http://www.coderdojo-arnhem.nl/contact/">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -115,7 +100,7 @@
     <section id="content" role="main" class="content-wrapper">
       <div class="wrapper ">
         <div class="content-wrapper">
-          <article class="post-type-page" id="post-475">
+          <article class="post-type-page">
             <section>
               <div class="article-body">
                 {{ content }}
@@ -123,7 +108,6 @@
             </section>
           </article>
         </div>
-        <!-- /content-wrapper -->
       </div>
     </section>
   </div>
@@ -165,22 +149,12 @@
   <script>
     // open all external links in target _blank
     $("a").each(function (i, a) { 
-      var href = a.href || "";
-      if (!href.incudes('coderdojo-arnhem.') || a.href.incudes('.pdf')) {
+      var href = a.href || '';
+      if (!href.includes('coderdojo-arnhem.') || href.includes('.pdf')) {
         a.target = '_blank'; 
       }
     });
   </script>
-
-  <style>
-    .gallery .article-body ul { list-style:none; padding: 0;}
-    .gallery .article-body ul li { text-align: center; float: left; max-width:29%; margin-right:4%; margin-bottom: 1em; }
-    .gallery .article-body ul li:nth-child(4n+4) { clear: both; }
-    .gallery .article-body ul li > a { font-weight:bold; display:block; }
-    @media (max-width: 768px){
-      .gallery .article-body ul li { max-width:100%; width:100%; margin-right:0; }
-    }
-  </style>
 </body>
 
 </html>
