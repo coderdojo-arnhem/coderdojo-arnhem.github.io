@@ -1,0 +1,245 @@
+
+
+// /*
+//  * Styles specifically for the header
+//  */
+
+html {
+    background: @cd-background;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #191919;
+  background: #eee;
+  padding: 0;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar-form input#navbar-search {
+  width: 100%;
+  display: none;
+}
+
+.navbar-form input#navbar-search.show {
+  display: initial;
+}
+
+.navbar-form .form-group {
+  font-size: 16px;
+  font-weight: 400;
+}
+.dropdown-menu li {
+  width: 100% !important;
+  text-align: left;
+}
+.dropdown-menu li a:hover {
+   background-color: @cd-blue;
+ }
+
+.search-placeholder {
+  cursor: pointer;
+
+  &:before {
+    content: " ";
+    background-image: url('../img/misc/search-glass.png');
+    display:inline-block;
+    width:24px;
+    height:24px;
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-top: -4px;
+  }
+
+  &:not(:lang(el)),
+  &:not(:lang(tr)) {
+    text-transform: uppercase;
+    line-height: 34px;
+    display:inline;
+  }
+}
+
+.header-menu {
+  padding-top: 12px;
+}
+
+.header .navbar-default {
+    border: none;
+    background: @cd-background;
+    margin: 0;
+    width: 100%;
+}
+
+.header .menu.navbar-nav {
+    text-transform: uppercase;
+    background: @cd-white;
+    margin-top: 12px;
+}
+
+.nav-left-item:after {
+  position: absolute;
+  top: 14px;
+  right: 0;
+  content: '';
+  width:1px;
+  background: #000;
+  height: 24px;
+}
+
+.header .menu.navbar-nav li {
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .header .navbar-header, .header .navbar-nav {
+    margin-top: 12px;
+  }
+
+  .header .menu.navbar-nav {
+    width: 100%;
+  }
+
+  .header .menu.navbar-nav li {
+      width: 14%;
+      width: calc(100% / 7);
+      text-align: center;
+  }
+
+  .donate-button {
+    padding-top: 4px;
+    padding-left: 35px;
+  }
+
+  .navbar-form .form-group {
+    padding-left: 20px;
+  }
+}
+
+.center {
+    text-align: center;
+}
+
+// TODO: Don't do this
+.cd-menu__content-container.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (min-width: 1280px) {
+    .header .navbar-default {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
+
+.header .panel-body {
+    background: @cd-alt-grey;
+    height: 100px;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+
+  .login-register.navbar-nav li {
+    display: inline-block;
+  }
+
+  .search-button, .donate-button {
+    padding: 0 15px;
+  }
+
+  .nav-left-item:after {
+    top: 10px;
+  }
+
+  // TODO: Don't do this
+  .cd-menu__content-container.no-padding {
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+  }
+}
+
+// /*
+//  * Styles specifically for the Header
+//  */
+
+.cta .footer-button {
+  color: #fff;
+  margin-top: 10px;
+  xpadding: 0.5em 0.7em;
+  border-radius: 0.3em;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+.cta .header-button {
+  color: #fff;
+  padding: 0.6em 1em;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-right {
+  color: @cd-black;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #000 !important;
+}
+
+.top-banner {
+  width:100%;
+}
+
+.home-splash {
+  position: relative;
+}
+
+
+
+.home-banner-text {
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 20%;
+  text-align:center;
+  color: @cd-white;
+  @media (max-width: 768px){
+    margin: 0 10%;
+  }
+  @media (max-width: 600px){
+    font-size: 16px;
+  }
+}
+
+.cd-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: -7% auto 0 auto;
+  max-width: 350px;
+  text-align: left;
+  @media (max-width: 768px){
+    max-width: 250px;
+    height: 35%;
+  }
+}
+
+.narrow {
+  padding-left: 6.5%;
+}

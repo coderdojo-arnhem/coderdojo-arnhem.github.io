@@ -1,0 +1,109 @@
+.post-image {
+  text-align: center;
+  padding-top: 40%;
+  margin-bottom: -5%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  @media (min-width: 0) and (max-width: 768px) {
+    margin-bottom: 5px;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    transition: height 0.2s ease-out;
+    height: 5px;
+    background: @cd-green;
+    width: 100%;
+  }
+}
+
+.post-content {
+  background: #fff;
+  border: 1px solid #e7e7e7;
+}
+
+.older-news {
+  @media(max-width: 1000px){
+    display: none;
+  }
+}
+
+.home-latest-news {
+  @media(max-width: 770px){
+    display: none;
+  }
+}
+
+.news-carousel {
+  @media(max-width: 770px){
+    display: none;
+  }
+}
+
+.article-pagination {
+  padding: 0 0 32px 0;
+  background: #f8f8f8;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #ccc;
+
+  &:hover {
+    .post-image:after {
+      height: 10px;
+    }
+  }
+}
+
+.pagination-buttons {
+  margin: 12px 0 24px 0;
+}
+
+/*A lot more needs to be done here in order to correctly present posts which
+ * have been migrated over form the old websote*/
+
+.news {
+  background: @cd-white;
+}
+
+.news video {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+
+.news table {
+  width: 100%;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.news-content {
+  padding-top: 20px;
+}
+
+.responses {
+  text-align: left;
+}
+
+.cat-list {
+  padding: 0;
+}
+
+.cat-list li {
+  border-bottom: 1px solid #CCC;
+  padding: 0 0 15px;
+  margin: 0 0 15px;
+  list-style-type: none;
+}
+
+.news-search {
+  display: inline;
+  padding-top: 20px;
+  padding-right: 30px;
+}

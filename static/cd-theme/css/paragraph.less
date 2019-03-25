@@ -1,0 +1,122 @@
+/*
+ * Paragraph
+ */
+
+.paragraph  {
+  position: relative;
+  padding: 0 20% 25px 20%;
+
+  .row {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: @cd-purple;
+  }
+
+  .desc{
+    font-size: 16px;
+    color: @cd-black;
+    line-height: 2.0;
+    padding-bottom: 20px;
+  }
+
+  .image-container {
+    position:absolute;
+    left: 60px;
+  }
+
+  .image-crop {
+      width: 120px;
+      height: 120px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+      border: solid rgba(128, 128, 128, 0.1) 1px;
+  }
+
+  img {
+      display: inline;
+      margin: 0 auto;
+      height: 100%;
+      width: auto;
+  }
+
+  &.left {
+    text-align: left;
+    padding-left: 200px;
+    margin-right: -100px;
+  }
+
+  &.right {
+    text-align: right;
+    padding-right: 200px;
+    margin-left: -100px;
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 16px;
+  font-size: 4em !important;
+  vertical-align: bottom;
+  width: auto;
+  text-align: center;
+
+  &.left {
+    left: 0;
+  }
+
+  &.right {
+    right: 0;
+  }
+}
+
+.paragraph.left {
+  text-align: left;
+  padding-left: 200px;
+  margin-right: -100px;
+}
+
+.paragraph.right {
+  text-align: right;
+  padding-right: 200px;
+  margin-left: -100px;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .icon {
+    font-size: 2em !important;
+    width: 72px;
+  }
+
+  .paragraph {
+    padding: 0 5% 25px 5%;
+
+    &.left {
+      padding-left: 72px;
+      margin-right: 0;
+    }
+
+    &.right {
+      padding-right: 72px;
+      margin-left: 0;
+      text-align: left;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .actions-with-icons {
+    margin: 20px 20%;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
