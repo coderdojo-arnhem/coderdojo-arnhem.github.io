@@ -9,5 +9,5 @@ class: gallery
 - [![HTML](/static/img/html.png) Bouw je eigen website](/materiaal/website)
   Altijd al je eigen website willen maken? Daarvoor moet je HTML leren. En als je wat verder bent, kun je met CSS en Javascript aan de slag!
 - [![App](/static/img/app.png) Bouw je eigen app](/materiaal/bouw-je-eigen-app)
-- [![Makey Makey](/static/img/makeymakey.png) Bouw je eigen app](/materiaal/makey-makey)
+- [![Makey Makey](/static/img/makeymakey.png) Makey Makey](/materiaal/makey-makey)
 - [![App](/static/img/codecombat.png) CodeCombat](/materiaal/codecombat)
