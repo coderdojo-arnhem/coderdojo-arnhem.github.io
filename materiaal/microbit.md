@@ -1,3 +1,7 @@
+---
+class: gallery
+---
+
 micro:bit
 =========
 
@@ -13,7 +17,5 @@ Het is ook mogelijk om de micro:bit in Scratch te gebruiken. Op de website van S
 
 Andere leuke opdrachten die je kunt doen
 ----------------------------------------
-  - ![Hack de kerstverlichting](/static/img/hack-de-kerstverlichting.png)
-    **Hack de kerstverlichting**
-
-    In deze missie van [SkillsDojo](https://www.skillsdojo.nl) ontdek je hoe met de micro:bit de kerstverlichting kunt aansturen.
+- [![Hack de kerstverlichting](/static/img/hack-de-kerstverlichting.png) Hack de kerstverlichting](https://www.skillsdojo.nl/microcomputer-uitvinden/kerst/)
+  In deze missie van [SkillsDojo](https://www.skillsdojo.nl) ontdek je hoe met de micro:bit de kerstverlichting kunt aansturen.
