@@ -163,6 +163,14 @@
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="/static/cd-theme/js/fitvids.min.js"></script>
   <script src="/static/cd-theme/site.js"></script>
+  <script>
+    // open all external links in target _blank
+    $("a").each(function (i, a) { 
+      if (a.href && a.href[0] !== '/' && a.href.indexOf('coderdojo-arnhem.nl') < 0) {
+        a.target = '_blank'; 
+      }
+    });
+  </script>
 </body>
 
 </html>
