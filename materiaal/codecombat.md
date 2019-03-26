@@ -17,7 +17,7 @@ CodeCombat is best ingewikkeld omdat je echte code moet typen. Het is geschikt v
     - vul je geboortedatum, emailadres, gebruikersnaam en wachtwoord in
     - kies: "speel nu"
     - selecteer "de kerker van kithgard"
-- klik op "spelen
+- klik op "spelen"
 
 - Als je mee wilt doen zonder je eigen account aan te maken doe dan het volgende (let op: je werk wordt niet opgeslagen dus je kunt er later niet mee verder):
     - kies: "speel"
