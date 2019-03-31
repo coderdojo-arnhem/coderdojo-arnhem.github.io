@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="/static/cd-theme/css/style.min.css" type="text/css" />
   <link rel="stylesheet" href="/static/cd-theme/css/cd-common.min.css" type="text/css" />
   <script src="/static/cd-theme/js/cd-common.min.js"></script>
-  <link rel="canonical" href="{{ page.url }}" />
+  <link rel="canonical" href="https://coderdojo-arnhem.github.io{{ page.url }}" />
   <link rel="shortcut icon" href="/static/cd-theme/img/coderdojo/favicon.ico" />
   <link rel="icon" href="/static/img/cd-32x32.png" sizes="32x32" />
   <link rel="icon" href="/static/img/cd-192x192.png" sizes="192x192" />
@@ -99,25 +99,25 @@
     <div class="row">
       <div class="col-sm-4">
         <p class="cd-footer__social-icons">
-          <a href="https://www.facebook.com/CoderDojoArnhem/" target="_blank">
+          <a href="https://www.facebook.com/CoderDojoArnhem/" target="_blank" rel="noopener">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
               <i class="fa fa-facebook fa-stack-1x cd-footer__social-icons__icon" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="https://twitter.com/CoderDojo026" target="_blank">
+          <a href="https://twitter.com/CoderDojo026" target="_blank" rel="noopener">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
               <i class="fa fa-twitter fa-stack-1x cd-footer__social-icons__icon" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="mailto://contact@coderdojo-arnhem.nl" target="_blank">
+          <a href="mailto://contact@coderdojo-arnhem.nl" target="_blank" rel="noopener">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
               <i class="fa fa fa-at fa-stack-1x cd-footer__social-icons__icon" aria-hidden="true"></i>
             </span>
           </a>
-          <a href="https://coderdojo.nl/slack-community" target="_blank">
+          <a href="https://coderdojo.nl/slack-community" target="_blank" rel="noopener">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
               <i class="fa fa fa-slack fa-stack-1x cd-footer__social-icons__icon" aria-hidden="true"></i>
@@ -135,6 +135,7 @@
           href = a.href || '';
       if (!href.includes('coderdojo-arnhem.') || href.includes('.pdf')) {
         a.target = '_blank'; 
+        a.rel='noopener';
       }
     }
   </script>
