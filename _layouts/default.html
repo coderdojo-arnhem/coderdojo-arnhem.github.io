@@ -3,7 +3,7 @@
 <!--[if IE 7]><html class="no-js ie ie7 lt-ie9 lt-ie8" lang="nl"> <![endif]-->
 <!--[if IE 8]><html class="no-js ie ie8 lt-ie9" lang="nl"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="nl">
+<html lang="nl">
 <!--<![endif]-->
 
 <head>
@@ -19,27 +19,11 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:200,300,400" type="text/css" />
   <link rel="stylesheet" href="/static/cd-theme/css/style.min.css" type="text/css" />
   <link rel="stylesheet" href="/static/cd-theme/css/cd-common.min.css" type="text/css" />
-  <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-  <script src="https://use.fontawesome.com/fee0636489.js"></script>
-  <script src="/static/cd-theme/js/nav.js"></script>
   <script src="/static/cd-theme/js/cd-common.min.js"></script>
-  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-  <link rel="dns-prefetch" href="//s.w.org" />
   <link rel="canonical" href="{{ page.url }}" />
   <link rel="shortcut icon" href="/static/cd-theme/img/coderdojo/favicon.ico" />
   <link rel="icon" href="/static/img/cd-32x32.png" sizes="32x32" />
   <link rel="icon" href="/static/img/cd-192x192.png" sizes="192x192" />
-  <link rel="apple-touch-icon-precomposed" href="/static/img/cd-180x180.png" />
-  <meta name="msapplication-TileImage" content="/static/img/cd-270x270.png" />
-  <style>
-      .gallery .article-body ul { list-style:none; padding: 0;}
-      .gallery .article-body ul li { text-align: center; float: left; max-width:29%; margin-right:4%; margin-bottom: 1em; }
-      .gallery .article-body ul li:nth-child(4n+4) { clear: both; }
-      .gallery .article-body ul li a:first-of-type { font-weight:bold; display:block; }
-      @media (max-width: 768px){
-        .gallery .article-body ul li { max-width:100%; width:100%; margin-right:0; }
-      }
-    </style>
 </head>
 
 <body class="page-template-default page {{ page.class }}">
@@ -143,17 +127,16 @@
       </div>
     </div>
   </footer>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="/static/cd-theme/js/fitvids.min.js"></script>
-  <script src="/static/cd-theme/site.js"></script>
   <script>
     // open all external links in target _blank
-    $("a").each(function (i, a) { 
-      var href = a.href || '';
+    var links = document.querySelectorAll('a'), i;
+    for (i = 0; i < links.length; ++i) {
+      var a = links[i],
+          href = a.href || '';
       if (!href.includes('coderdojo-arnhem.') || href.includes('.pdf')) {
         a.target = '_blank'; 
       }
-    });
+    }
   </script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56676190-2"></script>

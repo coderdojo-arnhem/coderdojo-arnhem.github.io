@@ -1,5 +1,6 @@
 ---
 class: gallery
+layout: default
 ---
 # Materiaal
 - [![Scratch](/static/img/scratch.png) Scratch](/materiaal/scratch)
