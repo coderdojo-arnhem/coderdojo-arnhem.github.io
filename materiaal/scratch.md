@@ -6,12 +6,10 @@ Scratch
 =======
 Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en speciaal gemaakt voor kinderen en je hebt geen programma of speciale software nodig. Begin meteen op [scratch.mit.edu](https://scratch.mit.edu/).
 
-Ben je voor het eerst bij CoderDojo?
-------------------------------------
+### Ben je voor het eerst bij CoderDojo?
 Een inleiding voor Scratch kun je vinden op onze [Scratch voor beginners pagina](/materiaal/scratch-voor-beginners).
 
-Als je al vaker iets met Scratch gedaan hebt
---------------------------------------------
+### Als je al vaker iets met Scratch gedaan hebt
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
  Maak zelf Flappy Bird](/static/pdf/FlappyBirdScratch.pdf)
 - [![Voetbal hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam!](http://www.coderdojo-arnhem.nl/scratch-voetbal-vitesse/)

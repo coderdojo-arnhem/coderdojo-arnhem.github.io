@@ -1,3 +1,6 @@
+---
+layout: default
+---
 Scratch voor beginners
 ======================
 ![Scratch](/static/img/scratch-logo.svg)

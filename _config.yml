@@ -1,0 +1,6 @@
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  toc_levels: [2,3,4,5,6]

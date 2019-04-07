@@ -1,7 +1,7 @@
 ---
+layout: default
 class: gallery
 ---
-
 micro:bit
 =========
 

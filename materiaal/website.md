@@ -1,3 +1,6 @@
+---
+layout: default
+---
 Website
 =======
 Wil je graag je eigen website maken?

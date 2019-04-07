@@ -1,3 +1,6 @@
+---
+layout: default
+---
 CodeCombat
 ==========
 ![CodeCombat](/static/img/CodeCombatGroot.png)

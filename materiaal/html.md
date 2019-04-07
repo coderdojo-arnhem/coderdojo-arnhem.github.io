@@ -1,3 +1,6 @@
+---
+layout: default
+---
 HTML
 ====
 Een website maken in HTML!
