@@ -4,8 +4,10 @@ Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en 
 
 Ben je voor het eerst bij CoderDojo?
 ------------------------------------
-Een kleine inleiding voor Scratch kun je <a href="http://www.coderdojo-arnhem.nl/scratch-beginners/">hier</a> vinden.
+Een inleiding voor Scratch kun je vinden op onze [Scratch voor beginners pagina](/materiaal/scratch-voor-beginners).
 
+Opdrachten voor beginners
+-------------------------
   - [Muizenvangen](/static/pdf/Muizenvangen-kaartenset.pdf)
   - [Apenkooien](/static/pdf/Boek_apenkooien.pdf)
   - [Hiphop dans tips](/static/pdf/hiphop-dans_tips_kaarten.pdf)
