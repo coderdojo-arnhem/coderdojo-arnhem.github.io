@@ -25,7 +25,7 @@ Hieronder vind je een lijst met een aantal van de apps die zijn gemaakt tijdens 
 - [Jens](http://marvelapp.com/2f6e1a1)
 - [Jona](http://marvelapp.com/3680ha9)
 - [Lenn](http://marvelapp.com/5ad58be)
-- [Linden](http://marvelapp.com/278aj79">http://marvelapp.com/278aj79)
+- [Linden](http://marvelapp.com/278aj79)
 - [Maaike](http://marvelapp.com/2f6de96)
 - [Max](http://marvelapp.com/1ghf457)
 - [Sam](http://marvelapp.com/4300aji)
