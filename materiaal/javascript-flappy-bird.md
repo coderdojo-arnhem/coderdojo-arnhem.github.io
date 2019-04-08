@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 Flappybird in JavaScript
 ========================
 
