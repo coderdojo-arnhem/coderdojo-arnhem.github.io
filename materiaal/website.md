@@ -10,4 +10,4 @@ Hier vind je de website van <a href="https://www.webtinq.nl">WebTinq</a>. En <a 
 Voor de extra uitdaging kun je <a href="https://webtinq.nl/coderdojo-arnhem">hier</a> kijken.
 
 ### CoderDojo #7: Bouw je eigen website
-De uitleg vind je [hier](/materiaal/html).
+De uitleg vind je [hier](/2017/02/17/html).
