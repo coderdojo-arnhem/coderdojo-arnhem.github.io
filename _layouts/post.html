@@ -2,13 +2,28 @@
 layout: default
 ---
 <style>
-    .blog img {max-height:200px;margin:5px; margin-left:0;}
-    .blog h1 .subtitle { font-size:16px;display:block;text-transform:none;}
-    
+    .blog img {
+        max-height:200px;
+        margin:5px; 
+        margin-left:0;
+    }
+    .blog .metadata { 
+        text-align:center;
+        text-transform:none;
+        margin-top:-2em;
+        margin-bottom:1em;
+    }
+    .blog #back-to-blog { 
+        margin-top: 3em; 
+    }
+
+    @media print {
+        .blog img {max-height:160px;margin:5px; margin-left:0;}        
+    }
 </style>
 <div class="blog">
-    <h1>{{ page.title }}
-    <span class="subtitle">{% assign m = page.date | date: "%-m" %}
+    <h1>{{ page.title }}</h1>
+    <div class="metadata">{% assign m = page.date | date: "%-m" %}
             {{ page.date | date: "%-d" }}
             {% case m %}
               {% when '1' %}januari
@@ -24,7 +39,7 @@ layout: default
               {% when '11' %}november
               {% when '12' %}december
             {% endcase %}
-            {{ page.date | date: "%Y" }} - {{ page.author }}</span></h1>
+            {{ page.date | date: "%Y" }} - {{ page.author }}</div>
     {{ content }}
     <p id="back-to-blog">
         <a href="/blog">&larr; Terug naar overzicht</a>

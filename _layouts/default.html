@@ -133,24 +133,29 @@
   </footer>
   <script>
     // open all external links in target _blank
-    var links = document.querySelectorAll('a'), i;
-    for (i = 0; i < links.length; ++i) {
-      var a = links[i],
-          href = a.href || '';
-      if (!href.includes('coderdojo-arnhem.') || href.includes('.pdf')) {
-        a.target = '_blank'; 
-        a.rel='noopener';
+    var isLocalHost = document.location.host.startsWith('localhost');
+    if (!isLocalHost) {
+      var links = document.querySelectorAll('a'), i;
+      for (i = 0; i < links.length; ++i) {
+        var a = links[i],
+            href = a.href || '';
+        if (!href.includes('coderdojo-arnhem.') || href.includes('.pdf')) {
+          a.target = '_blank'; 
+          a.rel='noopener';
+        }
       }
     }
   </script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56676190-2"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    if (!isLocalHost) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'UA-56676190-2');
+      gtag('config', 'UA-56676190-2');
+    }
   </script>
   <script type="application/ld+json">
     { 

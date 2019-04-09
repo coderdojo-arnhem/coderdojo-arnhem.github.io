@@ -12,17 +12,15 @@
 .stappenplan .article-body .blog > p,
 .stappenplan .article-body > p {
     clear:both;
-    margin:0;
-    margin-top:2em;
 }
 
 .stappenplan .article-body ol {
     overflow:auto;
-    margin-top:2em;
 }
 
-.stappenplan .article-body h2 {
-    margin-bottom:-1em;
+.stappenplan .article-body h2 + p{
+     margin-bottom: 1em;
+     display: block;
 }
 
 @media(max-width:768px) {
