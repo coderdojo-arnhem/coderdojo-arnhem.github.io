@@ -1,8 +1,7 @@
-@import url(bw.css);
-
 iframe,
 body header,
 body footer,
+#back-to-blog,
 #markdown-toc {
     display:none;
 }
@@ -41,3 +40,13 @@ h3, h4, h5, h6 {
 
 .content { padding:0; margin:0;}
 
+.stappenplan .article-body img {
+    float: right;
+    width: 160px;
+    min-width: 160px;
+    max-width: 160px;
+    max-height: 100%;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    clear:both;
+}

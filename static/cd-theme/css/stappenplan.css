@@ -3,10 +3,13 @@
     width: 300px;
     min-width: 300px;
     max-width: 300px;
+    max-height: 100%;
     margin-bottom: 1em;
+    margin-left: 1em;
     clear:both;
 }
 
+.stappenplan .article-body .blog > p,
 .stappenplan .article-body > p {
     clear:both;
     margin:0;
@@ -18,12 +21,18 @@
     margin-top:2em;
 }
 
+.stappenplan .article-body h2 {
+    margin-bottom:-1em;
+}
+
 @media(max-width:768px) {
     .stappenplan .article-body img {
         width: 100%;
         min-width: auto;
         max-width: 100%;
         margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
         display:block;
     }    
 }
