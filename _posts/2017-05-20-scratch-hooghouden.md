@@ -1,5 +1,5 @@
 ---
-title: "Instructies: Hooghouden met je webcam in Scratch"
+title: "Hooghouden met je webcam in Scratch"
 layout: post
 author: Tim
 class: stappenplan

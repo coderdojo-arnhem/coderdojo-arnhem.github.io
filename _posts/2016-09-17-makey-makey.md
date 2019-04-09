@@ -1,7 +1,8 @@
 ---
-title: "Instructies: Makey Makey"
+title: "Makey Makey"
 layout: post
 author: Ines
+tags: [instructies, makey-makey]
 ---
 
 Met MaKey MaKey verander je alledaagse dingen in ‘Touchpads’ en gebruik je ze om je computer aan te sturen. Met ‘krokodillen-klemmetjes’ maak je dingen vast aan de MaKey MaKey, bijvoorbeeld bananen. Als je een banaan aanraakt, dan maak je een stroomkring en stuurt de MaKey MaKey een commando naar de computer. De computer denkt dat de MaKey Makey gewoon een keyboard of muis is. Stel dat je een piano op je scherm hebt dan kun je deze bedienen met de bananen. Zo heb je ineens een magische ‘banaan-piano’!

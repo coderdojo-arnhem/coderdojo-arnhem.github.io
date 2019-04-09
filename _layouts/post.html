@@ -20,6 +20,13 @@ layout: default
     @media print {
         .blog img {max-height:160px;margin:5px; margin-left:0;}        
     }
+
+    @media(max-width:768px) {
+        .blog img {
+            width: 100%;            
+        }    
+    }
+
 </style>
 <div class="blog">
     <h1>{{ page.title }}</h1>
