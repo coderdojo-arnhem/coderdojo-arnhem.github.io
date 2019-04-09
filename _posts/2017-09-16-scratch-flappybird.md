@@ -1,12 +1,10 @@
 ---
-layout: default
+title: "Instructies: Flappy Bird in Scratch"
+layout: post
+author: Tim
 class: stappenplan
 ---
-
-Flappy Bird in Scratch
-======================
-
-Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/173904279). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop.
+We gaan het spelletje Flappy Bird zelf maken in Scratch. Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/173904279). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop.
 
 De vogel laten vallen
 ---------------------
@@ -108,3 +106,5 @@ Verander het spel nu verder
 ...of dat de buizen steeds sneller gaan bewegen
 
 ...of wat je zelf nog voor leuke dingen kunt bedenken!
+
+[Hier](https://scratch.mit.edu/projects/173907357/#editor) vind je het eindresultaat.

@@ -11,7 +11,7 @@ Een inleiding voor Scratch kun je vinden op onze [Scratch voor beginners pagina]
 
 ### Als je al vaker iets met Scratch gedaan hebt
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
- Maak zelf Flappy Bird](/materiaal/scratch-flappybird)
+ Maak zelf Flappy Bird](/2017/09/16/scratch-flappybird.html)
 - [![Voetbal hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam!](http://www.coderdojo-arnhem.nl/scratch-voetbal-vitesse/)
 - [![Scratchles.](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
 - [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Scratch Kerst opdrachten](http://www.coderdojo-arnhem.nl/scratch-kerst/)

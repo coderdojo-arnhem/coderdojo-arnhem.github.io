@@ -1,9 +1,9 @@
 ---
-layout: default
+title: "Instructies: Flappy Bird in JavaScript"
+layout: post
+author: Tim
 ---
-
-Flappybird in JavaScript
-========================
+Tijdens CoderDojo Arnhem #12 maakten we het spelletje Flappy Bird in JavaScript. Hier vind je de instructies om het zelf eens te proberen.
 
 * Inhoudsopgrave
 {:toc}
