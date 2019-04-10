@@ -9,93 +9,109 @@ We gaan het spelletje Flappy Bird zelf maken in Scratch. Om te beginnen ga je na
 
 De vogel laten vallen
 ---------------------
+Wanneer het spel gestart wordt, moeten we altijd een paar dingen weer opnieuw instellen.
 
 ![Stap 1](/static/img/scratch-flappybird-1.png)
+1. Voeg een *maak y* `0` blok toe. Hierdoor begint de vogel altijd in het midden van het scherm.
 
-1. Zet bij het starten van het spel de `y-positie` en de `zwaartekracht` op `0`
+   Voeg een *maak* `zwaartekracht` `0` blok toe.
 
-![Stap 2, 3, 4](/static/img/scratch-flappybird-2.png)
+![Stap 2](/static/img/scratch-flappybird-2.png)
 
 {:start="2"}
-2. Verander iedere herhaling de `y-positie` met de `zwaartekracht`. Hierdoor zal de vogel omlaag vallen.
-3. Verander ook bij iedere herhaling de `zwaartekracht` met `-1`. Hierdoor zal de vogel steeds iets sneller vallen.
-4. Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
+2. Voeg een *herhaal* blok toe. 
+
+   Binnen het *herhaal* blok, voeg je een *verander y met* blok toe. Sleep vanuit *Variabelen* de variabele *zwaartekracht* op het *verander y met* blok.
+
+   Hierdoor veranderen we de y-positie van de vogel met de waarde van de *zwaartekracht* variabele. De vogel zal omlaag vallen.
+
+   Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
 
 De vogel laten vliegen
 ----------------------
 
-![Stap 5, 6, 7, 8](/static/img/scratch-flappybird-3.png)
+![Stap 5](/static/img/scratch-flappybird-3.png)
+We gaan de vogel laten vliegen door hem omhoog te laten `vallen`. Als de spatiebalk ingedrukt wordt, stellen we de `zwaartekracht` op `6` in, zodat de y-positie voor een korte tijd hoger zal worden.
 
 {:start="5"}
-5. Voeg een nieuw *wanneer vlag wordt aangeklikt* blok toe.
-6. Voeg daar een *herhaal* toe met daarbinnen *wacht tot toets spatiebalk ingedrukt* en *maak zwaartekracht*.
-7. Verander de `zwaartekracht` naar `6`.
-8. Start het spel en druk op de spatiebalk om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
+5. Voeg een nieuw *wanneer &#9873; wordt aangeklikt* blok toe.
 
-![Stap 9](/static/img/scratch-flappybird-4.png)
+   Voeg een *herhaal* blok toe met daarbinnen *wacht tot toets* `spatiebalk` *ingedrukt*.
 
-{:start="9"}
-9. Start het geluid `flap` en stel het volgende uiterlijk van de vogel in
+   Voeg een *maak* `zwaartekracht`* blok toe en stel die in op `6`.
+
+   Start het spel en druk op de spatiebalk om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
+
+![Stap 6](/static/img/scratch-flappybird-4.png)
+
+{:start="6"}
+6. Voeg een *start geluid* blok toe en stel die in op `flap`.
+
+   Voeg een *volgend uiterlijk* blok toe, om de vleugels te laten bewegen.
 
 Buizen toevoegen
 ----------------
 
-![Stap 10](/static/img/scratch-flappybird-5.png)
+![Stap 7](/static/img/scratch-flappybird-5.png)
+
+{:start="7"}
+10. Klik rechtsonder in het scherm op het plaatje van de *buizen* om die *sprite* te selecteren.
+
+![Stap 8](/static/img/scratch-flappybird-6.png)
+
+{:start="8"}
+8. Verplaats de buis rechts buiten het scherm, wanneer het spel gestart wordt
+
+   Voeg een *verdwijn* blok toe om de buis onzichtbaar te maken
+
+![Stap 9](/static/img/scratch-flappybird-7.png)
+
+{:start="9"}
+9. Maak iedere `2` seconden een kloon (kopie) van de buis
+
+![Stap 10](/static/img/scratch-flappybird-8.png)
 
 {:start="10"}
-10. Maak linksonder in het scherm de buizen sprite actief
+10. Laat de buis verschijnen zodra deze als kloon start
 
-![Stap 11, 12](/static/img/scratch-flappybird-6.png)
+    Stel de buis op een van de drie uiterlijken in
+
+![Stap 11](/static/img/scratch-flappybird-9.png)
 
 {:start="11"}
-11. Verplaats de buis rechts buiten het scherm, wanneer het spel gestart wordt
-12. Voeg een *verdwijn* blok toe om de buis onzichtbaar te maken
+11. Laat de buis naar links bewegen
+    
+    Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
 
-![Stap 13](/static/img/scratch-flappybird-7.png)
+![Stap 12](/static/img/scratch-flappybird-10.png)
 
-{:start="13"}
-13. Maak iedere `2` seconden een kloon (kopie) van de buis
-
-![Stap 14](/static/img/scratch-flappybird-8.png)
-
-{:start="14, 15"}
-14. Laat de buis verschijnen zodra deze als kloon start
-15. Stel de buis op een van de drie uiterlijken in
-
-![Stap 16, 17](/static/img/scratch-flappybird-9.png)
-
-{:start="16"}
-16. Laat de buis naar links bewegen
-17. Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
-
-![Stap 18](/static/img/scratch-flappybird-10.png)
-
-{:start="18"}
-18. Laat de buis verdwijnen, wanneer hij de rand van het scherm raakt
+{:start="12"}
+12. Laat de buis verdwijnen, wanneer hij de rand van het scherm raakt
 
 De vogel tegen de buizen laten botsen
 -------------------------------------
 
-![Stap 19](/static/img/scratch-flappybird-11.png)
+![Stap 13](/static/img/scratch-flappybird-11.png)
 
-{:start="19"}
-19. Maak linksonder in het scherm de *vogel* sprite actief
+{:start="13"}
+13. Maak linksonder in het scherm de *vogel* sprite actief
 
-![Stap 20, 21](/static/img/scratch-flappybird-12.png)
+![Stap 14](/static/img/scratch-flappybird-12.png)
 
-{:start="20"}
-20. Voeg een nieuw *wanneer vlag wordt aangeklikt* toe.
-21. Wacht totdat de vogel een buis raakt.
+{:start="14"}
+14. Voeg een nieuw *wanneer &#9873; wordt aangeklikt* toe.
 
-![Stap 22](/static/img/scratch-flappybird-13.png)
+    Wacht totdat de vogel een buis raakt.
 
-{:start="22"}
-22. Start het geluid `hit` en wacht totdat het geluid afgspeeld is.
+![Stap 15](/static/img/scratch-flappybird-13.png)
 
-![Stap 23](/static/img/scratch-flappybird-14.png)
+{:start="15"}
+15. Start het geluid `hit` en wacht totdat het geluid afgspeeld is.
 
-{:start="23"}
-23. Stop alle scripts om het spel te stoppen.
+![Stap 16](/static/img/scratch-flappybird-14.png)
+
+{:start="16"}
+16. Stop alle scripts om het spel te stoppen.
 
 Verander het spel nu verder
 ---------------------------
