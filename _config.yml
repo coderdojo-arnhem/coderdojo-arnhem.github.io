@@ -1,3 +1,19 @@
+title: CoderDojo Arnhem
+description: Bij CoderDojo Arnhem kunnen kinderen tussen de 7 en 17 jaar op een laagdrempelige manier kennis maken met technologie.
+lang: nl_NL
+logo: /static/cd-theme/img/coderdojo/coderdojo-arnhem.svg
+
+social:
+  name: CoderDojo Arnhem
+  links:
+    - https://www.facebook.com/CoderDojoArnhem/
+    - https://twitter.com/CoderDojo026
+
+google_site_verification: FVCdXbxuX231crX0C35SYJA3jygv1DCcDdnFzPjDSy8
+
+plugins:
+  - jekyll-seo-tag
+
 markdown: kramdown
 
 kramdown:
