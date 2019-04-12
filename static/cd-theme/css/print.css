@@ -1,8 +1,7 @@
 iframe,
-body header,
-body footer,
 #back-to-blog,
-#markdown-toc {
+#markdown-toc,
+.noprint {
     display:none;
 }
 .gallery img,
