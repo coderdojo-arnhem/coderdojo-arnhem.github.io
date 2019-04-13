@@ -3,7 +3,7 @@ title: "Scratch Kerstspel 2018"
 layout: post
 author: Ines
 class: stappenplan
-tags: [instructies, scratch]
+tags: [materiaal, scratch]
 thumbnail: /static/img/scratch-kerstspel-2018-1.png
 ---
 We hebben een nieuw kerstspel voor dit jaar in Scratch! Help de kerstman om om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!

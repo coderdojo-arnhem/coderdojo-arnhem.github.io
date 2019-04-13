@@ -36,6 +36,9 @@ ul.gallery li:nth-child(5n+5) {
     clear: both
 }
 
+ul.gallery img {
+    width: auto;
+}
 
 article,
 .article-body p {
@@ -73,6 +76,7 @@ h3, h4, h5, h6 {
 .article-body img {
     height: auto !important;
     max-height: 100% !important;    
+    width: 50%;
 }
 .screenshot {
     width: 50% !important;

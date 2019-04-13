@@ -2,7 +2,7 @@
 title: "Scratch projecten delen"
 author: Ines
 layout: post
-tags: [instructies, scratch]
+tags: [materiaal, scratch]
 ---
 Stel je hebt een project gemaakt in Scratch, dan is het natuurlijk gaaf om deze te delen. Zo kan iedereen je project zien.
 

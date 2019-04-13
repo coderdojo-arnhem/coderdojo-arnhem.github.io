@@ -2,7 +2,7 @@
 title: "CodeCombat"
 layout: post
 author: Ines
-tags: [instructies, codecombat]
+tags: [materiaal, codecombat]
 ---
 Als je wil leren programmeren, zul je een hoop code moeten schrijven. Bij CodeCombat gaat dit met een lach op je gezicht!
 
