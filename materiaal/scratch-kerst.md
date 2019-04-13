@@ -10,7 +10,7 @@ De uitleg voor het KerstmanSpel in Scratch vind je [hier](/2018/12/15/scratch-k
 
 Kerst 2016
 ----------
-Hier is [een uitleg][](/static/pdf/Scratch-Kerstspel.pdf) over hoe je een kerstspel kan maken.
+Hier is [een uitleg](/static/pdf/Scratch-Kerstspel.pdf) over hoe je een kerstspel kan maken.
 
 Tijdens de CoderDojo Scratch Kerst zijn allemaal verschillende Kerst projecten gemaakt en gedeeld in Scratch. Hieronder staan een paar voorbeelden. Je kunt deze projecten bekijken (*Bekijk van binnen*) en daarna zelf aanpassen (*remix*), om ze nog leuker te maken!
 
