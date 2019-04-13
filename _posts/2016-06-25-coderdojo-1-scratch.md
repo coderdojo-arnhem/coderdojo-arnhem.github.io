@@ -19,7 +19,7 @@ Namens alle mentoren kan ik zeggen dat we het heel leuk hebben gevonden dat jull
 De volgende CoderDojo is op zaterdagmiddag 10 september. Houd de website, facebook of twitter in de gaten, we houden je op de hoogte!
 
 Oh ja!  We hadden beloofd wat informatie met jullie te delen.
-Heb je nog een project gemaakt wat je wil delen? Kijk dan in [dit document](/static/pdf/ScratchProjectDelen.pdf). Daarin leggen we uit hoe je een project deelt en kunt toevoegen aan de CoderDojo Arnhem studio!
+Heb je nog een project gemaakt wat je wil delen? Kijk dan op [deze pagina](/2016/06/25/scratch-projecten-delen.html). Daarin leggen we uit hoe je een project deelt en kunt toevoegen aan de CoderDojo Arnhem studio!
 Wil je thuis verder? Je kunt de kaarten die beschikbaar waren tijdens de Dojo vinden via [http://scratchweb.nl/vertalingen/scratch-kaarten](http://scratchweb.nl/vertalingen/scratch-kaarten) Ze zijn in het Nederlands en helemaal gratis te gebruiken.
 
 Heel veel plezier! We gaan zeker nog eens een Scratch CoderDojo organiseren!
