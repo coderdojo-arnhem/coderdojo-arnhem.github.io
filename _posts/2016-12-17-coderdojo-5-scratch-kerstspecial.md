@@ -2,6 +2,7 @@
 title: "CoderDojo #5: Scratch Kerstspecial"
 author: Ines
 layout: post
+tags: [coderdojo, scratch]
 ---
 Voordat de kerst vakantie begon kwamen we allemaal samen tijdens de laatste CoderDojo Arnhem van het jaar 2016! Een speciale kersteditie waarin we kerstspellen en kerstkaarten gingen maken :). We gingen weer aan de slag met [Scratch](https://scratch.mit.edu/).
 

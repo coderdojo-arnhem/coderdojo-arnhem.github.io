@@ -2,6 +2,7 @@
 title: "CoderDojo #8: Lego Minderstorms Special bij iXperium"
 author: Maud
 layout: post
+tags: [coderdojo, mindstorms]
 ---
 Deze CoderDojo waren we te gast in het [iXperium](https://ixperium.nl/ixperium-arnhem/) in Arnhem. Een plek waar leerlingen en leraren van alles kunnen leren over ict-onderwijs. Het iXperium heeft veel materialen voor technisch onderwijs en vandaag konden we de Lego Mindstorms lenen.
 

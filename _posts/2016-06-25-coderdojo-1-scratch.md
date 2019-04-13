@@ -2,6 +2,7 @@
 title: "CoderDojo #1: Scratch"
 author: Ines
 layout: post
+tags: [coderdojo, scratch]
 ---
 De eerste CoderDojo in Arnhem was gezellig, leerzaam en druk! We zaten in een prachtig lokaal op de derde verdieping in Rozet. Het thema van de eerste CoderDojo was Scratch. Deze programmeertaal is bedoeld om jonge kinderen de basis van het programmeren te leren. De taal is Nederlands, het is gratis (en reclame vrij) en eenvoudig te leren. Scratch is te vinden op [https://scratch.mit.edu/](https://scratch.mit.edu/).
 

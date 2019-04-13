@@ -2,6 +2,7 @@
 title: "CoderDojo #2: Makey Makey"
 author: Ines
 layout: post
+tags: [coderdojo, makey-makey]
 ---
 Computers met bananen besturen, het gebeurde gewoon tijdens de CoderDojo zaterdag 10 september!
 

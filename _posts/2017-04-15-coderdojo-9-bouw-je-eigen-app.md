@@ -2,6 +2,7 @@
 title: "CoderDojo #9: Bouw je eigen app"
 author: Maud
 layout: post
+tags: [coderdojo, app]
 ---
 Voor de 9e CoderDojo waren we terug in Rozet. Onze MAS stagiairs Suus en Tessel hadden samen een leuke creatieve workshop voorbereid om de ninja's kennis te laten maken met het bouwen van je eigen app. Ook nu waren de tickets razendsnel uitverkocht. Omdat we met veel mentoren waren hebben we besloten om het aantal te verhogen naar 24, het maximum voor de beschikbare ruimte. Nog nooit waren we met zoveel kinderen en ouders!
 

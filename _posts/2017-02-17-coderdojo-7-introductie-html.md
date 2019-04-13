@@ -2,6 +2,7 @@
 title: "CoderDojo #7: Introductie HTML"
 author: Maud
 layout: post
+tags: [coderdojo, html]
 ---
 Wat hebben we weer een leuke middag gehad bij CoderDojo #7 alweer! Deze middag stond een geheel nieuw thema op het programma: HTML, met andere woorden, je eigen website bouwen.
 

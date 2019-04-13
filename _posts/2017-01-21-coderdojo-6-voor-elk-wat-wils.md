@@ -2,6 +2,7 @@
 title: "CoderDojo #6: Voor elk wat wils"
 author: Maud
 layout: post
+tags: [coderdojo]
 ---
 Op zaterdagmiddag 21 januari kwamen er 15 kinderen naar Rozet voor alweer de 6e editie van CoderDojo Arnhem. We zagen veel bekende gezichten (leuk!) maar ook weer een aantal nieuwe enthousiaste kinderen met ouders.
 

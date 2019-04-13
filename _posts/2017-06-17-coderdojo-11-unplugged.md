@@ -2,6 +2,7 @@
 title: "CoderDojo #11: Unplugged"
 author: Ines
 layout: post
+tags: [coderdojo]
 ---
 Zaterdag 17 juni was een bijzondere CoderDojo. Een keertje niet binnen achter een computerscherm, maar bij de Bibliotheek in Presikhaaf lekker buiten op de speelplaats. Een unplugged Dojo, met andere woorden: spelletjes doen die te maken hebben met computers/programmeren maar dan zonder computers!.
 
