@@ -1,11 +1,23 @@
+@page {
+    size: A4; 
+    margin: 1.5cm;
+}
+
+
+html, body, .article-body {
+    margin:0;
+    padding:0;
+}
+
+.onlyprint {
+    display:block;
+}
+
 iframe,
-#back-to-blog,
 #markdown-toc,
 .noprint {
     display:none;
 }
-
-.screenshot { max-height:160px; width: auto !important; max-width: auto !important;}
 
 ul.gallery {
     list-style: none;
@@ -28,7 +40,7 @@ ul.gallery li:nth-child(5n+5) {
 article,
 .article-body p {
     font-size: 9pt;
-    line-height: 1.2em;
+    line-height: 1.6em;
 }
 
 .highlight pre {
@@ -39,6 +51,7 @@ article,
 h1 {
     font-size:14pt;
     font-weight:bold;
+    margin-top: 0
 }
 
 h2 {
@@ -57,13 +70,44 @@ h3, h4, h5, h6 {
 
 .content { padding:0; margin:0;}
 
+.article-body img {
+    height: auto !important;
+    max-height: 100% !important;    
+}
+.screenshot {
+    width: 50% !important;
+    min-width: 50% !important;
+}
+
 .stappenplan .article-body img {
     float: right;
-    width: 160px;
-    min-width: 160px;
-    max-width: 160px;
-    max-height: 100%;
+    width: 5cm !important;
+    min-width: 5cm !important;
     margin-bottom: 1em;
     margin-left: 1em;
     clear:both;
+}
+
+.blog footer {
+    border-top: 1px solid #999;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    font-size:6pt;
+    color: #999;
+}
+
+#print-footer-space {
+    height: 1cm;
+}
+
+#print-footer img {
+    height: 1em;       
+}
+
+#print-footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width:100%;
 }

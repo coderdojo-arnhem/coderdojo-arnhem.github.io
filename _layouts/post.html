@@ -1,54 +1,24 @@
 ---
 layout: default
 ---
-<style>
-    .blog img {
-        max-height:200px;
-        margin:5px; 
-        margin-left:0;
-    }
-    .blog .metadata { 
-        text-align:center;
-        text-transform:none;
-        margin-top:-2em;
-        margin-bottom:1em;
-    }
-    .blog #back-to-blog { 
-        margin-top: 3em; 
-    }
-
-    @media print {
-        .blog img {max-height:160px;margin:5px; margin-left:0;}        
-    }
-
-    @media(max-width:768px) {
-        .blog img {
-            width: 100%;
-            max-height:none;            
-        }    
-    }
-
-</style>
-<div class="blog">
-    <div class="metadata">{% assign m = page.date | date: "%-m" %}
-            {{ page.date | date: "%-d" }}
-            {% case m %}
-              {% when '1' %}januari
-              {% when '2' %}februaro
-              {% when '3' %}maart
-              {% when '4' %}april
-              {% when '5' %}mei
-              {% when '6' %}juni
-              {% when '7' %}juli
-              {% when '8' %}augustus
-              {% when '9' %}september
-              {% when '10' %}oktober
-              {% when '11' %}november
-              {% when '12' %}december
-            {% endcase %}
-            {{ page.date | date: "%Y" }} - {{ page.author }}</div>
-    {{ content }}
-    <p id="back-to-blog">
-        <a href="/blog">&larr; Terug naar overzicht</a>
-    </p>
-</div>
+<div class="metadata noprint">{% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%-d" }}
+        {% case m %}
+            {% when '1' %}januari
+            {% when '2' %}februaro
+            {% when '3' %}maart
+            {% when '4' %}april
+            {% when '5' %}mei
+            {% when '6' %}juni
+            {% when '7' %}juli
+            {% when '8' %}augustus
+            {% when '9' %}september
+            {% when '10' %}oktober
+            {% when '11' %}november 
+            {% when '12' %}december
+        {% endcase %}
+        {{ page.date | date: "%Y" }} - {{ page.author }}</div>
+{{ content }}
+<p id="back" class="noprint">
+    <a href="/blog">&larr; Terug</a>
+</p>

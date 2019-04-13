@@ -164,7 +164,7 @@ body {
 .cta .footer-button {
     color: #fff;
     margin-top: 10px;
-    xpadding: .5em .7em;
+    padding: .5em .7em;
     border-radius: .3em;
     font-size: 12px;
     font-weight: 400;
@@ -1461,7 +1461,7 @@ h4 {
 }
 
 .screenshot {
-    max-width:240px;
+    max-width:320px;
 }
 
 @media(max-width:768px) {
@@ -1473,4 +1473,26 @@ h4 {
 .pagination {
     width: 100%;
     text-align: center;
+}
+
+.onlyprint {
+    display:none;
+}
+
+h1 + .metadata { 
+    text-align:center;
+    text-transform:none;
+    margin-top:-2em;
+    margin-bottom:1em;
+}
+
+#back { 
+    margin-top: 3em; 
+}
+
+@media(max-width:768px) {
+    .article-body img {
+        width: 100%;
+        max-height:none;            
+    }    
 }

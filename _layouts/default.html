@@ -85,10 +85,21 @@
         <div class="content-wrapper">
           <article class="post-type-page">
             <section>
-              <div class="article-body">
-                <h1>{{ page.title }}</h1>
-                {{ content }}
-              </div>
+              <table>
+                <tbody>
+                  <tr><td>
+                    <div class="article-body">
+                        <h1>{{ page.title }}</h1>
+                        {{ content }}
+                      </div></div>
+                  </td></tr>
+                </tbody>
+                <tfoot>
+                  <tr><td>
+                      <div id="print-footer-space" class="onlyprint"></div>
+                  </td></tr>
+                </tfoot>
+              </table>              
             </section>
           </article>
         </div>
@@ -175,6 +186,9 @@
     }
   </script>
 
+  <footer id="print-footer" class="onlyprint"> 
+      <img src="/static/cd-theme/img/coderdojo/coderdojo-arnhem.svg" />
+  </footer>
 </body>
 
 </html>
