@@ -10,12 +10,12 @@ Tijdens CoderDojo Arnhem #10 hebben we dit spel in Scratch gemaakt, waarin je ee
 De bal laten vallen
 -------------------
 
-![Stap 1](/static/img/scratch-hooghouden-1.png)
+![Stap 1](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-1.svg)
 
 {:start="1"}
 1. Zet bij het starten van het spel de `y-positie` op `0`
 
-![Stap 2](/static/img/scratch-hooghouden-2.png)
+![Stap 2](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-2.svg)
 
 {:start="2"}
 2. Verander iedere herhaling de y-positie met de zwaartekracht.
@@ -24,7 +24,7 @@ De bal laten vallen
 
    Een variabele is ‘iets’ dat je een waarde kunt geven die je op een andere plek weer kunt gebruiken.
 
-![Stap 3](/static/img/scratch-hooghouden-3.png)
+![Stap 3](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-3.svg)
 
 {:start="3"}
 3. Verander nu ook bij iedere herhaling de zwaartekracht met `-1`. Hierdoor zal de bal steeds iets sneller vallen.
@@ -35,7 +35,7 @@ De bal laten vallen
 De bal laten stuiteren
 ----------------------
 
-![Stap 4](/static/img/scratch-hooghouden-4.png)
+![Stap 4](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-4.svg)
 
 {:start="4"}
 4. Test iedere herhaling of de `y-positie` kleiner dan `-140` is. Dit de onderkant van het scherm.
@@ -44,7 +44,7 @@ De bal laten stuiteren
 
    Voer de `y-positie` van bal in de kleiner-dan functie. Dit blok vind je onder *Waarnemen* en kun je op het functie-blokje slepen.
 
-![Stap 5](/static/img/scratch-hooghouden-5.png)
+![Stap 5](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-5.svg)
 
 {:start="5"}
 5. **als**
@@ -61,14 +61,14 @@ De bal laten stuiteren
 De bal laten rollen
 -------------------
 
-![Stap 6](/static/img/scratch-hooghouden-6.png)
+![Stap 6](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-6.svg)
 
 {:start="6"}
 6. Voeg een nieuw startblok toe.
 
    Je kunt zoveel startblokken toevoegen als je wilt. Op die manier kun je je programma in stukjes delen om overzichtelijk te houden.
 
-![Stap 7](/static/img/scratch-hooghouden-7.png)
+![Stap 7](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-7.svg)
 
 {:start="7"}
 7. Voeg een herhaal blok toe.
@@ -80,14 +80,14 @@ De bal laten rollen
 
 De bal hooghouden
 -----------------
-![Stap 8](/static/img/scratch-hooghouden-8.png)
+![Stap 8](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-8.svg)
 
 {:start="8"}
 8. We gaan de bal hooghouden met de camera van je computer!
 
    Voeg een nieuw *startblok* toe en zet als eerste de video aan. Dit blok vind je onder *Waarnemen*.
 
-![Stap 9](/static/img/scratch-hooghouden-9.png)
+![Stap 9](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-9.svg)
 
 {:start="9"}
 9. Voeg een *herhaal* blok toe.
@@ -96,7 +96,7 @@ De bal hooghouden
 
    Vul als *groter-dan* waarde `40` in.
 
-![Stap 10](/static/img/scratch-hooghouden-10.png)
+![Stap 10](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-10.svg)
 
 {:start="10"}
 10. **als**
