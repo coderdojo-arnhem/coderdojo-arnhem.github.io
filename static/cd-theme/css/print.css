@@ -4,7 +4,7 @@
 }
 
 
-html, body, .article-body {
+html, body, .article-body, #content {
     margin:0;
     padding:0;
 }
@@ -101,13 +101,21 @@ h3, h4, h5, h6 {
     height: 1cm;
 }
 
-#print-footer img {
-    height: 1em;       
-}
-
 #print-footer {
     display: block;
     position: fixed;
     bottom: 0;
     width:100%;
+}
+
+#print-footer img {
+    height: 1em;       
+}
+
+#license {
+    border: 1px solid black;
+    font-size:8pt;
+    border-width: 1px 0;
+    padding: 1em 0;
+    text-align:center;
 }
