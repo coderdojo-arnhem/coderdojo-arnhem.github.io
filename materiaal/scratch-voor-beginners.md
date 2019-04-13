@@ -36,7 +36,7 @@ Daarna kun je verder met een van deze projecten, met instructies om ze te bouwen
 
 Scratch project delen
 ---------------------
-Voor CoderDojo Arnhem hebben we in Scratch een Studio aangemaakt. In een Scratch Studio kun je projecten met elkaar delen. Zie je een leuk project van iemand anders, dan kan jij de "code" gebruiken om er een eigen versie van te maken. Je kunt [hier](/static/pdf/ScratchProjectDelen.pdf) vinden hoe je een project kunt delen in de CoderDojo Arnhem studio.
+Voor CoderDojo Arnhem hebben we in Scratch een Studio aangemaakt. In een Scratch Studio kun je projecten met elkaar delen. Zie je een leuk project van iemand anders, dan kan jij de "code" gebruiken om er een eigen versie van te maken. Je kunt [hier](/2016/06/25/scratch-projecten-delen.html) vinden hoe je een project kunt delen in de CoderDojo Arnhem studio.
 
 Ben je benieuwd wat iedereen heeft gemaakt? Je kunt de projecten bekijken via de [CoderDojo Arnhem Studio](https://scratch.mit.edu/studios/2502768) op de Scratch website.
 

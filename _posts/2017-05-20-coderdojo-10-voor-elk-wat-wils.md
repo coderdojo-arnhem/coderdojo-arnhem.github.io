@@ -2,6 +2,7 @@
 title: "CoderDojo #10: Voor elk wat wils"
 author: Ines
 layout: post
+tags: [coderdojo]
 ---
 Het was weer een geslaagde CoderDojo, met het thema Voor elk wat wils. De laatste CoderDojo van dit schooljaar in Rozet. Deze keer hebben we iedereen aan het werk gezet met materiaal van het afgelopen jaar.
 

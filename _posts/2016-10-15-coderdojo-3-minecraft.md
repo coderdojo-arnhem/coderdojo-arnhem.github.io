@@ -2,6 +2,7 @@
 title: "CoderDojo #3: Minecraft"
 author: Ines
 layout: post
+tags: [coderdojo, minecraft]
 ---
 Zaterdag 15 oktober 2016 was het de dag van de Arnhemse Geschiedenis. In het Erfgoedcentrum Rozet en op vele andere locaties in Arnhem was veel te doen. Wij waren door het Erfgoedcentrum gevraagd om een Minecraft evenement te organiseren. Ze hadden een leuk idee om een stukje oude historie van Arnhem te combineren met de moderne techniek van Minecraft. Wij van CoderDojo Arnhem zagen dat wel zitten. Aangezien het ook nog eens de EU Codeweek was leek het ons leuk om samen een evenement te organiseren.
 

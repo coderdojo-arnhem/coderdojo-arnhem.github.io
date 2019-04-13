@@ -2,7 +2,6 @@
 title: Materiaal
 layout: default
 ---
-
 {:class="gallery"}
 - [![Scratch](/static/img/scratch.png) Scratch](/materiaal/scratch)
   Ben je voor het eerst bij CoderDojo? Dan is programmeren in Scratch de leukste manier om te beginnen. 

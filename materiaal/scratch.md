@@ -2,10 +2,10 @@
 title: Scratch
 layout: default
 ---
-Ben je voor het eerst bij CoderDojo?
-------------------------------------
 Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en speciaal gemaakt voor kinderen. Je hebt geen programma of speciale software nodig, je kunt alles op [de Scratch website doen](https://scratch.mit.edu). 
 
+Als je voor het eerst bij CoderDojo Arnhem bent
+-----------------------------------------------
 ### Wordt Scratcher
 Als je van plan bent om je projecten te delen met je vrienden dan is het beter dat je je inlogt. Zo kun je ook al je projecten makkelijk opslaan en ze later opnieuw afspelen of verbeteren.
 
@@ -25,19 +25,20 @@ Daarna kun je verder met een van deze projecten:
 - [Animeer je naam](/static/pdf/animeer-je-naam-kaarten.pdf)
 
 ### Je Scratch project delen
-In een Scratch Studio kun je projecten met elkaar delen. Zie je een leuk project van iemand anders, dan kan jij de "code" gebruiken om er een eigen versie van te maken. Je kunt [hier](/static/pdf/ScratchProjectDelen.pdf) vinden hoe je een project kunt delen in de CoderDojo Arnhem studio.
+In een Scratch Studio kun je projecten met elkaar delen. Zie je een leuk project van iemand anders, dan kan jij de "code" gebruiken om er een eigen versie van te maken. Je kunt [hier](/2016/06/25/scratch-projecten-delen.html) vinden hoe je een project kunt delen in de CoderDojo Arnhem studio.
 
 Als je al vaker iets met Scratch gedaan hebt
 --------------------------------------------
 Dan zijn deze opdrachten leuk om te doen!
 
 {:class="gallery"}
-- [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
- Maak zelf Flappy Bird](/2017/09/16/scratch-flappybird.html)
-- [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam!](/2017/05/20/scratch-hooghouden.html)
-- [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Scratch Kerst opdrachten](/materiaal/scratch-kerst)
 - [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
+- [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
+ Flappy Bird](/2017/09/16/scratch-flappybird.html)
+- [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/2017/05/20/scratch-hooghouden.html)
+- [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Scratch Kerst opdrachten](/materiaal/scratch-kerst)
+
 
 CoderDojo Arnhem Studio
 -----------------------
-Ben je benieuwd wat iedereen heeft gemaakt? Je kunt de projecten bekijken via de [CoderDojo Arnhem Studio](https://scratch.mit.edu/studios/2502768) op de Scratch website. Je kunt ook je eigen project aan de CoderDojo Arnhem Studio toevoegen, [hier](/static/pdf/ScratchProjectDelen.pdf) wordt uitgeloegd hoe je dit kunt doen.
+Ben je benieuwd wat iedereen heeft gemaakt? Je kunt de projecten bekijken via de [CoderDojo Arnhem Studio](https://scratch.mit.edu/studios/2502768) op de Scratch website. Je kunt ook je eigen project aan de CoderDojo Arnhem Studio toevoegen, [hier](/2016/06/25/scratch-projecten-delen.html) wordt uitgeloegd hoe je dit kunt doen.
