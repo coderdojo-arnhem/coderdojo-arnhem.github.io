@@ -3,10 +3,11 @@ title: "CoderDojo #10: Voor elk wat wils"
 author: Ines
 layout: post
 tags: [coderdojo]
+thumbnail: /static/img/blog/cd10.png
 ---
 Het was weer een geslaagde CoderDojo, met het thema Voor elk wat wils. De laatste CoderDojo van dit schooljaar in Rozet. Deze keer hebben we iedereen aan het werk gezet met materiaal van het afgelopen jaar.
 
-![CoderDojo #10: Voor elk wat wils](/static/img/blog/cd10.jpg)
+![CoderDojo #10: Voor elk wat wils](/static/img/blog/cd10-1.jpg)
 
 Tim (een van de vrijwilligers) had arduino's meegenomen en zo ook een enthousiaste ninja. Zo waren er vier bezig met het programmeren van deze mini computer.  We hebben een tweetal aan het werk gezet met Makey Makey. Binnen de kortste keren hadden we een piano van klei. Er werd een prachtige app gemaakt. Elk scherm werd aandachtig getekend en de app was in 2 uur al bijna af. Er was een groep bezig met codeuur, een spel waarin je programmeert om je poppetje te laten lopen. Al snel werden de laptops naar elkaar toe geschoven om elkaar te helpen.
 

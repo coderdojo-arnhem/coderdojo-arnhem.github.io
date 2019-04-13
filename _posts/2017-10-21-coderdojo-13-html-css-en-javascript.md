@@ -3,6 +3,7 @@ title: "CoderDojo #13: HTML, CSS en JavaScript"
 author: Kevin
 layout: post
 tags: [coderdojo, html, javascript]
+thumbnail: /static/img/blog/cd13.png
 ---
 Op zaterdag 21 Oktober was er zoals elke maand weer een CoderDojo in het Rozet Arnhem. Hier komen elke maand ~20 kinderen (en ouders) en een paar mentoren bij elkaar om op een leuke en gezellige manier te leren programmeren. Deze week gingen we verder met websites bouwen met de programeertalen: HTML, CSS en JavaScript.
 

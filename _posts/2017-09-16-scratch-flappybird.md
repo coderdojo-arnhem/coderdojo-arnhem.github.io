@@ -4,6 +4,7 @@ layout: post
 author: Tim
 class: stappenplan
 tags: [instructies, scratch]
+thumbnail: /static/img/flappybird.png
 ---
 We gaan het spelletje Flappy Bird zelf maken in Scratch. Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/173904279). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop.
 

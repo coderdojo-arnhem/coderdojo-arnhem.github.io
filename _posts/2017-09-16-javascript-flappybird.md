@@ -3,6 +3,7 @@ title: "Flappy Bird in JavaScript"
 layout: post
 author: Tim
 tags: [instructies, javascript]
+thumbnail: /static/img/javascript-flappybird-stap7.gif
 ---
 Tijdens CoderDojo Arnhem #12 maakten we het spelletje Flappy Bird in JavaScript. Hier vind je de instructies om het zelf eens te proberen.
 

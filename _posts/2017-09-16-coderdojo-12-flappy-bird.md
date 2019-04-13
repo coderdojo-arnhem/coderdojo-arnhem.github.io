@@ -3,6 +3,7 @@ title: "CoderDojo #12: Flappy Bird"
 author: Maud
 layout: post
 tags: [coderdojo, scratch, javascript]
+thumbnail: /static/img/blog/cd12.png
 ---
 Flappy Bird, wie kent het niet! Een spel wat jaren geleden de wereld veroverd heeft. In het spel moet je het vogeltje (flappy bird) door een doolhof van buizen laten vliegen. Flappy Bird was het thema deze CoderDojo.
 

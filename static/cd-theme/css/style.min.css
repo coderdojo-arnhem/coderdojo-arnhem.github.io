@@ -1496,3 +1496,11 @@ h1 + .metadata {
         max-height:none;            
     }    
 }
+
+.post-thumbnail {
+    margin: 0;
+    width: 160px;
+    float:left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}

@@ -4,6 +4,7 @@ layout: post
 author: Tim
 class: stappenplan
 tags: [instructies, scratch]
+thumbnail: /static/img/scratch-hooghouden.png
 ---
 Tijdens CoderDojo Arnhem #10 hebben we dit spel in Scratch gemaakt, waarin je een voetbal moet hooghouden met je webcam. Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/161097847). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop.
 

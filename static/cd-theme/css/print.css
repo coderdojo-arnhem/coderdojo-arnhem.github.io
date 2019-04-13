@@ -119,3 +119,13 @@ h3, h4, h5, h6 {
     padding: 1em 0;
     text-align:center;
 }
+
+
+
+.post-thumbnail {
+    margin: 0;
+    width: 3cm !important;
+    float:left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
