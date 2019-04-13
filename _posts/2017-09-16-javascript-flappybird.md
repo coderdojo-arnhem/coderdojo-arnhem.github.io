@@ -42,7 +42,7 @@ var state = {
   }
 }
 ```
-<div class="page-break" />
+
 Stappenplan
 -----------
 
@@ -236,7 +236,7 @@ hit: function() {
   game.state.start('main');
 }
 ```
-<div class="page-break" />
+
 Extra opdrachten
 ----------------
 
