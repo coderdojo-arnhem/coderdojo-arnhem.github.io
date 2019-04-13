@@ -4,8 +4,26 @@ iframe,
 .noprint {
     display:none;
 }
-.gallery img,
+
 .screenshot { max-height:160px; width: auto !important; max-width: auto !important;}
+
+ul.gallery {
+    list-style: none;
+    padding: 0
+}
+
+ul.gallery li {
+    text-align: center;
+    float: left;
+    max-width: 21%;
+    margin-right: 4%;
+    margin-bottom: 1em
+}
+
+ul.gallery li:nth-child(5n+5) {
+    clear: both
+}
+
 
 article,
 .article-body p {

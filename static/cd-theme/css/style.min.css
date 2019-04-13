@@ -1418,12 +1418,12 @@ article h1 {
     width: 140% !important
 }
 
-.gallery .article-body ul {
+ul.gallery {
     list-style: none;
     padding: 0
 }
 
-.gallery .article-body ul li {
+ul.gallery li {
     text-align: center;
     float: left;
     max-width: 21%;
@@ -1431,24 +1431,24 @@ article h1 {
     margin-bottom: 1em
 }
 
-.gallery .article-body ul li:nth-child(5n+5) {
+ul.gallery li:nth-child(5n+5) {
     clear: both
 }
 
-.gallery .article-body ul li a:first-of-type {
+ul.gallery li a:first-of-type {
     font-weight: bold;
     display: block
 }
 
 @media(max-width:768px) {
-    .gallery .article-body ul li {
+    ul.gallery li {
         max-width: 100%;
         width: 100%;
         margin-right: 0
     }
 }
 
-.gallery .article-body ul li a img {
+ul.gallery li a img {
     display: block;
     margin: 0 auto
 }
