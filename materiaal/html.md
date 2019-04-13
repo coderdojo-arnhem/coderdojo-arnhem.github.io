@@ -1,8 +1,7 @@
 ---
+title: HTML
 layout: default
 ---
-HTML
-====
 Een website maken in HTML!
 
 Wat is HTML?

@@ -1,8 +1,7 @@
 ---
+title: Welkom bij CoderDojo Arnhem
 layout: default
 ---
-Welkom bij CoderDojo Arnhem
-===========================
 Ben jij tussen de 7 en 17 jaar en wil je op een speelse, leuke en uitdagende manier kennis maken met techniek en programmeren? Kom dan naar CoderDojo Arnhem!
 
 Bij CoderDojo Arnhem kunnen kinderen tussen de 7 en 17 jaar op een laagdrempelige manier kennis maken met technologie. Technologie heeft een enorme invloed op onze wereld. Computers, robots en software programma’s zijn niet meer weg te denken uit ons leven, ze spelen altijd en overal een rol. Als je weet hoe computers en software werken en ze daardoor kan gebruiken om problemen op te lossen, geeft je dat een voordeel in bijna alle beroepen. Dus ook als je zelf geen programmeur wilt worden.

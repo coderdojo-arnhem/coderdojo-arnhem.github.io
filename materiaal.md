@@ -1,8 +1,8 @@
 ---
+title: Materiaal
 class: gallery
 layout: default
 ---
-# Materiaal
 - [![Scratch](/static/img/scratch.png) Scratch](/materiaal/scratch)
   Ben je voor het eerst bij CoderDojo? Dan is programmeren in Scratch de leukste manier om te beginnen. 
 - [![micro:bit](/static/img/microbit.png) micro:bit](/materiaal/microbit)

@@ -1,8 +1,7 @@
 ---
+title: CodeCombat
 layout: default
 ---
-CodeCombat
-==========
 ![CodeCombat](/static/img/CodeCombatGroot.png)
 
 Als je wil leren programmeren, zul je een hoop code moeten schrijven. Bij CodeCombat gaat dit met een lach op je gezicht! In CodeCombat leer je programmeren door het spelen van een spel, ook wel gamification genoemd. Het blijkt dat dit ervoor zorgt dat je sneller leert, véél sneller. Het is alsof je een gesprek hebt, in plaats van een handleiding leest. Spelenderwijs leer je de programmeertaal Python. Python is makkelijk te leren voor de beginnende programmeur. Vergeleken met andere programmeertalen is de code vrij gemakkelijk te lezen, dat is wel zo prettig!

@@ -1,8 +1,7 @@
 ---
+title: Scratch voor beginners
 layout: default
 ---
-Scratch voor beginners
-======================
 ![Scratch](/static/img/scratch-logo.svg)
 
 Wil jij leren hoe je zelf games of animaties kunt maken op de computer? Dan is Scratch een goede manier om kennis te maken met programmeren. De gratis software is speciaal ontwikkeld om te leren hoe computers werken. De speelse presentatie, alsof je met Lego aan het bouwen bent, maakt dat iedereen ermee aan de slag kan. Met simpele instructies geef je de computer opdrachten om figuren te laten bewegen, geluid te laten maken en te reageren. Met Scratch kan je animaties maken, games, verhalen, muziek, simulaties, etc. Het is super leuk!

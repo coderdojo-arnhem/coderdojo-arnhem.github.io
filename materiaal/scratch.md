@@ -1,9 +1,8 @@
 ---
+title: Scratch
 layout: default
 class: gallery
 ---
-Scratch
-=======
 Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en speciaal gemaakt voor kinderen en je hebt geen programma of speciale software nodig. Begin meteen op [scratch.mit.edu](https://scratch.mit.edu/).
 
 ### Ben je voor het eerst bij CoderDojo?

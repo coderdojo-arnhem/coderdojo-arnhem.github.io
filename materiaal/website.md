@@ -1,8 +1,7 @@
 ---
+title: Website
 layout: default
 ---
-Website
-=======
 Wil je graag je eigen website maken?
 
 ### CoderDojo #13: HTML/CSS (en JavaScript)

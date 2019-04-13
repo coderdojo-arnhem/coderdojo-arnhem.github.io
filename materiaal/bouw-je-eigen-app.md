@@ -1,8 +1,7 @@
 ---
+title: Bouw je eigen App
 layout: default
 ---
-Bouw je eigen App
-=================					
 In [dit document](/static/pdf/coderdojoappbouwen.pdf) leggen we uit hoe je een eigen app kunt maken met de app POP. De app POP kun je zelf downloaden op je telefoon!
 
 De instructie filmpjes staan op deze site: <a href="https://www.skillsdojo.nl/bouw-een-app/">https://www.skillsdojo.nl/bouw-een-app/</a>
