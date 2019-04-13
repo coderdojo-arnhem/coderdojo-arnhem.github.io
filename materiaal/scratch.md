@@ -13,7 +13,7 @@ Een inleiding voor Scratch kun je vinden op onze [Scratch voor beginners pagina]
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
  Maak zelf Flappy Bird](/2017/09/16/scratch-flappybird.html)
 - [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam!](/2017/05/20/scratch-hooghouden.html)
-- [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Scratch Kerst opdrachten](/materiaal/scratch-kerst/)
+- [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Scratch Kerst opdrachten](/materiaal/scratch-kerst)
 - [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
 
 CoderDojo Arnhem Studio
