@@ -5,7 +5,7 @@ iframe,
     display:none;
 }
 .gallery img,
-.screenshot { max-height:160px; }
+.screenshot { max-height:160px; width: auto !important; max-width: auto !important;}
 
 article,
 .article-body p {
