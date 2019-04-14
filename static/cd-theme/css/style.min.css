@@ -1418,41 +1418,6 @@ article h1 {
     width: 140% !important
 }
 
-ul.gallery {
-    list-style: none;
-    padding: 0
-}
-
-ul.gallery li {
-    text-align: center;
-    float: left;
-    max-width: 21%;
-    margin-right: 4%;
-    margin-bottom: 1em
-}
-
-ul.gallery li:nth-child(5n+5) {
-    clear: both
-}
-
-ul.gallery li a:first-of-type {
-    font-weight: bold;
-    display: block
-}
-
-@media(max-width:768px) {
-    ul.gallery li {
-        max-width: 100%;
-        width: 100%;
-        margin-right: 0
-    }
-}
-
-ul.gallery li a img {
-    display: block;
-    margin: 0 auto
-}
-
 h1,
 h2,
 h3,
@@ -1488,6 +1453,7 @@ h1 + .metadata {
 
 #back { 
     margin-top: 3em; 
+    clear: both;
 }
 
 @media(max-width:768px) {
