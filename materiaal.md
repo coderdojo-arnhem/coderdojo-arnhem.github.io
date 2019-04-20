@@ -17,3 +17,5 @@ layout: default
   Als je wil leren programmeren, zul je een hoop code moeten schrijven. Bij CodeCombat gaat dit met een lach op je gezicht!
 - [![JavaScript](/static/img/javascript.png) JavaScript](/2017/09/16/javascript-flappybird)
   Tijdens CoderDojo #12 bouwden we Flappy Bird in JavaScript. Hier vind je de uitleg als je dit ook wilt doen.
+- [![Python](/static/img/python.png) Python](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python)
+  Als je eens met Python aan de slag wilt, staan op de website van Raspberry Pi [leuke opdrachten](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python) om mee te beginnen.
