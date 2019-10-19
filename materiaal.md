@@ -17,6 +17,6 @@ layout: default
   Als je wil leren programmeren, zul je een hoop code moeten schrijven. Bij CodeCombat gaat dit met een lach op je gezicht!
 - [![JavaScript](/static/img/javascript.png) JavaScript](/2017/09/16/javascript-flappybird)
   Tijdens CoderDojo #12 bouwden we Flappy Bird in JavaScript. Hier vind je de uitleg als je dit ook wilt doen.
-- [![Hacken](/static/img/hacken.png) Hacken](/2019/10/19/hacken)
+- [![Hacken](/static/img/hacken.png) Hacken](http://www.coderdojo-arnhem.nl/hacken/)
   Om te voorkomen dat je website wordt gehackt, moet je zelf leren te denken als een hacker…
   En dat is precies wat we gaan doen!
