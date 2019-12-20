@@ -6,7 +6,7 @@ class: stappenplan
 tags: [materiaal, scratch]
 thumbnail: /static/img/scratch-kerstspel-2018-1.png
 ---
-We hebben een nieuw kerstspel voor dit jaar in Scratch! Help de kerstman om om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!
+We hebben een nieuw kerstspel voor dit jaar in Scratch! Help de kerstman om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!
 
 Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/266988756/). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop.
 
@@ -14,7 +14,7 @@ De kerstman besturen
 --------------------
 ![Stap 1](/static/img/blog/2018-12-15-scratch-kerstspel/scratch-kerstspel-1.svg)
 
-1. Klik op de kerstman. In het begin van het zetten we de kerstman boven in de hoek en maken we hem klein.
+1. Klik op de kerstman. In het begin zetten we de kerstman boven in de hoek en maken we hem klein.
 
 ![Stap 2](/static/img/blog/2018-12-15-scratch-kerstspel/scratch-kerstspel-2.svg)
 
@@ -23,7 +23,7 @@ De kerstman besturen
 
    Je beweegt omhoog en omlaag door y te veranderen. Je beweegt naar links en rechts door de x te veranderen.
 
-   We zetten de "al ... dan ..." code in een herhaal blok. We moeten namelijk de hele tijd kijken of de pijltjestoetsen worden ingedrukt.
+   We zetten de "als ... dan ..." code in een herhaal blok. We moeten namelijk de hele tijd kijken of de pijltjestoetsen worden ingedrukt.
 
    Start het spel en kijkt of het werkt! Let op dat je 10 en -10 opschrijft. Stop het spel voordat je verder gaat.
 
@@ -34,7 +34,7 @@ We gaan de kadootjes op verschillende plekken op het scherm laten verschijnen.
 ![Stap 3](/static/img/blog/2018-12-15-scratch-kerstspel/scratch-kerstspel-3.svg)
 
 {:start="3"}
-3. Klik op het cadeau. We maken het kadootje kleiner (40%) en laten het verdwijnen.
+3. Klik op het kado. We maken het kadootje kleiner (40%) en laten het verdwijnen.
 
 ![Stap 4](/static/img/blog/2018-12-15-scratch-kerstspel/scratch-kerstspel-4.svg)
 
@@ -88,7 +88,7 @@ Klik op de kerstbal. We gaan de kerstbal laten verschijnen en van links naar rec
 ![Stap 11](/static/img/blog/2018-12-15-scratch-kerstspel/scratch-kerstspel-11.svg)
 
 {:start="11"}
-11. Elke kloon van de kerstbal gaat naar een willekeurige plek. Daarna veranderden we het uiterlijk naar de kerstbal en laten we hem verschijnen.
+11. Elke kloon van de kerstbal gaat naar een willekeurige plek. Daarna veranderen we het uiterlijk naar de kerstbal en laten we hem verschijnen.
 
 ![Stap 12](/static/img/blog/2018-12-15-scratch-kerstspel/scratch-kerstspel-12.svg)
 
@@ -118,7 +118,7 @@ Klik op de kerstboom. De kerstboom is het einde van het spel.
 ![Stap 15](/static/img/blog/2018-12-15-scratch-kerstspel/scratch-kerstspel-15.svg)
 
 {:start="15"}
-15. In het begin van het zetten we de kerstboom in de linker onder hoek en maken we hem klein.
+15. In het begin zetten we de kerstboom in de linkeronderhoek en maken we hem klein.
 
 ![Stap 16](/static/img/blog/2018-12-15-scratch-kerstspel/scratch-kerstspel-16.svg)
 
