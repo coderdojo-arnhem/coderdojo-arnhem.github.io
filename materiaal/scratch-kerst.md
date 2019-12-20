@@ -4,7 +4,7 @@ layout: default
 ---
 Kerst 2019
 ----------
-Als je ze nog niet gedaan hebt kun je de kerstspellen hieronder van 2018 en 2016 doen.
+Als je ze nog niet gedaan hebt kun je de kerstspellen van 2018 en 2016 doen, die hieronder te vinden zijn.
 
 Kerst 2018
 ----------
@@ -21,8 +21,6 @@ Kerst 2016
 [Hier kun je de afbeeldingen](https://www.dropbox.com/s/md7ci770j367g6a/Scratch%20Kerstles%20afbeeldingen.zip?dl=0) die bij de les horen downloaden.
 
 Een kant-en-klaar voorbeeld staat [hier](https://scratch.mit.edu/projects/91302807).
-
-&nbsp;
 
 &nbsp;
 
