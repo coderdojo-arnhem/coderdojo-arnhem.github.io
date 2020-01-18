@@ -48,3 +48,15 @@ iframe.youtube {
         height: 240px;
     }
 }
+
+
+table.borders {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+}
+
+table.borders td,th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
