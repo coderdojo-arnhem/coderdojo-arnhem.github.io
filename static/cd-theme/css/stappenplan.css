@@ -35,3 +35,16 @@
     }    
 }
     
+
+
+iframe.youtube {
+    width: 560px;
+    height: 315px;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe.youtube {
+        width: 360px;
+        height: 240px;
+    }
+}
