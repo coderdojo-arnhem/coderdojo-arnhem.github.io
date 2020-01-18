@@ -1,5 +1,5 @@
 ---
-title: "Scratch Kerstspel 2018"
+title: "CoderDojo #25: Scratch Kerstspel 2018"
 layout: post
 author: Ines
 class: stappenplan
