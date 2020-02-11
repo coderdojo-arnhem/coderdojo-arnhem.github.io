@@ -1,6 +1,6 @@
 ---
 title: Scratch voor beginners
-layout: default
+layout: materiaal
 ---
 ![Scratch](/static/img/scratch-logo.svg)
 

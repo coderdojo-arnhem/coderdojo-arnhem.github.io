@@ -1,6 +1,6 @@
 ---
 title: Scratch met kerst
-layout: default
+layout: materiaal
 ---
 Kerst 2018
 ----------

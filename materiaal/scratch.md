@@ -1,6 +1,6 @@
 ---
 title: Scratch
-layout: default
+layout: materiaal
 ---
 Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en speciaal gemaakt voor kinderen. Je hebt geen programma of speciale software nodig, je kunt alles op [de Scratch website doen](https://scratch.mit.edu). 
 

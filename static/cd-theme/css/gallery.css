@@ -46,7 +46,7 @@ ul[class^="gallery"] li a img {
     display: block;
     margin: 0 auto;
     width: auto;
-    max-height:160px;   
+    height:150px;   
 }
 
 @media(max-width:768px) {

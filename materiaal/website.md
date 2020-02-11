@@ -1,6 +1,6 @@
 ---
 title: Website
-layout: default
+layout: materiaal
 ---
 Wil je graag je eigen website maken?
 
