@@ -27,4 +27,3 @@ layout: default
   Maak de mooiste figueren en tekeningen met Turtle in Python.
 - [![Hacken](/static/img/rozet.jpg) Leuke boeken](https://www.sambis.nl/iguana/www.main.cls?sUrl=BA_CODERDOJO)
   Meer inspiratie nodig? Ga naar de bieb en leen één van deze boeken.
-  p
