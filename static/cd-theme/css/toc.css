@@ -38,11 +38,12 @@
     
     .hidden-by-toc,
     .hidden-by-toc * {
-      display: none;
+      display: none !important;
     } 
     
     .article-body footer {
-      margin-top: 2em;
+      padding-top: 2em;
+      clear: both;
     }
 
     .article-body footer button {
@@ -53,9 +54,9 @@
       border: none;
       padding: 10px;
       font-size: 1.1em;
+      
     }
     .article-body footer button:focus { outline: none; }
-
 
     .article-body footer #next {
       float:right;
