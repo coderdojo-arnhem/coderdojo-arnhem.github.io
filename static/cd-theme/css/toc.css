@@ -12,8 +12,9 @@
     #markdown-toc {
       position: fixed;
       width: 300px;
+      padding:0;
       margin-left: -320px;
-      margin-top: -40px;
+      margin-top: -50px;
       list-style: none;
     }
 
@@ -29,6 +30,7 @@
 
     .article-body {
       margin-left: 320px;
+      padding-right: 20px;
     }
 
     .article-body h1 {
@@ -47,12 +49,11 @@
     }
 
     .article-body footer button {
-      border-radius: 5px;
-      background-color: #303030;
+      border-radius: 5px;      
       color: white;
       font-weight: bold;
       border: none;
-      padding: 10px;
+      padding: 5px 20px;
       font-size: 1.1em;
       
     }
@@ -60,8 +61,10 @@
 
     .article-body footer #next {
       float:right;
+      background-color: #FF0554;
     }
     .article-body footer #prev {
       float:left;
+      background-color: #303030;
     }
 }

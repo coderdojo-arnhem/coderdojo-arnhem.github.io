@@ -9,10 +9,11 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 400;
     color: #191919;
+    background: #fff;
     padding: 0;
     letter-spacing: 1px;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
 }
 
 .navbar-form input#navbar-search {
@@ -328,7 +329,8 @@ div.col-md-6.double-par-2>p {
 }
 
 .article-body {
-    background: #fff
+    background: #fff;
+    padding: 0 25px;
 }
 
 .article-body h1 {
