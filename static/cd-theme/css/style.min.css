@@ -2,14 +2,13 @@
 @import url(stappenplan.css);
 
 html {
-    background: #eee
+    background: #fff
 }
 
 body {
     font-family: Lato, sans-serif;
     font-weight: 400;
     color: #191919;
-    background: #eee;
     padding: 0;
     letter-spacing: 1px;
     -moz-osx-font-smoothing: grayscale;
@@ -329,13 +328,13 @@ div.col-md-6.double-par-2>p {
 }
 
 .article-body {
-    padding: 0 10%;
     background: #fff
 }
 
 .article-body h1 {
     text-align: center;
-    padding: 15px
+    padding: 15px;
+    font-weight: bold;
 }
 
 .article-mid h1 {
@@ -1407,10 +1406,6 @@ body.home .article-h1 {
 article {
     font-size: 16px;
     line-height: 2
-}
-
-article h1 {
-    text-transform: uppercase
 }
 
 .metaslider {

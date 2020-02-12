@@ -1,12 +1,15 @@
 ---
 title: "Hooghouden met je webcam in Scratch"
-layout: post
-author: Tim
+layout: toc
 class: stappenplan
+author: Tim
 tags: [materiaal, scratch]
 thumbnail: /static/img/scratch-hooghouden.png
 ---
 Tijdens CoderDojo Arnhem #10 hebben we dit spel in Scratch gemaakt, waarin je een voetbal moet hooghouden met je webcam. Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/161097847). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop.
+
+* Inhoudsopgage
+{:toc}
 
 De bal laten vallen
 -------------------
@@ -122,8 +125,7 @@ Pas het spel nu verder aan
 
 ...met wat je verder zelf nog kunt bedenken!
 
-En...
------
+### En...
 Kun je de bal misschien nog op andere manieren hooghouden? Misschien met de muis? Of door in je handen te klappen?
 
 [Hier](https://scratch.mit.edu/projects/159041671) vind je het eindresultaat

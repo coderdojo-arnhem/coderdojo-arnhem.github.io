@@ -1,0 +1,113 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="/static/cd-theme/css/toc.css" type="text/css" media="screen" />
+
+{{ content }}
+<footer>
+  <button id="prev"></button>
+  <button id="next"></button>
+</footer>
+
+<script>
+  (function() {
+    var tocElt = document.querySelector('#markdown-toc');
+    var itemElts = tocElt.querySelectorAll('a');
+    var prevButton = document.querySelector('#prev');
+    var nextButton = document.querySelector('#next');
+
+    function clickHandler(event) {
+      event.preventDefault();
+      var itemElt = event.target;
+      var id = getId(itemElt);        
+      navigateTo(id);
+
+      itemElts.forEach(function(itemElt) {
+        itemElt.classList.remove('active');
+      });
+      itemElt.classList.add('active');   
+    }
+    
+    function findIndex(id) {
+      for(var i = 0; i < itemElts.length; i++) {
+        if (getId(itemElts[i]) === id) {
+          return i;
+        }
+      }
+      return -1;
+    }
+
+    function getPrevious(id) {
+      const idx = findIndex(id);
+      return idx > 0 ? itemElts[idx-1] : null;      
+    }
+
+    function getNext(id) {
+      const idx = findIndex(id);
+      return idx < itemElts.length - 1 ? itemElts[idx+1] : null;      
+    }
+
+    function getId(itemElt) {      
+      var href = itemElt.href;
+      return href.split('#')[1];
+    }
+
+    function navigateTo(id) {
+      var curr = tocElt.parentElement.firstElementChild
+      var show = false;
+      while (curr) {
+        if (curr !== tocElt && curr.tagName !== 'H1' && curr.tagName !== 'FOOTER') {
+            if (curr.id === id) {
+            show = true;
+          } else if (curr.tagName === 'H2') {
+            show = false;
+          }
+                  
+          if (show) {
+            curr.classList.remove('hidden-by-toc');
+          } else {
+            curr.classList.add('hidden-by-toc');
+          }
+        }
+        
+        curr = curr.nextElementSibling;
+      }
+
+
+      var prev = getPrevious(id);
+      var next = getNext(id);
+
+      if (prev) {
+        prevButton.classList.remove('hidden-by-toc');        
+        prevButton.innerHTML = '&larr; ' + prev.innerHTML;
+        prevButton.addEventListener('click', function() {
+          prev.click();
+        });
+      } else {
+        prevButton.classList.add('hidden-by-toc');
+      }
+
+      if (next) {
+        nextButton.classList.remove('hidden-by-toc');        
+        nextButton.innerHTML = next.innerHTML + ' &rarr;';
+        nextButton.addEventListener('click', function() {
+          next.click();
+        });
+      } else {
+        nextButton.classList.add('hidden-by-toc');
+      }
+
+
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+    itemElts.forEach(function(itemElt) {
+      itemElt.addEventListener("click", clickHandler);
+    });
+
+    itemElts[0].click();
+
+    
+  })();
+</script>

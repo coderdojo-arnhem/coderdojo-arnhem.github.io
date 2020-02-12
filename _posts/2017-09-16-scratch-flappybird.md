@@ -1,15 +1,20 @@
 ---
 title: "Flappy Bird in Scratch"
-layout: post
-author: Tim
+layout: toc
 class: stappenplan
+author: Tim
 tags: [materiaal, scratch]
 thumbnail: /static/img/flappybird.png
 ---
-We gaan het spelletje Flappy Bird zelf maken in Scratch. Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/173904279). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop.
+Wil je zelf eens proberen het spelletje Flappy Bird in Scratch te maken? Probeer dan deze instructies eens die wel voor CoderDojo #12 maakten.
+
+* Inhoudsopgave
+{:toc}
 
 De vogel laten vallen
 ---------------------
+Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/173904279). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop.
+
 Wanneer het spel gestart wordt, moeten we altijd een paar dingen weer opnieuw instellen.
 
 ![Stap 1](/static/img/scratch-flappybird-1.svg)

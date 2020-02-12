@@ -1,12 +1,9 @@
 ---
 title: "Flappy Bird in JavaScript"
-layout: post
-author: Tim
+layout: toc
 tags: [materiaal, javascript]
 thumbnail: /static/img/javascript-flappybird-stap7.gif
 ---
-Tijdens CoderDojo Arnhem #12 maakten we het spelletje Flappy Bird in JavaScript. Hier vind je de instructies om het zelf eens te proberen.
-
 * Inhoudsopgrave
 {:toc}
 
@@ -19,8 +16,7 @@ Voordat we echt starten met programmeren moeten we een aantal bestanden download
 
 Pak het bestand ```flappybird.zip``` uit op je harde schijf en open de map met jouw text editor.
 
-Het spel voor het eerst starten
--------------------------------
+### Het spel voor het eerst starten
 We gaan het spel bouwen in de taal JavaScript. Deze code laten we uitvoeren door een _webserver_ programma.
 
 Je start de webserver door het programma `start-python-webserver.bat` te starten. Je kunt het spel dan in een webbrowser openen op [http://localhost:8000](http://localhost:8000).
@@ -44,10 +40,8 @@ var state = {
 }
 ```
 
-Stappenplan
------------
-
-### Stap 1: de achtergrond instellen
+De achtergrond instellen
+--------------------------------
 ![Stap 1](/static/img/javascript-flappybird-stap1.png){:class="screenshot"}
 
 Open het bestand ```flappybird.js``` en laad het achtergrond plaatje in de ```preload``` functie:
@@ -66,7 +60,8 @@ create: function () {
 }
 ```
 
-### Stap 2: de vogel op het scherm tekenen
+De vogel op het scherm tekenen
+--------------------------------------
 ![Stap 2](/static/img/javascript-flappybird-stap2.gif){:class="screenshot"}
 
 Laad in de ```preload``` functie het plaatje voor de vogel, en voeg in de ```create``` de vogel als sprite toe aan ons spel:
@@ -82,7 +77,8 @@ create: function() {
 ```
 > Een ```spritesheet``` is een afbeelding waarin meerdere uiterlijken van een sprite staan. Open het bestand ```assets/bird.png``` maar eens. Je zult dan een afbeelding zien met ```3```vogels; elke vogel is ```68``` pixels hoog en ```48``` pixels breed. We gaan dit straks nodig hebben om de vogel te laten vliegen.
 
-### Stap 3: de vogel laten vallen
+De vogel laten vallen
+-----------------------------
 ![Stap 3](/static/img/javascript-flappybird-stap3.gif){:class="screenshot"}
 
 We kunnen in ons spel eenvoudig zwaartekracht toevoegen door _physics_ te starten. Doe dit door de volgende regel in de ```create``` functie toe te voegen:
@@ -102,7 +98,8 @@ create: function() {
 }
 ```
 
-### Stap 4: de vogel laten vliegen
+De vogel laten vliegen
+------------------------------
 Als je het spel nu start, zal de vogel als een baksteen naar beneden vallen. Laten we er nu voor zorgen dat ze kan vliegen.
 
 ![Stap 4](/static/img/javascript-flappybird-stap4.gif){:class="screenshot"}
@@ -137,7 +134,8 @@ var state = {
 
 Doordat we in de ```flap ``` functie de vogel een _y-snelheid_ meegeven, vliegt ze eventjes omhoog. Maar door de zwaartekracht die we in stap 3 op de vogel ingesteld hebben, zal ze snel weer naar beneden vallen.
 
-### Stap 5: geluid en animatie toevoegen
+Geluid en animatie toevoegen
+------------------------------------
 Onze vogel kan nu wel vliegen, maar het ziet er een beetje saai uit. Voeg een vlieg-animatie toe in de ```create``` functie:
 ```javascript
 create: function() {
@@ -176,7 +174,8 @@ flap: function() {
 }
 ```
 
-### Stap 6: buizen laten verschijnen
+Buizen laten verschijnen
+--------------------------------
 ![Stap 6](/static/img/javascript-flappybird-stap6.gif){:class="screenshot"}
 
 We gaan iedere 3 seconden rij met buizen laten verschijnen. Hiervoor voegen we een ```timer``` toe in de ```create``` functie. Deze timer roept iedere 3 secoden  de functie ```createPipe``` in ons ```state``` object aan:
@@ -197,7 +196,8 @@ var state = {
 withPipes(state);
 ```
 
-### Stap 7: botsingen
+Botsingen
+-----------------
 ![Stap 7](/static/img/javascript-flappybird-stap7.gif){:class="screenshot"}
 
 Je vogel zal nu nog dwars door de buizen heen vliegen. We gaan nu kijken of de vogel botst met een buis. We doen dit in de ```update``` functie, omdat die keer op keer uitgevoerd wordt:
@@ -241,7 +241,7 @@ hit: function() {
 Extra opdrachten
 ----------------
 
-### Extra 1: game over wanneer de vogel buiten het scherm komt
+### Game over wanneer de vogel buiten het scherm komt
 Hiervoor moeten we het spel laten controleren of de vogel buiten het scherm komt. Dit stel je op de vogel in de ```create``` functie in:
 ```javascript
 create: function() {
@@ -252,7 +252,7 @@ create: function() {
 ```
 > De code hierboven zorgt er voor dat de functie ```hit``` uitgevoerd wordt, zodra de vogel de rand van het scherm raakt.
 
-### Extra 2: score toevoegen
+### Score toevoegen
 We laten de speler iedere seconde een punt verdienen. Dit doen we door in de ```create```functie een _variabele_ 'points' toe te voegen. We maken ook een _label_ aan waarmee we ```score``` op het scherm tekenen:
 ```javascript
 create: function() {
@@ -279,7 +279,7 @@ score: function() {
 }
 ```
 
-### Extra 3: jouw beurt!
+### Jouw beurt!
 Wat kun je nog meer verzinnen om jouw spel n&oacute;g leuker te maken?
 
 Om dit spel te maken hebben we [Phaser](http://phaser.io/) gebruikt. Op de site van Phaser vind je nog [veel meer voorbeelden met code](http://phaser.io/examples). Hier kun je dus eens rondneuzen om te kijken hoe anderen spellen gemaakt hebben.
