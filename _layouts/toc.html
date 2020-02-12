@@ -56,7 +56,6 @@ layout: default
       var curr = tocElt.parentElement.firstElementChild
       var show = false;
       while (curr) {
-        curr.classList.add('HIT')
         if (curr !== tocElt && curr.tagName !== 'H1' && curr.tagName !== 'FOOTER') {
           if (curr.id === id) {
             show = true;
