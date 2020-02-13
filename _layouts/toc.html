@@ -1,35 +1,69 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="/static/cd-theme/css/toc.css" type="text/css" media="screen" />
 
-{{ content }}
+<link
+  rel="stylesheet"
+  href="/static/cd-theme/css/toc.css"
+  type="text/css"
+  media="screen"
+/>
+
+<div>
+  <div>
+    {{ content }}
+  </div>
+</div>
+
 <footer>
-  <button id="prev"></button>
-  <button id="next"></button>
+  <button id="prev">&larr; Terug</button>
+  <button id="next">Verder &rarr;</button>
 </footer>
 
 <script>
   (function() {
-    var tocElt = document.querySelector('#markdown-toc');
-    var itemElts = tocElt.querySelectorAll('a');
-    var prevButton = document.querySelector('#prev');
-    var nextButton = document.querySelector('#next');
+    if (!Array.prototype.forEach) {
+      Array.prototype.forEach = function(callback, thisArg) {
+        thisArg = thisArg || window;
+        for (var i = 0; i < this.length; i++) {
+          callback.call(thisArg, this[i], i, this);
+        }
+      };
+    }
+
+    var tocElt = document.querySelector("#markdown-toc");
+    var itemElts = tocElt.querySelectorAll("a");
+    var prevButton = document.querySelector("#prev");
+    var nextButton = document.querySelector("#next");
+    var containerElt = tocElt.parentElement;
+    var nextItemElt = null;
+    var prevItemElt = null;
+
+    prevButton.addEventListener("click", function() {
+      if (prevItemElt) {
+        prevItemElt.click();
+      }
+    });
+    nextButton.addEventListener("click", function() {
+      if (nextItemElt) {
+        nextItemElt.click();
+      }
+    });
 
     function clickHandler(event) {
       event.preventDefault();
       var itemElt = event.target;
-      var id = getId(itemElt);        
+      var id = getId(itemElt);
       navigateTo(id);
 
       itemElts.forEach(function(itemElt) {
-        itemElt.classList.remove('active');
+        itemElt.classList.remove("active");
       });
-      itemElt.classList.add('active');   
+      itemElt.classList.add("active");
     }
-    
+
     function findIndex(id) {
-      for(var i = 0; i < itemElts.length; i++) {
+      for (var i = 0; i < itemElts.length; i++) {
         if (getId(itemElts[i]) === id) {
           return i;
         }
@@ -39,64 +73,56 @@ layout: default
 
     function getPrevious(id) {
       const idx = findIndex(id);
-      return idx > 0 ? itemElts[idx-1] : null;      
+      return idx > 0 ? itemElts[idx - 1] : null;
     }
 
     function getNext(id) {
       const idx = findIndex(id);
-      return idx < itemElts.length - 1 ? itemElts[idx+1] : null;      
+      return idx < itemElts.length - 1 ? itemElts[idx + 1] : null;
     }
 
-    function getId(itemElt) {      
+    function getId(itemElt) {
       var href = itemElt.href;
-      return href.split('#')[1];
+      return href.split("#")[1];
     }
 
     function navigateTo(id) {
-      var curr = tocElt.parentElement.firstElementChild
+      containerElt.classList.add("hide");
+
+      var curr = containerElt.firstElementChild;
       var show = false;
       while (curr) {
-        if (curr !== tocElt && curr.tagName !== 'H1' && curr.tagName !== 'FOOTER') {
+        if (curr !== tocElt) {
           if (curr.id === id) {
             show = true;
-          } else if (curr.tagName === 'H2') {
+          } else if (curr.tagName === "H2") {
             show = false;
           }
-                  
+
           if (show) {
-            curr.classList.remove('hidden-by-toc');
+            curr.classList.remove("hidden-by-toc");
           } else {
-            curr.classList.add('hidden-by-toc');
+            curr.classList.add("hidden-by-toc");
           }
         }
-        
+
         curr = curr.nextElementSibling;
       }
+      containerElt.classList.remove("hide");
 
-
-      var prev = getPrevious(id);
-      var next = getNext(id);
-
-      if (prev) {
-        prevButton.classList.remove('hidden-by-toc');        
-        prevButton.innerHTML = '&larr; ' + prev.innerHTML;
-        prevButton.addEventListener('click', function() {
-          prev.click();
-        });
+      prevItemElt = getPrevious(id);
+      if (prevItemElt) {
+        prevButton.classList.remove("hidden-by-toc");
       } else {
-        prevButton.classList.add('hidden-by-toc');
+        prevButton.classList.add("hidden-by-toc");
       }
 
-      if (next) {
-        nextButton.classList.remove('hidden-by-toc');        
-        nextButton.innerHTML = next.innerHTML + ' &rarr;';
-        nextButton.addEventListener('click', function() {
-          next.click();
-        });
+      nextItemElt = getNext(id);
+      if (nextItemElt) {
+        nextButton.classList.remove("hidden-by-toc");
       } else {
-        nextButton.classList.add('hidden-by-toc');
+        nextButton.classList.add("hidden-by-toc");
       }
-
 
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
@@ -107,7 +133,5 @@ layout: default
     });
 
     itemElts[0].click();
-
-    
   })();
 </script>

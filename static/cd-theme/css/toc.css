@@ -1,70 +1,67 @@
-@media(max-width:768px) {
-    #markdown-toc {
-      display: none;
-    }
-
-    .article-body footer {
-      display: none;
-    }
+@media (max-width: 768px) {
+  #markdown-toc {
+    display: none;
+  }
 }
 
-@media(min-width:769px) {
-    #markdown-toc {
-      position: fixed;
-      width: 300px;
-      padding:0;
-      margin-left: -320px;
-      margin-top: -50px;
-      list-style: none;
-    }
+#markdown-toc {
+  position: fixed;
+  width: 300px;
+  padding: 0;
+  margin-left: -320px;
+  margin-top: -50px;
+  list-style: none;
+}
 
-    #markdown-toc li {
-      margin-bottom:1em;
-    }
+#markdown-toc li {
+  margin-bottom: 1em;
+}
 
-    #markdown-toc a.active,
-    #markdown-toc a:active {
-      font-weight: bold;
-      text-decoration: none;
-    }
+#markdown-toc a.active,
+#markdown-toc a:active {
+  font-weight: bold;
+  text-decoration: none;
+}
 
-    .article-body {
-      margin-left: 320px;
-      padding-right: 20px;
-    }
+.article-body h1 {
+  text-align: left;
+  padding: 0;
+}
 
-    .article-body h1 {
-      text-align: left;
-      padding: 0;
-    }
-    
-    .hidden-by-toc,
-    .hidden-by-toc * {
-      display: none !important;
-    } 
-    
-    .article-body footer {
-      padding-top: 2em;
-      clear: both;
-    }
+.hidden-by-toc,
+.hidden-by-toc * {
+  display: none !important;
+}
 
-    .article-body footer button {
-      border-radius: 5px;      
-      color: white;
-      font-weight: bold;
-      border: none;
-      padding: 5px 20px;
-      font-size: 1.1em;
-      
-    }
-    .article-body footer button:focus { outline: none; }
+.article-body footer {
+  padding-top: 2em;
+  clear: both;
+}
 
-    .article-body footer #next {
-      float:right;
-      background-color: #FF0554;
-    }
-    .article-body footer #prev {
-      float:left;
-      background-color: #303030;
-    }
+.article-body footer button {
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 5px 20px;
+  font-size: 1.1em;
+}
+.article-body footer button:focus {
+  outline: none;
+}
+
+.article-body footer #next {
+  float: right;
+  background-color: #ff0554;
+}
+.article-body footer #prev {
+  float: left;
+  background-color: #303030;
+}
+
+@media (min-width: 769px) {
+  .article-body {
+    margin-left: 320px;
+    padding-right: 20px;
+  }
 }
