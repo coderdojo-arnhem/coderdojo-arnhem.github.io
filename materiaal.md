@@ -23,7 +23,9 @@ layout: default
 - [![Hacken](/static/img/hacken.png) Hacken](/2019/10/19/hacken)
   Om te voorkomen dat je website wordt gehackt, moet je zelf leren te denken als een hacker…
   En dat is precies wat we gaan doen!
-- [![Hacken](/static/img/python.png) Python](/materiaal/python)
+- [![Python](/static/img/python.png) Python](/materiaal/python)
   Maak de mooiste figueren en tekeningen met Turtle in Python.
-- [![Hacken](/static/img/rozet.jpg) Leuke boeken](https://www.sambis.nl/iguana/www.main.cls?sUrl=BA_CODERDOJO)
+- [![Code Studio](/static/img/codestudio.jpg) Code Studio](http://www.coderdojo-arnhem.nl/materiaal/codestudio/)
+  In CodeStudio leer je aan de hand van levels stap voor stap de basisbeginselen van programmeren.
+- [![Rozet](/static/img/rozet.jpg) Leuke boeken](https://www.sambis.nl/iguana/www.main.cls?sUrl=BA_CODERDOJO)
   Meer inspiratie nodig? Ga naar de bieb en leen één van deze boeken.
