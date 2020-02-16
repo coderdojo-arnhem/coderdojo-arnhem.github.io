@@ -317,6 +317,11 @@ div.col-md-6.double-par-2>p {
     line-height: 2
 }
 
+
+.article-body p.action {
+    padding:1em; width:100%; font-size:1.5em; text-align:center;
+}
+
 .article-mid p {
     font-size: 16px;
     color: #000;

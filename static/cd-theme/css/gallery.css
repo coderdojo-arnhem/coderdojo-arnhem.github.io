@@ -2,11 +2,14 @@
 ul[class^="gallery"] {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em
 }
 
 ul[class^="gallery"] li {
     text-align: center;
-    float: left;
     margin-bottom: 1em
 }
 
