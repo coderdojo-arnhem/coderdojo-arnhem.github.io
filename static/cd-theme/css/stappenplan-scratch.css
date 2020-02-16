@@ -1,0 +1,168 @@
+.stappenplan.scratch img {
+  float: none;
+}
+
+.stappenplan.scratch pre {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 3em;
+  background-color: #f8f8f8;
+  border: 1px solid #eee;
+}
+
+.stappenplan.scratch svg {
+  letter-spacing: 0pt;
+}
+
+.stappenplan.scratch span[class^="scratch-"] {
+  border-radius: 3px;
+  color: white;
+  padding: 0px 8px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  display: inline-block;
+  font-size: 0.9em;
+  border: 1px solid;
+}
+
+.stappenplan.scratch span.scratch-gebeurtenis {
+  background-color: #ffbf00;
+  border-color: #cc9900;
+}
+.stappenplan.scratch span.scratch-beweging {
+  background-color: #4c97ff;
+  border-color: #3373cc;
+}
+
+.stappenplan.scratch span.scratch-pen {
+  background-color: #0fbd8c;
+  border-color: #0b8e69;
+}
+
+.stappenplan.scratch span.scratch-besturen {
+  background-color: #ffab19;
+  border-color: #cf8b17;
+}
+
+.stappenplan.scratch span.scratch-uiterlijken {
+  background-color: #9966ff;
+  border-color: #774dcb;
+}
+
+.stappenplan.scratch span.scratch-var {
+   border-radius: 1em;
+}
+
+.stappenplan.scratch span.scratch-var,
+.stappenplan.scratch span.scratch-variabelen {
+  background-color: #ff8c1a;
+  border-color: #db6e00;
+}
+
+.stappenplan.scratch span.scratch-func,
+.stappenplan.scratch span.scratch-functies {
+  background-color: #59c059;
+  border-color: #389438;
+}
+
+.stappenplan.scratch span.scratch-gebeurtenis select {
+  background-color: #cc9900;
+}
+.stappenplan.scratch span.scratch-beweging select {
+  background-color: #3373cc;
+}
+
+.stappenplan.scratch span.scratch-pen select {
+  background-color: #0b8e69;
+}
+
+.stappenplan.scratch span.scratch-besturen select {
+  background-color: #cf8b17;
+}
+
+.stappenplan.scratch span.scratch-uiterlijken select {
+  background-color: #774dcb;
+}
+
+.stappenplan.scratch span.scratch-variabelen select {
+  background-color: #db6e00;
+}
+
+.stappenplan.scratch span.scratch-functies select {
+  background-color: #389438;
+}
+
+.stappenplan.scratch span[class^="scratch-"] span.flag {
+  color: rgb(76, 191, 86);
+}
+
+.stappenplan.scratch span[class^="scratch-"] span.arrow-clockwise {
+  font-weight: bold;
+  transform: rotate(90deg);
+  display: inline-block;
+}
+
+.stappenplan.scratch span[class^="scratch-"] input {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  width: 2em;
+  text-align: center;
+  height: 1.5em;
+  border-radius: 1em;
+  padding: 1px 5px;
+}
+
+.stappenplan.scratch span[class^="scratch-"] input.purple {
+  background-color: #6a0dad;
+}
+
+.stappenplan.scratch span[class^="scratch-section-"] {
+  background-color: #f8f8f8;
+  color: #000;
+  border: 1px solid #eee;
+}
+
+.stappenplan.scratch span[class^="scratch-section-"] span.dot:before {
+  color: transparent;
+  content: "..";
+  margin-right: 5px;
+  background-color: white;
+  border-radius: 1em;
+  padding: 1px 5px;
+}
+
+.stappenplan.scratch span.scratch-section-gebeurtenissen span.dot:before {
+  background-color: #ffbf00;
+  border-color: #cc9900;
+}
+.stappenplan.scratch span.scratch-section-bewegingen span.dot:before {
+  background-color: #4c97ff;
+  border-color: #3373cc;
+}
+
+.stappenplan.scratch span.scratch-section-pen span.dot:before {
+  background-color: #0fbd8c;
+  border-color: #0b8e69;
+}
+
+.stappenplan.scratch span.scratch-section-besturen span.dot:before {
+  background-color: #ffab19;
+  border-color: #cf8b17;
+}
+
+.stappenplan.scratch span.scratch-section-uiterlijken span.dot:before {
+  background-color: #9966ff;
+  border-color: #774dcb;
+}
+
+.stappenplan.scratch span.scratch-section-variabelen span.dot:before {
+  background-color: #ff8c1a;
+  border-color: #db6e00;
+}
+
+.stappenplan.scratch span.scratch-section-functies span.dot:before {
+  background-color: #59c059;
+  border-color: #389438;
+}
+
+

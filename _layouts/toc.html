@@ -11,6 +11,7 @@ layout: default
 
 <div>
   <div>
+    {% include toc.html html=content id="markdown-toc" h_min=1 h_max=2 %}
     {{ content }}
   </div>
 </div>
@@ -95,7 +96,7 @@ layout: default
         if (curr !== tocElt) {
           if (curr.id === id) {
             show = true;
-          } else if (curr.tagName === "H2") {
+          } else if (curr.tagName === "H1" || curr.tagName === "H2") {
             show = false;
           }
 
