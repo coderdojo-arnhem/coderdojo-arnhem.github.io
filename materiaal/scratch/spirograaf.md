@@ -1,7 +1,7 @@
 ---
 title: Spirograaf
 layout: toc
-class: stappenplan scratch
+class: scratch
 tags: [materiaal, scratch]
 ---
 
@@ -33,15 +33,15 @@ Klik [hier](https://scratch.mit.edu/projects/368601196/editor/) om het project t
 
 Eerst maar eens zorgen dat we iets op het scherm kunnen tekenen.
 
-We gaan de spirograaf laten beginnen met de groene vlag. Ga naar <span class="scratch-section-gebeurtenissen"><span class="dot"></span>Gebeurtenissen</span> en sleep het blokje <span class="scratch-gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</span> in je programma.
+We gaan de spirograaf laten beginnen met de groene vlag. Ga naar <scratch class="categorie gebeurtenissen">Gebeurtenissen</scratch> en sleep het blokje <scratch class="gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</scratch> in je programma.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
 ```
 
-Een <span class="scratch-section-gebeurtenissen"><span class="dot"></span>Gebeurtenissen</span> blokje geeft aan _wanneer_ iets gebeurt. We kunnen dus _iets_ laten gebeuren _wanneer_ we op de groene vlag klikken.
+Een <scratch class="categorie gebeurtenissen">Gebeurtenissen</scratch> blokje geeft aan _wanneer_ iets gebeurt. We kunnen dus _iets_ laten gebeuren _wanneer_ we op de groene vlag klikken.
 
-Nu gaan we _iets_ laten gebeuren. We gaan als eerste de pen verschuiven. Ga naar <span class="scratch-section-bewegingen"><span class="dot"></span>Bewegingen</span> en sleep een <span class="scratch-beweging">ga naar x <input/> y <input/></span> blokje onder je <span class="scratch-gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</span> blokje.
+Nu gaan we _iets_ laten gebeuren. We gaan als eerste de pen verschuiven. Ga naar <scratch class="categorie bewegingen">Bewegingen</scratch> en sleep een <scratch class="beweging">ga naar x <input /> y <input /></scratch> blokje onder je <scratch class="gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</scratch> blokje.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -53,7 +53,7 @@ Wat gebeurt er nu?
 
 Precies! Het potlood beweegt naar het midden van het scherm.
 
-Plak er nu ook nog een <span class="scratch-beweging">richt naar <input/> graden naar</span> blokje onder zodat het potlood naar rechts gaat bewegen.
+Plak er nu ook nog een <scratch class="beweging">richt naar <input /> graden naar</scratch> blokje onder zodat het potlood naar rechts gaat bewegen.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -63,7 +63,7 @@ richt naar (90) graden
 
 ## Een lijn trekken
 
-Nu kan het echte tekenen beginnen. Ga maar eens naar <span class="scratch-section-pen"><span class="dot"></span>Pen</span> en sleep het blokje <span class="scratch-pen">pen neer</span> onder je programma.
+Nu kan het echte tekenen beginnen. Ga maar eens naar <scratch class="categorie pen">Pen</scratch> en sleep het blokje <scratch class="pen">pen neer</scratch> onder je programma.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -72,7 +72,7 @@ richt naar (90) graden
 pen neer
 ```
 
-Nu is de pen op het scherm neergezet, en kunnen we dus tekenen. Als je nu een <span class="scratch-beweging">neem <input/> stappen</span> blokje toevoegt, dan komt er een klein streepje
+Nu is de pen op het scherm neergezet, en kunnen we dus tekenen. Als je nu een <scratch class="beweging">neem <input /> stappen</scratch> blokje toevoegt, dan komt er een klein streepje
 op het scherm.
 
 ```scratch
@@ -93,7 +93,7 @@ Dan zit je op de goede weg!
 
 Voor een mooie spirograaftekening willen we natuurlijk niet alleen een rechte lijn. we willen ook mooie bochtjes. Daarvoor moet de pen gaan draaien. Daar is ook een blokje voor.
 
-Het zit ook bij <span class="scratch-section-bewegingen"><span class="dot"></span>Bewegingen</span>. Plak een <span class="scratch-beweging">draai <span class="arrow-clockwise">&#8635;</span> <input/> graden naar</span> blokje onderaan, en maak het getal maar wat groter, dan zie je het goed. Bijvoorbeeld `50`.
+Het zit ook bij <scratch class="categorie bewegingen">Bewegingen</scratch>. Plak een <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input /> graden naar</scratch> blokje onderaan, en maak het getal maar wat groter, dan zie je het goed. Bijvoorbeeld `50`.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -132,9 +132,9 @@ snel verder.
 
 ## Herhaalverhaal
 
-In Scratch heb je ook een handig blokje om dingen te herhalen. Het blokje heet <span class="scratch-besturen">herhaal</span> en zit bij <span class="scratch-section-besturen"><span class="dot"></span>Besturen</span>.
+In Scratch heb je ook een handig blokje om dingen te herhalen. Het blokje heet <scratch class="besturen">herhaal</scratch> en zit bij <scratch class="categorie besturen">Besturen</scratch>.
 
-Doe de <span class="scratch-besturen">herhaal</span> om de blokjes <span class="scratch-beweging">neem <input value="10" /> stappen</span> en <span class="scratch-beweging">draai <span class="arrow-clockwise">&#8635;</span> <input value="50" /> graden naar</span> heen. Als je het een beetje in de buurt houdt, dan klikt het er vanzelf omheen.
+Doe de <scratch class="besturen">herhaal</scratch> om de blokjes <scratch class="beweging">neem <input value="10" /> stappen</scratch> en <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input value="50" /> graden naar</scratch> heen. Als je het een beetje in de buurt houdt, dan klikt het er vanzelf omheen.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -185,7 +185,7 @@ Selecteer nu het potloodje weer.
 ![Spirograaf](/static/img/scratch-spirograaf-5.png)
 
 Misschien heb je ook soms zo'n streepje in je rondje zoals hierboven. Dat is niet mooi he? We
-kunnen dat oplossen door de pen omhoog te doen met een <span class="scratch-pen">pen op</span> blokje, voordat we terug naar het begin gaan.
+kunnen dat oplossen door de pen omhoog te doen met een <scratch class="pen">pen op</scratch> blokje, voordat we terug naar het begin gaan.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -198,12 +198,12 @@ herhaal
   draai (50) graden naar rechts
 ```
 
-Heb je ook al geprobeerd om een ander getal te gebruiken bij het <span class="scratch-beweging">draai <span class="arrow-clockwise">&#8635;</span> <input value="50" /> graden naar</span> blokje? Probeer maar eens wat getallen! Wat gebeurt er dan?
+Heb je ook al geprobeerd om een ander getal te gebruiken bij het <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input value="50" /> graden naar</scratch> blokje? Probeer maar eens wat getallen! Wat gebeurt er dan?
 
 ## Kleurtjes
 
 Alle tekeningen zijn nu blauw. Dat is best mooi, maar misschien wil je wel iets anders.
-Je kunt de kleur veranderen met het <span class="scratch-pen">maak pen kleur <input class="purple" /></span> blokje. Misschien staat er bij jou een andere kleur,
+Je kunt de kleur veranderen met het <scratch class="pen">maak pen kleur <input class="purple" /></scratch> blokje. Misschien staat er bij jou een andere kleur,
 dat maakt niets uit!
 
 Plak dit blokje bovenaan. Klik op het gekleurde vlakje in het blokje om de kleur te veranderen.
@@ -224,7 +224,7 @@ Nu wordt je tekening mooi paars of een andere kleur als je die hebt gekozen.
 
 Heb je moeite met kiezen? Je kunt de kleur ook automatisch aanpassen!
 
-Dat doe je met het <span class="scratch-pen">verander penkleur met <input/> met</span> blokje. Zet het in het <span class="scratch-besturen">herhaal</span> blokje.
+Dat doe je met het <scratch class="pen">verander penkleur met <input /> met</scratch> blokje. Zet het in het <scratch class="besturen">herhaal</scratch> blokje.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -243,7 +243,7 @@ Nu krijg je bij iedere stap een andere kleur. je kunt hier ook weer het getal 5 
 
 ## Druk er je stempel op
 
-We gaan ook nog wat versiering toevoegen rondom je tekening. Hiervoor gebruiken we het <span class="scratch-pen">stempel</span> blokje.
+We gaan ook nog wat versiering toevoegen rondom je tekening. Hiervoor gebruiken we het <scratch class="pen">stempel</scratch> blokje.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -261,11 +261,11 @@ herhaal
 
 Probeer je tekening uit met de groene vlag. Wat gebeurt er nu?
 
-Wil je een ander figuurtje? Dat kan ook! Bij <span class="scratch-section-uiterlijken"><span class="dot"></span>Uiterlijken</span> vind je het <span class="scratch-uiterlijken">verander uiterlijk naar <select><option>streep</option></select></span> blokje.
+Wil je een ander figuurtje? Dat kan ook! Bij <scratch class="categorie uiterlijken">Uiterlijken</scratch> vind je het <scratch class="uiterlijk">verander uiterlijk naar <select><option>streep</option></select></scratch> blokje.
 
-Plak die in het <span class="scratch-besturen">herhaal</span> blokje.
+Plak die in het <scratch class="besturen">herhaal</scratch> blokje.
 
-> Let op! zet 'm boven <span class="scratch-pen">stempel</span>
+> Let op! zet 'm boven <scratch class="pen">stempel</scratch>
 
 Kies met het kleine driehoekje een mooi figuurtje uit. Een voetbal of een eenhoorn? Jij mag kiezen.
 
@@ -289,13 +289,13 @@ herhaal
 Tot slot gaan we de tekening nog wat gekker maken. Vind je het ook een beetje saai dat je steeds dezelfde
 tekening krijgt? Zou het niet leuker zijn als Scratch zelf wat verzint?
 
-Ga maar eens naar <span class="scratch-section-variabelen"><span class="dot"></span>Variabelen</span>, daar staan twee oranje blokjes voor je klaar. Dat zijn variabelen "va-rie-ja-buh-luh".
+Ga maar eens naar <scratch class="categorie variabelen">Variabelen</scratch>, daar staan twee oranje blokjes voor je klaar. Dat zijn variabelen "va-rie-ja-buh-luh".
 
 Het zijn een soort doosjes waar je een getal in kan opslaan.
 
-Sleep het blokje <span class="scratch-var">aantal stappen</span> op in het <span class="scratch-beweging">neem <input/> stappen</span> blokje.
+Sleep het blokje <scratch class="variabele">aantal stappen</scratch> op in het <scratch class="beweging">neem <input /> stappen</scratch> blokje.
 
-Sleep het blokje <span class="scratch-var">aantal graden</span> in het <span class="scratch-beweging">draai <span class="arrow-clockwise">&#8635;</span> <input/> graden naar</span> blokje.
+Sleep het blokje <scratch class="variabele">aantal graden</scratch> in het <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input /> graden naar</scratch> blokje.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -314,9 +314,9 @@ herhaal
 
 Nu moeten we de getallen nog instellen.
 
-Voeg twee <span class="scratch-variabelen">maak <select><option>aantal graden</option></select> <input /></span> blokjes bovenaan je programma toe. Verander er eentje op `aantal stappen` met het kleine driehoekje.
+Voeg twee <scratch class="variabele">maak <select><option>aantal graden</option></select> <input /></scratch> blokjes bovenaan je programma toe. Verander er eentje op `aantal stappen` met het kleine driehoekje.
 
-Ga nu naar <span class="scratch-section-functies"><span class="dot"></span>Functies</span>. Pak daar een <span class="scratch-func">willekeurig getal tussen <input /> en <input /></span> blokje en zet die in de <span class="scratch-variabelen">maak <select><option>aantal graden</option></select><input /></span> en <span class="scratch-variabelen">maak <select><option>aantal stappen</option></select><input /></span> blokjes.
+Ga nu naar <scratch class="categorie functies">Functies</scratch>. Pak daar een <scratch class="functie">willekeurig getal tussen <input /> en <input /></scratch> blokje en zet die in de <scratch class="variabele">maak <select><option>aantal graden</option></select><input /></scratch> en <scratch class="variabele">maak <select><option>aantal stappen</option></select><input /></scratch> blokjes.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -337,7 +337,7 @@ herhaal
 
 Klik nu eens een paar keer op de groene vlag. Wat gebeurt er?
 
-> **Tip:** als je geen zin hebt om steeds op de wisknop te drukken, kun je ook nog een <span class="scratch-pen">wis alles</span> blokje aan het begin van je programma toevoegen.
+> **Tip:** als je geen zin hebt om steeds op de wisknop te drukken, kun je ook nog een <scratch class="pen">wis alles</scratch> blokje aan het begin van je programma toevoegen.
 
 <script>
     scratchblocks.renderMatching(
