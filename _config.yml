@@ -3,6 +3,8 @@ description: Bij CoderDojo Arnhem kunnen kinderen tussen de 7 en 17 jaar op een 
 lang: nl_NL
 logo: /static/cd-theme/img/coderdojo/coderdojo-arnhem.svg
 
+permalink: pretty
+
 social:
   name: CoderDojo Arnhem
   links:
