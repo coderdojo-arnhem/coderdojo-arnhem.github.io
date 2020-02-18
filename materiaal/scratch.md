@@ -8,6 +8,8 @@ Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en 
 Klik [hier](/materiaal/scratch-voor-beginners.html) als je nog nooit iets met Scratch gedaan hebt.
 
 {:class="gallery"}
+- [![Spirografen tekenen](/static/img/scratch-spirograaf-1.png) Spirografen tekenen](/materiaal/scratch/spirograaf)
+Met programmeren kun je alles maken, ook een kunstwerk! In deze les leer je  over herhalingen en over variabelen.
 - [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/2017/05/20/scratch-hooghouden.html)
 Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 gedaan hebben. Probeer en voetbal hoogte houdenmet je webcam!
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
@@ -16,7 +18,7 @@ Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te make
 - [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Kerstspel 2018](/materiaal/scratch-kerst)
 Help de kerstman om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!
 - [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
-Hier vind je meerdere leuke scratch opdrachten. Teken bijvoorbeeld mooie spirografen of animeer je eigen Donald Duck strip.
+Hier vind je meerdere leuke scratch opdrachten. Animeer bijvoorbeeld je eigen Donald Duck strip of maak je eigen quiz.
 
 CoderDojo Arnhem Studio
 -----------------------
