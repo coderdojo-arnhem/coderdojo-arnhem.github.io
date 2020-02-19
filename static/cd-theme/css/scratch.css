@@ -1,8 +1,8 @@
-.scratch img {
-  float: none;
+img {
+  clear:both;
 }
 
-.scratch pre {
+pre {
   width: 100%;
   overflow: hidden;
   margin-bottom: 3em;
@@ -10,11 +10,11 @@
   border: 1px solid #eee;
 }
 
-.scratch svg {
+svg {
   letter-spacing: 0pt;
 }
 
-.scratch scratch {
+scratch {
   text-decoration: none;
   border-radius: 3px;
   color: white;
@@ -25,84 +25,84 @@
   border: 1px solid;
 }
 
-.scratch scratch.gebeurtenis {
+scratch.gebeurtenis {
   background-color: #ffbf00;
   border-color: #cc9900;
 }
-.scratch scratch.beweging {
+scratch.beweging {
   background-color: #4c97ff;
   border-color: #3373cc;
 }
 
-.scratch scratch.pen {
+scratch.pen {
   background-color: #0fbd8c;
   border-color: #0b8e69;
 }
 
-.scratch scratch.besturen {
+scratch.besturen {
   background-color: #ffab19;
   border-color: #cf8b17;
 }
 
-.scratch scratch.uiterlijken {
+scratch.uiterlijken {
   background-color: #9966ff;
   border-color: #774dcb;
 }
 
-.scratch scratch.var {
+scratch.var {
   border-radius: 1em;
 }
 
-.scratch scratch.variabele,
-.scratch scratch.variabelen {
+scratch.variabele,
+scratch.variabelen {
   background-color: #ff8c1a;
   border-color: #db6e00;
 }
 
-.scratch scratch.functie,
-.scratch scratch.functies {
+scratch.functie,
+scratch.functies {
   background-color: #59c059;
   border-color: #389438;
 }
 
-.scratch scratch.gebeurtenis select {
+scratch.gebeurtenis select {
   background-color: #cc9900;
 }
-.scratch scratch.beweging select {
+scratch.beweging select {
   background-color: #3373cc;
 }
 
-.scratch scratch.pen select {
+scratch.pen select {
   background-color: #0b8e69;
 }
 
-.scratch scratch.besturen select {
+scratch.besturen select {
   background-color: #cf8b17;
 }
 
-.scratch scratch.uiterlijk select {
+scratch.uiterlijk select {
   background-color: #774dcb;
 }
 
-.scratch scratch.variabele select {
+scratch.variabele select {
   background-color: #db6e00;
 }
 
-.scratch scratch.functie select {
+scratch.functie select {
   background-color: #389438;
 }
 
-.scratch scratch span.flag {
+scratch span.flag {
   color: rgb(76, 191, 86);
 }
 
-.scratch scratch span.arrow-clockwise {
+scratch span.arrow-clockwise {
   font-weight: bold;
   transform: rotate(90deg);
   display: inline-block;
 }
 
-.scratch scratch input {
+scratch input {
   color: black;
   background-color: white;
   border: 1px solid white;
@@ -113,18 +113,18 @@
   padding: 1px 5px;
 }
 
-.scratch scratch input.purple {
+scratch input.purple {
   background-color: #6a0dad;
 }
 
-.scratch scratch.categorie {
+scratch.categorie {
   background-color: #f8f8f8;
   color: #000;
   border: 1px solid #eee;
   padding: 0 5px 0 26px;
 }
 
-.scratch scratch.categorie:before {
+scratch.categorie:before {
   content: " \25CF";
   font-size: 2.5em;
   position: absolute;
@@ -132,30 +132,30 @@
   margin-left: -24px;
 }
 
-.scratch scratch.categorie.gebeurtenissen:before {
+scratch.categorie.gebeurtenissen:before {
   color: #ffbf00;
 }
 
-.scratch scratch.categorie.bewegingen:before {
+scratch.categorie.bewegingen:before {
   color: #4c97ff;
 }
 
-.scratch scratch.categorie.pen:before {
+scratch.categorie.pen:before {
   color: #0fbd8c;
 }
 
-.scratch scratch.categorie.besturen:before {
+scratch.categorie.besturen:before {
   color: #ffab19;
 }
 
-.scratch scratch.categorie.uiterlijken:before {
+scratch.categorie.uiterlijken:before {
   color: #9966ff;
 }
 
-.scratch scratch.categorie.variabelen:before {
+scratch.categorie.variabelen:before {
   color: #ff8c1a;
 }
 
-.scratch scratch.categorie.functies:before {
+scratch.categorie.functies:before {
   color: #59c059;
 }

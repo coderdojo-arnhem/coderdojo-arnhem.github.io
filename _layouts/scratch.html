@@ -1,0 +1,20 @@
+---
+layout: toc
+---
+<link
+  rel="stylesheet"
+  href="/static/cd-theme/css/scratch.css"
+  type="text/css"
+  media="screen"
+/>
+{{ content }}
+<script src="https://scratchblocks.github.io/js/scratchblocks-v3.4-min.js"></script>
+<script src="https://scratchblocks.github.io/js/translations-all-v3.4.js"></script>
+<script>
+    scratchblocks.renderMatching(
+      'code.language-scratch', 
+      {
+        style: 'scratch3',
+        languages: ['nl']
+      });
+</script>

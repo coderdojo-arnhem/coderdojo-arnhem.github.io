@@ -1071,6 +1071,7 @@
     opacity: 0;
     transition: height 0.2s ease-out, opacity 0.3s ease-out;
   }
+  .cd-menu__second-row > li.active:before,
   .cd-menu__second-row > li:hover:before {
     opacity: 1;
     height: 6px;

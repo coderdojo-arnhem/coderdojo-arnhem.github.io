@@ -1,14 +1,8 @@
 ---
 title: Spirograaf
-layout: toc
-class: scratch
+layout: scratch
 tags: [materiaal, scratch]
 ---
-
-<script src="https://scratchblocks.github.io/js/scratchblocks-v3.4-min.js"></script>
-
-<script src="https://scratchblocks.github.io/js/translations-all-v3.4.js"></script>
-
 ## Spirograaf
 
 Met programmeren kun je alles maken! Ook een kunstwerk!
@@ -338,12 +332,3 @@ herhaal
 Klik nu eens een paar keer op de groene vlag. Wat gebeurt er?
 
 > **Tip:** als je geen zin hebt om steeds op de wisknop te drukken, kun je ook nog een <scratch class="pen">wis alles</scratch> blokje aan het begin van je programma toevoegen.
-
-<script>
-    scratchblocks.renderMatching(
-      'code.language-scratch', 
-      {
-        style: 'scratch3',
-        languages: ['nl']
-      });
-</script>
