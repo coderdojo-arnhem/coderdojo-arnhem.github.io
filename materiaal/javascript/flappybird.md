@@ -2,7 +2,9 @@
 title: "Flappy Bird in JavaScript"
 layout: toc
 tags: [materiaal, javascript]
-thumbnail: /static/img/javascript-flappybird-stap7.gif
+redirect_from:
+- /2017/09/16/javascript-flappybird
+- /2017/09/16/javascript-flappybird.html
 ---
 * Inhoudsopgrave
 {:toc}

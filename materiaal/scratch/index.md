@@ -11,10 +11,10 @@ Klik [hier](/materiaal/scratch-voor-beginners) als je nog nooit iets met Scratch
 {:class="gallery"}
 - [![Spirograaf](/static/img/scratch-spirograaf-1.png) Spirograaf](/materiaal/scratch/spirograaf)
 Met programmeren kun je alles maken, ook een kunstwerk! In deze les leer je  over herhalingen en over variabelen.
-- [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/2017/05/20/scratch-hooghouden)
+- [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/materiaal/scratch/hooghouden)
 Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 gedaan hebben. Probeer en voetbal hoogte houdenmet je webcam!
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
- Flappy Bird](/2017/09/16/scratch-flappybird)
+ Flappy Bird](/materiaal/scratch/flappybird)
 Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te maken, vind je hier de instructies die we voor CoderDojo #12 maakten.
 - [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Kerstspel 2018](/materiaal/scratch-kerst)
 Help de kerstman om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!
