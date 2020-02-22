@@ -1,6 +1,7 @@
 ---
 title: Website
 layout: materiaal
+redirect_from: /materiaal/website.html
 ---
 Wil je graag je eigen website maken?
 

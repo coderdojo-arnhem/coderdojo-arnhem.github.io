@@ -1,6 +1,7 @@
 ---
 title: Materiaal
 layout: default
+redirect_from: /materiaal.html
 ---
 
 {:class="gallery"}

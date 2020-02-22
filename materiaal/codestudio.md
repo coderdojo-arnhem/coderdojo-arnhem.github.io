@@ -1,6 +1,7 @@
 ---
 title: Code Studio
 layout: materiaal
+redirect_from: /materiaal/codestudio.html
 ---
 
 [![]()]

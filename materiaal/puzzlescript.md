@@ -1,6 +1,7 @@
 ---
 title: PuzzleScript
 layout: materiaal
+redirect_from: /materiaal/puzzlescript.html
 ---
 <p style="width:100%; text-align:center">
 <img style="max-width:200px;" alt="Wat gaan we maken" src="/static/img/puzzlescript-wat-gaan-we-maken.gif" /></p>

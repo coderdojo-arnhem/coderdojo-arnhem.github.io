@@ -1,6 +1,7 @@
 ---
 title: Scratch
 layout: materiaal
+redirect_from: /materiaal/scratch.html
 ---
 Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en speciaal gemaakt voor kinderen. Je hebt geen programma of speciale software nodig, je kunt alles op de Scratch website doen. 
 
@@ -23,12 +24,3 @@ Hier vind je meerdere leuke scratch opdrachten. Animeer bijvoorbeeld je eigen Do
 CoderDojo Arnhem Studio
 -----------------------
 Ben je benieuwd wat iedereen heeft gemaakt? Je kunt de projecten bekijken via de [CoderDojo Arnhem Studio](https://scratch.mit.edu/studios/2502768) op de Scratch website. Je kunt ook je eigen project aan de CoderDojo Arnhem Studio toevoegen, [hier](/2016/06/25/scratch-projecten-delen) wordt uitgeloegd hoe je dit kunt doen.
-
-<div id="studio">
-</div>
-<script src="/static/cd-theme/js/get-scratch-studio.js"></script>
-<script>
-    (function() {
-        
-    })();
-</script>

@@ -1,6 +1,7 @@
 ---
 title: micro:bit
 layout: materiaal
+redirect_from: /materiaal/microbit.html
 ---
 De micro:bit is een klein computertje dat ontwikkeld is om kinderen mee te leren programmeren. Als je voor het eerst met de micro:bit aan de slag gaat, is het boekje "[lekker samen klooien](https://www.expeditiemicrobit.nl/sites/default/files/2017-09/Expeditie%20microbit%20Les%201%20Stichting%20FutureNL%20-%20Lekkersamenklooien_0.pdf)" van [Expiditie micro:bit](https://www.expeditiemicrobit.nl/) een goed startpunt. We hebben een aantal van deze boekjes liggen, dus je kunt er eentje pakken om tijdens de CoderDojo te gebruiken.
 

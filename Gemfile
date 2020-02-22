@@ -15,3 +15,5 @@ gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-paginate", "~> 1.1"
 
 gem "jekyll-feed", "~> 0.13.0"
+
+gem "jekyll-redirect-from"

@@ -2,6 +2,7 @@
 title: Spirograaf
 layout: scratch
 tags: [materiaal, scratch]
+redirect_from: /materiaal/scratch/spirograaf.html
 ---
 ## Spirograaf
 
