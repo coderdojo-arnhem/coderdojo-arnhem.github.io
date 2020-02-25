@@ -288,9 +288,9 @@ Ga maar eens naar <scratch class="categorie variabelen">Variabelen</scratch>, da
 
 Het zijn een soort doosjes waar je een getal in kan opslaan.
 
-Sleep het blokje <scratch class="variabele">aantal stappen</scratch> op in het <scratch class="beweging">neem <input /> stappen</scratch> blokje.
+Sleep het blokje <scratch class="var">aantal stappen</scratch> op in het <scratch class="beweging">neem <input /> stappen</scratch> blokje.
 
-Sleep het blokje <scratch class="variabele">aantal graden</scratch> in het <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input /> graden naar</scratch> blokje.
+Sleep het blokje <scratch class="var">aantal graden</scratch> in het <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input /> graden naar</scratch> blokje.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -311,7 +311,7 @@ Nu moeten we de getallen nog instellen.
 
 Voeg twee <scratch class="variabele">maak <select><option>aantal graden</option></select> <input /></scratch> blokjes bovenaan je programma toe. Verander er eentje op `aantal stappen` met het kleine driehoekje.
 
-Ga nu naar <scratch class="categorie functies">Functies</scratch>. Pak daar een <scratch class="functie">willekeurig getal tussen <input /> en <input /></scratch> blokje en zet die in de <scratch class="variabele">maak <select><option>aantal graden</option></select><input /></scratch> en <scratch class="variabele">maak <select><option>aantal stappen</option></select><input /></scratch> blokjes.
+Ga nu naar <scratch class="categorie functies">Functies</scratch>. Pak daar een <scratch class="func">willekeurig getal tussen <input /> en <input /></scratch> blokje en zet die in de <scratch class="variabele">maak <select><option>aantal graden</option></select><input /></scratch> en <scratch class="variabele">maak <select><option>aantal stappen</option></select><input /></scratch> blokjes.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt

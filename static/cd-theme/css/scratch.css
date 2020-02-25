@@ -49,21 +49,26 @@ scratch.uiterlijken {
   border-color: #774dcb;
 }
 
-scratch.var {
-  border-radius: 1em;
-}
 
+scratch.var,
 scratch.variabele,
 scratch.variabelen {
   background-color: #ff8c1a;
   border-color: #db6e00;
 }
 
+scratch.func,
 scratch.functie,
 scratch.functies {
   background-color: #59c059;
   border-color: #389438;
 }
+
+scratch.var, 
+scratch.func {
+  border-radius: 1em;
+}
+
 
 scratch.gebeurtenis select {
   background-color: #cc9900;
