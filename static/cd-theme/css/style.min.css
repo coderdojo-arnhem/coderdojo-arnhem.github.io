@@ -314,7 +314,8 @@ div.col-md-6.double-par-2>p {
 .article-body p {
     font-size: 16px;
     color: #000;
-    line-height: 2
+    line-height: 2em;
+    margin: 0 0 1em;
 }
 
 
@@ -529,7 +530,7 @@ h3.gridPlusText {
 .paragraph .desc {
     font-size: 16px;
     color: #000;
-    line-height: 2;
+    line-height: 2em;
     padding-bottom: 20px
 }
 
@@ -1412,7 +1413,7 @@ body.home .article-h1 {
 
 article {
     font-size: 16px;
-    line-height: 2
+    line-height: 2em
 }
 
 .metaslider {
@@ -1471,4 +1472,12 @@ h1 + .metadata {
     float:left;
     margin-right: 1em;
     margin-bottom: 1em;
+}
+
+
+.license {
+    border: 1px solid black;
+    font-size:8pt;
+    border-width: 1px 0;
+    padding: 1em 0;
 }

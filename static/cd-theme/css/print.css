@@ -78,7 +78,8 @@ h1 {
 
 h2 {
     font-size:12pt;
-    font-weight:bold;
+    font-weight:bold;    
+    margin-top: 0
 }
 
 h3, h4, h5, h6 {
@@ -92,11 +93,6 @@ h3, h4, h5, h6 {
 
 .content { padding:0; margin:0;}
 
-.article-body img {
-    height: auto !important;
-    max-height: 100% !important;    
-    width: 50%;
-}
 .screenshot {
     width: 50% !important;
     min-width: 50% !important;
@@ -129,21 +125,12 @@ h3, h4, h5, h6 {
     position: fixed;
     bottom: 0;
     width:100%;
+    text-align: right;
 }
 
 #print-footer img {
     height: 1em;       
 }
-
-#license {
-    border: 1px solid black;
-    font-size:8pt;
-    border-width: 1px 0;
-    padding: 1em 0;
-    text-align:center;
-}
-
-
 
 .post-thumbnail {
     margin: 0;
@@ -151,4 +138,8 @@ h3, h4, h5, h6 {
     float:left;
     margin-right: 1em;
     margin-bottom: 1em;
+}
+
+.license {
+    margin-top: 5em;
 }

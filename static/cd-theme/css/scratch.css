@@ -1,11 +1,11 @@
 img {
-  clear:both;
+  clear: both;
 }
 
 pre {
   width: 100%;
   overflow: hidden;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   background-color: #f8f8f8;
   border: 1px solid #eee;
 }
@@ -23,6 +23,7 @@ scratch {
   display: inline-block;
   font-size: 0.9em;
   border: 1px solid;
+  line-height:1.8em;
 }
 
 scratch.gebeurtenis {
@@ -44,11 +45,10 @@ scratch.besturen {
   border-color: #cf8b17;
 }
 
-scratch.uiterlijken {
+scratch.uiterlijk {
   background-color: #9966ff;
   border-color: #774dcb;
 }
-
 
 scratch.var,
 scratch.variabele,
@@ -64,11 +64,10 @@ scratch.functies {
   border-color: #389438;
 }
 
-scratch.var, 
+scratch.var,
 scratch.func {
   border-radius: 1em;
 }
-
 
 scratch.gebeurtenis select {
   background-color: #cc9900;
@@ -89,7 +88,8 @@ scratch.uiterlijk select {
   background-color: #774dcb;
 }
 
-scratch.variabele select {
+scratch.variabele select,
+scratch.variabelen select {
   background-color: #db6e00;
 }
 
@@ -111,7 +111,8 @@ scratch input {
   color: black;
   background-color: white;
   border: 1px solid white;
-  width: 2em;
+  width: 2.4em;
+  font-size: 0.9em;
   text-align: center;
   height: 1.5em;
   border-radius: 1em;
@@ -132,9 +133,8 @@ scratch.categorie {
 scratch.categorie:before {
   content: " \25CF";
   font-size: 2.5em;
-  position: absolute;
-  margin-top: -24px;
   margin-left: -24px;
+  position: absolute;
 }
 
 scratch.categorie.gebeurtenissen:before {
@@ -163,4 +163,43 @@ scratch.categorie.variabelen:before {
 
 scratch.categorie.functies:before {
   color: #59c059;
+}
+
+blockquote {
+  border: none !important;
+  border-left: 5px solid #ff0554 !important;
+}
+
+@media screen {
+  scratch.categorie:before {
+    margin-top: -2px;
+  }
+}
+
+@media print {
+  scratch {
+    -webkit-print-color-adjust: exact !important;
+  }
+  h1 {
+    display: none;
+  }
+  h2 {
+    font-size: 20pt !important;
+    page-break-before: always !important;
+  }
+  .article-body img,
+  .article-body pre {
+    width: auto !important;
+    height: auto !important;
+    border: none !important;
+    background-color: transparent !important;
+  }
+
+  .article-body img {
+    zoom: 0.75 !important;
+  }
+
+  .article-body pre {
+    zoom: 0.5 !important;
+  }
 }

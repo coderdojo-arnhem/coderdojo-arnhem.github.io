@@ -4,6 +4,7 @@ layout: scratch
 tags: [materiaal, scratch]
 redirect_from: /materiaal/scratch/spirograaf.html
 ---
+
 ## Spirograaf
 
 Met programmeren kun je alles maken! Ook een kunstwerk!
@@ -17,18 +18,20 @@ Zo gaat jouw kunstwerk er straks uitzien. Of misschien wel heel anders.
 ![Spirograaf](/static/img/scratch-spirograaf-1.png)
 
 {:class="action"}
-Klik [hier](https://scratch.mit.edu/projects/368601196/editor/) om het project te openen.
+Ga naar [https://tinyurl.com/scratch-spirograaf](https://tinyurl.com/scratch-spirograaf) om het project te openen.
 
-> Dit materiaal is gebaseerd op het [materiaal](https://scratchles.nl/resources/pdf/a570af9b1e1b05f5e7f8447c886750418323cf07.pdf) gemaakt door [Felienne Hermans](https://www.felienne.com/nl/) en bewerkt door CoderDojo Arnhem. Het is Creative Commons [by-nc-sa-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
->
-> Simpel gezegd: Je mag het gebruiken in je lessen, aanpassen, uitprinten, kopiëren, wat je maar wilt.
-> Maar: je moet onze naam er bij zetten, je mag er geen geld mee verdienen en als je het aanpast, moet je dat ook weer Creative Commons maken. Het linkje bevat alle informatie.
+{:class="license"}
+Dit materiaal is gebaseerd op het [materiaal](https://scratchles.nl/resources/pdf/a570af9b1e1b05f5e7f8447c886750418323cf07.pdf) gemaakt door [Felienne Hermans](https://www.felienne.com/nl/) en bewerkt door CoderDojo Arnhem. Het is Creative Commons [by-nc-sa-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Simpel gezegd: Je mag het gebruiken in je lessen, aanpassen, uitprinten, kopiëren, wat je maar wilt.
+Maar: je moet onze naam er bij zetten, je mag er geen geld mee verdienen en als je het aanpast, moet je dat ook weer Creative Commons maken. Het linkje bevat alle informatie.
 
 ## Een pen gebruiken
 
 Eerst maar eens zorgen dat we iets op het scherm kunnen tekenen.
 
-We gaan de spirograaf laten beginnen met de groene vlag. Ga naar <scratch class="categorie gebeurtenissen">Gebeurtenissen</scratch> en sleep het blokje <scratch class="gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</scratch> in je programma.
+We gaan de spirograaf laten beginnen met de groene vlag.
+
+> Ga naar <scratch class="categorie gebeurtenissen">Gebeurtenissen</scratch> en sleep het blokje <scratch class="gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</scratch> in je programma.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -36,7 +39,9 @@ wanneer groene vlag wordt aangeklikt
 
 Een <scratch class="categorie gebeurtenissen">Gebeurtenissen</scratch> blokje geeft aan _wanneer_ iets gebeurt. We kunnen dus _iets_ laten gebeuren _wanneer_ we op de groene vlag klikken.
 
-Nu gaan we _iets_ laten gebeuren. We gaan als eerste de pen verschuiven. Ga naar <scratch class="categorie bewegingen">Bewegingen</scratch> en sleep een <scratch class="beweging">ga naar x <input /> y <input /></scratch> blokje onder je <scratch class="gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</scratch> blokje.
+Nu gaan we _iets_ laten gebeuren. We gaan als eerste de pen verschuiven.
+
+> Ga naar <scratch class="categorie bewegingen">Bewegingen</scratch> en sleep een <scratch class="beweging">ga naar x <input /> y <input /></scratch> blokje onder je <scratch class="gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</scratch> blokje.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -48,7 +53,7 @@ Wat gebeurt er nu?
 
 Precies! Het potlood beweegt naar het midden van het scherm.
 
-Plak er nu ook nog een <scratch class="beweging">richt naar <input /> graden naar</scratch> blokje onder zodat het potlood naar rechts gaat bewegen.
+> Plak er nu ook nog een <scratch class="beweging">richt naar <input /> graden naar</scratch> blokje onder zodat het potlood naar rechts gaat bewegen.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -58,7 +63,9 @@ richt naar (90) graden
 
 ## Een lijn trekken
 
-Nu kan het echte tekenen beginnen. Ga maar eens naar <scratch class="categorie pen">Pen</scratch> en sleep het blokje <scratch class="pen">pen neer</scratch> onder je programma.
+Nu kan het echte tekenen beginnen.
+
+> Ga maar eens naar <scratch class="categorie pen">Pen</scratch> en sleep het blokje <scratch class="pen">pen neer</scratch> onder je programma.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -67,8 +74,10 @@ richt naar (90) graden
 pen neer
 ```
 
-Nu is de pen op het scherm neergezet, en kunnen we dus tekenen. Als je nu een <scratch class="beweging">neem <input /> stappen</scratch> blokje toevoegt, dan komt er een klein streepje
-op het scherm.
+Nu is de pen op het scherm neergezet, en kunnen we dus tekenen.
+
+> Als je nu een <scratch class="beweging">neem <input /> stappen</scratch> blokje toevoegt, dan komt er een klein streepje
+> op het scherm.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -86,9 +95,9 @@ Dan zit je op de goede weg!
 
 ## Draaien maar
 
-Voor een mooie spirograaftekening willen we natuurlijk niet alleen een rechte lijn. we willen ook mooie bochtjes. Daarvoor moet de pen gaan draaien. Daar is ook een blokje voor.
+Voor een mooie spirograaftekening willen we natuurlijk niet alleen een rechte lijn. we willen ook mooie bochtjes. Daarvoor moet de pen gaan draaien. Daar is ook een blokje voor, het zit ook bij <scratch class="categorie bewegingen">Bewegingen</scratch>.
 
-Het zit ook bij <scratch class="categorie bewegingen">Bewegingen</scratch>. Plak een <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input /> graden naar</scratch> blokje onderaan, en maak het getal maar wat groter, dan zie je het goed. Bijvoorbeeld `50`.
+> Plak een <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input /> graden naar</scratch> blokje onderaan, en maak het getal maar wat groter, dan zie je het goed. Bijvoorbeeld `50`.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -114,12 +123,6 @@ neem (10) stappen
 draai (50) graden naar rechts
 neem (10) stappen
 draai (50) graden naar rechts
-neem (10) stappen
-draai (50) graden naar rechts
-neem (10) stappen
-draai (50) graden naar rechts
-neem (10) stappen
-draai (50) graden naar rechts
 ```
 
 Dat mag je proberen, maar dat is dus heel veel werk! We kunnen het ook slimmer doen, kijk
@@ -129,7 +132,7 @@ snel verder.
 
 In Scratch heb je ook een handig blokje om dingen te herhalen. Het blokje heet <scratch class="besturen">herhaal</scratch> en zit bij <scratch class="categorie besturen">Besturen</scratch>.
 
-Doe de <scratch class="besturen">herhaal</scratch> om de blokjes <scratch class="beweging">neem <input value="10" /> stappen</scratch> en <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input value="50" /> graden naar</scratch> heen. Als je het een beetje in de buurt houdt, dan klikt het er vanzelf omheen.
+> Doe de <scratch class="besturen">herhaal</scratch> om de blokjes <scratch class="beweging">neem <input value="10" /> stappen</scratch> en <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input value="50" /> graden naar</scratch> heen. Als je het een beetje in de buurt houdt, dan klikt het er vanzelf omheen.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -161,7 +164,7 @@ Zo kun je steeds een ander rondje maken. Helaas wordt het nu wel een rommeltje. 
 
 ## Ik wist het
 
-Klik rechts onder bij de sprites op de Wisknop. Die heeft nog geen blokjes.
+> Klik rechts onder bij de sprites op de Wisknop. Die heeft nog geen blokjes.
 
 ![Spirograaf](/static/img/scratch-spirograaf-4.png)
 
@@ -175,12 +178,14 @@ wis alles
 Klik nu maar eens op de knop (bij je tekening). Is alles nu netjes opgeruimd? Bij mij wel!
 Als het te rommelig wordt, kun je nu altijd op de wisknop drukken.
 
-Selecteer nu het potloodje weer.
+> Selecteer nu het potloodje weer.
 
 ![Spirograaf](/static/img/scratch-spirograaf-5.png)
 
 Misschien heb je ook soms zo'n streepje in je rondje zoals hierboven. Dat is niet mooi he? We
 kunnen dat oplossen door de pen omhoog te doen met een <scratch class="pen">pen op</scratch> blokje, voordat we terug naar het begin gaan.
+
+> Voeg een <scratch class="pen">pen op</scratch> blokje aan het begin van je programma toe.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -201,7 +206,7 @@ Alle tekeningen zijn nu blauw. Dat is best mooi, maar misschien wil je wel iets 
 Je kunt de kleur veranderen met het <scratch class="pen">maak pen kleur <input class="purple" /></scratch> blokje. Misschien staat er bij jou een andere kleur,
 dat maakt niets uit!
 
-Plak dit blokje bovenaan. Klik op het gekleurde vlakje in het blokje om de kleur te veranderen.
+> Plak het het <scratch class="pen">maak pen kleur <input class="purple" /></scratch> blokje bovenaan. Klik op het gekleurde vlakje in het blokje om de kleur te veranderen.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -256,7 +261,7 @@ herhaal
 
 Probeer je tekening uit met de groene vlag. Wat gebeurt er nu?
 
-Wil je een ander figuurtje? Dat kan ook! Bij <scratch class="categorie uiterlijken">Uiterlijken</scratch> vind je het <scratch class="uiterlijk">verander uiterlijk naar <select><option>streep</option></select></scratch> blokje.
+Wil je een ander figuurtje? Dat kan ook! Bij <scratch class="categorie uiterlijken">Uiterlijken</scratch> vind je het <scratch class="uiterlijk">verander uiterlijk naar <select><option>strikje</option></select></scratch> blokje.
 
 Plak die in het <scratch class="besturen">herhaal</scratch> blokje.
 
@@ -275,7 +280,7 @@ herhaal
   verander penkleur met (5)
   neem (50) stappen
   draai (50) graden naar rechts
-  verander uiterlijk naar (eenhoorn v)
+  verander uiterlijk naar (strikje v)
   stempel
 ```
 
@@ -303,7 +308,7 @@ herhaal
   verander penkleur met (5)
   neem (aantal stappen) stappen
   draai (aantal graden) graden naar rechts
-  verander uiterlijk naar (eenhoorn v)
+  verander uiterlijk naar (strikje v)
   stempel
 ```
 
@@ -326,10 +331,28 @@ herhaal
   verander penkleur met (5)
   neem (aantal stappen) stappen
   draai (aantal graden) graden naar rechts
-  verander uiterlijk naar (eenhoorn v)
+  verander uiterlijk naar (strikje v)
   stempel
 ```
 
 Klik nu eens een paar keer op de groene vlag. Wat gebeurt er?
 
 > **Tip:** als je geen zin hebt om steeds op de wisknop te drukken, kun je ook nog een <scratch class="pen">wis alles</scratch> blokje aan het begin van je programma toevoegen.
+
+## Ben je klaar?
+
+Goed gedaan! Hier zijn nog wat dingen die je kan proberen.
+
+<br/>Zet eens een <scratch class="variabelen">verander <select><option>aantal graden</option></select> met <input value="1" /></scratch> blokje in de <scratch class="besturen">herhaal</scratch>.
+
+Of deze <scratch class="variabelen">verander <select><option>aantal stappen</option></select> met <input value="1" /></scratch>
+
+Wat gebeurt er nu?
+
+<br/>Probeer ook eens andere getallen. Onder nul kan ook! Zet dan een minnetje voor het getal.
+
+<br/>En zet nu eens een <scratch class="uiterlijk">verander grootte met<input value="1" /></scratch> in de <scratch class="besturen">herhaal</scratch> en kijk wat er gebeurt.
+
+<br/>Wat je ook nog kan doen is het <scratch class="uiterlijk">verander uiterlijk naar <select><option>strikje</option></select></scratch> weghalen en er een <scratch class="uiterlijk">volgend uiterlijk</scratch> blokje voor in de plaats zetten.
+
+Wat gebeurt er nu?
