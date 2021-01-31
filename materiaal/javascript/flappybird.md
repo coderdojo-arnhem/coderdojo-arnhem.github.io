@@ -9,102 +9,152 @@ redirect_from:
 * Inhoudsopgrave
 {:toc}
 
-Voorbereiding
--------------
-Voordat we echt starten met programmeren moeten we een aantal bestanden downloaden en installeren:
-- Download en installeer [Python 3](https://www.python.org/ftp/python/3.6.2/python-3.6.2.exe)
-- Download [de bestanden](https://timschlechter.github.io/coderdojo-arnhem/flappybird/dist/flappybird.zip) voor het spel
-- Download en installeer eventueel een editor waarin je fijn kunt typen, bijvoorbeeld [Visual Studio Code](https://code.visualstudio.com/)
+Flappy Bird
+-----------
+We gaan vandaag het spelleltje Flappy Bird programmeren in JavaScript. In Flappy Bird moet je het vogeltje tussen de buizen door laten vliegen, zonder er tegenaan te botsen. Dat klinkt eenvoudig, maar is lastiger dan je denkt!
 
-Pak het bestand ```flappybird.zip``` uit op je harde schijf en open de map met jouw text editor.
+![Flappy Bird](assets/javascript-flappybird-stap7.gif){:class="screenshot"}
 
-### Het spel voor het eerst starten
-We gaan het spel bouwen in de taal JavaScript. Deze code laten we uitvoeren door een _webserver_ programma.
+Punker
+-----------
 
-Je start de webserver door het programma `start-python-webserver.bat` te starten. Je kunt het spel dan in een webbrowser openen op [http://localhost:8000](http://localhost:8000).
+We gaan werken in Plunker. Dit is een online _editor_ waarin we onze JavaScript code gaan schrijven. Om te beginnen open je <a href="https://plnkr.co/edit/Wk678qILLlsUyY6S?preview" target="_blank">deze link</a>. 
 
-We gaan onze code schrijven in het bestand ```flappybird.js```:
+Als het goed is zie dit scherm:
+
+![Plunker](assets/javascript-flappybird-plunker1.png){:class="screenshot"}
+
+<hr />
+TODO: uitleg over Plunker
+- onderdelen op het scherm: bestanden, editor, uitvoeren
+- 'Fork' om een kopie van de code te maken waarin we gaan werken
+<hr />
+
+We gaan onze code schrijven in het bestand ```flappybird.js```. Klik maar eens op dit bestand, als het goed is zie je nu deze code in het code venster:
 
 ```javascript
-// De 'state' bevat de functies die in het spel gebruikt worden
 var state = {
   preload: function () {
-    // Hier laad je alle plaatjes en geluiden (assets) die je in je spel nodig hebt.
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
   },
 
   create: function () {
-    // Deze code wordt 1 keer uitgevoerd wanneer het spel start
+    // hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
   },
 
   update: function () {
-    // Deze code wordt tijdens het spel steeds opnieuw uitgevoerd
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
   }
 }
 ```
 
+Als je goed kijkt ziet je computer code staan, maar ook 'gewone' Nederlandse zinnen. We noemen dit _commentaar_, en we gebruiken dat om uit te leggen wat de code doet. Je kunt _commentaar_ schrijven door een regel te beginnen met `//`.
+
+
 De achtergrond instellen
 --------------------------------
-![Stap 1](/static/img/javascript-flappybird-stap1.png){:class="screenshot"}
+Er gebeurt nog niet zo veel in ons spel, je ziet alleen maar een zwart vlak. We gaan eerst maar eens een mooie achtergrond instellen.
 
-Open het bestand ```flappybird.js``` en laad het achtergrond plaatje in de ```preload``` functie:
+We gaan hiervoor het plaatje `achtergrond.png` inladen. Dat doe je door eerst het plaatje in het geheugen van de computer te laden:
+
+ ```preload``` functie:
 ```javascript
 preload: function () {
-  game.load.image('background', 'assets/background.png');
+  game.load.image('achtergrond', 'achtergrond.png');
 }
 ```
-Voeg in de ```create``` functie het achtergrondplaatje als _sprite_ toe. Maak deze net zo groot als het scherm van ons spel:
+
+Voeg in de ```create``` functie het achtergrondplaatje als _sprite_ toe. Maak de _sprite_ net zo groot als het scherm van ons spel:
+
+> Een _sprite_ is een plaatje dat in een spel gebruikt wordt.
+
 ```javascript
 create: function () {
-  // Achtergrond
-  this.background = game.add.sprite(0, 0, 'background');
+  // Achtergrond instellen
+  this.background = game.add.sprite(0, 0, 'achtergrond');
   this.background.width = game.width;
   this.background.height = game.height;
 }
 ```
 
+Als het goed is zie je nu de achtergrond verschijnen.
+
+![Achtergrond](assets/javascript-flappybird-stap1.png){:class="screenshot"}
+
 De vogel op het scherm tekenen
 --------------------------------------
-![Stap 2](/static/img/javascript-flappybird-stap2.gif){:class="screenshot"}
 
-Laad in de ```preload``` functie het plaatje voor de vogel, en voeg in de ```create``` de vogel als sprite toe aan ons spel:
+Alleen naar een achtergrond kijken is ook maar saai. Laten we Flappy zelf eens in het spel zetten.
+
+Laad in de ```preload``` functie het plaatje van Flappy Bird in het geheugen van de computer.
+
 ```javascript
 preload: function () {
-  // ...
-  game.load.spritesheet('bird', 'assets/bird.png', 68, 48, 3);
+  ...
+  game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
 },
+```
+
+En zet nu de Flappy _sprite_ in het spel in de ```create``` functie:
+```javascript
 create: function() {
-  // ...
-  this.bird = game.add.sprite(100, 245, 'bird');
+  ...  
+  // Flappy als sprite in het spel zetten
+  this.flappy = game.add.sprite(100, 245, 'vogel');
 }
 ```
-> Een ```spritesheet``` is een afbeelding waarin meerdere uiterlijken van een sprite staan. Open het bestand ```assets/bird.png``` maar eens. Je zult dan een afbeelding zien met ```3```vogels; elke vogel is ```68``` pixels hoog en ```48``` pixels breed. We gaan dit straks nodig hebben om de vogel te laten vliegen.
+
+Als het goed is ie je Flappy nu in het spel verschijnen!
+
+![Flappy](assets/javascript-flappybird-stap2.gif){:class="screenshot"}
+
+> Een `spritesheet` is een afbeelding waarin meerdere uiterlijken van een sprite staan. Open het bestand `vogel.png` maar eens. Je zult dan een afbeelding zien met `3` vogels; elke vogel is `68` pixels hoog en `48` pixels breed. We gaan dit straks nodig hebben om de vogel te laten vliegen.
+
+
 
 De vogel laten vallen
------------------------------
-![Stap 3](/static/img/javascript-flappybird-stap3.gif){:class="screenshot"}
+---------------------
 
-We kunnen in ons spel eenvoudig zwaartekracht toevoegen door _physics_ te starten. Doe dit door de volgende regel in de ```create``` functie toe te voegen:
+Er gebeurd nog weinig in ons spel. We gaan straks Flappy leren vliegen, maar eerst gaan we hem laten vallen.
+
+We doen dit door _physics_ aan ons spel toe te voegen. 
+
+Voeg deze regel toe in de ```create``` functie :
 ```javascript
 create: function() {
   // ...
+  
+  // Zwaartekracht op Flappy instellen
   game.physics.startSystem(Phaser.Physics.ARCADE);
 }
 ```
 
-Je kunt deze _physics_ instellen op sprites. Je kunt vervolgens bijvoorbeeld zwaartekracht op je sprite instellen, of hem snelheid geven. Dit doen we voor onze vogel in de ```create``` functie:
+We gaan nu met deze _physics_ de zwaartekracht instellen op Flappy. 
+
+Hiervoor voeg je nog 2 regels code aan je programma toe in de ```create``` functie:
+
 ```javascript
 create: function() {
   // ...
-  game.physics.arcade.enable(this.bird);
-  this.bird.body.gravity.y = 1000;
+  
+  // Zwaartekracht op Flappy instellen
+  game.physics.startSystem(Phaser.Physics.ARCADE);
+  game.physics.arcade.enable(this.flappy);
+  this.flappy.body.gravity.y = 1000;
 }
 ```
+
+En meteen valt Flappy van het scherm! 😱
+
+![Stap 3](assets/javascript-flappybird-stap3.gif){:class="screenshot"}
 
 De vogel laten vliegen
 ------------------------------
 Als je het spel nu start, zal de vogel als een baksteen naar beneden vallen. Laten we er nu voor zorgen dat ze kan vliegen.
 
-![Stap 4](/static/img/javascript-flappybird-stap4.gif){:class="screenshot"}
+![Stap 4](assets/javascript-flappybird-stap4.gif){:class="screenshot"}
 
 Voeg in de ```create``` functie de volgende regel toe:
 ```javascript
@@ -154,7 +204,7 @@ flap: function() {
 }
 ```
 
-![Stap 5](/static/img/javascript-flappybird-stap5.gif){:class="screenshot"}
+![Stap 5](assets/javascript-flappybird-stap5.gif){:class="screenshot"}
 
 > Deze code speelt de drie plaatjes in de _spritesheet_ van de vogel een-voor-een af. ```10``` keer per seconde wordt het volgende plaatje getoond, waardoor het lijkt alsof de vleugels van de vogel wapperen. 
 
@@ -178,7 +228,7 @@ flap: function() {
 
 Buizen laten verschijnen
 --------------------------------
-![Stap 6](/static/img/javascript-flappybird-stap6.gif){:class="screenshot"}
+![Stap 6](assets/javascript-flappybird-stap6.gif){:class="screenshot"}
 
 We gaan iedere 3 seconden rij met buizen laten verschijnen. Hiervoor voegen we een ```timer``` toe in de ```create``` functie. Deze timer roept iedere 3 secoden  de functie ```createPipe``` in ons ```state``` object aan:
 ```javascript
@@ -200,7 +250,7 @@ withPipes(state);
 
 Botsingen
 -----------------
-![Stap 7](/static/img/javascript-flappybird-stap7.gif){:class="screenshot"}
+![Stap 7](assets/javascript-flappybird-stap7.gif){:class="screenshot"}
 
 Je vogel zal nu nog dwars door de buizen heen vliegen. We gaan nu kijken of de vogel botst met een buis. We doen dit in de ```update``` functie, omdat die keer op keer uitgevoerd wordt:
 ```javascript
