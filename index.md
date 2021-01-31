@@ -14,5 +14,5 @@ Het bezoeken van een CoderDojo is helemaal gratis! De Dojo’s worden opgezet en
 
 Komende editie
 --------------
-Elke 3e zaterdagmiddag van de maand organiseren we een CoderDojo (behalve in de maanden juli en augustus). Wil je de exacte data weten, kijk dan op [de pagina komende editie](http://www.coderdojo-arnhem.nl/komende-editie/)!
+Elke 3e zaterdagmiddag van de maand organiseren we een CoderDojo (behalve in de maanden juli en augustus). Wil je de exacte data weten, kijk dan op [onze Eventbrite pagina](https://www.eventbrite.nl/o/coderdojo-arnhem-10810207434)!
 
