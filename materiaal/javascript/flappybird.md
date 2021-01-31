@@ -22,7 +22,7 @@ We gaan werken in Plunker. Dit is een online _editor_ waarin we onze JavaScript 
 
 Als het goed is zie dit scherm:
 
-![Plunker](assets/javascript-flappybird-plunker1.png){:class="screenshot"}
+![Plunker](assets/javascript-flappybird-plunker1.png)
 
 <hr />
 TODO: uitleg over Plunker
@@ -57,31 +57,34 @@ De achtergrond instellen
 --------------------------------
 Er gebeurt nog niet zo veel in ons spel, je ziet alleen maar een zwart vlak. We gaan eerst maar eens een mooie achtergrond instellen.
 
-We gaan hiervoor het plaatje `achtergrond.png` inladen. Dat doe je door eerst het plaatje in het geheugen van de computer te laden:
-
- ```preload``` functie:
+We gaan hiervoor het plaatje `achtergrond.png` inladen. Dat doe je door eerst het plaatje in het geheugen van de computer te laden. Voeg deze regel toe aan de  ```preload``` functie, _voor_ de `}`:
 ```javascript
+game.load.image('achtergrond', 'achtergrond.png');
+```
+
+De `preload` functie ziet er als het goed is nu zo uit:
+
+```javascript:
 preload: function () {
+  // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
   game.load.image('achtergrond', 'achtergrond.png');
-}
+},
 ```
 
 Voeg in de ```create``` functie het achtergrondplaatje als _sprite_ toe. Maak de _sprite_ net zo groot als het scherm van ons spel:
 
-> Een _sprite_ is een plaatje dat in een spel gebruikt wordt.
 
 ```javascript
-create: function () {
-  // Achtergrond instellen
-  this.background = game.add.sprite(0, 0, 'achtergrond');
-  this.background.width = game.width;
-  this.background.height = game.height;
-}
+this.background = game.add.sprite(0, 0, 'achtergrond');
+this.background.width = game.width;
+this.background.height = game.height;
 ```
 
 Als het goed is zie je nu de achtergrond verschijnen.
 
 ![Achtergrond](assets/javascript-flappybird-stap1.png){:class="screenshot"}
+
+> Een _sprite_ is een plaatje dat in een game gebruikt wordt.
 
 De vogel op het scherm tekenen
 --------------------------------------
@@ -91,19 +94,12 @@ Alleen naar een achtergrond kijken is ook maar saai. Laten we Flappy zelf eens i
 Laad in de ```preload``` functie het plaatje van Flappy Bird in het geheugen van de computer.
 
 ```javascript
-preload: function () {
-  ...
-  game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
-},
+game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
 ```
 
 En zet nu de Flappy _sprite_ in het spel in de ```create``` functie:
 ```javascript
-create: function() {
-  ...  
-  // Flappy als sprite in het spel zetten
-  this.flappy = game.add.sprite(100, 245, 'vogel');
-}
+this.flappy = game.add.sprite(100, 245, 'vogel');
 ```
 
 Als het goed is ie je Flappy nu in het spel verschijnen!
@@ -111,9 +107,6 @@ Als het goed is ie je Flappy nu in het spel verschijnen!
 ![Flappy](assets/javascript-flappybird-stap2.gif){:class="screenshot"}
 
 > Een `spritesheet` is een afbeelding waarin meerdere uiterlijken van een sprite staan. Open het bestand `vogel.png` maar eens. Je zult dan een afbeelding zien met `3` vogels; elke vogel is `68` pixels hoog en `48` pixels breed. We gaan dit straks nodig hebben om de vogel te laten vliegen.
-
-
-
 De vogel laten vallen
 ---------------------
 
@@ -123,12 +116,7 @@ We doen dit door _physics_ aan ons spel toe te voegen.
 
 Voeg deze regel toe in de ```create``` functie :
 ```javascript
-create: function() {
-  // ...
-  
-  // Zwaartekracht op Flappy instellen
-  game.physics.startSystem(Phaser.Physics.ARCADE);
-}
+game.physics.startSystem(Phaser.Physics.ARCADE);
 ```
 
 We gaan nu met deze _physics_ de zwaartekracht instellen op Flappy. 
@@ -136,14 +124,8 @@ We gaan nu met deze _physics_ de zwaartekracht instellen op Flappy.
 Hiervoor voeg je nog 2 regels code aan je programma toe in de ```create``` functie:
 
 ```javascript
-create: function() {
-  // ...
-  
-  // Zwaartekracht op Flappy instellen
-  game.physics.startSystem(Phaser.Physics.ARCADE);
-  game.physics.arcade.enable(this.flappy);
-  this.flappy.body.gravity.y = 1000;
-}
+game.physics.arcade.enable(this.flappy);
+this.flappy.body.gravity.y = 1000;
 ```
 
 En meteen valt Flappy van het scherm! 😱
