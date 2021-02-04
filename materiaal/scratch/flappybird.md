@@ -9,7 +9,7 @@ redirect_from:
   - /2017/09/16/scratch-flappybird.html
 ---
 
-Wil je zelf eens proberen het spelletje Flappy Bird in Scratch te maken? Probeer dan deze instructies eens die wel voor CoderDojo #12 maakten.
+Wil je zelf eens proberen het spelletje Flappy Bird in Scratch te maken? Probeer dan deze instructies eens die wel voor CoderDojo #12 maakten!
 
 - Inhoudsopgave
   {:toc}
