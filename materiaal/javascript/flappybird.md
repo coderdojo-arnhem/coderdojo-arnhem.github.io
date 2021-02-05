@@ -107,6 +107,7 @@ Als het goed is ie je Flappy nu in het spel verschijnen!
 ![Flappy](assets/javascript-flappybird-stap2.gif){:class="screenshot"}
 
 > Een `spritesheet` is een afbeelding waarin meerdere uiterlijken van een sprite staan. Open het bestand `vogel.png` maar eens. Je zult dan een afbeelding zien met `3` vogels; elke vogel is `68` pixels hoog en `48` pixels breed. We gaan dit straks nodig hebben om de vogel te laten vliegen.
+
 De vogel laten vallen
 ---------------------
 
