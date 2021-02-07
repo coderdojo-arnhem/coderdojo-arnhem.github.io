@@ -113,11 +113,9 @@ Stop het spel voordat je verder gaat.
 
 ![buis begin](/static/img/scratch-flappybird-7.png)
 
-{:start="5"}
-
 Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te selecteren. We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start. Elke 2 seconden moet een nieuwe buis verschijnen.
 
-{:start="6"}
+{:start="5"}
 
 5. Voeg een _ga naar x `220` en y `0`_ toe. Hierdoor begint de buis rechts buiten het scherm.
 
@@ -130,7 +128,7 @@ Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te
 
 ![buis kloon](/static/img/scratch-flappybird-10.svg)
 
-{:start="7"}
+{:start="6"}
 
 Laat de buizen verschijnen waarbij het iedere keer een verrassing is welk uiterlijk verschijnt.
 
@@ -142,6 +140,8 @@ Laat de buizen verschijnen waarbij het iedere keer een verrassing is welk uiterl
   
 
 Nu moeten we de buizen nog naar links laten bewegen en de buis laten verdwijnen wanneer hij de rand van het scherm raakt.
+
+{:start="7"}
 
 7. Voeg een _herhaal_ blok toe.
 
