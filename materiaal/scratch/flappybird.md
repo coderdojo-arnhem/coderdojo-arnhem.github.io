@@ -15,14 +15,16 @@ Wil je zelf eens proberen het spelletje Flappy Bird in Scratch te maken? Probeer
 - Inhoudsopgave
   {:toc}
 
+
+
+## Inleiding
+
 Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/173904279). Klik op _Bekijk van binnen_ en druk op de _Remix_ knop.
 Heb je geen _Remix_ knop, dan moet je eerst inloggen. Inloggen kan rechtsboven. 
 Heb je nog geen inlog, klik dan eerst op _Word Scratcher_ en volg de stappen. 
 Je bent direct ingelogd in Scratch en kunt aan de slag. 
 Je ontvangt ook een e-mail. Om het aanmaken van je account af te ronden, klik je in de mail op de link. 
 Je kunt nu projecten delen met anderen (bijvoorbeeld met CoderDojo Arnhem).
-
-## Inleiding
 
 Laten we eerst eens kijken wat we in dit spel beschikbaar hebben. 
 
