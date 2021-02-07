@@ -30,7 +30,7 @@ Je kunt daarna projecten delen met anderen (bijvoorbeeld met CoderDojo Arnhem).
 
 ## De basis
 
-Laten we eerst eens kijken wat we in dit spel beschikbaar hebben. 
+Laten we eerst kijken wat we in dit spel beschikbaar hebben. 
 
 ![sprites](/static/img/flappybirdsprites.png)
 
