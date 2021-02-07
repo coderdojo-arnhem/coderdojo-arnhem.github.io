@@ -145,10 +145,10 @@ Nu moeten we de buizen nog naar links laten bewegen en de buis laten verdwijnen 
 
 7. Voeg een _herhaal_ blok toe.
 
-  Zet hierbinnen een blok _verander x met `-4`_
-    
-  Voeg een _als `raak ik rand`_ blok toe
-   
+  Zet hierbinnen een blok _verander x met `-4`_.
+  
+  Voeg een _als `raak ik rand`_ blok toe.
+  
   Daarbinnen het blok _verwijder deze kloon_ 
 
 Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
