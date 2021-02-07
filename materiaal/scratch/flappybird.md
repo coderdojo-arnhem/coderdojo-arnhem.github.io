@@ -109,9 +109,9 @@ Stop het spel voordat je verder gaat.
 
 ## Buizen toevoegen
 
-![sprite buis](/static/img/scratch-flappybird-5.png)
+![Stap 5](/static/img/scratch-flappybird-5.png)
 
-![buis begin](/static/img/scratch-flappybird-7.png)
+![Stap 5](/static/img/scratch-flappybird-7.png)
 
 Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te selecteren. We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start. Elke 2 seconden moet een nieuwe buis verschijnen.
 
@@ -126,7 +126,7 @@ Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te
     Zet in het herhaalblok _Maak een kloon van `mezelf`_ en een blok _wacht `2` sec_ 
 
 
-![buis kloon](/static/img/scratch-flappybird-10.svg)
+![Start 6](/static/img/scratch-flappybird-10.svg)
 
 {:start="6"}
 
