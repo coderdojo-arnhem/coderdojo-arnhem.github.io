@@ -109,9 +109,9 @@ Stop het spel voordat je verder gaat.
 
 ## Buizen toevoegen
 
-![Stap 5](/static/img/scratch-flappybird-5.png)
+![sprite buis](/static/img/scratch-flappybird-5.png)
 
-![Stap 5](/static/img/scratch-flappybird-7.png)
+![buis begin](/static/img/scratch-flappybird-7.png)
 
 {:start="5"}
 
@@ -128,7 +128,7 @@ Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te
     Zet in het herhaalblok _Maak een kloon van `mezelf`_ en een blok _wacht `2` sec_ 
 
 
-![Stap 10](/static/img/scratch-flappybird-10.svg)
+![buis kloon](/static/img/scratch-flappybird-10.svg)
 
 {:start="7"}
 
@@ -145,19 +145,17 @@ Nu moeten we de buizen nog naar links laten bewegen en de buis laten verdwijnen 
 
 7. Voeg een _herhaal_ blok toe.
 
-   Zet hierbinnen een blok _verander x met `-4`_
+  Zet hierbinnen een blok _verander x met `-4`_
+    
+  Voeg een _als `raak ik rand`_ blok toe
    
-   Voeg een _als `raak ik rand`_ blok toe
-   
-   Daarbinnen het blok _verwijder deze kloon_ 
+  Daarbinnen het blok _verwijder deze kloon_ 
 
 Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
 
 
 
 {:start="10"}
-
-10. 
 
 ## De vogel tegen de buizen laten botsen
 
