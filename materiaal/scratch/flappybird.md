@@ -119,12 +119,11 @@ Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te
 
 5. Voeg een _ga naar x `220` en y `0`_ toe. Hierdoor begint de buis rechts buiten het scherm.
 
-  Voeg een _verdwijn_ blok toe om de buis direct onzichtbaar te maken.
+    Voeg een _verdwijn_ blok toe om de buis direct onzichtbaar te maken.
 
-  Voeg een _herhaal_ blok toe.
+    Voeg een _herhaal_ blok toe.
 
-  Zet in het herhaalblok _Maak een kloon van `mezelf`_
-  en een blok _wacht `2` sec_ 
+    Zet in het herhaalblok _Maak een kloon van `mezelf`_ en een blok _wacht `2` sec_ 
 
 
 ![Stap 10](/static/img/scratch-flappybird-10.svg)
@@ -135,9 +134,9 @@ Laat de buizen verschijnen waarbij het iedere keer een verrassing is welk uiterl
 
 6. Kies een _Wanneer ik als kloon start_ blok.
   
-  Voeg een blok _verander uiterlijk naar `willekeurig getal tussen` `1` en `3`_ toe. Hiermee krijgt de buis één van de drie uiterlijken.
+    Voeg een blok _verander uiterlijk naar `willekeurig getal tussen` `1` en `3`_ toe. Hiermee krijgt de buis één van de drie uiterlijken.
   
-  Laat de buizen verschijnen met het blok _verschijn_ 
+    Laat de buizen verschijnen met het blok _verschijn_ 
   
 
 Nu moeten we de buizen nog naar links laten bewegen en de buis laten verdwijnen wanneer hij de rand van het scherm raakt.
