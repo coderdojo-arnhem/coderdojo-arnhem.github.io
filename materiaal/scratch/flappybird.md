@@ -9,14 +9,51 @@ redirect_from:
   - /2017/09/16/scratch-flappybird.html
 ---
 
-Wil je zelf eens proberen het spelletje Flappy Bird in Scratch te maken? Probeer dan deze instructies eens die wel voor CoderDojo #12 maakten!
+Wil je zelf eens proberen het spelletje Flappy Bird in Scratch te maken? Probeer dan deze instructies die we voor CoderDojo #12 maakten!
+
 
 - Inhoudsopgave
   {:toc}
 
-## De vogel laten vallen
+Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/173904279). Klik op _Bekijk van binnen_ en druk op de _Remix_ knop.
+Heb je geen _Remix_ knop, dan moet je eerst inloggen. Inloggen kan rechtsboven. 
+Heb je nog geen inlog, klik dan eerst op _Word Scratcher_ en volg de stappen. 
+Je bent direct ingelogd in Scratch en kunt aan de slag. 
+Je ontvangt ook een e-mail. Om het aanmaken van je account af te ronden, klik je in de mail op de link. 
+Je kunt nu projecten delen met anderen (bijvoorbeeld met CoderDojo Arnhem).
 
-Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/173904279). Klik je op _Bekijk van binnnen_ en druk op de _Remix_ knop.
+## Inleiding
+
+Laten we eerst eens kijken wat we in dit spel beschikbaar hebben. 
+
+__Sprites (oftewel de hoofdrolspelers in je spel):__ 
+Rechtsonder zie je dat er in dit spel twee sprites zijn. Eentje die _vogel_ heet (flappy bird) en eentje die _buizen_ heet.
+
+![sprites](/static/img/flappybirdsprites.png)
+
+Als je rechts klikt op de vogel en daarna links op het tabblad __uiterlijken__, dan zie je dat flappy bird drie uiterlijken heeft: vogel1, vogel2 en vogel3. 
+Zie jij het verschil? Dit gaan we straks gebruiken om flappy bird echt te laten vliegen! 
+
+Als je klikt op de sprite van de buizen dan zie je daar ook drie verschillende uiterlijken: buizen1, buizen2 en buizen3. 
+Het gat tussen de buizen zit steeds op een andere plek.
+
+![uiterlijken](/static/img/flappy3keer.png)
+![uiterlijken](/static/img/buizen3keer.png)
+
+__Geluiden:__
+Bij de sprite van de vogel zie je ook nog een tabblad _geluiden_. 
+In dit spel zijn 2 geluiden beschikbaar: het geluid _flap_ en het geluid _hit_. Luister maar eens.
+
+__Achtergrond:__
+Als je rechts in je scherm kijkt, dan zie je dat de achtergrond voor dit spel ook al beschikbaar is in deze remix: 
+
+![achtergrond](/static/img/achtergrondflappy.png)
+
+Laten we beginnen met programmeren van het spel!
+
+
+
+## De vogel laten vallen
 
 Wanneer het spel gestart wordt, moeten we altijd een paar dingen weer opnieuw instellen.
 
