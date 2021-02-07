@@ -62,13 +62,11 @@ Klik op de sprite _vogel_. Klik links op het tabblad _code_. Het blok _Wanneer &
 
 Bij de start van het spel moeten we eerst een paar dingen basis dingen instellen.
 
-![Stap 1](/static/img/scratch-flappybird-1.svg)
+![Stap 2](/static/img/scratch-flappybird-2.svg)
 
 1. Voeg een _maak y_ `0` blok toe. Hierdoor begint de vogel altijd in het midden van het scherm.
 
    Voeg een _maak_ `zwaartekracht` `0` blok toe. Dit blok is te vinden bij variabelen.
-
-![Stap 2](/static/img/scratch-flappybird-2.svg)
 
 {:start="2"}
 
@@ -115,15 +113,15 @@ Stop het spel voordat je verder gaat.
 
 {:start="5"}
 
-5. Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te selecteren.
+Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te selecteren. We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start.
 
 ![Stap 6](/static/img/scratch-flappybird-6.svg)
 
 {:start="6"}
 
-6. Verplaats de buis rechts buiten het scherm, wanneer het spel gestart wordt
+5. Voeg een _ga naar x `220` en y `0`_ toe. Hierdoor begint de buis rechts buiten het scherm.
 
-   Voeg een _verdwijn_ blok toe om de buis onzichtbaar te maken
+6. Voeg een _verdwijn_ blok toe om de buis direct onzichtbaar te maken.
 
 ![Stap 7](/static/img/scratch-flappybird-7.svg)
 
@@ -131,17 +129,10 @@ Stop het spel voordat je verder gaat.
 
 7. Maak iedere `2` seconden een kloon (kopie) van de buis
 
-![Stap 8](/static/img/scratch-flappybird-8.svg)
-
-{:start="8"}
-
 8. Laat de buis verschijnen zodra deze als kloon start
 
     Stel de buis op een van de drie uiterlijken in
 
-![Stap 9](/static/img/scratch-flappybird-9.svg)
-
-{:start="9"}
 
 9. Laat de buis naar links bewegen
 
