@@ -113,36 +113,50 @@ Stop het spel voordat je verder gaat.
 
 {:start="5"}
 
-Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te selecteren. We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start.
-
-![Stap 6](/static/img/scratch-flappybird-6.svg)
+Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te selecteren. We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start. Elke 2 seconden moet een nieuwe buis verschijnen.
 
 {:start="6"}
 
 5. Voeg een _ga naar x `220` en y `0`_ toe. Hierdoor begint de buis rechts buiten het scherm.
 
-6. Voeg een _verdwijn_ blok toe om de buis direct onzichtbaar te maken.
+  Voeg een _verdwijn_ blok toe om de buis direct onzichtbaar te maken.
 
-![Stap 7](/static/img/scratch-flappybird-7.svg)
+  Voeg een _herhaal_ blok toe.
 
-{:start="7"}
+  Zet in het herhaalblok _Maak een kloon van `mezelf`_
+  en een blok _wacht `2` sec_ 
 
-7. Maak iedere `2` seconden een kloon (kopie) van de buis
-
-8. Laat de buis verschijnen zodra deze als kloon start
-
-    Stel de buis op een van de drie uiterlijken in
-
-
-9. Laat de buis naar links bewegen
-
-    Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
 
 ![Stap 10](/static/img/scratch-flappybird-10.svg)
 
+{:start="7"}
+
+Laat de buizen verschijnen waarbij het iedere keer een verrassing is welk uiterlijk verschijnt.
+
+6. Kies een _Wanneer ik als kloon start_ blok.
+  
+  Voeg een blok _verander uiterlijk naar `willekeurig getal tussen` `1` en `3`_ toe. Hiermee krijgt de buis één van de drie uiterlijken.
+  
+  Laat de buizen verschijnen met het blok _verschijn_ 
+  
+
+Nu moeten we de buizen nog naar links laten bewegen en de buis laten verdwijnen wanneer hij de rand van het scherm raakt.
+
+7. Voeg een _herhaal_ blok toe.
+
+   Zet hierbinnen een blok _verander x met `-4`_
+   
+   Voeg een _als `raak ik rand`_ blok toe
+   
+   Daarbinnen het blok _verwijder deze kloon_ 
+
+Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
+
+
+
 {:start="10"}
 
-10. Laat de buis verdwijnen, wanneer hij de rand van het scherm raakt
+10. 
 
 ## De vogel tegen de buizen laten botsen
 
