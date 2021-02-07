@@ -28,6 +28,8 @@ Je bent direct ingelogd in Scratch en kunt aan de slag.
 Je ontvangt ook een e-mail. Om het aanmaken van je account af te ronden, klik je in de mail op de link. 
 Je kunt nu projecten delen met anderen (bijvoorbeeld met CoderDojo Arnhem).
 
+## De basis
+
 Laten we eerst eens kijken wat we in dit spel beschikbaar hebben. 
 
 ![sprites](/static/img/flappybirdsprites.png)
@@ -56,7 +58,7 @@ Laten we beginnen met programmeren van het spel!
 
 ## De vogel laten vallen
 
-Klik op de sprite _vogel_. Klik links op het tabblad _code_. Het blok _Wanneer groene vlag wordt aangeklikt_ staat er al.
+Klik op de sprite _vogel_. Klik links op het tabblad _code_. Het blok _Wanneer &#9873; wordt aangeklikt_ staat er al.
 
 Bij de start van het spel moeten we eerst een paar dingen basis dingen instellen.
 
@@ -81,7 +83,7 @@ Bij de start van het spel moeten we eerst een paar dingen basis dingen instellen
 
 ## De vogel laten vliegen
 
-We gaan de vogel laten vliegen door hem omhoog te laten `vallen`. Als de spatiebalk ingedrukt wordt, stellen we de `zwaartekracht` op `6` in, zodat de y-positie voor een korte tijd hoger zal worden.
+We gaan de vogel laten vliegen. Als de spatiebalk ingedrukt wordt, stellen we de `zwaartekracht` op `6` in, zodat de y-positie voor een korte tijd hoger zal worden.
 
 ![Stap 3](/static/img/scratch-flappybird-3.svg)
 
@@ -91,9 +93,9 @@ We gaan de vogel laten vliegen door hem omhoog te laten `vallen`. Als de spatieb
 
    Voeg een _herhaal_ blok toe met daarbinnen _wacht tot toets_ `spatiebalk` _ingedrukt_.
 
-   Voeg een _maak_ `zwaartekracht`\* blok toe en stel die in op `6`.
+   Voeg een _maak_ `zwaartekracht` blok toe en stel die in op `6`.
 
-   Start het spel en druk op de spatiebalk om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
+We voegen nog wat geluid en beweging toe. 
 
 ![Stap 4](/static/img/scratch-flappybird-4.svg)
 
@@ -101,7 +103,11 @@ We gaan de vogel laten vliegen door hem omhoog te laten `vallen`. Als de spatieb
 
 4. Voeg een _start geluid_ blok toe en stel die in op `flap`.
 
-   Voeg een _volgend uiterlijk_ blok toe, om de vleugels te laten bewegen.
+   Voeg een _volgend uiterlijk_ blok toe.
+
+Start het spel en druk op de spatiebalk om te kijken wat er gebeurt. 
+Zie je de vleugels bewegen en hoor je het geluid alsof de vogel echt vliegt?
+Stop het spel voordat je verder gaat.
 
 ## Buizen toevoegen
 
