@@ -111,6 +111,8 @@ Stop het spel voordat je verder gaat.
 
 ![Stap 5](/static/img/scratch-flappybird-5.png)
 
+![Stap 5](/static/img/scratch-flappybird-7.png)
+
 {:start="5"}
 
 Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te selecteren. We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start. Elke 2 seconden moet een nieuwe buis verschijnen.
