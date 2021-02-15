@@ -165,7 +165,7 @@ Als het goed is ie je Flappy nu in het spel verschijnen!
 
 ![Flappy](assets/javascript-flappybird-stap2.gif){:class="screenshot"}
 
-> Een `spritesheet` is een afbeelding waarin meerdere uiterlijken van een sprite staan. Open het bestand `vogel.png` maar eens. Je zult dan een afbeelding zien met `3` vogels; elke vogel is `68` pixels hoog en `48` pixels breed. We gaan dit straks nodig hebben om de vogel te laten vliegen.
+> Een `spritesheet` is een afbeelding waarin meerdere uiterlijken van een sprite staan. Open het bestand `vogel.png` maar eens. Je ziet drie vogeltjes die allemaal _net_ ietsje anders zijn. Elke vogel is `68` pixels hoog en `48` pixels breed. We gaan dit straks nodig hebben om de vogel te laten vliegen.
 
 ### Controlepunt
 Als het goed is ziet je code er nu zo uit:
@@ -266,7 +266,7 @@ Als je het spel nu start, zal de vogel als een baksteen naar beneden vallen. Lat
 
 ![Stap 4](assets/javascript-flappybird-stap4.gif){:class="screenshot"}
 
-Voeg in de ```create``` functie de volgende regel toe:
+Voeg in de ```create``` functie de volgende regels toe:
 ```javascript
 var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 spaceKey.onDown.add(this.flap, this);   
@@ -301,7 +301,7 @@ var state = {
 }
 ```
 
-Doordat we in de ```flap ``` functie de vogel een _y-snelheid_ meegeven, vliegt ze eventjes omhoog.
+Doordat we in de ```flap ``` functie de vogel een _y-snelheid_ meegeven, vliegt ze eventjes omhoog wanneer je de `spatiebalk` indrukt.
 
 Maar door de zwaartekracht die we ingesteld hebben, zal ze snel weer naar beneden vallen 😇
 
@@ -755,8 +755,18 @@ score: function() {
 
 Als je goed alle eerdere stappen doorlopen hebt, weet je waarschijnlijk hoe je deze `score` functie toe moet voegen aan het `state` _object_.
 
-Als je er niet uitkomt, kun je in het laatste controlepunt hieronder kijken.
+Als je er niet uitkomt, kun je in het laatste controlepunt onderaan de pagina kijken.
+### Gefeliciteerd!
 
+Het is je gelukt helemaal zelf het spelletje Flappy Bird te maken!
+
+Misschien heb je zelf wel ideeën hoe je het spel n&oacute;g leuker kan maken? 
+
+Om dit spel te maken hebben we [Phaser](http://phaser.io/) gebruikt. 
+
+Op de site van Phaser vind je nog [veel meer voorbeelden met code](http://phaser.io/examples). 
+
+Hier kun je dus eens rondneuzen om te kijken hoe anderen spellen gemaakt hebben.
 ### Controlepunt
 Als het goed is ziet je code er nu zo uit:
 
@@ -833,10 +843,3 @@ game.state.start('main');
 laadBuizen(state);
 ```
 
-### Jouw beurt!
-
-Gefeliciteerd! Het is je gelukt zelf Flappy Bird te maken.
-
-Wat kun je nog meer verzinnen om jouw spel n&oacute;g leuker te maken?
-
-Om dit spel te maken hebben we [Phaser](http://phaser.io/) gebruikt. Op de site van Phaser vind je nog [veel meer voorbeelden met code](http://phaser.io/examples). Hier kun je dus eens rondneuzen om te kijken hoe anderen spellen gemaakt hebben.
