@@ -11,14 +11,18 @@ redirect_from:
 
 Flappy Bird
 -----------
-We gaan vandaag het spelleltje Flappy Bird programmeren in JavaScript. In Flappy Bird moet je het vogeltje tussen de buizen door laten vliegen, zonder er tegenaan te botsen. Dat klinkt eenvoudig, maar is lastiger dan je denkt!
+We gaan vandaag het spelleltje Flappy Bird programmeren in JavaScript.
 
 ![Flappy Bird](assets/javascript-flappybird-stap7.gif){:class="screenshot"}
 
-Punker
------------
+In Flappy Bird moet je het vogeltje tussen de buizen door laten vliegen, zonder er tegenaan te botsen.
 
-We gaan werken in Plunker. Dit is een online _editor_ waarin we onze JavaScript code gaan schrijven. 
+Dat klinkt eenvoudig, maar is lastiger dan je denkt!
+
+Punker
+------
+
+We gaan werken in _Plunker_. Dit is een online _editor_ waarin we onze JavaScript code gaan schrijven.
 
 
 <div style="text-align:center"><h3><a href="https://plnkr.co/edit/Wk678qILLlsUyY6S?preview" target="_blank">Klik hier om Plunkr te openen</a></h3></div>
@@ -53,14 +57,25 @@ var state = {
 }
 ```
 
-Als je goed kijkt ziet je computer code staan, maar ook 'gewone' Nederlandse zinnen. We noemen dit _commentaar_, en we gebruiken dat om uit te leggen wat de code doet. Je kunt _commentaar_ schrijven door een regel te beginnen met `//`.
+Als je goed kijkt ziet je computer code staan, maar ook 'gewone' Nederlandse zinnen.
+
+We noemen dit _commentaar_, en we gebruiken dat om uit te leggen wat de code doet.
+
+Je kunt zelf ook _commentaar_ door een regel te beginnen met `//`.
 
 
 De achtergrond instellen
 --------------------------------
-Er gebeurt nog niet zo veel in ons spel, je ziet alleen maar een zwart vlak. We gaan eerst maar eens een mooie achtergrond instellen.
+Er gebeurt nog niet zo veel in ons spel, je ziet alleen maar een zwart vlak.
 
-We gaan hiervoor het plaatje `achtergrond.png` inladen. Dat doe je door eerst het plaatje in het geheugen van de computer te laden. Voeg deze regel toe aan de  ```preload``` functie, _voor_ de `}`:
+We gaan eerst maar eens een mooie achtergrond instellen.
+
+We gaan hiervoor het plaatje `achtergrond.png` inladen.
+
+Dat doe je door eerst het plaatje in het geheugen van de computer te laden.
+
+Voeg deze regel toe aan de  ```preload``` functie, _voor_ de `}`:
+
 ```javascript
 game.load.image('achtergrond', 'achtergrond.png');
 ```
@@ -177,14 +192,14 @@ De vogel laten vallen
 
 Er gebeurt nog weinig in ons spel. We gaan straks Flappy leren vliegen, maar eerst gaan we hem laten vallen.
 
-We doen dit door _physics_ aan ons spel toe te voegen. 
+We doen dit door _physics_ aan ons spel toe te voegen.
 
 Voeg deze regel toe in de ```create``` functie :
 ```javascript
 game.physics.startSystem(Phaser.Physics.ARCADE);
 ```
 
-We gaan nu met deze _physics_ de zwaartekracht instellen op Flappy. 
+We gaan nu met deze _physics_ de zwaartekracht instellen op Flappy.
 
 Hiervoor voeg je nog 2 regels code aan je programma toe in de ```create``` functie:
 
@@ -245,7 +260,7 @@ var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 spaceKey.onDown.add(this.flap, this);   
 ```
 
-Met de regels hierboven zorgen we er voor dat wanneer de `spatiebalk` ingedrukt wordt, het spel de _functie_ `flap` van ons `state` _object_ uitvoert. 
+Met de regels hierboven zorgen we er voor dat wanneer de `spatiebalk` ingedrukt wordt, het spel de _functie_ `flap` van ons `state` _object_ uitvoert.
 
 Deze funtie bestaat nog niet, dus die moeten we toevoegen aan het `state` _object_. Voeg deze code _onder_ de `update` functie toe:
 
@@ -274,7 +289,9 @@ var state = {
 }
 ```
 
-Doordat we in de ```flap ``` functie de vogel een _y-snelheid_ meegeven, vliegt ze eventjes omhoog. Maar door de zwaartekracht die we in stap 3 op de vogel ingesteld hebben, zal ze snel weer naar beneden vallen.
+Doordat we in de ```flap ``` functie de vogel een _y-snelheid_ meegeven, vliegt ze eventjes omhoog.
+
+Maar door de zwaartekracht die we in stap 3 op de vogel ingesteld hebben, zal ze snel weer naar beneden vallen.
 
 ### Controlepunt
 Als het goed is ziet je code er nu zo uit:
@@ -321,7 +338,9 @@ game.state.start('main');
 
 Geluid en animatie toevoegen
 ----------------------------
-Onze vogel kan nu wel vliegen, maar het ziet er een beetje saai uit. Eens kijken of het ons lukt `flappy` met haar vleugels te laten wapperen.
+Onze vogel kan nu wel vliegen, maar het ziet er een beetje saai uit.
+
+Eens kijken of het ons lukt `flappy` met haar vleugels te laten wapperen.
 
 Voeg een _animatie_ toe aan `flappy` door deze code in de ```create``` functie te zetten:
 
@@ -337,7 +356,7 @@ this.flappy.animations.play('fly', 10, false);
 
 ![Stap 5](assets/javascript-flappybird-stap5.gif){:class="screenshot"}
 
-> Deze code speelt de drie plaatjes in de _spritesheet_ van de vogel een-voor-een af. ```10``` keer per seconde wordt het volgende plaatje getoond, waardoor het lijkt alsof de vleugels van de vogel wapperen. 
+> Deze code speelt de drie plaatjes in de _spritesheet_ van de vogel een-voor-een af. ```10``` keer per seconde wordt het volgende plaatje getoond, waardoor het lijkt alsof de vleugels van de vogel wapperen.
 
 Laad nu het ```flap``` geluidsbestand in het geheugen van de computer door in de ```preload``` functie deze code toe te voegen:
 
@@ -408,11 +427,11 @@ Buizen laten verschijnen
 --------------------------------
 ![Stap 6](assets/javascript-flappybird-stap6.gif){:class="screenshot"}
 
-Nu de vogel kan vliegen, gaan we het wat spannender maken. 
+Nu de vogel kan vliegen, gaan we het wat spannender maken.
 
 We gaan iedere 3 seconden rij met buizen laten verschijnen.
 
-Hiervoor voegen we een ```timer``` toe in de ```create``` functie. 
+Hiervoor voegen we een ```timer``` toe in de ```create``` functie.
 
 ```javascript
 this.timer = game.time.events.loop(3000, this.maakBuizen, this);
@@ -420,7 +439,7 @@ this.timer = game.time.events.loop(3000, this.maakBuizen, this);
 
 Deze `timer` zorgt er voor dat iedere 3 secoden (= 3000 milliseconden) de functie ```maakBuizen``` uitgevoerd wordt.
 
-De code voor het aanmaken van de buizen is wat lastiger, dus die krijg je cadeau! We moeten de code alleen nog even actiefc maken. 
+De code voor het aanmaken van de buizen is wat lastiger, dus die krijg je cadeau! We moeten de code alleen nog even actiefc maken.
 
 Dit doe je door deze regel helemaal onderaan je programma toe te voegen:
 ```javascript
@@ -485,16 +504,22 @@ Botsingen
 -----------------
 ![Stap 7](assets/javascript-flappybird-stap7.gif){:class="screenshot"}
 
-Dit begint er al op te lijken. Maar Flappy vliegt nu nog dwars door de buizen heen. Zo is het wel een heel eenvoudig spelletje, daar gaan we iets aan doen!.
+Dit begint al aardig op Flappy Bird te lijken zeg, goed bezig!
 
-We gaan nu controleren of de vogel botst met een buis. We doen dit in de ```update``` functie, omdat die steeds opnieuw uitgevoerd wordt. 
+Flappy vliegt nu nog wel dwars door alle buizen heen.
+
+Zo is het wel een heel eenvoudig spelletje, daar gaan we iets aan doen!.
+
+We gaan nu steeds controleren of flappy botst met een buis.
+
+We doen dit in de ```update``` functie, omdat die steeds opnieuw uitgevoerd wordt.
 
 Voeg deze code daarom aan de `update` functie toen:
 ```javascript
 game.physics.arcade.overlap(this.flappy, this.buizen, this.botsing, null, this);
 ```
 
-Als `flappy` met een  van de `buizen` botst, wordt de functie ```botsing``` uitgevoerd. 
+Als `flappy` met een  van de `buizen` botst, wordt de functie ```botsing``` uitgevoerd.
 
 Die functie bestaat nog niet, dus die voegen we toe aan het `state` _object_, net zoals we dat eerder met de `flap` functie gedaan hebben:
 
@@ -687,7 +712,7 @@ Score toevoegen
 ---------------
 Nu de laatste stap van deze uitleg: we gaan punten toevoegen!
 
-We laten de speler iedere seconde een punt verdienen. 
+We laten de speler iedere seconde een punt verdienen.
 
 Dit doen we door in de ```create``` functie een _variabele_ `punten` toe te voegen. We maken ook een _label_ aan waarmee we ```score``` op het scherm tekenen:
 
@@ -797,7 +822,7 @@ laadBuizen(state);
 
 ### Jouw beurt!
 
-Gefeliciteerd! Het is je gelukt zelf Flappy Bird te maken. 
+Gefeliciteerd! Het is je gelukt zelf Flappy Bird te maken.
 
 Wat kun je nog meer verzinnen om jouw spel n&oacute;g leuker te maken?
 
