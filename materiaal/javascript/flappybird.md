@@ -37,25 +37,32 @@ We gaan onze code schrijven in het bestand ```flappybird.js```. Klik maar eens o
 var state = {
   preload: function () {
     // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    
   },
 
   create: function () {
-    // hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
     // opstart
+
   },
 
   update: function () {
     // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
     // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+    
   }
 }
+
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
 ```
 
 Als je goed kijkt ziet je computer code staan, maar ook 'gewone' Nederlandse zinnen.
 
-We noemen dit _commentaar_, en we gebruiken dat om uit te leggen wat de code doet.
+We noemen dit _commentaar_ en gebruiken het om uit te leggen wat de code doet.
 
-Je kunt zelf ook _commentaar_ door een regel te beginnen met `//`.
+Je kunt zelf ook _commentaar_ toevoegen door een regel te beginnen met `//`.
 
 De achtergrond instellen
 ------------------------
