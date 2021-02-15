@@ -31,7 +31,11 @@ Als het goed is zie je nu dit scherm:
 
 ![Plunker](assets/javascript-flappybird-plunker1.png)
 
-We gaan onze code schrijven in het bestand ```flappybird.js```. Klik maar eens op dit bestand, als het goed is zie je nu deze code in het code venster:
+We gaan onze code schrijven in het bestand ```flappybird.js```.
+
+Open het bestand meer eens door er op te klikkken
+
+Als het goed is zie je nu deze code in het code venster:
 
 ```javascript
 var state = {
@@ -68,11 +72,9 @@ De achtergrond instellen
 ------------------------
 
 <div style="border: 3px solid #FF0554; text-align: center; border-radius: 1em; margin:2em; padding: 1em;">
-<strong>🚨 BELANGRIJK! 🚨</strong>
-
-Druk voor je verder gaat op de `Fork` knop (links boven in het scherm).
-
-Dit zorgt er voor dat er een kopie gemaakt wordt van de code, waarin jouw wijzigingen bewaard blijven. 
+<p><strong>🚨 BELANGRIJK! 🚨</strong></p>
+<p>Druk voor je verder gaat op de `Fork` knop (links boven in het scherm).</p>
+<p>Dit zorgt er voor dat er een kopie gemaakt wordt van de code, waarin jouw wijzigingen bewaard blijven.</p>
 </div>
 
 
