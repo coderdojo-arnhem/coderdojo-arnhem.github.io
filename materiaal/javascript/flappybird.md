@@ -25,17 +25,11 @@ Punker
 We gaan werken in _Plunker_. Dit is een online _editor_ waarin we onze JavaScript code gaan schrijven.
 
 
-<div style="text-align:center"><h3><a href="https://plnkr.co/edit/Wk678qILLlsUyY6S?preview" target="_blank">Klik hier om Plunkr te openen</a></h3></div>
+<div style="text-align:center"><h3><a href="https://plnkr.co/edit/Wk678qILLlsUyY6S?preview" target="_blank">Klik hier om Plunker te openen</a></h3></div>
 
 Als het goed is zie je nu dit scherm:
 
 ![Plunker](assets/javascript-flappybird-plunker1.png)
-
-<hr />
-TODO: uitleg over Plunker
-- onderdelen op het scherm: bestanden, editor, uitvoeren
-- 'Fork' om een kopie van de code te maken waarin we gaan werken
-<hr />
 
 We gaan onze code schrijven in het bestand ```flappybird.js```. Klik maar eens op dit bestand, als het goed is zie je nu deze code in het code venster:
 
@@ -63,9 +57,18 @@ We noemen dit _commentaar_, en we gebruiken dat om uit te leggen wat de code doe
 
 Je kunt zelf ook _commentaar_ door een regel te beginnen met `//`.
 
-
 De achtergrond instellen
---------------------------------
+------------------------
+
+<div style="border: 3px solid #FF0554; text-align: center; border-radius: 1em;">
+<h3>🚨 BELANGRIJK 🚨</h3>
+
+Druk voor je verder gaat op de `Fork` knop (links boven in het scherm).
+
+Dit zorgt er voor dat er een kopie gemaakt wordt van de code, waarin jouw wijzigingen bewaard blijven. 
+</div>
+
+
 Er gebeurt nog niet zo veel in ons spel, je ziet alleen maar een zwart vlak.
 
 We gaan eerst maar eens een mooie achtergrond instellen.
