@@ -197,41 +197,127 @@ En meteen valt Flappy van het scherm! 😱
 
 ![Stap 3](assets/javascript-flappybird-stap3.gif){:class="screenshot"}
 
+### Controlepunt
+Als het goed is ziet je code er nu zo uit:
+
+```javascript
+var state = {
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+    game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
+  },
+
+  create: function () {
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
+    this.background = game.add.sprite(0, 0, 'achtergrond');
+    this.background.width = game.width;
+    this.background.height = game.height;
+
+    this.flappy = game.add.sprite(100, 245, 'vogel');
+
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+    game.physics.arcade.enable(this.flappy);
+    this.flappy.body.gravity.y = 1000;
+  },
+
+  update: function () {
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+  }
+}
+
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
+```
+
 De vogel laten vliegen
 ------------------------------
-Als je het spel nu start, zal de vogel als een baksteen naar beneden vallen. Laten we er nu voor zorgen dat ze kan vliegen.
+Als je het spel nu start, zal de vogel als een baksteen naar beneden vallen. Laten we er voor zorgen dat ze kan vliegen.
 
 ![Stap 4](assets/javascript-flappybird-stap4.gif){:class="screenshot"}
 
 Voeg in de ```create``` functie de volgende regel toe:
 ```javascript
-create: function() {
-  // ...
-  var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
-  spaceKey.onDown.add(this.flap, this);   
+var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+spaceKey.onDown.add(this.flap, this);   
+```
+
+Met de regels hierboven zorgen we er voor dat wanneer de `spatiebalk` ingedrukt wordt, het spel de _functie_ `flap` van ons `state` _object_ uitvoert. 
+
+Deze funtie bestaat nog niet, dus die moeten we toevoegen aan het `state` _object_. Voeg deze code _onder_ de `update` functie toe:
+
+```javascript
+flap: function() {
+  this.flappy.body.velocity.y = -350;
 }
 ```
 
-Met de regels hierboven zorgen we er voor dat wanneer de spatiebalk ingedrukt wordt, het spel de functie _flap_ van ons _state_ object uitvoert. Deze funtie bestaat nog niet, dus die gaan we toevoegen:
+Zodat de code van het `state` _object_ er zo uitziet:
+
 ```javascript
 var state = {
   preload: function() { 
-    // ...
+    ...
   },
   create: function() { 
-    // ...
+    ...
   },
   update: function() { 
-    // ...
-  },
+    ...
+  }, // <-- Let op dat je deze komma niet vergeet!
   flap: function() {
-    this.bird.body.velocity.y = -350;
+    this.flappy.body.velocity.y = -350;
   }
 }
 ```
-> Let op dat je een komma na de laatste accolade ```}``` van de ```update``` functie toevoegt!
 
 Doordat we in de ```flap ``` functie de vogel een _y-snelheid_ meegeven, vliegt ze eventjes omhoog. Maar door de zwaartekracht die we in stap 3 op de vogel ingesteld hebben, zal ze snel weer naar beneden vallen.
+
+### Controlepunt
+Als het goed is ziet je code er nu zo uit:
+
+```javascript
+var state = {
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+    game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
+  },
+
+  create: function () {
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
+    this.background = game.add.sprite(0, 0, 'achtergrond');
+    this.background.width = game.width;
+    this.background.height = game.height;
+
+    this.flappy = game.add.sprite(100, 245, 'vogel');
+
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+    game.physics.arcade.enable(this.flappy);
+    this.flappy.body.gravity.y = 1000;
+
+    var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+    spaceKey.onDown.add(this.flap, this);   
+  },
+
+  update: function () {
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+  },
+  flap: function() {
+    this.flappy.body.velocity.y = -350;
+  }
+}
+
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
+
+```
 
 Geluid en animatie toevoegen
 ------------------------------------
