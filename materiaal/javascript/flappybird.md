@@ -303,7 +303,7 @@ var state = {
 
 Doordat we in de ```flap ``` functie de vogel een _y-snelheid_ meegeven, vliegt ze eventjes omhoog.
 
-Maar door de zwaartekracht die we in stap 3 op de vogel ingesteld hebben, zal ze snel weer naar beneden vallen.
+Maar door de zwaartekracht die we ingesteld hebben, zal ze snel weer naar beneden vallen 😇
 
 ### Controlepunt
 Als het goed is ziet je code er nu zo uit:
