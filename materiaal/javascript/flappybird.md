@@ -357,13 +357,13 @@ Eens kijken of het ons lukt `flappy` met haar vleugels te laten wapperen.
 Voeg een _animatie_ toe aan `flappy` door deze code in de ```create``` functie te zetten:
 
 ```javascript
-this.flappy.animations.add('fly');
+this.flappy.animations.add('vlieg');
 ```
 
 En start de animatie iedere keer dat de ```flap``` functie uitgevoerd wordt, door deze code aa de `flap` functie toe te voegen:
 
 ```javascript
-this.flappy.animations.play('fly', 10, false);
+this.flappy.animations.play('vlieg', 10, false);
 ```
 
 ![Stap 5](assets/javascript-flappybird-stap5.gif){:class="screenshot"}
@@ -415,7 +415,7 @@ var state = {
     var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
     spaceKey.onDown.add(this.flap, this);
 
-    this.flappy.animations.add('fly'); 
+    this.flappy.animations.add('vlieg'); 
 
     this.flapGeluid = game.add.audio('flap');
   },
@@ -426,7 +426,7 @@ var state = {
   },
   flap: function() {
     this.flappy.body.velocity.y = -350;
-    this.flappy.animations.play('fly', 10, false);
+    this.flappy.animations.play('vlieg', 10, false);
     this.flapGeluid.play();
   }
 }
@@ -435,6 +435,7 @@ var game = new Phaser.Game(640, 480, Phaser.CANVAS);
 game.state.add('main', state);
 game.state.start('main');
 ```
+
 Buizen laten verschijnen
 --------------------------------
 ![Stap 6](assets/javascript-flappybird-stap6.gif){:class="screenshot"}
@@ -487,7 +488,7 @@ var state = {
     var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
     spaceKey.onDown.add(this.flap, this);
 
-    this.flappy.animations.add('fly'); 
+    this.flappy.animations.add('vlieg'); 
 
     this.flapGeluid = game.add.audio('flap');
 
@@ -500,7 +501,7 @@ var state = {
   },
   flap: function() {
     this.flappy.body.velocity.y = -350;
-    this.flappy.animations.play('fly', 10, false);
+    this.flappy.animations.play('vlieg', 10, false);
     this.flapGeluid.play();
   }
 }
@@ -608,7 +609,7 @@ var state = {
     var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
     spaceKey.onDown.add(this.flap, this);
 
-    this.flappy.animations.add('fly'); 
+    this.flappy.animations.add('vlieg'); 
 
     this.flapGeluid = game.add.audio('flap');
 
@@ -624,7 +625,7 @@ var state = {
   },
   flap: function() {
     this.flappy.body.velocity.y = -350;
-    this.flappy.animations.play('fly', 10, false);
+    this.flappy.animations.play('vlieg', 10, false);
     this.flapGeluid.play();
   },
   botsing: function() {
@@ -684,7 +685,7 @@ var state = {
     var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
     spaceKey.onDown.add(this.flap, this);
 
-    this.flappy.animations.add('fly'); 
+    this.flappy.animations.add('vlieg'); 
 
     this.flapGeluid = game.add.audio('flap');
 
@@ -703,7 +704,7 @@ var state = {
   },
   flap: function() {
     this.flappy.body.velocity.y = -350;
-    this.flappy.animations.play('fly', 10, false);
+    this.flappy.animations.play('vlieg', 10, false);
     this.flapGeluid.play();
   },
   botsing: function() {
@@ -785,7 +786,7 @@ var state = {
     var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
     spaceKey.onDown.add(this.flap, this);
 
-    this.flappy.animations.add('fly'); 
+    this.flappy.animations.add('vlieg'); 
 
     this.flapGeluid = game.add.audio('flap');
 
@@ -812,7 +813,7 @@ var state = {
   },
   flap: function() {
     this.flappy.body.velocity.y = -350;
-    this.flappy.animations.play('fly', 10, false);
+    this.flappy.animations.play('vlieg', 10, false);
     this.flapGeluid.play();
   },
   botsing: function() {
