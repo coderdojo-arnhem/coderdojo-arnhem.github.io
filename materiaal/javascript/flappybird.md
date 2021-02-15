@@ -348,7 +348,7 @@ game.state.start('main');
 
 ```
 
-Geluid en animatie toevoegen
+Animatie en geluid toevoegen
 ----------------------------
 Onze vogel kan nu wel vliegen, maar het ziet er een beetje saai uit.
 
