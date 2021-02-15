@@ -9,8 +9,8 @@ redirect_from:
 * Inhoudsopgrave
 {:toc}
 
-Flappy Bird
------------
+Flappy Bird in JavaScript
+-------------------------
 We gaan vandaag het spelleltje Flappy Bird programmeren in JavaScript.
 
 ![Flappy Bird](assets/javascript-flappybird-stap7.gif){:class="screenshot"}
