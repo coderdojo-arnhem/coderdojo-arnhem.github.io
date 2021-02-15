@@ -67,8 +67,8 @@ Je kunt zelf ook _commentaar_ toevoegen door een regel te beginnen met `//`.
 De achtergrond instellen
 ------------------------
 
-<div style="border: 3px solid #FF0554; text-align: center; border-radius: 1em;">
-<h3>🚨 BELANGRIJK 🚨</h3>
+<div style="border: 3px solid #FF0554; text-align: center; border-radius: 1em; margin:2em; padding: 1em;">
+<strong>🚨 BELANGRIJK! 🚨</strong>
 
 Druk voor je verder gaat op de `Fork` knop (links boven in het scherm).
 
