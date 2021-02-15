@@ -321,14 +321,16 @@ game.state.start('main');
 
 Geluid en animatie toevoegen
 ----------------------------
-Onze vogel kan nu wel vliegen, maar het ziet er een beetje saai uit. 
+Onze vogel kan nu wel vliegen, maar het ziet er een beetje saai uit. Eens kijken of het ons lukt `flappy` met haar vleugels te laten wapperen.
 
-Voeg een vlieg-animatie toe aan `flappy` door deze code in de ```create``` functie te zetten:
+Voeg een _animatie_ toe aan `flappy` door deze code in de ```create``` functie te zetten:
+
 ```javascript
 this.flappy.animations.add('fly');
 ```
 
 En start de animatie iedere keer dat de ```flap``` functie uitgevoerd wordt, door deze code aa de `flap` functie toe te voegen:
+
 ```javascript
 this.flappy.animations.play('fly', 10, false);
 ```
@@ -520,7 +522,11 @@ De code die in de `botsing` functie uitgevoerd wordt, zorgt er voor dat het spel
 
 Dus iedere keer dat `flappy` een `botsing` heeft met een van de `buizen` wordt het spel opnieuw gestart.
 
-Laten we er nu nog even een echt botsing van maken door een geluidje af te spelen.  Laad het ```botsing``` geluidsbestand in het geheugen van de computer door in de ```preload``` functie deze code toe te voegen:
+### Geluid toevoegen
+
+Laten we er nu nog even een echt botsing van maken door een geluidje af te spelen.  
+
+Laad het ```botsing``` geluidsbestand in het geheugen van de computer door in de ```preload``` functie deze code toe te voegen:
 
 ```javascript
 game.load.audio('botsing', 'botsing.mp3');
@@ -597,48 +603,202 @@ game.state.start('main');
 laadBuizen(state);
 ```
 
-Extra opdrachten
-----------------
+Binnen het scherm blijven
+-------------------------
+We zijn al een heel eind, het begint al een _echt_ spel te worden!
 
-### Game over wanneer de vogel buiten het scherm komt
-Hiervoor moeten we het spel laten controleren of de vogel buiten het scherm komt. Dit stel je op de vogel in de ```create``` functie in:
-```javascript
-create: function() {
-  // ...
-  this.bird.checkWorldBounds = true;
-  this.bird.events.onOutOfBounds.add(this.hit, this);
-}
-```
-> De code hierboven zorgt er voor dat de functie ```hit``` uitgevoerd wordt, zodra de vogel de rand van het scherm raakt.
+Laten we nu proberen er voor te zorgen dat je ook _game over_ bent wanneer `flappy` de rand van het scherm raakt.
 
-### Score toevoegen
-We laten de speler iedere seconde een punt verdienen. Dit doen we door in de ```create```functie een _variabele_ 'points' toe te voegen. We maken ook een _label_ aan waarmee we ```score``` op het scherm tekenen:
+Als `flappy` de rand raakt, zorgen we dat de `botsing` functie uitgevoerd wordt. Daardoor zal het spel opnieuw starten.
+
+Voeg deze code toe aan de `create` functie:
+
 ```javascript
-create: function() {
-  // ...
-  this.points = 0;
-  this.pointsLabel = game.add.text(20, 20, "0", {
-    font: "30px Arial",
-    fill: "#ffffff"
-  });
-}
+this.flappy.checkWorldBounds = true;
+this.flappy.events.onOutOfBounds.add(this.botsing, this);
 ```
 
-Nu voegen we in de ```create``` functie een timer toe, waarmee we elke seconde een nieuwe functie ```score``` aanroepen:
+### Controlepunt
+Als het goed is ziet je code er nu zo uit:
 
 ```javascript
-create: function() {
-  // ...
-  this.timer = game.time.events.loop(1000, this.score, this);
+var state = {
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+    game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
+    game.load.audio('flap', 'flap.mp3');
+    game.load.audio('botsing', 'botsing.mp3');
+  },
+
+  create: function () {
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
+    this.background = game.add.sprite(0, 0, 'achtergrond');
+    this.background.width = game.width;
+    this.background.height = game.height;
+
+    this.flappy = game.add.sprite(100, 245, 'vogel');
+
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+    game.physics.arcade.enable(this.flappy);
+    this.flappy.body.gravity.y = 1000;
+
+    var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+    spaceKey.onDown.add(this.flap, this);
+
+    this.flappy.animations.add('fly'); 
+
+    this.flapGeluid = game.add.audio('flap');
+
+    this.timer = game.time.events.loop(3000, this.maakBuizen, this);
+
+    this.botsingGeluid = game.add.audio('botsing');
+
+    this.flappy.checkWorldBounds = true;
+    this.flappy.events.onOutOfBounds.add(this.botsing, this);
+  },
+
+  update: function () {
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+    game.physics.arcade.overlap(this.flappy, this.buizen, this.botsing, null, this);
+  },
+  flap: function() {
+    this.flappy.body.velocity.y = -350;
+    this.flappy.animations.play('fly', 10, false);
+    this.flapGeluid.play();
+  },
+  botsing: function() {
+    game.state.start('main');
+    this.botsingGeluid.play();
+  }
 }
 
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
+
+laadBuizen(state);
+```
+
+
+Score toevoegen
+---------------
+Nu de laatste stap van deze uitleg: we gaan punten toevoegen!
+
+We laten de speler iedere seconde een punt verdienen. 
+
+Dit doen we door in de ```create``` functie een _variabele_ `punten` toe te voegen. We maken ook een _label_ aan waarmee we ```score``` op het scherm tekenen:
+
+```javascript
+this.punten = 0;
+this.puntenLabel = game.add.text(20, 20, "0", {
+  font: "30px Arial",
+  fill: "#ffffff"
+});
+```
+
+We gaan een timer toe voegen, waarmee we elke seconde een nieuwe functie ```score``` aanroepen.
+
+Dit is de code om de _timer_ te maken, die moet je in de `create` functie toe voegen:
+
+```javascript
+this.timer = game.time.events.loop(1000, this.score, this);
+```
+
+En hier is de `score` functie:
+```javascript
 score: function() {
-  this.points += 1;
-  this.pointsLabel.text = this.points;
+  this.punten += 1;
+  this.puntenLabel.text = this.punten;
 }
+```
+
+Als je goed alle eerdere stappen doorlopen hebt, weet je waarschijnlijk hoe je deze `score` functie toe moet voegen aan het `state` _object_.
+
+Als je er niet uitkomt, kun je in het laatste controlepunt hieronder kijken.
+
+### Controlepunt
+Als het goed is ziet je code er nu zo uit:
+
+```javascript
+var state = {
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+    game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
+    game.load.audio('flap', 'flap.mp3');
+    game.load.audio('botsing', 'botsing.mp3');
+  },
+
+  create: function () {
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
+    this.background = game.add.sprite(0, 0, 'achtergrond');
+    this.background.width = game.width;
+    this.background.height = game.height;
+
+    this.flappy = game.add.sprite(100, 245, 'vogel');
+
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+    game.physics.arcade.enable(this.flappy);
+    this.flappy.body.gravity.y = 1000;
+
+    var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+    spaceKey.onDown.add(this.flap, this);
+
+    this.flappy.animations.add('fly'); 
+
+    this.flapGeluid = game.add.audio('flap');
+
+    this.timer = game.time.events.loop(3000, this.maakBuizen, this);
+
+    this.botsingGeluid = game.add.audio('botsing');
+
+    this.flappy.checkWorldBounds = true;
+    this.flappy.events.onOutOfBounds.add(this.botsing, this);
+
+    this.punten = 0;
+    this.puntenLabel = game.add.text(20, 20, "0", {
+      font: "30px Arial",
+      fill: "#ffffff"
+    });
+
+    this.timer = game.time.events.loop(1000, this.score, this);
+  },
+
+  update: function () {
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+    game.physics.arcade.overlap(this.flappy, this.buizen, this.botsing, null, this);
+  },
+  flap: function() {
+    this.flappy.body.velocity.y = -350;
+    this.flappy.animations.play('fly', 10, false);
+    this.flapGeluid.play();
+  },
+  botsing: function() {
+    game.state.start('main');
+    this.botsingGeluid.play();
+  },
+  score: function() {
+    this.punten += 1;
+    this.puntenLabel.text = this.punten;
+  }
+}
+
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
+
+laadBuizen(state);
 ```
 
 ### Jouw beurt!
+
+Gefeliciteerd! Het is je gelukt zelf Flappy Bird te maken. 
+
 Wat kun je nog meer verzinnen om jouw spel n&oacute;g leuker te maken?
 
 Om dit spel te maken hebben we [Phaser](http://phaser.io/) gebruikt. Op de site van Phaser vind je nog [veel meer voorbeelden met code](http://phaser.io/examples). Hier kun je dus eens rondneuzen om te kijken hoe anderen spellen gemaakt hebben.
