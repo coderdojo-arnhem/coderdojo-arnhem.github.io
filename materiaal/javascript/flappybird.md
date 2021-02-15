@@ -18,9 +18,12 @@ We gaan vandaag het spelleltje Flappy Bird programmeren in JavaScript. In Flappy
 Punker
 -----------
 
-We gaan werken in Plunker. Dit is een online _editor_ waarin we onze JavaScript code gaan schrijven. Om te beginnen open je <a href="https://plnkr.co/edit/Wk678qILLlsUyY6S?preview" target="_blank">deze link</a>. 
+We gaan werken in Plunker. Dit is een online _editor_ waarin we onze JavaScript code gaan schrijven. 
 
-Als het goed is zie dit scherm:
+
+<div style="text-align:center"><h3><a href="https://plnkr.co/edit/Wk678qILLlsUyY6S?preview" target="_blank">Klik hier om Plunkr te openen</a></h3></div>
+
+Als het goed is zie je nu dit scherm:
 
 ![Plunker](assets/javascript-flappybird-plunker1.png)
 
@@ -86,6 +89,35 @@ Als het goed is zie je nu de achtergrond verschijnen.
 
 > Een _sprite_ is een plaatje dat in een game gebruikt wordt.
 
+### Controlepunt
+Als het goed is ziet je code er nu zo uit:
+
+```javascript
+var state = {
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+  },
+
+  create: function () {
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
+    this.background = game.add.sprite(0, 0, 'achtergrond');
+    this.background.width = game.width;
+    this.background.height = game.height;
+  },
+
+  update: function () {
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+  }
+}
+
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
+```
+
 De vogel op het scherm tekenen
 --------------------------------------
 
@@ -107,6 +139,38 @@ Als het goed is ie je Flappy nu in het spel verschijnen!
 ![Flappy](assets/javascript-flappybird-stap2.gif){:class="screenshot"}
 
 > Een `spritesheet` is een afbeelding waarin meerdere uiterlijken van een sprite staan. Open het bestand `vogel.png` maar eens. Je zult dan een afbeelding zien met `3` vogels; elke vogel is `68` pixels hoog en `48` pixels breed. We gaan dit straks nodig hebben om de vogel te laten vliegen.
+
+### Controlepunt
+Als het goed is ziet je code er nu zo uit:
+
+```javascript
+var state = {
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+    game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
+  },
+
+  create: function () {
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
+    this.background = game.add.sprite(0, 0, 'achtergrond');
+    this.background.width = game.width;
+    this.background.height = game.height;
+
+    this.flappy = game.add.sprite(100, 245, 'vogel');
+  },
+
+  update: function () {
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+  }
+}
+
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
+```
 
 De vogel laten vallen
 ---------------------
