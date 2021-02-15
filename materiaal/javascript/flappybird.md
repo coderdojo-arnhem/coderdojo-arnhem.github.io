@@ -234,7 +234,7 @@ game.state.start('main');
 ```
 
 De vogel laten vliegen
-------------------------------
+----------------------
 Als je het spel nu start, zal de vogel als een baksteen naar beneden vallen. Laten we er voor zorgen dat ze kan vliegen.
 
 ![Stap 4](assets/javascript-flappybird-stap4.gif){:class="screenshot"}
@@ -320,107 +320,281 @@ game.state.start('main');
 ```
 
 Geluid en animatie toevoegen
-------------------------------------
-Onze vogel kan nu wel vliegen, maar het ziet er een beetje saai uit. Voeg een vlieg-animatie toe in de ```create``` functie:
+----------------------------
+Onze vogel kan nu wel vliegen, maar het ziet er een beetje saai uit. 
+
+Voeg een vlieg-animatie toe aan `flappy` door deze code in de ```create``` functie te zetten:
 ```javascript
-create: function() {
-  // ...
-  this.bird.animations.add('fly');
-}
+this.flappy.animations.add('fly');
 ```
 
-Start de animatie in de ```flap``` functie:
+En start de animatie iedere keer dat de ```flap``` functie uitgevoerd wordt, door deze code aa de `flap` functie toe te voegen:
 ```javascript
-flap: function() {
-  // ...
-  this.bird.animations.play('fly', 10, false);
-}
+this.flappy.animations.play('fly', 10, false);
 ```
 
 ![Stap 5](assets/javascript-flappybird-stap5.gif){:class="screenshot"}
 
 > Deze code speelt de drie plaatjes in de _spritesheet_ van de vogel een-voor-een af. ```10``` keer per seconde wordt het volgende plaatje getoond, waardoor het lijkt alsof de vleugels van de vogel wapperen. 
 
-Laad nu het ```flap``` geluidsbestand in de ```preload``` functie. Voeg hem toe aan het spel in de ```create``` functie. Speel het geluid af in de ```flap``` functie:
+Laad nu het ```flap``` geluidsbestand in het geheugen van de computer door in de ```preload``` functie deze code toe te voegen:
+
 ```javascript
-preload: function() {
-  // ...
-  game.load.audio('flap', 'assets/flap.mp3');
-}
-
-create: function() {
-  // ...
-  this.flapSound = game.add.audio('flap');
-}
-
-flap: function() {
-  // ...
-  this.flapSound.play();
-}
+game.load.audio('flap', 'flap.mp3');
 ```
 
+Maak het flap geluid bekend in het spel door deze code in de ```create``` functie te zetten:
+
+```javascript
+this.flapGeluid = game.add.audio('flap');
+```
+
+Speel het geluid af iedere keer wanneer de ```flap``` functie uitgevoerd wordt:
+```javascript
+this.flapGeluid.play();
+```
+
+### Controlepunt
+Als het goed is ziet je code er nu zo uit:
+
+```javascript
+var state = {
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+    game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
+    game.load.audio('flap', 'flap.mp3');
+  },
+
+  create: function () {
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
+    this.background = game.add.sprite(0, 0, 'achtergrond');
+    this.background.width = game.width;
+    this.background.height = game.height;
+
+    this.flappy = game.add.sprite(100, 245, 'vogel');
+
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+    game.physics.arcade.enable(this.flappy);
+    this.flappy.body.gravity.y = 1000;
+
+    var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+    spaceKey.onDown.add(this.flap, this);
+
+    this.flappy.animations.add('fly'); 
+
+    this.flapGeluid = game.add.audio('flap');
+  },
+
+  update: function () {
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+  },
+  flap: function() {
+    this.flappy.body.velocity.y = -350;
+    this.flappy.animations.play('fly', 10, false);
+    this.flapGeluid.play();
+  }
+}
+
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
+```
 Buizen laten verschijnen
 --------------------------------
 ![Stap 6](assets/javascript-flappybird-stap6.gif){:class="screenshot"}
 
-We gaan iedere 3 seconden rij met buizen laten verschijnen. Hiervoor voegen we een ```timer``` toe in de ```create``` functie. Deze timer roept iedere 3 secoden  de functie ```createPipe``` in ons ```state``` object aan:
-```javascript
+Nu de vogel kan vliegen, gaan we het wat spannender maken. 
 
-create: function() { 
-  // ...    
-  this.timer = game.time.events.loop(3000, this.createPipe, this);
-}
+We gaan iedere 3 seconden rij met buizen laten verschijnen.
+
+Hiervoor voegen we een ```timer``` toe in de ```create``` functie. 
+
+```javascript
+this.timer = game.time.events.loop(3000, this.maakBuizen, this);
 ```
-De code voor het aanmaken van de buizen is wat lastiger, dus die krijg je cadeau! Om dit te gebruiken in je ```state``` voeg je de volgende regel toe _na_ het ```state``` object:
+
+Deze `timer` zorgt er voor dat iedere 3 secoden (= 3000 milliseconden) de functie ```maakBuizen``` uitgevoerd wordt.
+
+De code voor het aanmaken van de buizen is wat lastiger, dus die krijg je cadeau! We moeten de code alleen nog even actiefc maken. 
+
+Dit doe je door deze regel helemaal onderaan je programma toe te voegen:
+```javascript
+laadBuizen(state);
+```
+
+
+### Controlepunt
+Als het goed is ziet je code er nu zo uit:
+
 ```javascript
 var state = {
-  //...
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+    game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
+    game.load.audio('flap', 'flap.mp3');
+  },
+
+  create: function () {
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
+    this.background = game.add.sprite(0, 0, 'achtergrond');
+    this.background.width = game.width;
+    this.background.height = game.height;
+
+    this.flappy = game.add.sprite(100, 245, 'vogel');
+
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+    game.physics.arcade.enable(this.flappy);
+    this.flappy.body.gravity.y = 1000;
+
+    var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+    spaceKey.onDown.add(this.flap, this);
+
+    this.flappy.animations.add('fly'); 
+
+    this.flapGeluid = game.add.audio('flap');
+
+    this.timer = game.time.events.loop(3000, this.maakBuizen, this);
+  },
+
+  update: function () {
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+  },
+  flap: function() {
+    this.flappy.body.velocity.y = -350;
+    this.flappy.animations.play('fly', 10, false);
+    this.flapGeluid.play();
+  }
 }
 
-// Deze regel toevoegen
-withPipes(state);
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
+
+laadBuizen(state);
 ```
 
 Botsingen
 -----------------
 ![Stap 7](assets/javascript-flappybird-stap7.gif){:class="screenshot"}
 
-Je vogel zal nu nog dwars door de buizen heen vliegen. We gaan nu kijken of de vogel botst met een buis. We doen dit in de ```update``` functie, omdat die keer op keer uitgevoerd wordt:
+Dit begint er al op te lijken. Maar Flappy vliegt nu nog dwars door de buizen heen. Zo is het wel een heel eenvoudig spelletje, daar gaan we iets aan doen!.
+
+We gaan nu controleren of de vogel botst met een buis. We doen dit in de ```update``` functie, omdat die steeds opnieuw uitgevoerd wordt. 
+
+Voeg deze code daarom aan de `update` functie toen:
 ```javascript
-update: function () {
-  game.physics.arcade.overlap(this.bird, this.pipes, this.hit, null, this);
-},
+game.physics.arcade.overlap(this.flappy, this.buizen, this.botsing, null, this);
 ```
 
-Als de vogel met een buis botst, wordt de functie ```hit``` uitgevoerd. We voegen deze functie aan ons ```state``` object toe, en spelen dan het geluid ```hit.mp3``` af:
+Als `flappy` met een  van de `buizen` botst, wordt de functie ```botsing``` uitgevoerd. 
+
+Die functie bestaat nog niet, dus die voegen we toe aan het `state` _object_, net zoals we dat eerder met de `flap` functie gedaan hebben:
+
 ```javascript
 var state = {
   preload: function() { 
-    // ...
-    game.load.audio('hit', 'assets/hit.mp3');
+    ...
   },
   create: function() { 
-    // ...
-    this.hitSound = game.add.audio('hit');
+    ...
   },
   update: function() { 
-    // ...
+    ...
   },
   flap: function() {
-    // ...
-  },
-  hit: function() {
-    this.hitSound.play();
+    ...
+  }, // <-- Let op dat je de komma weer niet vergeet :-)
+  botsing: function() {
+    game.state.start('main');
   }
 }
 ```
 
-Laat het spel opnieuw starten wanneer de vogel met een buis botst:
+De code die in de `botsing` functie uitgevoerd wordt, zorgt er voor dat het spel opnieuw start.
+
+Dus iedere keer dat `flappy` een `botsing` heeft met een van de `buizen` wordt het spel opnieuw gestart.
+
+Laten we er nu nog even een echt botsing van maken door een geluidje af te spelen.  Laad het ```botsing``` geluidsbestand in het geheugen van de computer door in de ```preload``` functie deze code toe te voegen:
+
 ```javascript
-hit: function() {
-  // ...
-  game.state.start('main');
+game.load.audio('botsing', 'botsing.mp3');
+```
+
+Maak het botsing geluid bekend in het spel door deze code in de ```create``` functie te zetten:
+
+```javascript
+this.botsingGeluid = game.add.audio('botsing');
+```
+
+Speel het geluid af iedere keer wanneer de ```botsing``` functie uitgevoerd wordt:
+```javascript
+this.botsingGeluid.play();
+```
+### Controlepunt
+Als het goed is ziet je code er nu zo uit:
+
+```javascript
+var state = {
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+    game.load.spritesheet('vogel', 'vogel.png', 68, 48, 3);
+    game.load.audio('flap', 'flap.mp3');
+    game.load.audio('botsing', 'botsing.mp3');
+  },
+
+  create: function () {
+    // Hier zet je code neer die 1 keer uitgevoerd moet worden, wanneer je spel 
+    // opstart
+    this.background = game.add.sprite(0, 0, 'achtergrond');
+    this.background.width = game.width;
+    this.background.height = game.height;
+
+    this.flappy = game.add.sprite(100, 245, 'vogel');
+
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+    game.physics.arcade.enable(this.flappy);
+    this.flappy.body.gravity.y = 1000;
+
+    var spaceKey = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+    spaceKey.onDown.add(this.flap, this);
+
+    this.flappy.animations.add('fly'); 
+
+    this.flapGeluid = game.add.audio('flap');
+
+    this.timer = game.time.events.loop(3000, this.maakBuizen, this);
+
+    this.botsingGeluid = game.add.audio('botsing');
+  },
+
+  update: function () {
+    // Hier zet je code neer die steeds opnieuw uitgevoerd wordt. Je kunt
+    // bijvoorbeeld controleren of 2 dingen met elkaar botsen.
+    game.physics.arcade.overlap(this.flappy, this.buizen, this.botsing, null, this);
+  },
+  flap: function() {
+    this.flappy.body.velocity.y = -350;
+    this.flappy.animations.play('fly', 10, false);
+    this.flapGeluid.play();
+  },
+  botsing: function() {
+    game.state.start('main');
+    this.botsingGeluid.play();
+  }
 }
+
+var game = new Phaser.Game(640, 480, Phaser.CANVAS);
+game.state.add('main', state);
+game.state.start('main');
+
+laadBuizen(state);
 ```
 
 Extra opdrachten
