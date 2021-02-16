@@ -71,7 +71,7 @@ De achtergrond instellen
 
 <div style="border: 3px solid #FF0554; text-align: center; border-radius: 1em; margin:2em; padding: 1em;">
 <p><strong>🚨 BELANGRIJK! 🚨</strong></p>
-<p>Druk voor je verder gaat op de `Fork` knop (links boven in het scherm).</p>
+<p>Druk voor je verder gaat op de <span style="background-color: #008cba; color: white; padding: 5px 8px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px;">Fork</span> knop (links boven in het scherm).</p>
 <p>Dit zorgt er voor dat er een kopie gemaakt wordt van de code, waarin jouw wijzigingen bewaard blijven.</p>
 </div>
 
