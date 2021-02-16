@@ -273,7 +273,7 @@ spaceKey.onDown.add(this.flap, this);
 
 Met de regels hierboven zorgen we er voor dat wanneer de `spatiebalk` ingedrukt wordt, het spel de _functie_ `flap` van ons `state` _object_ uitvoert.
 
-Deze funtie bestaat nog niet, dus die moeten we toevoegen aan het `state` _object_. Voeg deze code _onder_ de `update` functie toe:
+Deze funtie bestaat nog niet, dus die moeten we toevoegen aan het `state` _object_. Voeg deze code _onder_ de `update` functie toe, na een komma:
 
 ```javascript
 flap: function() {
@@ -359,7 +359,7 @@ Voeg een _animatie_ toe aan `flappy` door deze code in de ```create``` functie t
 this.flappy.animations.add('vlieg');
 ```
 
-En start de animatie iedere keer dat de ```flap``` functie uitgevoerd wordt, door deze code aa de `flap` functie toe te voegen:
+En start de animatie iedere keer dat de ```flap``` functie uitgevoerd wordt, door deze code aan de `flap` functie toe te voegen:
 
 ```javascript
 this.flappy.animations.play('vlieg', 10, false);
@@ -451,7 +451,7 @@ this.timer = game.time.events.loop(3000, this.maakBuizen, this);
 
 Deze `timer` zorgt er voor dat iedere 3 secoden (= 3000 milliseconden) de functie ```maakBuizen``` uitgevoerd wordt.
 
-De code voor het aanmaken van de buizen is wat lastiger, dus die krijg je cadeau! We moeten de code alleen nog even actiefc maken.
+De code voor het aanmaken van de buizen is wat lastiger, dus die krijg je cadeau! We moeten de code alleen nog even actief maken.
 
 Dit doe je door deze regel helemaal onderaan je programma toe te voegen:
 ```javascript
@@ -736,7 +736,7 @@ this.puntenLabel = game.add.text(20, 20, "0", {
 });
 ```
 
-We gaan een timer toe voegen, waarmee we elke seconde een nieuwe functie ```score``` aanroepen.
+We gaan een timer toevoegen, waarmee we elke seconde een nieuwe functie ```score``` aanroepen.
 
 Dit is de code om de _timer_ te maken, die moet je in de `create` functie toe voegen:
 
