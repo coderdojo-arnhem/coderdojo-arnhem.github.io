@@ -31,11 +31,9 @@ Als het goed is zie je nu dit scherm:
 
 ![Plunker](assets/javascript-flappybird-plunker1.png)
 
-We gaan onze code schrijven in het bestand ```flappybird.js```.
+We gaan onze code schrijven in het bestand ```flappybird.js```, open het bestand meer eens door er op te klikken
 
-Open het bestand meer eens door er op te klikkken
-
-Als het goed is zie je nu deze code in het code venster:
+Je ziet nu deze code in het code venster:
 
 ```javascript
 var state = {
@@ -62,9 +60,9 @@ game.state.add('main', state);
 game.state.start('main');
 ```
 
-Als je goed kijkt ziet je computer code staan, maar ook 'gewone' Nederlandse zinnen.
+Je ziet hierboven computer code staan, maar ook 'gewone' Nederlandse zinnen.
 
-We noemen dit _commentaar_ en gebruiken het om uit te leggen wat de code doet.
+We noemen dit _commentaar_ en gebruiken het om uit te leggen wat de code doet. 
 
 Je kunt zelf ook _commentaar_ toevoegen door een regel te beginnen met `//`.
 
@@ -82,9 +80,7 @@ Er gebeurt nog niet zo veel in ons spel, je ziet alleen maar een zwart vlak.
 
 We gaan eerst maar eens een mooie achtergrond instellen.
 
-We gaan hiervoor het plaatje `achtergrond.png` inladen.
-
-Dat doe je door eerst het plaatje in het geheugen van de computer te laden.
+Dat doen we door het plaatje `achtergrond.png` in het geheugen van de computer te laden.
 
 Voeg deze regel toe aan de  ```preload``` functie, _voor_ de `}`:
 
@@ -645,7 +641,7 @@ Binnen het scherm blijven
 -------------------------
 We zijn al een heel eind, het begint al een _echt_ spel te worden!
 
-Laten we nu proberen er voor te zorgen dat je ook _game over_ bent wanneer `flappy` de rand van het scherm raakt.
+Laten we nu programmeren dat het ook _game over_ is wanneer `flappy` de rand van het scherm raakt.
 
 Als `flappy` de rand raakt, zorgen we dat de `botsing` functie uitgevoerd wordt. Daardoor zal het spel opnieuw starten.
 
