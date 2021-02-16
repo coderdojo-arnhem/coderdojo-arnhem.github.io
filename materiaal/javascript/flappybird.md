@@ -19,7 +19,7 @@ In Flappy Bird moet je het vogeltje tussen de buizen door laten vliegen, zonder 
 
 Dat klinkt eenvoudig, maar is lastiger dan je denkt!
 
-Punker
+Plunker
 ------
 
 We gaan werken in _Plunker_. Dit is een online _editor_ waarin we onze JavaScript code gaan schrijven.
