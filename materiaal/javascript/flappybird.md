@@ -82,7 +82,7 @@ We gaan eerst maar eens een mooie achtergrond instellen.
 
 Dat doen we door het plaatje `achtergrond.png` in het geheugen van de computer te laden.
 
-Voeg deze regel toe aan de  ```preload``` functie, _voor_ de `}`:
+Voeg deze regel toe aan de  ```preload``` functie, op regel `4`.
 
 ```javascript
 game.load.image('achtergrond', 'achtergrond.png');
@@ -90,11 +90,14 @@ game.load.image('achtergrond', 'achtergrond.png');
 
 De `preload` functie ziet er als het goed is nu zo uit:
 
-```javascript:
-preload: function () {
-  // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
-  game.load.image('achtergrond', 'achtergrond.png');
-},
+```javascript
+var state = {
+  preload: function () {
+    // Hier laad je alle plaatjes en geluiden in het geheugen van de computer
+    game.load.image('achtergrond', 'achtergrond.png');
+  },
+  ...
+}
 ```
 
 Voeg in de ```create``` functie het achtergrondplaatje als _sprite_ toe. Maak de _sprite_ net zo groot als het scherm van ons spel:
