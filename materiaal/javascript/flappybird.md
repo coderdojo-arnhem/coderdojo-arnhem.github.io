@@ -201,7 +201,7 @@ game.state.start('main');
 De vogel laten vallen
 ---------------------
 
-Er gebeurt nog weinig in ons spel. We gaan straks Flappy leren vliegen, maar eerst gaan we hem laten vallen.
+Er gebeurt nog weinig in ons spel. We gaan straks Flappy leren vliegen, maar eerst gaan we haar laten vallen.
 
 We doen dit door _physics_ aan ons spel toe te voegen.
 
