@@ -74,12 +74,12 @@ Bij de start van het spel moeten we eerst een paar dingen basis dingen instellen
 
 2. Voeg een _herhaal_ blok toe.
 
-   Binnen het _herhaal_ blok, voeg je een _verander y met_ blok toe. Sleep vanuit _Variabelen_ de variabele `zwaartekracht` op het _verander y met_ blok.
+   Binnen het _herhaal_ blok voeg je een _verander y met_ blok toe. Sleep vanuit _Variabelen_ de variabele `zwaartekracht` op het _verander y met_ blok.
    Hierdoor veranderen we de y-positie (verticaal) van de vogel met de waarde van de `zwaartekracht` variabele. 
 
    Voeg ook een blok _verander `zwaartekracht` met_ toe. Geef deze de waarde `-1`. De waarde is negatief; de vogel zal omlaag vallen.
    
-   Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
+Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
 
 ## De vogel laten vliegen
 
