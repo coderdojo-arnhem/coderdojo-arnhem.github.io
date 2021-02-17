@@ -107,8 +107,8 @@ We voegen ook nog wat geluid en beweging toe.
 
    Voeg een _volgend uiterlijk_ blok toe.
 
-Start het spel en druk op de spatiebalk om te kijken wat er gebeurt. 
-Zie je de vleugels bewegen en hoor je het geluid alsof de vogel echt vliegt?
+Start het spel en druk op de spatiebalk om te kijken wat er gebeurt. Schiet Flappy Bird kort omhoog?
+En zie je de vleugels bewegen en hoor je het geluid alsof de vogel echt vliegt?
 Stop het spel voordat je verder gaat.
 
 ## Buizen toevoegen
