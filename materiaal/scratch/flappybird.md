@@ -113,7 +113,7 @@ Stop het spel voordat je verder gaat.
 
 ## Buizen toevoegen
 
-Klik rechtsonder in het scherm op het plaatje van de __buizen__ om die __sprite__ te selecteren. 
+Klik rechtsonder in het scherm op het plaatje van de __buizen__ om die __sprite__ te selecteren. Klik links op het tabblad __code__. Het blok _Wanneer &#9873; wordt aangeklikt_ staat er al.
 
 We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start. 
 Elke 2 seconden moet een nieuwe buis verschijnen. Dat doen we door elke 2 seconden een __kloon__ te maken. 
