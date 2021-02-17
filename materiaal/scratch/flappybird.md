@@ -194,7 +194,9 @@ Gefeliciteerd! Je basisspel is helemaal af. Hoe lang lukt het jou om flappy bird
 
 ...of zorg er voor dat de buizen steeds sneller gaan bewegen (of langzamer als je het te moeilijk vindt!),
 
-...of kies een andere achtergrond of een nieuwe/extra achtergrond met “game over” dat tevoorschijn komt als het spel afgelopen is,
+...of kies een andere achtergrond 
+
+...of een nieuwe/extra achtergrond met “game over” dat tevoorschijn komt als het spel afgelopen is,
 
 ...of wat je zelf nog voor leuke dingen kunt bedenken!
 
