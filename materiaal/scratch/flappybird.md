@@ -89,6 +89,8 @@ Nu gaan we de vogel laten vliegen! Als de spatiebalk ingedrukt wordt, stellen we
 
 {:start="3"}
 
+We zitten nog steeds in het tabblad __code__ van de sprite __vogel__.
+
 3. Voeg een nieuw _wanneer &#9873; wordt aangeklikt_ blok toe.
 
    Voeg een _herhaal_ blok toe met daarbinnen _wacht tot toets_ `spatiebalk` _ingedrukt_.
