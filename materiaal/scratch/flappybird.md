@@ -151,11 +151,11 @@ De buis moet verdwijnen wanneer hij de rand van het scherm raakt.
 
 7. Voeg een _herhaal_ blok toe.
 
-  Zet hierbinnen een blok _verander x met `-4`_.
+    Zet hierbinnen een blok _verander x met `-4`_.
   
-  Voeg een _als `raak ik rand`_ blok toe.
+    Voeg een _als `raak ik rand`_ blok toe.
   
-  Daarbinnen het blok _verwijder deze kloon_.
+    Daarbinnen het blok _verwijder deze kloon_.
 
 Start het spel om te kijken wat er gebeurt. Zie je de buizen in beeld komen en weer verdwijnen?
 Stop het spel voordat je verder gaat.
@@ -163,7 +163,7 @@ Stop het spel voordat je verder gaat.
 
 ## De vogel tegen de buizen laten botsen
 
-Nu gaan we er voor zorgen dat flappy bird en de buizen echt op elkaar reageren. Als flappy bird tegen een buis botst dan eindigt het spel. 
+Flappy Bird vliegt nu nog dwars door de buizen. Dat is niet de bedoeling. Hij moet precies door het gat tussen de buizen vliegen. Als flappy bird tegen een buis botst dan eindigt het spel. 
 
 Maak linksonder in het scherm de __vogel sprite__ actief.
 
@@ -180,9 +180,9 @@ Maak linksonder in het scherm de __vogel sprite__ actief.
    Als flappy bird één van de buizen raakt dan is hij af en moet het spel stoppen. 
    Voeg daarom onderaan je code een blok _Stop `all`_ toe.
 
-Start het spel om te kijken wat er gebeurt. Hoe lang lukt het jou om flappy bird tussen de buizen door te laten vliegen?
+Gefeliciteerd! Je basisspel is helemaal af. Hoe lang lukt het jou om flappy bird tussen de buizen door te laten vliegen?
 
-## Verander het spel nu verder
+## Verander het spel nu zelf verder...
 
 ...dat je een punt krijgt wanneer er een nieuwe buis verschijnt (hint: maak een variabele met de naam punten),
 
@@ -192,9 +192,9 @@ Start het spel om te kijken wat er gebeurt. Hoe lang lukt het jou om flappy bird
 
 ...of maak je spel zo dat de vogel de bovenkant en onderkant van het scherm niet mag raken,
 
-...of zorg er voor dat de buizen steeds sneller gaan bewegen (of langzamer als je het te moeilijk vindt!)
+...of zorg er voor dat de buizen steeds sneller gaan bewegen (of langzamer als je het te moeilijk vindt!),
 
-...of kies een andere achtergrond, misschien wel een achtergrond met “game over” die tevoorschijn komt als het spel afgelopen is,
+...of kies een andere achtergrond of een nieuwe/extra achtergrond met “game over” dat tevoorschijn komt als het spel afgelopen is,
 
 ...of wat je zelf nog voor leuke dingen kunt bedenken!
 
