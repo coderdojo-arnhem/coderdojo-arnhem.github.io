@@ -130,7 +130,7 @@ Elke 2 seconden moet een nieuwe buis verschijnen. Dat doen we door elke 2 second
 
     Zet in het herhaalblok _Maak een kloon van `mezelf`_ en een blok _wacht `2` sec_.
 
-Nu gaan we er voor zorgen dat de buizen elke 2 seconden in beeld komen waarbij het iedere keer een verrassing is welk __uiterlijk__ verschijnt. 
+Nu gaan we er voor zorgen dat elke 2 seconden een nieuwe buis in beeld komt waarbij het iedere keer een verrassing is welk __uiterlijk__ verschijnt. 
 
 ![Start 6](/static/img/scratch-flappybird-8.svg)
 
