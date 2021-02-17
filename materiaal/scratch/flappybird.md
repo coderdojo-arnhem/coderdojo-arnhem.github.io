@@ -83,15 +83,13 @@ Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat
 
 ## De vogel laten vliegen
 
-
+Nu gaan we de vogel laten vliegen! We zitten nog steeds in het tabblad __code__ van de sprite __vogel__.
+Als de spatiebalk ingedrukt wordt, stellen we de `zwaartekracht` in op `6`. 
+De y-positie (verticaal) wordt hierdoor voor korte tijd hoger.
 
 ![Stap 3](/static/img/scratch-flappybird-3.svg)
 
 {:start="3"}
-
-Nu gaan we de vogel laten vliegen! We zitten nog steeds in het tabblad __code__ van de sprite __vogel__.
-Als de spatiebalk ingedrukt wordt, stellen we de `zwaartekracht` in op `6`. 
-De y-positie (verticaal) wordt hierdoor voor korte tijd hoger.
 
 3. Voeg een nieuw _wanneer &#9873; wordt aangeklikt_ blok toe.
 
