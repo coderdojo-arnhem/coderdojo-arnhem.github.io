@@ -140,10 +140,10 @@ Nu gaan we er voor zorgen dat elke 2 seconden een nieuwe buis in beeld komt waar
   
     Voeg een blok _verander uiterlijk naar `willekeurig getal tussen` `1` en `3`_ toe. Hiermee krijgt de buis één van de drie uiterlijken.
   
-    Laat de buizen verschijnen met het blok _verschijn_.
+    Laat de buis verschijnen met het blok _verschijn_.
   
 Tot slot voegen we beweging toe. We laten de buizen van rechts naar links bewegen. Hierdoor lijkt het net of flappy bird door het landschap vliegt! 
-De buis moet verdwijnen wanneer hij de rand van het scherm raakt.
+Een buis moet verdwijnen wanneer hij de rand van het scherm raakt.
 
 ![Start 7](/static/img/scratch-flappybird-10.svg)
 
@@ -165,13 +165,13 @@ Stop het spel voordat je verder gaat.
 
 Flappy Bird vliegt nu nog dwars door de buizen. Dat is niet de bedoeling. Hij moet precies door het gat tussen de buizen vliegen. Als flappy bird tegen een buis botst dan eindigt het spel. 
 
-Maak linksonder in het scherm de __vogel sprite__ actief.
+Maak linksonder in het scherm de __vogel sprite__ actief en ga naar het tabblad __code__.
 
 ![Stap 8](/static/img/scratch-flappybird-14.svg)
 
 {:start="8"}
 
-8. Voeg een nieuw _wanneer &#9873; wordt aangeklikt_ toe.
+8. Voeg een nieuw _wanneer &#9873; wordt aangeklikt_ blok toe.
 
    Voeg een blok _wacht tot `raak ik buizen`_ toe.
    
@@ -181,6 +181,9 @@ Maak linksonder in het scherm de __vogel sprite__ actief.
    Voeg daarom onderaan je code een blok _Stop `all`_ toe.
 
 Gefeliciteerd! Je basisspel is helemaal af. Hoe lang lukt het jou om flappy bird tussen de buizen door te laten vliegen?
+
+Is het niet helemaal gelukt en wil je even spieken. 
+[Hier](https://scratch.mit.edu/projects/173907357/#editor) vind je het eindresultaat.
 
 ## Verander het spel nu zelf verder...
 
@@ -200,4 +203,3 @@ Gefeliciteerd! Je basisspel is helemaal af. Hoe lang lukt het jou om flappy bird
 
 ...of wat je zelf nog voor leuke dingen kunt bedenken!
 
-[Hier](https://scratch.mit.edu/projects/173907357/#editor) vind je het eindresultaat.
