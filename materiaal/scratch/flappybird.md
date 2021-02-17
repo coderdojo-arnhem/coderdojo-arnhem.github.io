@@ -111,9 +111,10 @@ Stop het spel voordat je verder gaat.
 
 ## Buizen toevoegen
 
-Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te selecteren. We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start. Elke 2 seconden moet een nieuwe buis verschijnen.
+Klik rechtsonder in het scherm op het plaatje van de __buizen__ om die __sprite__ te selecteren. 
 
-![Stap 5](/static/img/scratch-flappybird-5.png)
+We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start. 
+Elke 2 seconden moet een nieuwe buis verschijnen. Dat doen we door elke 2 seconden een __kloon__ te maken. 
 
 ![Stap 5](/static/img/scratch-flappybird-7.svg)
 
@@ -127,11 +128,11 @@ Klik rechtsonder in het scherm op het plaatje van de _buizen_ om die _sprite_ te
 
     Zet in het herhaalblok _Maak een kloon van `mezelf`_ en een blok _wacht `2` sec_.
 
-![Start 6](/static/img/scratch-flappybird-10.svg)
+Nu gaan we er voor zorgen dat de buizen elke 2 seconden in beeld komen waarbij het iedere keer een verrassing is welk __uiterlijk__ verschijnt. 
+
+![Start 6](/static/img/scratch-flappybird-8.svg)
 
 {:start="6"}
-
-Laat de buizen verschijnen waarbij het iedere keer een verrassing is welk _uiterlijk_ verschijnt.
 
 6. Kies een _Wanneer ik als kloon start_ blok.
   
@@ -139,7 +140,10 @@ Laat de buizen verschijnen waarbij het iedere keer een verrassing is welk _uiter
   
     Laat de buizen verschijnen met het blok _verschijn_.
   
-Nu moeten we de buizen nog naar links laten bewegen en de buis laten verdwijnen wanneer hij de rand van het scherm raakt.
+Tot slot voegen we beweging toe. We laten de buizen van rechts naar links bewegen. Hierdoor lijkt het net of flappy bird door het landschap vliegt! 
+De buis moet verdwijnen wanneer hij de rand van het scherm raakt.
+
+![Start 7](/static/img/scratch-flappybird-10.svg)
 
 {:start="7"}
 
@@ -151,48 +155,44 @@ Nu moeten we de buizen nog naar links laten bewegen en de buis laten verdwijnen 
   
   Daarbinnen het blok _verwijder deze kloon_.
 
-Start het spel om te kijken wat er gebeurt. Zie je de buizen verschijnen?
+Start het spel om te kijken wat er gebeurt. Zie je de buizen in beeld komen en weer verdwijnen?
 Stop het spel voordat je verder gaat.
 
 
-
-{:start="10"}
-
 ## De vogel tegen de buizen laten botsen
 
-![Stap 11](/static/img/scratch-flappybird-11.png)
+Nu gaan we er voor zorgen dat flappy bird en de buizen echt op elkaar reageren. Als flappy bird tegen een buis botst dan eindigt het spel. 
 
-{:start="11"}
+Maak linksonder in het scherm de __vogel sprite__ actief.
 
-11. Maak linksonder in het scherm de _vogel_ sprite actief
+![Stap 8](/static/img/scratch-flappybird-14.svg)
 
-![Stap 12](/static/img/scratch-flappybird-12.svg)
+{:start="8"}
 
-{:start="12"}
+8. Voeg een nieuw _wanneer &#9873; wordt aangeklikt_ toe.
 
-12. Voeg een nieuw _wanneer &#9873; wordt aangeklikt_ toe.
+   Voeg een blok _wacht tot `raak ik buizen`_ toe.
+   
+   Voeg _Start geluid `hit` en wacht_ toe om een geluid af te spelen als de vogel een buis raakt.
+   
+   Als flappy bird één van de buizen raakt dan is hij af en moet het spel stoppen. 
+   Voeg daarom onderaan je code een blok _Stop `all`_ toe.
 
-    Wacht totdat de vogel een buis raakt.
-
-![Stap 13](/static/img/scratch-flappybird-13.svg)
-
-{:start="13"}
-
-13. Start het geluid `hit` en wacht totdat het geluid afgspeeld is.
-
-![Stap 14](/static/img/scratch-flappybird-14.svg)
-
-{:start="14"}
-
-14. Stop alle scripts om het spel te stoppen.
+Start het spel om te kijken wat er gebeurt. Hoe lang lukt het jou om flappy bird tussen de buizen door te laten vliegen?
 
 ## Verander het spel nu verder
 
-...zodat je een punt krijgt wanneer er een nieuwe buis verschijnt (hint: maak een variabele met de naam punten)
+...dat je een punt krijgt wanneer er een nieuwe buis verschijnt (hint: maak een variabele met de naam punten),
 
-...of dat je de vogel de bovenkant en onderkant van het scherm niet mag raken
+...of dat de tijd wordt bijgehouden totdat je "af" bent,
 
-...of dat de buizen steeds sneller gaan bewegen
+...of geef flappy bird een ander uiterlijk,
+
+...of maak je spel zo dat de vogel de bovenkant en onderkant van het scherm niet mag raken,
+
+...of zorg er voor dat de buizen steeds sneller gaan bewegen (of langzamer als je het te moeilijk vindt!)
+
+...of kies een andere achtergrond, misschien wel een achtergrond met “game over” die tevoorschijn komt als het spel afgelopen is,
 
 ...of wat je zelf nog voor leuke dingen kunt bedenken!
 
