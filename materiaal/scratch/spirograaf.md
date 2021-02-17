@@ -10,7 +10,7 @@ redirect_from: /materiaal/scratch/spirograaf.html
 Met programmeren kun je alles maken! Ook een kunstwerk!
 
 In deze les maken we zelf een kunstwerk met Scratch.
-En je leert ook over herhalingen en over variabelen. Als je nog niet weer wat dat zijn, geen
+En je leert ook over herhalingen en over variabelen. Als je nog niet weet wat dat zijn, geen
 zorgen! Dat gaan we samen leren.
 
 Zo gaat jouw kunstwerk er straks uitzien. Of misschien wel heel anders.
@@ -239,7 +239,7 @@ herhaal
   draai (50) graden naar rechts
 ```
 
-Nu krijg je bij iedere stap een andere kleur. je kunt hier ook weer het getal 5 op iets anders zetten, tot je het zelf mooi vindt.
+Nu krijg je bij iedere stap een andere kleur. je kunt hier ook weer het getal 5 of iets anders zetten, tot je het zelf mooi vindt.
 
 ## Druk er je stempel op
 
