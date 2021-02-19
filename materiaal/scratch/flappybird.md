@@ -101,7 +101,7 @@ De y-positie (verticaal) wordt hierdoor voor korte tijd hoger.
 
 We voegen ook nog wat geluid en beweging toe. 
 
-![Stap 4](/static/img/scratch-flappybird-4.svg)
+![Stap 4](/static/img/scratch-flappybird-4.jpg)
 
 {:start="4"}
 
