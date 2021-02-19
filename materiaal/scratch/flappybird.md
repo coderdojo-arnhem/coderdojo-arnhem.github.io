@@ -30,6 +30,8 @@ Je bent direct ingelogd in Scratch en kunt aan de slag.
 Je ontvangt ook een e-mail. Om het aanmaken van je account af te ronden, klik je in de mail op de link. 
 Je kunt daarna projecten delen met anderen (bijvoorbeeld met CoderDojo Arnhem).
 
+Als Scratch niet in het Nederlands wordt weergegeven kun je met het wereldbolletje linksboven Nederlands selecteren.
+
 ## De basis
 
 Laten we eerst kijken wat we in dit spel beschikbaar hebben. 
@@ -79,7 +81,7 @@ Bij de start van het spel moeten we eerst een paar basis dingen instellen.
 
    Voeg ook een blok _verander `zwaartekracht` met_ toe. Geef deze de waarde `-1`. De waarde is negatief; de vogel zal omlaag vallen.
    
-Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat.
+Start het spel om te kijken wat er gebeurt. Stop het spel voordat je verder gaat (met de rode stopknop naast het vlaggetje).
 
 ## De vogel laten vliegen
 
