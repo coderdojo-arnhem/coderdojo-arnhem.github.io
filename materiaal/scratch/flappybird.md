@@ -61,14 +61,14 @@ Laten we beginnen met programmeren van het spel!
 
 Klik op de sprite __vogel__. Klik links op het tabblad __code__. Het blok _Wanneer &#9873; wordt aangeklikt_ staat er al.
 
-Bij de start van het spel moeten we eerst een paar dingen basis dingen instellen.
+Bij de start van het spel moeten we eerst een paar basis dingen instellen.
 
 ![Stap 2](/static/img/scratch-flappybird-2.svg)
 
 1. Voeg een _maak y_ `0` blok toe. Hierdoor begint de vogel altijd in het midden van het scherm.
 
    Voeg een _maak_ `zwaartekracht` `0` blok toe. Dit blok is te vinden bij variabelen. 
-   Hierdoor wordt krijgt de variabele _zwaartekracht_ aan het begin van het spel altijd de waarde nul.
+   Hierdoor krijgt de variabele _zwaartekracht_ aan het begin van het spel altijd de waarde nul.
 
 {:start="2"}
 
@@ -153,7 +153,7 @@ Een buis moet verdwijnen wanneer hij de rand van het scherm raakt.
 
     Zet hierbinnen een blok _verander x met `-4`_.
   
-    Voeg een _als `raak ik rand`_ blok toe.
+    Voeg een _als `raak ik rand` dan_ blok toe.
   
     Daarbinnen het blok _verwijder deze kloon_.
 
@@ -178,7 +178,7 @@ Maak linksonder in het scherm de __vogel sprite__ actief en ga naar het tabblad 
    Voeg _Start geluid `hit` en wacht_ toe om een geluid af te spelen als de vogel een buis raakt.
    
    Als flappy bird één van de buizen raakt dan is hij af en moet het spel stoppen. 
-   Voeg daarom onderaan je code een blok _Stop `all`_ toe.
+   Voeg daarom onderaan je code een blok _Stop `alle`_ toe.
 
 Gefeliciteerd! Je basisspel is helemaal af. Hoe lang lukt het jou om flappy bird tussen de buizen door te laten vliegen?
 
