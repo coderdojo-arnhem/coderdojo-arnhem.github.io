@@ -9,6 +9,8 @@ redirect_from: /materiaal.html
   Ben je voor het eerst bij CoderDojo? Dan is programmeren in Scratch de leukste manier om te beginnen.
 - [![micro:bit](/static/img/microbit.png) micro:bit](/materiaal/microbit)
   De Micro:bit is een klein computertje dat ontwikkeld is om kinderen mee te leren programmeren.
+- [![maqueen](/static/img/maqueen.jpg) Maqueen](/materiaal/microbit-maqueen)
+  De Maqueen is een robot autootje dat je kunt besturen door een Micro:bit te programmeren.
 - [![Hacken](/static/img/hacken.png) Hacken](/2019/10/19/hacken)
   Om te voorkomen dat je website wordt gehackt, moet je zelf leren te denken als een hacker… En dat is precies wat we gaan doen!
 - [![CodeCombat](/static/img/codecombat.png) CodeCombat](/2017/01/21/codecombat)

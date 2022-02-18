@@ -9,6 +9,10 @@
     clear:both;
 }
 
+.stappenplan.block-images .article-body img.block {
+    float: none;
+}
+
 .stappenplan .article-body .blog > p,
 .stappenplan .article-body > p {
     clear:both;
@@ -34,8 +38,12 @@
         display:block;
     }    
 }
-    
 
+.note {
+    border: 3px solid #FF0554;
+    border-radius: 1rem;
+    padding: 1rem;
+}
 
 iframe.youtube {
     width: 560px;
