@@ -13,7 +13,7 @@ Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en 
 - [![Spirograaf](/static/img/scratch-spirograaf-1.png) Spirograaf](/materiaal/scratch/spirograaf)
 Met programmeren kun je alles maken, ook een kunstwerk! In deze les leer je  over herhalingen en over variabelen.
 - [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/materiaal/scratch/hooghouden)
-Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 gedaan hebben. Probeer en voetbal hoogte houdenmet je webcam!
+Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 gemaakt hebben. Probeer een voetbal hoog te houden met je webcam!
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
  Flappy Bird](/materiaal/scratch/flappybird)
 Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te maken, vind je hier de instructies die we voor CoderDojo #12 maakten.
