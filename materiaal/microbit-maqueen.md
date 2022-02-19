@@ -13,20 +13,18 @@ tags: [materiaal, microbit]
 
 In deze handleiding van CoderDojo Arnhem worden de basisfunctionaliteiten van de Maqueen robotauto toegelicht.
 
-Per functionaliteit worden de programmeer-blokken die
-er bij horen toegelicht en worden voorbeeldprogramma’s gegeven.
+Per functionaliteit worden de programmeerblokken die er bij horen toegelicht en worden voorbeeldprogramma’s gegeven.
 
 Als laatste staan er nog wat uitdagende projecten in waarin meerdere functies gecombineerd worden.
 
 ![sprites](/static/img/maqueen/image-005.jpg)
 
-Er wordt uitgegaan van enige basiskennis van de Micro:Bit en de Microsoft MakeCode programmeeromgeving. Heb je dit nog niet, probeer dan eerst [een
-beginnersprogramma voor de Micro:Bit](https://coderdojo-arnhem.github.io/materiaal/microbit/).
+Er wordt uitgegaan van enige basiskennis van de Micro:Bit en de Microsoft MakeCode programmeeromgeving. Heb je dit nog niet, probeer dan eerst een
+beginnersprogramma voor de Micro:Bit. Je kunt deze vinden tussen ons [materiaal](https://coderdojo-arnhem.github.io/materiaal).
 
 Deze handleiding is te gebruiken voor ieder niveau en hoeft niet perse van voor tot achter doorgenomen te worden.
 
-Begin bij de basis paragrafen en kijk daarna wat je
-leuk vindt om te doen met de robot auto.
+Begin bij de basis paragrafen en kijk daarna wat je leuk vindt om te doen met de robot auto.
 
 <hr />
 
@@ -46,9 +44,9 @@ Als eerste moet je er voor zorgen dat de programmeerblokken voor de Maqueen
 toegevoegd worden in de MakeCode programmeeromgeving van de Micro:Bit.
 
 - Start de programmeeromgeving van de Micro:Bit MakeCode: <https://makecode.microbit.org/>
-- Klik op Nieuw Project
-- Klik rechtsboven op het tandwiel en kies Uitbreidingen.
-- Zoek Maqueen. Je ziet nu de uitbereiding Maqueen van DF ROBOT, klik hier op. 
+- Klik op `Nieuw Project`
+- Klik rechtsboven op het tandwiel en kies `Uitbreidingen.`
+- Zoek Maqueen. Je ziet nu de uitbereiding Maqueen van DF ROBOT, klik hier op.
 
 ![sprites](/static/img/maqueen/image-000.jpg)
 
@@ -58,12 +56,11 @@ toegevoegd worden in de MakeCode programmeeromgeving van de Micro:Bit.
 
 ### Micro:Bit in de Maqueen plaatsen
 
-
 Zoals je ziet heeft de Maqueen zelf geen Micro:Bit. Er zit wél een gleuf op om de
 Micro:Bit in te stoppen. We gaan eerst testen of het werkt.
 
 - Maak onderstaand programma in MakeCode. Sluit de Micro:Bit met de USB-kabel op
-de computer aan en download het programma naar je Micro:Bit. 
+de computer aan en download het programma naar je Micro:Bit.
 
 ![sprites](/static/img/maqueen/image-003.png)
 
@@ -74,24 +71,20 @@ Als de schuif naar links staat, dan staat hij AAN. Je ziet dan linksvoor een roo
 lampje branden. Naar rechts is UIT.
 
 {:class="note"}
-Zorg er altijd voor dat de Maqueen UIT staat als je de Micro:Bit er in
+Zorg er altijd voor dat de Maqueen __UIT__ staat als je de Micro:Bit er in
 plaatst! Dan kunnen er geen onverwachte dingen gebeuren.
 
-- Steek de Micro:Bit in de Maqueen. De knoppen en LED
-lampjes moeten aan de voorkant zitten richting de
-oogjes. De gouden strip met gaatjes en 0/1/2/3V/GND
-onderaan.
-- Zet de schakelaar om naar links zodat de Maqueen AAN
-staat. De LED lampjes links- en rechtsvoor moeten
+- Steek de Micro:Bit in de Maqueen. De knoppen en LED lampjes moeten aan de voorkant zitten richting de
+oogjes. De gouden strip met gaatjes en `0`/`1`/`2`/`3V`/`GND` onderaan.
+- Zet de schakelaar om naar links zodat de Maqueen AAN staat. De LED lampjes links- en rechtsvoor moeten
 beide rood gaan branden!
-- Je bent nu klaar om een eigen programma te gaan
-schrijven voor de Micro:Bit Maqueen robotauto! Vergeet
-niet de schakelaar weer naar rechts te zetten zodat de Maqueen UIT staat. Haal
-daarna je Micro:Bit uit de Maqueen en ga een nieuw programma schrijven.
+- Je bent nu klaar om een eigen programma te gaan schrijven voor de Micro:Bit Maqueen robotauto! Vergeet
+niet de schakelaar weer naar rechts te zetten zodat de Maqueen UIT staat. Haal daarna je Micro:Bit uit de Maqueen en ga een nieuw programma schrijven.
 
 ![sprites](/static/img/maqueen/image-005.jpg)
 
 ### Functies op de Micro:Bit / Maqueen
+
 Op de combinatie van de Micro:Bit en de Maqueen robot auto zitten 8 functies die we
 in dit document verder gaan toelichten om te programmeren. Er zitten nog meer
 functionaliteiten op de Micro:Bit maar die laten we in dit document buiten
@@ -100,37 +93,37 @@ beschouwing. Die gebruiken we niet om de Maqueen robot auto mee aan te sturen
 
 ### 1. LED lampjes (voorkant)
 
-Voorop de Maqueen zitten twee rode LED lampjes (links LED-L P8 en rechts LED-R
-P12). De linker (left) en rechter (right) rode LED zet je aan (on) of uit (off) met
+Voorop de Maqueen zitten twee rode LED lampjes (links `LED-L` `P8` en rechts `LED-R`
+`P12`). De linker (`left`) en rechter (`right`) rode LED zet je aan (on) of uit (off) met
 onderstaand programmeerblok.
-Lees voor het programmeren verder in paragraaf 1 LED lampen voorkant
-(koplampen) laten branden.
+
+Lees voor het programmeren verder in paragraaf _1. Koplampen laten branden_.
 
 ![sprites](/static/img/maqueen/image-004.png)
 
 ### 2. Motoren
 
-Beide wielen van de Maqueen worden met een aparte motor bestuurd: Links (left)
-en Rechts (right). Je kunt aangeven welke richting de motor op moet draaien: naar
+Beide wielen van de Maqueen worden met een aparte motor bestuurd: Links (`left`)
+en Rechts (`right`). Je kunt aangeven welke richting de motor op moet draaien: naar
 voren (forward) of naar achteren (backward). Ook kun je aangeven met welke
-snelheid de motoren moeten draaien. De snelheid kan variëren van 0 tot 255. 100
+snelheid de motoren moeten draaien. De snelheid kan variëren van `0` tot `255`. `100`
 is een mooie rustige snelheid.
+
 De belangrijkste programmeerblokken om de wielen/motoren aan te sturen staan
-hieronder. Je kunt ook alle (all) kiezen waarmee je beide motoren tegelijkertijd met
+hieronder. Je kunt ook alle (`all`) kiezen waarmee je beide motoren tegelijkertijd met
 dezelfde snelheid in dezelfde richting aan zet.
 
 ![sprites](/static/img/maqueen/image-006.png)
 
 ![sprites](/static/img/maqueen/image-007.png)
 
-Lees voor het programmeren verder in paragraaf 2 Motoren aanzetten, bepaal
-richting en snelheid.
+Lees voor het programmeren verder in paragraaf _2. Rijden en sturen_.
 
 ### 3. Geluid
 
 De Maqueen robot auto beschikt over een eigen speaker/buzzer waarmee je de
 Maqueen geluid kunt laten maken. Als je goed kijkt zie je rechtsvoor op de auto een
-kleine schakelaar met daarbij poort P0. Met de schakelaar kan je de speaker aan en
+kleine schakelaar met daarbij poort `P0`. Met de schakelaar kan je de speaker aan en
 uit zetten. Standaard staat de speaker AAN.
 
 {:class="note"}
@@ -149,13 +142,13 @@ laat de robotauto muziek maken!
 
 Draai de Maqueen maar eens om en kijk op de onderkant.
 Daar zie je 4 RGB lampjes die apart kunt programmeren.
-RGB staat voor Rood Groen Blauw. Deze lampjes kunnen
+`RGB` staat voor `R`ood `G`roen `B`lauw. Deze lampjes kunnen
 dus Rood, Groen en Blauw licht geven, maar je kunt de
 kleuren ook combineren zodat ze ieder kleur van de
 regenboog kunnen schijnen.
 Deze RGB lampjes worden ook wel NeoPixels genoemd. Je
-ziet op de printplaat RGB0, RGB1, RGB2 en RGB3 staan
-(P15).
+ziet op de printplaat `RGB0`, `RGB1`, `RGB2` en `RGB3` staan
+(`P15`).
 
 ![sprites](/static/img/maqueen/image-008.jpg)
 
@@ -173,10 +166,9 @@ omdat hij veel gebruikt wordt.
 
 Na klikken op de uitbereiding Neopixel zie je dat er een extra
 menu toegevoegd is in je lijst met daarin veel nieuwe blokken.
-Er staat ook “meer…” onder, omdat er nog veel blokken voor
+Er staat ook `meer...` onder, omdat er nog veel blokken voor
 Neopixels zijn. Die passen niet allemaal in één lijstje.
-Lees voor het programmeren verder in paragraaf 4 Neopixels aan de onderkant
-laten branden.
+Lees voor het programmeren verder in paragraaf _4. Neopixels aan de onderkant_.
 
 ### 5. Ultrasoon / afstand meten
 
@@ -207,14 +199,13 @@ Lees voor het programmeren verder in paragraaf 5 Ultrasoon: obstakels vermijden.
 ### 6.Lijnvolg sensoren
 
 Onderop, achter het voorwiel, zitten twee lijn volg
-sensoren. Er staat Line-R (P14) en Line-L (P15) bij.
-Deze sensoren maken gebruik van infrarood
-lichtsignalen. De sensor zendt een lichtsignaal uit en
+sensoren. Er staat `Line-R` (`P14`) en `Line-L` (`P15`) bij.
+Deze sensoren maken gebruik van infrarood lichtsignalen. De sensor zendt een lichtsignaal uit en
 als dat weerkaatst levert dat een positieve waarde
 op, een 1. Wordt het signaal niet weerkaatst dan
-levert dit een negatieve waarde op, een 0. Wit
-reflecteert goed, dus dat geeft een 1. Zwart
-reflecteert niet dus dat levert een 0 op. Met het slim
+levert dit een negatieve waarde op, een `0`. Wit
+reflecteert goed, dus dat geeft een `1`. Zwart
+reflecteert niet dus dat levert een `0` op. Met het slim
 programmeren van deze lijnsensoren kan de auto
 een zwarte lijn volgen.
 
@@ -225,7 +216,7 @@ oftewel Lees links/rechts route geleiding.
 
 ![sprites](/static/img/maqueen/image-016.png)
 
-Lees voor het programmeren verder in paragraaf 6 Lijn volgen.
+Lees voor het programmeren verder in paragraaf _6. Lijn volgen_.
 
 ### 7. Infrarood (IR)
 
@@ -233,18 +224,20 @@ Infrarood werkt, zoals het woord al zegt, met infrarood licht signalen. Infraroo
 signalen worden onder andere gebruikt in afstandsbedieningen. Met een
 afstandsbediening kun je een apparaat niet alleen aan en uit zetten maar ook
 opdrachten geven om voorgeprogrammeerde functies uit te voeren. De
-afstandsbediening zendt binaire codes uit door te knipperen met onzichtbaar
+afstandsbediening zendt ___binaire codes___ uit door te knipperen met onzichtbaar
 infrarood licht. Een binaire code bestaat uit enen en nullen. Een korte knip staat
-voor 0 en een lange voor 1.
+voor `0` en een lange voor `1`.
+
 De Maqueen robot auto heeft voorop, als een soort neusje, een infrarood sensor die
 de infrarood lichtsignalen van de afstandsbediening kan ontvangen. Wat deze
-sensor meet heet in MakeCode Read IR key value oftewel Lees infrarood waarde. Je
-vindt de programmeerblokken voor het gebruik van Infrarood in het menu IR. Dit
+sensor meet heet in MakeCode `Read IR key value` oftewel _Lees infrarood waarde_. 
+
+Je vindt de programmeerblokken voor het gebruik van Infrarood in het menu `IR`. Dit
 menu staat standaard in de lijst.
 
 ![sprites](/static/img/maqueen/image-017.png)
 
-Lees voor het programmeren verder in paragraaf 7 Infrarood besturing.
+Lees voor het programmeren verder in paragraaf _7. Infrarood besturing_.
 
 ### 8. Lichtmeter
 
@@ -253,7 +246,7 @@ kunnen ook het aanwezige licht meten. Hierdoor kun je opdrachten geven wat de
 robotauto moet doen als het bijvoorbeeld donker wordt, maar ook wat het moet
 doen als het licht een bepaalde sterkte heeft.
 
-Lees voor het programmeren verder in paragraaf 8 Lichtsterkte gebruiken.
+Lees voor het programmeren verder in paragraaf _8. Lichtsterkte gebruiken_.
 
 ![sprites](/static/img/maqueen/image-018.jpg)
 
@@ -261,8 +254,8 @@ Lees voor het programmeren verder in paragraaf 8 Lichtsterkte gebruiken.
 
 In de basis uitleg staat de code om de rode LED lampjes aan de voorkant continu te
 laten branden. Dat is wel een beetje saai. We gaan nu de rechter koplamp laten
-branden als je knop A indrukt en de linker koplamp laten branden als je B indrukt.
-Druk je A en B tegelijkertijd in, dan gaan ze beide branden. Hieronder staat de code
+branden als je knop `A` indrukt en de linker koplamp laten branden als je `B` indrukt.
+Druk je `A` en `B` tegelijkertijd in, dan gaan ze beide branden. Hieronder staat de code
 die je moet gebruiken:
 
 ![sprites](/static/img/maqueen/image-019.png)
@@ -278,8 +271,7 @@ laten branden. Valt je nog wat anders op?
 
 ![sprites](/static/img/maqueen/image-021.png)
 
-Meer experimenteren met de koplampen? Kijk bij A Robotdans en D Knipperen op de
-zebra.
+Meer experimenteren met de koplampen? Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/) _A. Robotdans_ en _.D Knipperen op de zebra._
 
 ## 2. Rijden en sturen
 
@@ -299,7 +291,7 @@ Gebruik onderstaande code voor de basisaansturing van de beide motoren. Beide mo
 
 Het is dan ook handig te programmeren dat de motoren bv bij
 schudden weer uitgaan (let op, dit werkt niet als je de motoren
-bij het aanzetten in een blauw “de hele tijd” blok zet!).
+bij het aanzetten in een blauw "de hele tijd` blok zet!).
 
 ![sprites](/static/img/maqueen/image-023.png)
 
@@ -307,7 +299,7 @@ Door de twee motoren met verschillende snelheid te laten rijden of zelfs in een 
 
 ![sprites](/static/img/maqueen/image-024.png)
 
-Meer experimenteren met het rijden met de Maqueen? Kijk bij A Robotdans en B Patronen rijden.
+Meer experimenteren met het rijden met de Maqueen? Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/) _A. Robotdans_ en _B. Patronen rijden_.
 
 ## 3. Geluid
 
@@ -316,15 +308,15 @@ al gebruik gemaakt van de geluid optie op de
 Maqueen. Dat deed je door het blok “speel
 toon” te gebruiken uit het menu Muziek. Met
 dit blokje kun je zelf de toon kiezen. Met
-beat bepaal je hoe lang de toon moet zijn; 4
-beat is de langste toon, 1/16 de kortste. Wil
+beat bepaal je hoe lang de toon moet zijn; `4
+beat` is de langste toon, `1/16` de kortste. Wil
 je een korte pauze, gebruik dan het blokje
-"rust". Ook hier bepaal je met beat hoe lang
+`rust`. Ook hier bepaal je met beat hoe lang
 de rust moet zijn.
 
 ![sprites](/static/img/maqueen/image-025.png)
 
-In het menu Muziek zitten veel meer opties voor muziek en melodieën. Je kunt ook je eigen melodie samenstellen. De snelste methode om een melodie te spelen is met het blokje "play melody". Klik op de editor en je kunt in elke kolom een toonhoogte kiezen.
+In het menu Muziek zitten veel meer opties voor muziek en melodieën. Je kunt ook je eigen melodie samenstellen. De snelste methode om een melodie te spelen is met het blokje `play melody`. Klik op de editor en je kunt in elke kolom een toonhoogte kiezen.
 
 Bepaal linksonder het tempo waarmee de melodie moet
 worden afgespeeld. Gebruik de play knop om af te spelen.
@@ -334,8 +326,7 @@ wat uit, maar zelf maken is natuurlijk het allerleukste!
 
 ![sprites](/static/img/maqueen/image-027.png)
 
-Meer experimenteren met muziek? Kijk bij A Robotdans en
-F Obstakels vermijden en waarschuwing geven.
+Meer experimenteren met muziek? Kijk bij Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/)  _A. Robotdans_ en _F. Obstakels vermijden en waarschuwing geven_.
 
 ## 4. Neopixels aan de onderkant
 
@@ -344,14 +335,13 @@ toevoegen.
 
 Als je wil dat de Micro:Bit een aangesloten apparaat gaat aansturen dan moet je helemaal aan het begin van je programma aangeven om welk apparaat het gaat. Zie het als een soort gebruiksaanwijzing. De Micro:Bit heeft zelf geen Neopixels; hij weet
 helemaal niet dat ze bestaan. Dat moeten wij als eerste aan de Micro:Bit vertellen en
-uitleggen. Dat doen we in het blokje “bij opstarten”.
+uitleggen. Dat doen we in het blokje `bij opstarten`.
 
-We moeten eerst een variabele aanmaken. Dat doe je in het menu Variabelen; klik op "Maak een variabele" en noem hem Neopixel.
-Kies dan uit het menu Neopixel het blok "stel strip in op...". Wijzig de naam “strip” in de variabele naam die we net aangemaakt hebben: “Neopixel”. Vervolgens moeten we nog aan de Micro:Bit vertellen op welke poort de Neopixels zitten; dan kan hij ze vinden. De poort staat onderop de Maqueen bij RGB0, dat is Pin 15. Kies uit de lijst dus P15. Als laatste moeten we aangeven hoeveel lampjes we
-hebben. Wij hebben 4 Neopixel RGB lampjes. Kies “4” in het programmeerblok. Laat bij kleur RGB (GRB format) staan.
+We moeten eerst een variabele aanmaken. Dat doe je in het menu `Variabelen`; klik op `Maak een variabele` en noem hem Neopixel.
+Kies dan uit het menu Neopixel het blok `stel strip in op...`. Wijzig de naam `strip` in de variabele naam die we net aangemaakt hebben: `Neopixel`. Vervolgens moeten we nog aan de Micro:Bit vertellen op welke poort de Neopixels zitten; dan kan hij ze vinden. De poort staat onderop de Maqueen bij `RGB0`, dat is Pin `15`. Kies uit de lijst dus P15. Als laatste moeten we aangeven hoeveel lampjes we
+hebben. Wij hebben 4 Neopixel RGB lampjes. Kies `4` in het programmeerblok. Laat bij kleur RGB (RGB format) staan.
 
 ![sprites](/static/img/maqueen/image-026.png)
-
 
 {:class="note"}
 Nu weet de Micro:Bit bij opstarten dat er 4 RGB lampjes aangesloten zijn en waar deze lampjes zich bevinden!
@@ -368,38 +358,38 @@ kleur wordt dus hoe meer er van die kleur gebruikt wordt in je uiteindelijke kle
 
 ![sprites](/static/img/maqueen/image-030.jpg)
 
-Zoek met google op “online
-kleurkiezer”. Je ziet direct een
+Zoek met google op `online
+kleurkiezer`. Je ziet direct een
 afbeelding met een schuifje. Kies de
 kleur die je wil en noteer de RGB
-waarde. Bijvoorbeeld 66, 132, 245 voor
+waarde. Bijvoorbeeld `66`, `132`, `245` voor
 een mooie kleur blauw. In deze kleur zit
-66 Rood, 132 Groen en 245 Blauw.
+`66` Rood, `132` Groen en `245` Blauw.
 
 ![sprites](/static/img/maqueen/image-029.png)
 
 Nu gaan we een programma schrijven waarin we de lampjes laten
-knipperen in de zelfgekozen kleuren. Met het blokje “Neopixel
-set pixel color at… “ geef je met het volgnummer
-achter “at” aan om welk lampje het gaat. Op de
+knipperen in de zelfgekozen kleuren. Met het blokje `Neopixel
+set pixel color at...` geef je met het volgnummer
+achter `at` aan om welk lampje het gaat. Op de
 printplaat op de onderkant van de Maqueen staat bij
-elke Neopixel RBG0, RGB1, etc. Als je dus 0 kiest dan
-stuur je hiermee Neopixel RGB0 aan. Met de cijfertjes
+elke Neopixel `RBG0`, `RGB1`, etc. Als je dus `0` kiest dan
+stuur je hiermee Neopixel `RGB0` aan.
+
+Met de cijfertjes
 bij de kleuren maak je precies de kleur die je wil.
-Vervolgens moet je met het blokje “Neopixel show” aangeven dat de lampjes moeten gaan branden en met het pauzeer blok hoe lang. In de code hier naast zetten we daarna de lampjes 500 ms uit.
+Vervolgens moet je met het blokje `Neopixel show` aangeven dat de lampjes moeten gaan branden en met het pauzeer blok hoe lang. In de code hier naast zetten we daarna de lampjes 500 ms uit.
 
 ![sprites](/static/img/maqueen/image-031.png)
 
-Het is ook mogelijk de ___4
-Neopixels om en om te
-laten branden___. Daarvoor
-gebruik je de variabele
-“index” (aanmaken). De
-variabele “index” verwijst
+Het is ook mogelijk de ___4 Neopixels om en om te
+laten branden___. Daarvoor gebruik je de variabele
+`index` (aanmaken). De
+variabele `index` verwijst
 naar de afzonderlijke
-Neopixels: index 0 is
-lampje RGB0, index 1 is
-lampje RB=GB1 enz.
+Neopixels: index `0` is
+lampje `RGB0`, index `1` is
+lampje `RGB1` enz.
 Met het programma hier
 naast, laten we de
 Neopixels om en om kort in
@@ -414,7 +404,7 @@ Probeer zelf met dupliceren meerdere van deze “blokken” onder elkaar en geef
 
 Dit kan ook door nog slimmer te programmeren met een herhaalblok en een variabele voor de kleur. Probeer maar uit of jou dat lukt!
 
-Meer experimenteren met de Neopixels? Kijk bij E Neopixels infaden en uitfaden (en regenboogkleuren). Daar leer je ook hoe je regenboogkleuren maakt.
+Meer experimenteren met de Neopixels? Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/) _E. Neopixels infaden en uitfaden (en regenboogkleuren)_. Daar leer je ook hoe je regenboogkleuren maakt.
 
 ## 5. Ultrasoon: obstakels vermijden
 
@@ -442,11 +432,11 @@ Maqueen zal op deze manier altijd blijven rijden en obstakels vermijden.
 ![sprites](/static/img/maqueen/image-034.png)
 
 Het voorgaande programma werkt, maar het kan veiliger. In het voorgaande
-programma hebben we een ALS…DAN blok gebruikt. Nu gaan we een
-ALS…DAN…ANDERS instructie gebruiken. Pas het voorgaande programma aan. Haal de
-eerst instructie (motor all move forward at speed 100) weg en klik op het + symbool.
+programma hebben we een `ALS...DAN` blok gebruikt. Nu gaan we een
+`ALS...DAN...ANDERS` instructie gebruiken. Pas het voorgaande programma aan. Haal de
+eerst instructie (motor all move forward at speed 100) weg en klik op het `+` symbool.
 Je ziet dat de opdracht een ANDERS deel erbij krijgt. Plaats hierbinnen het codeblok
-“motor all move forward at speed 100”.
+`motor all move forward at speed 100`.
 
 Dit is een betere manier van programmeren. Je stelt eerst een voorwaarde “kijk of er
 een obstakel binnen 20 cm aanwezig is”, zo ja, dan moet de auto een bocht naar
@@ -456,23 +446,22 @@ nu veel veiliger.
 ## 6. Lijn volgen
 
 De Maqueen kan een zwarte lijn volgen. Daarvoor gebruikt hij de twee sensoren aan de
-onderkant die zwart of wit kunnen detecteren. Wit is 1 (reflecteert alles) en Zwart is 0
-(geen reflectie).
+onderkant die zwart of wit kunnen detecteren. Wit is `1` (reflecteert alles) en Zwart is `0` (geen reflectie).
 
 ![sprites](/static/img/maqueen/image-036.jpg)
 
 We gaan nu een eerste programma schrijven. Zolang de waardes die
-gezien worden 0 zijn, zwarte ondergrond dus, rijdt de auto rustig
+gezien worden `0` zijn, zwarte ondergrond dus, rijdt de auto rustig
 rechtdoor. Als hij aan één kant wit ziet dan blijft hij ook nog
 rechtdoor rijden, maar zodra links én rechts wit wordt gezien
 (waardes worden beide 1) dan stopt de Maqueen. Dit programma
 kan bijvoorbeeld gebruikt worden om 2 Maqueen auto’s rechtdoor
 tegen elkaar te laten racen.
 Maak eerst een variabele en noem deze `snelheid`. Geef de snelheid
-in het blok `bij opstarten` een beginwaarde, bv 255 voor de
+in het blok `bij opstarten` een beginwaarde, bv `255` voor de
 maximum snelheid. 
 
-Programmeer vervolgens een ALS … DAN blok met daarin: als links of rechts zwart
+Programmeer vervolgens een `ALS...DAN` blok met daarin: als links of rechts zwart
 gezien wordt rij dan met “snelheid” rechtdoor. Voeg tot slot bij ANDERS een blok stop
 motoren toe.
 
@@ -484,10 +473,10 @@ bijsturen richting de zwarte lijn zodat de zwarte lijn altijd gevolgd wordt.
 
 Er kunnen zich 4 situaties voordoen:
 
-- 0 en 0 -> beide sensoren zien de zwarte lijn
-- 0 en 1 -> rechter sensor ziet geen zwarte lijn
-- 1 en 0 -> linker sensor ziet geen zwarte lijn
-- 1 en 1 -> beide sensoren zien geen zwarte lijn
+- `0` en `0` -> beide sensoren zien de zwarte lijn
+- `0` en `1` -> rechter sensor ziet geen zwarte lijn
+- `1` en `0` -> linker sensor ziet geen zwarte lijn
+- `1` en `1` -> beide sensoren zien geen zwarte lijn
 
 Voor elke situatie moet een instructie geschreven worden. De code staat hieronder.
 Probeer dit nu zelf uit op een parcours met zwarte lijnen! Blijft jouw auto de zwarte lijn
@@ -495,8 +484,7 @@ volgen?
 
 ![sprites](/static/img/maqueen/image-038.png)
 
-Meer experimenteren met afstand meten en hier acties aan verbinden? Kijk bij C Lijn
-volgen én anti botsing.
+Meer experimenteren met afstand meten en hier acties aan verbinden? Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/) _C Lijn volgen én anti botsing_.
 
 ## 7 .Infrarood besturing
 
@@ -525,8 +513,8 @@ knoppen van de afstandsbediening en kijk welk nummer verschijnt. Noteer de knop 
 de bijbehorende nummers!
 
 Nu kun je de knoppen/nummers koppelen aan acties van de Maqueen. In het
-onderstaande programma is 9 gebruikt voor vooruit rijden, 8 voor achteruit, 10 voor
-rechts, 0 voor links en 15 voor stoppen.
+onderstaande programma is `9` gebruikt voor vooruit rijden, `8` voor achteruit, `10` voor
+rechts, `0` voor links en `15` voor stoppen.
 
 ![sprites](/static/img/maqueen/image-041.png)
 
@@ -540,15 +528,15 @@ ook het aanwezige licht meten. Dit gaan we gebruiken. We gaan de lichtmeter van 
 display van de Micro:Bit programmeren. Hoe meer licht op de display wordt
 geschenen, hoe meer LED lampjes zullen oplichten.
 
-Maak eerst een variabele en noem deze “lichtmeter”. Maak vervolgens onderstaande
+Maak eerst een variabele en noem deze `lichtmeter`. Maak vervolgens onderstaande
 code. Met deze code zal de ingebouwde lichtmeter van de Micro:Bit gaan reageren op
 het huidige lichtniveau.
 
 ![sprites](/static/img/maqueen/image-042.png)
 
 Nu willen we het gemeten lichtniveau op de display gaan weergeven. Gebruik hiervoor
-de programmeerblokjes uit het menu “lichtjes” een kies `plot staafdiagram van ... tot ...`.
-Plaats de variabele “lichtmeter“ in het eerste plekje waar de `0` staat; voeg als tweede
+de programmeerblokjes uit het menu `lichtjes` een kies `plot staafdiagram van ... tot ...`.
+Plaats de variabele `lichtmeter` in het eerste plekje waar de `0` staat; voeg als tweede
 de maximale waarde van de lichtsterkte toe. De minimale waarde is `0`; de maximale is
 `255`.
 

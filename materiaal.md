@@ -29,14 +29,14 @@ Ben je benieuwd wat iedereen heeft gemaakt? Je kunt de projecten bekijken via de
 De micro:bit is een klein computertje dat ontwikkeld is om kinderen mee te leren programmeren. Als je voor het eerst met de micro:bit aan de slag gaat, is het boekje "[lekker samen klooien](https://www.expeditiemicrobit.nl/sites/default/files/2017-09/Expeditie%20microbit%20Les%201%20Stichting%20FutureNL%20-%20Lekkersamenklooien_0.pdf)" van [Expiditie micro:bit](https://www.expeditiemicrobit.nl/) een goed startpunt. We hebben een aantal van deze boekjes liggen, dus je kunt er eentje pakken om tijdens de CoderDojo te gebruiken.
 
 {:class="gallery"}
-- [![microbit](/static/img/microbit-explorer.png) Micro:bit explorer kaarten](https://www.micro-bit.nl/sites/default/files/afbeeldingen/Content/explorer%20%280.1%29.pdf)
+- [![microbit](/static/img/microbit-explorer.png) Micro:bit beginners kaarten](https://www.micro-bit.nl/sites/default/files/afbeeldingen/Content/explorer%20%280.1%29.pdf)
   De kaarten van de micro:bit community NL zijn erg leuk om mee te beginnen.
-- [![microbit](/static/img/microbit-programmer.png) Micro:bit programmer kaarten](https://www.micro-bit.nl/sites/default/files/afbeeldingen/Content/programmer%20%280.1%29.pdf)
+- [![microbit](/static/img/microbit-programmer.png) Micro:bit gevorderden kaarten](https://www.micro-bit.nl/sites/default/files/afbeeldingen/Content/programmer%20%280.1%29.pdf)
   De micro:bit community NL heeft ook kaarten voor kinderen die wat dieper in het programmeren willen duiken.
 - [![maqueen](/static/img/maqueen.jpg) Maqueen: basis](/materiaal/microbit-maqueen)
   De Maqueen is een robot autootje dat je kunt besturen door een Micro:bit te programmeren.
 - [![maqueen](/static/img/maqueen2.jpeg) Maqueen: combinatie opdrachten](/materiaal/microbit-maqueen-combinatie-opdrachten)
-  De Maqueen is een robot autootje dat je kunt besturen door een Micro:bit te programmeren.
+  Opdrachten waarin verschillende functies van de Maqueen tegelijk gebruikt worden.
 - [![Hack de kerstverlichting](/static/img/hack-de-kerstverlichting.png) Hack de kerstverlichting](https://www.skillsdojo.nl/microcomputer-uitvinden/kerst/)
   In deze missie van [SkillsDojo](https://www.skillsdojo.nl) ontdek je hoe met de micro:bit de kerstverlichting kunt aansturen.
 
