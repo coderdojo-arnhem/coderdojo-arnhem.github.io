@@ -38,7 +38,9 @@ documentatie en youtube filmpjes gevonden op internet.
 
 <hr />
 
-## Basis: programmeerblokken Maqueen
+## Basis
+
+### Programmeerblokken Maqueen
 
 Als eerste moet je er voor zorgen dat de programmeerblokken voor de Maqueen
 toegevoegd worden in de MakeCode programmeeromgeving van de Micro:Bit.
@@ -54,7 +56,7 @@ toegevoegd worden in de MakeCode programmeeromgeving van de Micro:Bit.
 
 ![sprites](/static/img/maqueen/image-001.png)
 
-## Basis: Micro:Bit in de Maqueen plaatsen
+### Micro:Bit in de Maqueen plaatsen
 
 
 Zoals je ziet heeft de Maqueen zelf geen Micro:Bit. Er zit wél een gleuf op om de
@@ -89,7 +91,7 @@ daarna je Micro:Bit uit de Maqueen en ga een nieuw programma schrijven.
 
 ![sprites](/static/img/maqueen/image-005.jpg)
 
-## Basis: functies op de Micro:Bit / Maqueen
+### Functies op de Micro:Bit / Maqueen
 Op de combinatie van de Micro:Bit en de Maqueen robot auto zitten 8 functies die we
 in dit document verder gaan toelichten om te programmeren. Er zitten nog meer
 functionaliteiten op de Micro:Bit maar die laten we in dit document buiten
