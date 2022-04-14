@@ -45,7 +45,7 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 6. Kies nu de letter B van dezelfde stijl.
 
 7. Ga door tot je alle letters B t/m Z als uiterlijk hebt toegevoegd aan deze sprite.
-   Als je leestekens wilt gebruiken (een komma, punt en uitroepteken) zul je deze in een blanco uiterlijk zelf moeten tekenen.
+   <br/>Als je leestekens wilt gebruiken (een komma, punt en uitroepteken) zul je deze in een blanco uiterlijk zelf moeten tekenen.
 
 ## Tweede sprite
 
@@ -60,8 +60,8 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 9. Kies ook een leuke achtergrond die er bij past.
 
 10. Met onderstaande code kun je de vlinder laten vliegen over je scherm door de positie na klikken op het groene vlaggetje in een lus te laten verschuiven naar een willekeurig punt.
-    In het voorbeeld is het startpunt altijd hetzelfde en begint de vlinder pas te vliegen na 5 seconden. Je moet een variabele “positie_butterfly” aanmaken.
-    In een tweede stuk code verandert het uiterlijk van de vlinder elke 0.2 seconden.
+    <br/>In het voorbeeld is het startpunt altijd hetzelfde en begint de vlinder pas te vliegen na 5 seconden. Je moet een variabele “positie_butterfly” aanmaken.
+    <br/>In een tweede stuk code verandert het uiterlijk van de vlinder elke 0.2 seconden.
 
 ![Code vlinder](/static/img/complimentengenerator/image18.png)
 
@@ -78,9 +78,10 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 12. Ga nu weer terug naar de letters sprite.
 
 13. Je kunt met de pen blokken stempelen en de stempels weer wissen. Deze functie kun je gebruiken om de letters uit een zin te stempelen op het scherm.
-    Als de pen functie nog niet aan staat kun je deze aan zetten door links onder in het scherm op het onderstaande symbool te klikken en dan op de pen functie.
+    <br/>Als de pen functie nog niet aan staat kun je deze aan zetten door links onder in het scherm op het onderstaande symbool te klikken en dan op de pen functie.
 
 ![Uitbreiding](/static/img/complimentengenerator/image21.png)
+
 ![Pen](/static/img/complimentengenerator/image10.png)
 
 ## Zinnen maken
@@ -88,41 +89,44 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 {:start="14"}
 
 14. Eerst gaan we zinnen maken om weer te geven. We maken 2 lijsten: opening en complimentje. Je kunt deze functie vinden in het menu variabelen. Je ziet in je scherm rechts twee lege lijsten verschijnen.
-    Daarna gaan we teksten in de twee lijsten zetten. Klik linksonder op de + en je ziet een vakje verschijnen. Typ teksten die je zelf leuk vindt.
+    <br/>Daarna gaan we teksten in de twee lijsten zetten. Klik linksonder op de + en je ziet een vakje verschijnen. Typ teksten die je zelf leuk vindt.
 
 ![Lijst1](/static/img/complimentengenerator/image2.png)
+
 ![Lijst2](/static/img/complimentengenerator/image14.png)
 
 {:start="15"}
 
 15. Nu ga je de code schrijven om de teksten uit je lijst op het scherm te gebruiken.
-    Je kunt een willekeurig item uit een lijst kiezen met het `willekeurig getal` blok. Een willekeurig getal tussen 1 en het aantal waarden dat je in je lijst hebt staan.
+    <br/>Je kunt een willekeurig item uit een lijst kiezen met het `willekeurig getal` blok. Een willekeurig getal tussen 1 en het aantal waarden dat je in je lijst hebt staan.
 
 ![Lijsten](/static/img/complimentengenerator/image1.png)
+
 ![Willekeurig item](/static/img/complimentengenerator/image22.png)
 
 {:start="16"}
 
 16. Creëer nu de variabelen die je nodig gaat hebben. Dat doe je in het menu Variabelen door op `Maak een variabele` te klikken.
-    Maak de variabele `zin` waar je de willekeurige zin in gaat stoppen; maak de variabele `letter` waar je opeenvolgend elke letter uit je zin in gaat laden en maak de variabele `#teken` die je gaat gebruiken om bij te houden bij welk teken uit de zin je was gebleven.
+    <br/>Maak de variabele `zin` waar je de willekeurige zin in gaat stoppen; maak de variabele `letter` waar je opeenvolgend elke letter uit je zin in gaat laden en maak de variabele `#teken` die je gaat gebruiken om bij te houden bij welk teken uit de zin je was gebleven.
 
 ![Variabelen](/static/img/complimentengenerator/image3.png)
 
 {:start="17"}
 
 17. Schrijf onderstaande code in de letters sprite. Met deze code wordt een zin gemaakt door eerst een willekeurig zinsdeel te kiezen uit je lijst opening en daarachter een willekeurig zinsdeel uit je lijst complimentje.
-    Tussen de twee zinsdelen staat een spatie. Het `maak` blok vind je bij variabelen.
+    <br/>Tussen de twee zinsdelen staat een spatie. Het `maak` blok vind je bij variabelen.
 
 ![Maak zin](/static/img/complimentengenerator/image23.png)
 
 {:start="18"}
 
 18. Voeg nu een `zeg` blok toe en kijk wat dit doet!
-    Als je de lijsten en variabelen niet in beeld wil zien dan moet je in het menu Variabelen de blauwe vinkjes weghalen.
+    <br/>Als je de lijsten en variabelen niet in beeld wil zien dan moet je in het menu Variabelen de blauwe vinkjes weghalen.
 
 ![Zeg](/static/img/complimentengenerator/image24.png)
 
 ![Voorbeeld 1](/static/img/complimentengenerator/image25.png)
+
 ![Voorbeeld 2](/static/img/complimentengenerator/image26.png)
 
 ## Blokken
@@ -132,24 +136,26 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 19. Nu je een willekeurige tekst hebt is het tijd om deze in een aan te roepen Blok te zetten en de andere functies te maken die je nodig hebt voor het hele programma.
 
 20. Ga naar het menu Mijn Blokken en definieer 5 blokken:
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Willekeurige_tekst: waar je de willekeurige zin gaat samenstellen (code die je net gemaakt hebt)
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Schrijf_tekst: dit is om de zin binnen te krijgen (let op dat hier een parameter in kan om de tekst van de zin binnen te kunnen krijgen!)
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Type: dat de grafische weergave van de zin moet gaan regelen
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. Toelichting: instructies hoe het werkt
-    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e. Wis: om de zin te wissen.
+    <br/>a. Willekeurige_tekst: waar je de willekeurige zin gaat samenstellen (code die je net gemaakt hebt)
+    <br/>b. Schrijf_tekst: dit is om de zin binnen te krijgen (let op dat hier een parameter in kan om de tekst van de zin binnen te kunnen krijgen!)
+    <br/>c. Type: dat de grafische weergave van de zin moet gaan regelen
+    <br/>d. Toelichting: instructies hoe het werkt
+    <br/>e. Wis: om de zin te wissen.
 
 ![Blokken](/static/img/complimentengenerator/image27.png)
 
 {:start="21"}
 
 21. Begin met het blok Schrijf_tekst. Dit blok loopt door alle letters uit de zin.
-    Het pakt het eerste teken, zet dat in de variabele `letter`, “typt” deze via deze variabele op het scherm via het blok `type`, schuift de sprite op naar rechts (tot dicht bij het eind van het scherm, begint dan op een nieuwe regel zodra hij een spatie tegenkomt in de tekst), en gaat door naar de volgende letter uit de zin.
-    De code staat hieronder. Let op dat bovenin text staat in het lege vakje.
+    <br/>Het pakt het eerste teken, zet dat in de variabele `letter`, “typt” deze via deze variabele op het scherm via het blok `type`, schuift de sprite op naar rechts (tot dicht bij het eind van het scherm, begint dan op een nieuwe regel zodra hij een spatie tegenkomt in de tekst), en gaat door naar de volgende letter uit de zin.
+    <br/>De code staat hieronder. Let op dat bovenin text staat in het lege vakje.
 
 ![Blok schrijf_tekst](/static/img/complimentengenerator/image4.png)
 
+{:start="22"}
+
 22. Schrijf nu het blok `type`. Dit blok stempelt de letter die op dat moment in de variabele `teken` staat op het scherm (op de plaats waar de sprite op dat moment staat) door de sprite het uiterlijk te geven dat overeenkomt met de letter uit de variabele `letter` en dan zichzelf te stempelen.
-    Maak eerst het als-dan blok voor de letter a en kopieer dit voor alle letters van het alfabet. Als je ook leestekens gebruikt, zoals een komma en een uitroepteken, dan moet je die ook toevoegen. De code staat hieronder:
+    <br/>Maak eerst het als-dan blok voor de letter a en kopieer dit voor alle letters van het alfabet. Als je ook leestekens gebruikt, zoals een komma en een uitroepteken, dan moet je die ook toevoegen. De code staat hieronder:
 
 ![Blok type](/static/img/complimentengenerator/image5.png)
 
@@ -168,9 +174,10 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 {:start="25"}
 
 25. Start je programma en klik op de vlinder.
-    Als je letters niet de juiste grootte hebben en bijvoorbeeld heel er groot over elkaar heen komen, dan kun je bij de letters sprite de grootte aanpassen. In dit voorbeeld moest de grootte op `35` gezet worden.
+    <br/>Als je letters niet de juiste grootte hebben en bijvoorbeeld heel er groot over elkaar heen komen, dan kun je bij de letters sprite de grootte aanpassen. In dit voorbeeld moest de grootte op `35` gezet worden.
 
 ![Grootte aanpassen](/static/img/complimentengenerator/image8.png)
+
 ![Voorbeeld](/static/img/complimentengenerator/image9.png)
 
 {:start="26"}
@@ -184,9 +191,10 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 {:start="27"}
 
 27. Je maakt het programma af door een welkomst toelichting op het scherm te laten verschijnen bij de start van het programma.
-    Zorg er ook voor dat het scherm gewist wordt bij het indrukken van de spatiebalk en bij het ontvangen van het signaal wis.
+    <br/>Zorg er ook voor dat het scherm gewist wordt bij het indrukken van de spatiebalk en bij het ontvangen van het signaal wis.
 
 ![Welkom en wis](/static/img/complimentengenerator/image12.png)
+
 ![Voorbeeld](/static/img/complimentengenerator/image13.png)
 
 Het [complete spel](https://scratch.mit.edu/projects/672812462) staat ook in onze studio.
