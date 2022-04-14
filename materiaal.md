@@ -17,8 +17,8 @@ Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
  Flappy Bird](/materiaal/scratch/flappybird)
 Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te maken, vind je hier de instructies die we voor CoderDojo #12 maakten.
-- [![Voorbeeld](/static/img/complimentengenerator/image9.png) Complimenten generator](/materiaal/complimentengenerator)
-De complimentengenerator voor moederdag
+- [![Voorbeeld](/static/img/complimentengenerator/image9.png) Complimenten generator](/materiaal/scratch/complimentengenerator)
+De instructies voor de complimentengenerator die je bijvoorbeeld voor moederdag kunt maken.
 - [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Kerstspel 2018](/materiaal/scratch-kerst)
 Help de kerstman om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!
 - [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)

@@ -91,9 +91,9 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 14. Eerst gaan we zinnen maken om weer te geven. We maken 2 lijsten: opening en complimentje. Je kunt deze functie vinden in het menu variabelen. Je ziet in je scherm rechts twee lege lijsten verschijnen.
     <br/>Daarna gaan we teksten in de twee lijsten zetten. Klik linksonder op de + en je ziet een vakje verschijnen. Typ teksten die je zelf leuk vindt.
 
-![Lijst1](/static/img/complimentengenerator/image2.png)
+![Lijst1](/static/img/complimentengenerator/image14.png)
 
-![Lijst2](/static/img/complimentengenerator/image14.png)
+![Lijst2](/static/img/complimentengenerator/image2.png)
 
 {:start="15"}
 
