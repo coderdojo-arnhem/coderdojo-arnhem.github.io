@@ -22,8 +22,8 @@ Het belangrijkste wat je nodig hebt is het stukje CSS hieronder. Dit plaats je i
     position: fixed;
     bottom: 20px;
     right: 20px;
-    height: 120px;
-    width: 90px;
+    height: 100px;
+    width: 80px;
 }
 #paasei:hover {
     background-image: url('https://coderdojo-arnhem.github.io/static/img/ei/6.gif');
