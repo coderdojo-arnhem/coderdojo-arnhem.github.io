@@ -1,6 +1,7 @@
 ---
 title: Verstopt paasei
 layout: paasei
+tags: [materiaal, css]
 redirect_from: /materiaal/paasei.html
 ---
 
