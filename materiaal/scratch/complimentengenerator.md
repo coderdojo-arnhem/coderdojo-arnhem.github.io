@@ -22,7 +22,7 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 
 ## Maak letters
 
-1. Open een nieuwe scratch door op Maak te klikken.
+1. Open een nieuwe scratch door op `Maak` te klikken.
 
 2. Gooi de bestaande sprite weg en kies een nieuwe.
 
@@ -148,7 +148,7 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 
 21. Begin met het blok Schrijf_tekst. Dit blok loopt door alle letters uit de zin.
     <br/>Het pakt het eerste teken, zet dat in de variabele `letter`, “typt” deze via deze variabele op het scherm via het blok `type`, schuift de sprite op naar rechts (tot dicht bij het eind van het scherm, begint dan op een nieuwe regel zodra hij een spatie tegenkomt in de tekst), en gaat door naar de volgende letter uit de zin.
-    <br/>De code staat hieronder. Let op dat bovenin text staat in het lege vakje.
+    <br/>De code staat hieronder. Let op dat bovenin `text` staat in het lege vakje.
 
 ![Blok schrijf_tekst](/static/img/complimentengenerator/image4.png)
 
@@ -191,7 +191,7 @@ Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te wer
 {:start="27"}
 
 27. Je maakt het programma af door een welkomst toelichting op het scherm te laten verschijnen bij de start van het programma.
-    <br/>Zorg er ook voor dat het scherm gewist wordt bij het indrukken van de spatiebalk en bij het ontvangen van het signaal wis.
+    <br/>Zorg er ook voor dat het scherm gewist wordt bij het indrukken van de spatiebalk met het blok wis.
 
 ![Welkom en wis](/static/img/complimentengenerator/image12.png)
 
