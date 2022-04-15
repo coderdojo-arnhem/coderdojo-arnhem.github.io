@@ -1,8 +1,7 @@
 ---
 title: Verstopt paasei
 layout: paasei
-tags: [materiaal, css]
-redirect_from: /paasei.html
+redirect_from: /materiaal/paasei.html
 ---
 
 ### Op deze pagina is een paasei verstopt
@@ -47,5 +46,6 @@ Het enige wat vervolgens nog nodig is is het verborgen ei toe te voegen aan de h
 ```html
 <div id='paasei'></div>
 ```
+
 Wil je meerdere paaseieren plaatsen?
 <br/>Herhaal dan alles, en vervang `paasei` door bijvoorbeeld `paasei2`.
