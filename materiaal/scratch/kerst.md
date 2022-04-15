@@ -8,9 +8,9 @@ redirect_from:
 
 ## Kerst 2018
 
-[![Kerstspel 2018](/static/img/kerstspel-300x228.png)](/2018/12/15/scratch-kerstspel.html){:class="alignleft"} We hebben een nieuw [kerstspel](/2018/12/15/scratch-kerstspel.html) voor dit jaar in Scratch! Help de kerstman om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!
+[![Kerstspel 2018](/static/img/kerstspel-300x228.png)](/2018/12/15/scratch-kerstspel){:class="alignleft"} We hebben een nieuw [kerstspel](/2018/12/15/scratch-kerstspel) voor dit jaar in Scratch! Help de kerstman om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!
 
-De uitleg voor het KerstmanSpel in Scratch vind je [hier](/2018/12/15/scratch-kerstspel.html)!
+De uitleg voor het KerstmanSpel in Scratch vind je [hier](/2018/12/15/scratch-kerstspel)!
 
 Je kunt ook het hele spel [hier](https://scratch.mit.edu/projects/266961980/#player) bekijken.
 
