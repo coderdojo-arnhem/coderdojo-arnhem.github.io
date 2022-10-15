@@ -10,6 +10,9 @@ Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en 
 {:class="gallery"}
 - [![Scratch](/static/img/scratch.png) Scratch](/materiaal/scratch-voor-beginners)
   Ben je voor het eerst bij CoderDojo? Kijk dan hier eens om met Scratch te beginnen.
+- [![Scratch](/static/img/escape-room.gif) Scratch](https://coderdojo-leiden.github.io/escaperoom/)
+  In deze opdracht gaan we zelf een escaperoom bouwen. We beginnen in een kamer met wat spullen (zoals een tapijt, een schilderij, en een kluis). De deur in die kamer is ‘op slot’. Het doel van het spel is om de deur open te maken door erop te klikken, zodat je naar buiten kunt.
+
 - [![Spirograaf](/static/img/scratch-spirograaf-1.png) Spirograaf](/materiaal/scratch/spirograaf)
 Met programmeren kun je alles maken, ook een kunstwerk! In deze les leer je  over herhalingen en over variabelen.
 - [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/materiaal/scratch/hooghouden)
@@ -19,8 +22,6 @@ Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 
 Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te maken, vind je hier de instructies die we voor CoderDojo #12 maakten.
 - [![Voorbeeld](/static/img/complimentengenerator/image9.png) Complimenten generator](/materiaal/scratch/complimentengenerator)
 De instructies voor de complimentengenerator die je bijvoorbeeld voor moederdag kunt maken.
-- [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Kerstspel 2018](/materiaal/scratch-kerst)
-Help de kerstman om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!
 - [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
 Hier vind je meerdere leuke scratch opdrachten. Animeer bijvoorbeeld je eigen Donald Duck strip of maak je eigen quiz.
 - [![CoderDojo Arnhem Studio](/static/img/coderdojo-arnhem-studio.png) CoderDojo Arnhem Studio](https://scratch.mit.edu/studios/2502768)
