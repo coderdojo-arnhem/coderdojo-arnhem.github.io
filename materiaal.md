@@ -10,7 +10,7 @@ Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en 
 {:class="gallery"}
 - [![Scratch](/static/img/scratch.png) Scratch](/materiaal/scratch-voor-beginners)
   Ben je voor het eerst bij CoderDojo? Kijk dan hier eens om met Scratch te beginnen.
-- [![Scratch](/static/img/escape-room.gif) Scratch](https://coderdojo-leiden.github.io/escaperoom/)
+- [![Scratch](/static/img/escape-room.gif) Escape room](https://coderdojo-leiden.github.io/escaperoom/)
   In deze opdracht gaan we zelf een escaperoom bouwen. Het doel van het spel is om de deur open te maken door erop te klikken, zodat je naar buiten kunt.
 - [![Spirograaf](/static/img/scratch-spirograaf-1.png) Spirograaf](/materiaal/scratch/spirograaf)
 Met programmeren kun je alles maken, ook een kunstwerk! In deze les leer je  over herhalingen en over variabelen.
