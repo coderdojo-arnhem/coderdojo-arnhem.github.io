@@ -28,9 +28,13 @@ Nu dat je tot Scratcher benoemd bent, kunnen we starten met het maken van een sp
 
 ## Handleiding
 
-Is dit je eerste keer Scratch? Gebruik dan [dit boekje](http://mmi.tudelft.nl/scratch/Scratch%20boekje%20TU%20Delft.pdf) of deze [handleiding](/static/pdf/Programmeren-met-Scratch.pdf) om het te leren.
+Is dit je eerste keer Scratch? Begin dan met de les [Beginner Sushi-kaarten](https://projects.raspberrypi.org/nl-NL/projects/cd-beginner-scratch-sushi).
 
-Daarna kun je verder met een van deze projecten, met instructies om ze te bouwen:
+Deze les is van Raspberry Pi Projects, waar [meer leuke lesjes](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=scratch) te vinden zijn die je kunt doen.
+
+Ook kun je [dit boekje](http://mmi.tudelft.nl/scratch/Scratch%20boekje%20TU%20Delft.pdf) of deze [handleiding](/static/pdf/Programmeren-met-Scratch.pdf) gebruiken om Scratch te leren. Ze zijn gemaakt bij een oudere versie van Scratch. Daardoor ziet het er iets anders uit, maar de werkwijze is nog hetzelfde.
+
+Daarna kun je verder met een van deze oudere projecten, met instructies om ze te bouwen:
 
 - [Muizenvangen](/static/pdf/Muizenvangen-kaartenset.pdf)
 - [Apenkooien](/static/pdf/Boek_apenkooien.pdf)
