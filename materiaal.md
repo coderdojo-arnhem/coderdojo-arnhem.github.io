@@ -20,7 +20,7 @@ Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 
  Flappy Bird](/materiaal/scratch/flappybird)
 Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te maken, vind je hier de instructies die we voor CoderDojo #12 maakten.
 - [![Voorbeeld](/static/img/complimentengenerator/image9.png) Complimenten generator](/materiaal/scratch/complimentengenerator)
-De instructies voor de complimentengenerator die je bijvoorbeeld voor moederdag kunt maken.
+De instructies voor de complimentengenerator die je bijvoorbeeld voor vaderdag kunt maken.
 - [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
 Hier vind je meerdere leuke scratch opdrachten. Animeer bijvoorbeeld je eigen Donald Duck strip of maak je eigen quiz.
 - [![CoderDojo Arnhem Studio](/static/img/coderdojo-arnhem-studio.png) CoderDojo Arnhem Studio](https://scratch.mit.edu/studios/2502768)
