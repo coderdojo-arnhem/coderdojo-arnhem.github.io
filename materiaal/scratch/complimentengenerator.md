@@ -16,7 +16,7 @@ redirect_from: /materiaal/scratch/complimentengenerator.html
 
 ### Scratch Complimenten generator
 
-In deze Scratch-opdracht ga je stempelen met sprites. Door lettersprites achter elkaar te stempelen ontstaat een zin. Deze zin ga je samenstellen uit 2 zinsdelen, een “opening” zoals “lieve mama” en een “complimentje” zoals “wat kan jij toch lekker koken”. Deze zinsdelen haal je willekeurig uit een lijst van verschillende openingen en verschillende complimentjes zodat je iedere keer een andere zin in beeld krijgt. De complimentjes komen pas tevoorschijn als je vader/moeder op een bewegende 2e sprite klikt, in het voorbeeld de vlinder.
+In deze Scratch-opdracht ga je stempelen met sprites. Door lettersprites achter elkaar te stempelen ontstaat een zin. Deze zin ga je samenstellen uit 2 zinsdelen, een “opening” zoals “lieve papa” en een “complimentje” zoals “wat kan jij toch lekker koken”. Deze zinsdelen haal je willekeurig uit een lijst van verschillende openingen en verschillende complimentjes zodat je iedere keer een andere zin in beeld krijgt. De complimentjes komen pas tevoorschijn als je vader/moeder op een bewegende 2e sprite klikt, in het voorbeeld de vlinder.
 
 Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om met Scratch te werken.
 
