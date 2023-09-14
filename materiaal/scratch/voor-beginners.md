@@ -26,11 +26,17 @@ Nu dat je tot Scratcher benoemd bent, kunnen we starten met het maken van een sp
 
 - Klik boven in het scherm op "Maak": ![Klik op "Maak"](/static/img/scratch-maak-1.png)
 
-## Handleiding
+## Leerpaden
 
-Is dit je eerste keer Scratch? Begin dan met de les [Beginner Sushi-kaarten](https://projects.raspberrypi.org/nl-NL/projects/cd-beginner-scratch-sushi).
+Wil je eenvoudig beginnen en elke keer er wat bij leren? Dan kun je de [leerpaden van Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/collections/scratch) gebruiken. Als je daar een [account aanmaakt](https://my.raspberrypi.org/signup) wordt er bijgehouden welke lesjes je al hebt gedaan, en kun je badges sparen! Dit is wat anders dan een Scratch account. Je kunt ook zonder account werken.
 
-Deze les is van Raspberry Pi Projects, waar [meer leuke lesjes](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=scratch) te vinden zijn die je kunt doen.
+Je hoeft de lesjes in de leerpaden niet op volgorde te doen, je kunt er ook doorheen snuffelen en alleen de lesjes doen die je interessant vindt.
+
+## Handleidingen
+
+Is dit je eerste keer Scratch en wil je geen leerpad volgen? Begin dan met de les [Beginner Sushi-kaarten](https://projects.raspberrypi.org/nl-NL/projects/cd-beginner-scratch-sushi).
+
+Deze les is ook van Raspberry Pi Projects, waar [meer leuke lesjes](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=scratch) te vinden zijn die je kunt doen.
 
 Ook kun je [dit boekje](http://mmi.tudelft.nl/scratch/Scratch%20boekje%20TU%20Delft.pdf) of deze [handleiding](/static/pdf/Programmeren-met-Scratch.pdf) gebruiken om Scratch te leren. Ze zijn gemaakt bij een oudere versie van Scratch. Daardoor ziet het er iets anders uit, maar de werkwijze is nog hetzelfde.
 
