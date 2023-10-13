@@ -6,12 +6,12 @@ redirect_from:
 - /2017/09/16/javascript-flappybird
 - /2017/09/16/javascript-flappybird.html
 ---
-* Inhoudsopgrave
+* Inhoudsopgave
 {:toc}
 
 Flappy Bird in JavaScript
 -------------------------
-We gaan vandaag het spelleltje Flappy Bird programmeren in JavaScript.
+We gaan het spelletje Flappy Bird programmeren in JavaScript.
 
 ![Flappy Bird](assets/javascript-flappybird-stap7.gif){:class="screenshot"}
 
