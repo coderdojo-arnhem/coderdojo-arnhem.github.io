@@ -50,12 +50,13 @@ Hoe het bestand heet is niet zo belangrijk, je mag het ook `herfst.html` noemen.
 Voor het blad hebben we een plaatje nodig.
 Je kunt bijvoorbeeld een van deze gebruiken:
 
-<div style='line-height:46px;'>
-<img src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" style="min-width:40px;width: 40px;float:left;margin-right:1em"> `http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png`
-<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> `https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg`
-<img src="https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> `https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png`
-<img src="https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> `https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png`
-</div>
+<img src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" style="min-width:40px;width: 40px;float:left;margin-right:1em"> <code style='line-height:46px;'>http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png </code>
+
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> <code style='line-height:46px;'>https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg </code>
+
+<img src="https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> <code style='line-height:46px;'>https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png </code>
+
+<img src="https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> <code style='line-height:46px;'>https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png </code>
 
 Maar je kunt ook op internet zelf naar een leuk plaatje van een blad zoeken.
 
