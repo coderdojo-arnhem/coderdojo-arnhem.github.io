@@ -11,7 +11,7 @@ redirect_from: /materiaal/javascript_herfstblaadjes.html
 Vallende blaadjes in JavaScript
 -------------------------
 
--![Blad](http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png)
+![Blad](http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png)
 
 Als het herfst is vallen de blaadjes van de bomen.
 Dat kun je in Scratch ook maken, of op een html website met JavaScript.
@@ -22,6 +22,8 @@ In eerdere CoderDojos hebben we verschillende editors gebruikt, zoals <a href="h
 Als je een bepaalde editor gewend bent mag je die gebruiken, maar het makkelijkst is misschien wel om een eenvoudige teksteditor zoals <b>kladblok/notepad</b> te gebruiken.
 
 We gaan werken met 3 bestanden. Een html bestand `index.html` als basis, een css bestand `style.css` voor de opmaak en een javascriptbestand `javascript.js` voor de code.
+
+Die gaan we bij de volgende stap aanmaken (als ze niet al standaard in je editor zitten).
 
 Het eerste blaadje
 ------------------
@@ -48,13 +50,13 @@ Hoe het bestand heet is niet zo belangrijk, je mag het ook `herfst.html` noemen.
 Voor het blad hebben we een plaatje nodig.
 Je kunt bijvoorbeeld een van deze gebruiken:
 
-<img src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" style="width:40px"> http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png
+<img src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" style="min-width:40px;width: 40px;float:left;margin-right:1em"> http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png
 
-<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg" style="width:40px"> https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg
 
-<img src="https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png" style="width:40px"> https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png
+<img src="https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png
 
-<img src="https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png" style="width:40px">) https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png
+<img src="https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png" style="min-width:40px;width: 40px;float:left;margin-right: 1em">) https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png
 
 Maar je kunt ook op internet zelf naar een leuk plaatje van een blad zoeken.
 
@@ -81,7 +83,8 @@ Zet de volgende code in ```style.css```:
 ```
 
 Hiermee wordt het blad bovenin in het midden van de pagina geplaatst.
-Op de regel met `transition` kun je aanpassen hoe snel je blaadje moet gaan vallen. Je ziet daar ``5s`` staan, dat betekent dat het 5 seconden duurt om te vallen. Dat kun je dus sneller of langzamer laten gaan.
+
+Op de regel met `transition` kun je aanpassen hoe snel je blaadje moet gaan vallen. Je ziet daar `5s` staan, dat betekent dat het 5 seconden duurt om te vallen. Dat kun je dus sneller of langzamer laten gaan.
 
 {:class="note"}
 Misschien vraag je je af waarom er een deel in ```.blad``` staat en een deel in ```#blad```, want je zult merken dat het ook werkt als je alles in ```.blad``` zet of alles in ```#blad```.
