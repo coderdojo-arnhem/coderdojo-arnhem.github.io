@@ -10,6 +10,9 @@ redirect_from: /materiaal/javascript_herfstblaadjes.html
 
 Vallende blaadjes in JavaScript
 -------------------------
+
+-![Blad](http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png)
+
 Als het herfst is vallen de blaadjes van de bomen.
 Dat kun je in Scratch ook maken, of op een html website met JavaScript.
 In deze les gaan we dat laatste doen.
@@ -18,14 +21,10 @@ Voordat je een html-pagina gaat maken moet je bedenken met wat voor editor je ga
 In eerdere CoderDojos hebben we verschillende editors gebruikt, zoals <a href="https://www.webtinq.nl" target="_blank">WebTinq</a> en <a href="https://trinket.io" target="_blank">trinket</a>.
 Als je een bepaalde editor gewend bent mag je die gebruiken, maar het makkelijkst is misschien wel om een eenvoudige teksteditor zoals <b>kladblok/notepad</b> te gebruiken.
 
-Pagina aanmaken
-------------
+We gaan werken met 3 bestanden. Een html bestand `index.html` als basis, een css bestand `style.css` voor de opmaak en een javascriptbestand `javascript.js` voor de code.
 
-Om te beginnen maken we 3 bestanden aan, een html bestand als basis, een css bestand voor de opmaak en een javascriptbestand voor de code.
-```index.html```
-```style.css```
-```javascript.js```
-
+Het eerste blaadje
+------------------
 
 Kopieer de volgende html code in je editor
 
@@ -43,19 +42,19 @@ Kopieer de volgende html code in je editor
 
 en sla het bestand op als ```index.html```. (Let op dat je bij `Opslaan als..` kiest voor `Alle bestanden (*.*)` en niet `*.txt`).
 
-Het eerste blaadje
-------------------
+{:class="note"}
+Hoe het bestand heet is niet zo belangrijk, je mag het ook `herfst.html` noemen.
 
 Voor het blad hebben we een plaatje nodig.
 Je kunt bijvoorbeeld een van deze gebruiken:
 
-![Blad1](http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png) http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png
+<img src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" style="width:40px"> http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png
 
-![Blad2](https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg) https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg" style="width:40px"> https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg
 
-![Blad3](https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png) https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png
+<img src="https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png" style="width:40px"> https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png
 
-![Blad3](https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png) https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png
+<img src="https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png" style="width:40px">) https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png
 
 Maar je kunt ook op internet zelf naar een leuk plaatje van een blad zoeken.
 
@@ -106,7 +105,7 @@ In de variabele ``hoogte`` wordt de hoogte van het venster opgeslagen.
 Omdat de hoogte van boven naar beneden wordt geteld, is ``hoogte`` dus eigenlijk de onderkant van het scherm.
 In de code staat dus dat het blaadje begint met vallen als het venster is geladen, en dan naar ``hoogte`` toe gaat.
 
-Sla alles bestanden op en open ```index.html``` in je browser om te kijken of het werkt.
+Sla alle bestanden op en open `index.html` in je browser om te kijken of het werkt.
 
 Je zult zien dat het blaadje te ver doorschiet, en onder het venster terecht komt.
 Daarom laten we hem iets eerder stoppen, door de hoogte van het blaadje van de eindpositie af te halen.
@@ -144,17 +143,22 @@ Sla op en herlaad. Kantelt hij zo mooi?
 In de code staat ```360deg```, dat betekent dat hij een heel rondje draait, en onderaan weer precies rechtop staat.
 Je kunt er ook een ander getal in zetten, probeer maar uit!
 
-Een blaadje kan ook naar voren of opzij kantelen. In de code hebben we daarvor 3 'bewegingsassen': de X-as, de Y-as en de Z-as.
-Voor elk van deze assen kunnen we in de code aangeven hoe ver het blad moet draaien. De ```rotate(360deg)``` die we hebben staan is eigenlijk het draaine ronde Z-as: ```rotateZ(360deg)```.
+Een blaadje kan ook naar voren of opzij kantelen.
+In de code hebben we daarvor 3 'bewegingsassen': de X-as, de Y-as en de Z-as.
+Voor elk van deze assen kunnen we in de code aangeven hoe ver het blad moet draaien.
+
+De `rotate(360deg)` die we hebben staan is eigenlijk het draaien rond de Z-as: `rotateZ(360deg)`.
 Vervang ```rotate(360deg)``` door ```rotateX(360deg) rotateY(360deg) rotateZ(360deg)``` om te draaien in alle richtingen.
-Verander de getallen (of laat een as helemaal weg) en bekijk het effect. Wat vind je de mooiste manier van draaien?
+Verander de getallen (of laat een as helemaal weg) en bekijk het effect.
+
+Wat vind je de mooiste manier van draaien?
 
 Meer blaadjes
 -------------
 
 E&eacute;n blaadje is natuurlijk wat weinig, we willen meer blaadjes!
 
-Je kunt in ```index.html``` een tweede plaatje toevoegen die je in ``id`` `blad2` noemt:
+Je kunt in `index.html` een tweede plaatje toevoegen, die je in `id` `blad2` noemt:
 
 ```html
     <img src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" alt="" class="blad" id="blad2">
@@ -162,6 +166,7 @@ Je kunt in ```index.html``` een tweede plaatje toevoegen die je in ``id`` `blad2
 
 In ```javascript.js``` kun je dan het stuk tussen ```window.onload=function(){``` en ```} ``` kopi&euml;ren en er onder plakken, en in dat stuk ```blad``` vervangen door ```blad2```.
 Let op dat je wel boven ```} ``` plakt!
+
 Dan heb je dus zoiets:
 
 ```javascript
@@ -178,6 +183,7 @@ window.onload=function(){
 
 Ook in ```style.css``` kunnen we ```#blad``` kopi&euml;ren en ```#blad2``` noemen.
 Maar daar is nog een extra aanpassing nodig, want we willen dat het blad op een ander punt begint. In de regel ```left: 50%;``` staat dat het blad op de helft van het venster begint. Vul daar een ander getal in tussen 0 en 100.
+
 Dus voeg bijvoorbeeld toe:
 
 ```css
@@ -222,7 +228,8 @@ function wind(){
 Deze code verplaatst alle blaadjes met 1 pixel.
 
 Nu gebeurt er nog niets, want we moeten nog zeggen dat de wind moet gaan waaien!
-Voeg daarvoor de volgende regel toe aan ```javascript.js```:
+
+Voeg daarvoor de volgende regel toe onderin `javascript.js`:
 
 ```javascript
 setInterval(wind,20);
@@ -231,6 +238,7 @@ setInterval(wind,20);
 Zie je wat je kunt aanpassen om de wind harder of zachter te laten waaien? Probeer maar!
 
 Zoals je zult merken waaien de blaadjes uiteindelijk buiten beeld. Om dat te voorkomen laten we ze dan stoppen en verdwijnen.
+
 Vervang de regel
 
 ```javascript
@@ -258,7 +266,7 @@ Zodra het blad is gevallen houdt het op. Maar eigenlijk willen we dat het door b
 Daarom gaan we nu weer terug naar 1 blad, en gaan we die herhalen.
 
 {:class="note"}
-Heb je een leuke combinatie gemaak? Bewaar deze bestanden dan als een kopie. Misschien wil je het aan het eind van de CoderDojo wel aan de rest laten zien.
+Had je een leuke combinatie gemaak? Bewaar deze bestanden dan als een kopie. Misschien wil je het aan het eind van de CoderDojo wel aan de rest laten zien!
 
 Je kunt nu alle gemaakte blaadjes weer verwijderen. Dus alles met ```blad2```, of ```blad3```, of ```blad4```. Maar je mag ze ook laten staan of later verwijderen, dat maakt nu niet uit.
 
@@ -279,8 +287,9 @@ function nieuwblad(){
 }
 ```
 
-Herken je de link naar het plaatje? Die kun je dus vervangen door je eigen plaatje als je een andere had gekozen.
 In deze code hebben we alle code van een blad en de beweging samengevoegd.
+
+Herken je de link naar het plaatje? Die kun je dus vervangen door je eigen plaatje als je een andere had gekozen.
 Had je andere getallen voor je kantelingen gebruikt? Pas die dan ook hier aan. Herken je waar dat kan?
 
 Nu moeten we nog zorgen dat het blad verschijnt.
@@ -290,7 +299,7 @@ Met deze code zeggen we dat er elke seconde een nieuw blad moet verschijnen:
 setInterval(nieuwblad,1000);
 ```
 
-Plak dit ook in ```javascript.js```.
+Plak deze regel ook in `javascript.js`.
 
 {:class="note"}
 Het getal 1000 is 1000 milliseconden, wat dus 1 seconde is. Dit kun je ook aanpassen. Wil je elke 2 seconden een nieuw blad, dan maak je er 2000 van.
@@ -305,7 +314,7 @@ Willekeurigheid
 Omdat alles hetzelfde valt, gaat het toch wat saai worden.
 Daarom gaan we er wat variatie aan toevoegen.
 
-Daarvoor maken we eerst en willekeurigheids functie in ```javascript.js```:
+Daarvoor maken we eerst en willekeurigheids-functie in `javascript.js`:
 
 ```javascript
 function willekeurig(maximum){
@@ -313,7 +322,7 @@ function willekeurig(maximum){
 }
 ```
 
-Hiermee maken we een willekeurig tussen 0 en het maximum wat we aangeven op de plek waar we de functie gebruiken.
+Hiermee maken we een willekeurig getal tussen 0 en het maximum. Het maximum geven we aan op de plek waar we de functie gebruiken.
 
 Laten we beginnen met de blaadjes op een ander punt te laten beginnen.
 
@@ -386,18 +395,20 @@ Een windvlaag duurt niet maar 20 milliseconden zoals in
 setInterval(wind,20);
 ```
 
-staat. Vervang dat daarom door ``1500``. Omdat we een soepele beweging willen, moeten we dat toevoegen aan de regel met ```nieuwblad.style.transition```. Die wordt dan dus:
+staat. Vervang dat daarom door `1500`.
+
+Omdat we een soepele beweging willen, moeten we dat als `left 1s` toevoegen aan de regel met `nieuwblad.style.transition`. Die wordt dan dus:
 
 ```javascript
     nieuwblad.style.transition = 'top '+valtijd+' ease-in, transform '+valtijd+' ease-in, left 1s';
 ```
 
 {:class="note"}
-Als je de oude blaadjes hebt laten staan, zul je merken dat je deze ```, left 1s``` ook daar voor moet toevoegen. Dat kan in ```style.css```.
+Als je de oude blaadjes hebt laten staan, zul je merken dat je deze `left 1s` ook daar bij moet toevoegen. Dat kan in `style.css`.
 
 Je kunt nog een beetje spelen met de tijdsduren ``1500`` en ``1s`` die hier als voorbeeld zijn gebruikt. Maar we gaan hier nu geen willekeurig getal gebruiken, omdat dat toch net wat te lastig wordt.
 
-De willekeurigheid voegen we toe in de functie ```wind()``` in de regel met ```na = voor + 1```.
+Die willekeurigheid voegen we toe in de functie `wind()` in de regel met `na = voor + 1`.
 Dan krijg je bijvoorbeeld
 
 ```javascript
@@ -413,7 +424,7 @@ Je hebt nu veel dezelfde blaadjes, terwijl je eerder misschien verschillende pla
 Ook dat kunnen we willekeurig maken!
 
 Bovenin ```javascript.js``` zetten we alle plaatjes die we willen gebruiken in een lijst.
-Met bijvoorbeeld de 4 voorbeelden uit het begin is dan dan zo:
+Met bijvoorbeeld de 4 voorbeelden uit het begin is dat dan zo:
 
 ```javascript
 var bladeren = [
@@ -423,7 +434,7 @@ var bladeren = [
     'https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png'
 ];
 ```
-Je kunt dus op elke regel een link naar een plaatje zetten. Let op de `,` aan het eind!
+Je kunt dus op elke regel een link naar een plaatje zetten, tussen 2 haakjes `'`. Let op de `,` aan het eind!
 
 Voeg ook de volgende code toe met een functie om een willekeurig blad uit deze lijst te nemen:
 
@@ -436,7 +447,7 @@ function willekeurigblad(){
 }
 ```
 
-Het enige wat we nu nog hoeven te doen is in de functie ```nieuwblad()``` de link van het plaatje in ```nieuwblad.src``` te vervangen door deze functie ```willekeurigblad()```.
+Het enige wat we nu nog hoeven te doen is in de functie `nieuwblad()` de link van het plaatje in `nieuwblad.src` te vervangen door deze nieuwe functie `willekeurigblad()`.
 Dus zo:
 
 ```javascript
