@@ -51,8 +51,6 @@ De micro:bit is een klein computertje dat ontwikkeld is om kinderen mee te leren
   Laat blaadjes naar beneden dwarrelen op een website. Met HTML, javascript en CSS.
 - [![JavaScript](/static/img/flappybird.js.png) JavaScript Flappybird](/2017/09/16/javascript-flappybird)
   Tijdens CoderDojo #12 bouwden we Flappy Bird in JavaScript. Hier vind je de uitleg als je dit ook wilt doen.
-- [![Hacken](/static/img/hacken.png) Hacken](/2019/10/19/hacken)
-  Om te voorkomen dat je website wordt gehackt, moet je zelf leren te denken als een hacker… En dat is precies wat we gaan doen! 
 
 ## Code schrijven
 
