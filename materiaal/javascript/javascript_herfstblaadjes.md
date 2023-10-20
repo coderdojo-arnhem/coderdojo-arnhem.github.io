@@ -11,7 +11,7 @@ redirect_from: /materiaal/javascript_herfstblaadjes.html
 Vallende blaadjes in JavaScript
 -------------------------
 
-![Blad](http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png)
+![Blad](/static/img/herfstblad.png)
 
 Als het herfst is vallen de blaadjes van de bomen.
 Dat kun je in Scratch ook maken, of op een html website met JavaScript.
