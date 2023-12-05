@@ -21,6 +21,8 @@ Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 
 Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te maken, vind je hier de instructies die we voor CoderDojo #12 maakten.
 - [![Voorbeeld](/static/img/complimentengenerator/image9.png) Complimenten generator](/materiaal/scratch/complimentengenerator)
 De instructies voor de complimentengenerator die je bijvoorbeeld voor vaderdag kunt maken.
+- [![Kerstspel 2018](/static/img/kerstspel-300x228.png)_Kerstspel](/2018/12/15/scratch-kerstspel)
+Voor de kersteditie in 2018 hadden we een leuk spel gemaakt waarin je de kerstman mag helpen cadeautje te verzamelen. Maar pas op voor de kerstballen, want anders breken ze!
 - [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
 Hier vind je meerdere leuke scratch opdrachten. Animeer bijvoorbeeld je eigen Donald Duck strip of maak je eigen quiz.
 - [![CoderDojo Arnhem Studio](/static/img/coderdojo-arnhem-studio.png) CoderDojo Arnhem Studio](https://scratch.mit.edu/studios/2502768)
@@ -39,8 +41,8 @@ De micro:bit is een klein computertje dat ontwikkeld is om kinderen mee te leren
   De Maqueen is een robot autootje dat je kunt besturen door een Micro:bit te programmeren.
 - [![maqueen](/static/img/maqueen2.jpeg) Maqueen: combinatie opdrachten](/materiaal/microbit-maqueen-combinatie-opdrachten)
   Opdrachten waarin verschillende functies van de Maqueen tegelijk gebruikt worden.
-- [![Hack de kerstverlichting](/static/img/hack-de-kerstverlichting.png) Hack de kerstverlichting](https://www.skillsdojo.nl/microcomputer-uitvinden/kerst/)
-  In deze missie van [SkillsDojo](https://www.skillsdojo.nl) ontdek je hoe met de micro:bit de kerstverlichting kunt aansturen.
+- [![Hack de kerstverlichting](/static/img/hack-de-kerstverlichting.png) Hack de kerstverlichting](/materiaal/microbit-kerstverlichting)
+  In deze missie van [SkillsDojo](https://www.skillsdojo.nl) ontdek je hoe je met de Micro:bit de kerstverlichting kunt aansturen.
 
 ## HTML/CSS/JavaScript
 

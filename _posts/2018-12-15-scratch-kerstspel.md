@@ -14,7 +14,7 @@ We hebben een nieuw kerstspel voor dit jaar in Scratch! Help de kerstman om de k
 
 Voorbereiding
 -------------
-Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/266988756/). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop.
+Om te beginnen ga je naar [deze pagina](https://scratch.mit.edu/projects/935562171/). Klik je op *Bekijk van binnnen* en druk op de *Remix* knop nadat je bent ingelogd.
 
 De kerstman besturen
 --------------------

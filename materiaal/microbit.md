@@ -1,5 +1,5 @@
 ---
-title: micro:bit
+title: Micro:bit
 layout: materiaal
 redirect_from: /materiaal/microbit.html
 ---
