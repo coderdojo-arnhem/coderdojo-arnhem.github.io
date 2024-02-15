@@ -33,8 +33,10 @@ Ben je benieuwd wat iedereen heeft gemaakt? Je kunt de projecten bekijken via de
 De micro:bit is een klein computertje dat ontwikkeld is om kinderen mee te leren programmeren. Als je voor het eerst met de micro:bit aan de slag gaat, is het boekje "[lekker samen klooien](https://www.expeditiemicrobit.nl/sites/default/files/2017-09/Expeditie%20microbit%20Les%201%20Stichting%20FutureNL%20-%20Lekkersamenklooien_0.pdf)" van [Expiditie micro:bit](https://www.expeditiemicrobit.nl/) een goed startpunt. We hebben een aantal van deze boekjes liggen, dus je kunt er eentje pakken om tijdens de CoderDojo te gebruiken.
 
 {:class="gallery"}
+- [![microbit leerpad](https://projects-static.raspberrypi.org/pathways/assets/microbit-intro.png) Leerpad Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/pathways/microbit-intro)
+  Met het leerpad leer je met een aantal lesjes stap voor stap meer.
 - [![microbit](/static/img/microbit-explorer.png) Micro:bit beginners kaarten](https://www.digiwijsheid.nl/wp-content/uploads/2019/05/Micro.bit-explorer-kaarten-v1_alles_2019-03-15.pdf)
-  De kaarten van de micro:bit community NL zijn erg leuk om mee te beginnen.
+  Ook de kaarten van de micro:bit community NL zijn erg leuk om mee te beginnen.
 - [![microbit](/static/img/microbit-programmer.png) Micro:bit gevorderden kaarten](https://www.digiwijsheid.nl/wp-content/uploads/2019/05/Micro.bit-programmer-kaarten-v1_alles_2019-03-15.pdf)
   De micro:bit community NL heeft ook kaarten voor kinderen die wat dieper in het programmeren willen duiken.
 - [![maqueen](/static/img/maqueen.jpg) Maqueen: basis](/materiaal/microbit-maqueen)
