@@ -48,9 +48,13 @@ De micro:bit is een klein computertje dat ontwikkeld is om kinderen mee te leren
 
 ## HTML/CSS/JavaScript
 
+Wil je zelf een website maken? Daarvoor moet je HTML leren. En als je wat verder bent, kun je met CSS en Javascript aan de slag!
+  
 {:class="gallery"}
+- [![webdesign leerpad](https://projects-static.raspberrypi.org/pathways/assets/web-intro.png) Leerpad Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/collections/html_and_css)
+  Met het leerpad leer je stap voor stap webpagina's te maken (grotendeels in het Engels).
 - [![HTML](/static/img/html.png) Bouw je eigen website](/materiaal/website)
-  Wil je zelf een website maken? Daarvoor moet je HTML leren. En als je wat verder bent, kun je met CSS en Javascript aan de slag!
+  Een overzichtje van onze eerdere webdesign dojo's.
 - [![JavaScript](/static/img/herfstblad.js.png) JavaScript Herfst](/materiaal/javascript_herfstblaadjes.html)
   Laat blaadjes naar beneden dwarrelen op een website. Met HTML, javascript en CSS.
 - [![JavaScript](/static/img/flappybird.js.png) JavaScript Flappybird](/2017/09/16/javascript-flappybird)
