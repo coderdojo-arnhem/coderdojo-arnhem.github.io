@@ -10,15 +10,17 @@ Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en 
 {:class="gallery"}
 - [![Scratch](/static/img/scratch.png) Scratch](/materiaal/scratch-voor-beginners)
   Ben je voor het eerst bij CoderDojo? Kijk dan hier eens om met Scratch te beginnen.
+- [![Scratch leerpad](https://projects-static.raspberrypi.org/pathways/assets/scratch-intro.png) Leerpad Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/collections/scratch)
+  Met het leerpad leer je met een aantal lesjes stap voor stap meer. En verzamel stempels op onze stempelkaart!
 - [![Scratch](/static/img/escape-room.gif) Escape room](https://coderdojo-leiden.github.io/escaperoom/)
   [Coderdojo Leiden](https://coderdojo-leiden.nl/) heeft een leuke opdracht gemaakt waarin we zelf een escaperoom gaan bouwen. Het doel van het spel is om de deur open te maken door erop te klikken, zodat je naar buiten kunt.
 - [![Spirograaf](/static/img/scratch-spirograaf-1.png) Spirograaf](/materiaal/scratch/spirograaf)
 Met programmeren kun je alles maken, ook een kunstwerk! In deze les leer je  over herhalingen en over variabelen.
-- [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/materiaal/scratch/hooghouden)
-Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 gemaakt hebben. Probeer een voetbal hoog te houden met je webcam!
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
  Flappy Bird](/materiaal/scratch/flappybird)
 Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te maken, vind je hier de instructies die we voor CoderDojo #12 maakten.
+- [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/materiaal/scratch/hooghouden)
+Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 gemaakt hebben. Probeer een voetbal hoog te houden met je webcam!
 - [![Voorbeeld](/static/img/complimentengenerator/image9.png) Complimenten generator](/materiaal/scratch/complimentengenerator)
 De instructies voor de complimentengenerator die je bijvoorbeeld voor vaderdag kunt maken.
 - [![Kerstspel 2018](/static/img/kerstspel-300x228.png) Kerstspel](/2018/12/15/scratch-kerstspel)
@@ -52,7 +54,7 @@ Wil je zelf een website maken? Daarvoor moet je HTML leren. En als je wat verder
   
 {:class="gallery"}
 - [![webdesign leerpad](https://projects-static.raspberrypi.org/pathways/assets/web-intro.png) Leerpad Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/collections/html_and_css)
-  Met het leerpad leer je stap voor stap webpagina's te maken (grotendeels in het Engels).
+  Met het leerpad leer je stap voor stap webpagina's te maken (grotendeels in het Engels). En verzamel stempels op onze stempelkaart!
 - [![HTML](/static/img/html.png) Bouw je eigen website](/materiaal/website)
   Een overzichtje van onze eerdere webdesign dojo's.
 - [![JavaScript](/static/img/herfstblad.js.png) JavaScript Herfst](/materiaal/javascript_herfstblaadjes.html)
