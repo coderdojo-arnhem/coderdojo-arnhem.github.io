@@ -10,6 +10,8 @@ Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en 
 {:class="gallery"}
 - [![Scratch](/static/img/scratch.png) Scratch](/materiaal/scratch-voor-beginners)
   Ben je voor het eerst bij CoderDojo? Kijk dan hier eens om met Scratch te beginnen.
+- [![Haai](https://projects-static.raspberrypi.org/projects/cd-beginner-scratch-sushi/c62918851d3bb02b95185c8ba428ea97dbef80a7/nl-NL/images/banner.png) Haai](https://projects.raspberrypi.org/nl-NL/projects/cd-beginner-scratch-sushi)
+  Een goed lesje om mee te beginnen is de haai van Raspberry Pi Projects.
 - [![Scratch leerpad](https://projects-static.raspberrypi.org/pathways/assets/scratch-intro.png) Leerpad Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/collections/scratch)
   Met het leerpad leer je met een aantal lesjes stap voor stap meer. En verzamel stempels op onze stempelkaart!
 - [![Scratch](/static/img/escape-room.gif) Escape room](https://coderdojo-leiden.github.io/escaperoom/)
@@ -25,8 +27,6 @@ Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 
 De instructies voor de complimentengenerator die je bijvoorbeeld voor vaderdag kunt maken.
 - [![Kerstspel 2018](/static/img/kerstspel-300x228.png) Kerstspel](/2018/12/15/scratch-kerstspel)
 Voor de kersteditie in 2018 hadden we een leuk spel gemaakt waarin je de kerstman mag helpen cadeautje te verzamelen. Maar pas op voor de kerstballen, want anders breken ze!
-- [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
-Hier vind je meerdere leuke scratch opdrachten. Animeer bijvoorbeeld je eigen Donald Duck strip of maak je eigen quiz.
 - [![CoderDojo Arnhem Studio](/static/img/coderdojo-arnhem-studio.png) CoderDojo Arnhem Studio](https://scratch.mit.edu/studios/2502768)
 Ben je benieuwd wat iedereen heeft gemaakt? Je kunt de projecten bekijken via de CoderDojo Arnhem Studio op de Scratch website. Je kunt ook je eigen project aan de CoderDojo Arnhem Studio toevoegen, [hier](/2016/06/25/scratch-projecten-delen) wordt uitgelegd hoe je dit kunt doen.
 
