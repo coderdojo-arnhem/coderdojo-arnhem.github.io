@@ -12,7 +12,7 @@ __Beweeg met je muis om hem te vinden.__
 Kun je hem niet vinden?
 <br/>TIP: rechtsonder
 
-Heb je zelf een website? Bijvoorbeeld uit [een eerdere CoderDojo](materiaal/website/)?
+Heb je zelf een website? Bijvoorbeeld uit [een eerdere CoderDojo](/materiaal/website/)?
 <br/>Dan kun je met een paar regels code ook een paasei verstoppen op je eigen site! Of meerdere!
 
 Het belangrijkste wat je nodig hebt is het stukje CSS hieronder. Dit plaats je in je `style.css` bestand, of tussen de tags `<style>` en `</style>`.
