@@ -10,21 +10,23 @@ Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en 
 {:class="gallery"}
 - [![Scratch](/static/img/scratch.png) Scratch](/materiaal/scratch-voor-beginners)
   Ben je voor het eerst bij CoderDojo? Kijk dan hier eens om met Scratch te beginnen.
+- [![Haai](https://projects-static.raspberrypi.org/projects/cd-beginner-scratch-sushi/c62918851d3bb02b95185c8ba428ea97dbef80a7/nl-NL/images/banner.png) Haai](https://projects.raspberrypi.org/nl-NL/projects/cd-beginner-scratch-sushi)
+  Een goed lesje om mee te beginnen is de haai van Raspberry Pi Projects.
+- [![Scratch leerpad](https://projects-static.raspberrypi.org/pathways/assets/scratch-intro.png) Leerpad Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/collections/scratch)
+  Met het leerpad leer je met een aantal lesjes stap voor stap meer. En verzamel stempels op onze stempelkaart!
 - [![Scratch](/static/img/escape-room.gif) Escape room](https://coderdojo-leiden.github.io/escaperoom/)
   [Coderdojo Leiden](https://coderdojo-leiden.nl/) heeft een leuke opdracht gemaakt waarin we zelf een escaperoom gaan bouwen. Het doel van het spel is om de deur open te maken door erop te klikken, zodat je naar buiten kunt.
 - [![Spirograaf](/static/img/scratch-spirograaf-1.png) Spirograaf](/materiaal/scratch/spirograaf)
 Met programmeren kun je alles maken, ook een kunstwerk! In deze les leer je  over herhalingen en over variabelen.
-- [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/materiaal/scratch/hooghouden)
-Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 gemaakt hebben. Probeer een voetbal hoog te houden met je webcam!
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
  Flappy Bird](/materiaal/scratch/flappybird)
 Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te maken, vind je hier de instructies die we voor CoderDojo #12 maakten.
+- [![Hooghouden met je webcam](/static/img/scratch-hooghouden.png) Hooghouden met je webcam](/materiaal/scratch/hooghouden)
+Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 gemaakt hebben. Probeer een voetbal hoog te houden met je webcam!
 - [![Voorbeeld](/static/img/complimentengenerator/image9.png) Complimenten generator](/materiaal/scratch/complimentengenerator)
 De instructies voor de complimentengenerator die je bijvoorbeeld voor vaderdag kunt maken.
 - [![Kerstspel 2018](/static/img/kerstspel-300x228.png) Kerstspel](/2018/12/15/scratch-kerstspel)
 Voor de kersteditie in 2018 hadden we een leuk spel gemaakt waarin je de kerstman mag helpen cadeautje te verzamelen. Maar pas op voor de kerstballen, want anders breken ze!
-- [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
-Hier vind je meerdere leuke scratch opdrachten. Animeer bijvoorbeeld je eigen Donald Duck strip of maak je eigen quiz.
 - [![CoderDojo Arnhem Studio](/static/img/coderdojo-arnhem-studio.png) CoderDojo Arnhem Studio](https://scratch.mit.edu/studios/2502768)
 Ben je benieuwd wat iedereen heeft gemaakt? Je kunt de projecten bekijken via de CoderDojo Arnhem Studio op de Scratch website. Je kunt ook je eigen project aan de CoderDojo Arnhem Studio toevoegen, [hier](/2016/06/25/scratch-projecten-delen) wordt uitgelegd hoe je dit kunt doen.
 
@@ -48,9 +50,15 @@ De micro:bit is een klein computertje dat ontwikkeld is om kinderen mee te leren
 
 ## HTML/CSS/JavaScript
 
+Wil je zelf een website maken? Daarvoor moet je HTML leren. En als je wat verder bent, kun je met CSS en Javascript aan de slag!
+  
 {:class="gallery"}
+- [![webdesign leerpad](https://projects-static.raspberrypi.org/pathways/assets/web-intro.png) Leerpad Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/collections/html_and_css)
+  Met het leerpad leer je stap voor stap webpagina's te maken (grotendeels in het Engels). En verzamel stempels op onze stempelkaart!
 - [![HTML](/static/img/html.png) Bouw je eigen website](/materiaal/website)
-  Wil je zelf een website maken? Daarvoor moet je HTML leren. En als je wat verder bent, kun je met CSS en Javascript aan de slag!
+  Een overzichtje van onze eerdere webdesign dojo's.
+- [![JavaScript](/static/img/paasei.png) Verstopt paasei](/materiaal/paasei.html)
+  Een klein stukje CSS om een paasei op je website te verstoppen
 - [![JavaScript](/static/img/herfstblad.js.png) JavaScript Herfst](/materiaal/javascript_herfstblaadjes.html)
   Laat blaadjes naar beneden dwarrelen op een website. Met HTML, javascript en CSS.
 - [![JavaScript](/static/img/flappybird.js.png) JavaScript Flappybird](/2017/09/16/javascript-flappybird)

@@ -50,7 +50,7 @@ Hoe het bestand heet is niet zo belangrijk, je mag het ook `herfst.html` noemen.
 Voor het blad hebben we een plaatje nodig.
 Je kunt bijvoorbeeld een van deze gebruiken:
 
-<img src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" style="min-width:40px;width: 40px;float:left;margin-right:1em"> <code style='line-height:46px;'>http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png </code>
+<img src="https://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" style="min-width:40px;width: 40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png </code>
 
 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> <code style='line-height:46px;'>https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg </code>
 
@@ -63,7 +63,7 @@ Maar je kunt ook op internet zelf naar een leuk plaatje van een blad zoeken.
 Zet het plaatje in ```index.html``` tussen ```<body>``` en ```</body>``` met de volgende code:
 
 ```html
-  <img src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" alt="" class="blad" id="blad">
+  <img src="https://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" alt="" class="blad" id="blad">
 ```
 
 Als je een ander plaatje hebt uitgezocht, vervang je de link door de link van jouw plaatje.
@@ -100,7 +100,7 @@ var hoogte = window.innerHeight;
 
 window.onload = function(){
     var blad = document.getElementById('blad');
-    blad.style.top = hoogte;
+    blad.style.top = hoogte + 'px';
 }
 ```
 
@@ -112,10 +112,12 @@ Sla alle bestanden op en open `index.html` in je browser om te kijken of het wer
 
 Je zult zien dat het blaadje te ver doorschiet, en onder het venster terecht komt.
 Daarom laten we hem iets eerder stoppen, door de hoogte van het blaadje van de eindpositie af te halen.
-Verander de code zodat je dit krijgt:
+Voeg daarvoor een regel toe en pas de code aan zodat je dit krijgt:
 
 ```javascript
-    blad.style.top = hoogte - blad.height;
+    var blad = document.getElementById('blad');
+    var nieuwehoogte = hoogte - blad.height;
+    blad.style.top = nieuwehoogte + 'px';
 ```
 
 Herlaad de pagina om te kijken of het nu goed is.
@@ -164,7 +166,7 @@ E&eacute;n blaadje is natuurlijk wat weinig, we willen meer blaadjes!
 Je kunt in `index.html` een tweede plaatje toevoegen, die je in `id` `blad2` noemt:
 
 ```html
-    <img src="http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" alt="" class="blad" id="blad2">
+    <img src="https://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" alt="" class="blad" id="blad2">
 ```
 
 In ```javascript.js``` kun je dan het stuk tussen ```window.onload=function(){``` en ```} ``` kopi&euml;ren en er onder plakken, en in dat stuk ```blad``` vervangen door ```blad2```.
@@ -175,11 +177,13 @@ Dan heb je dus zoiets:
 ```javascript
 window.onload=function(){
     var blad = document.getElementById('blad');
-    blad.style.top = hoogte - blad.height;
+    var nieuwehoogte = hoogte - blad.height;
+    blad.style.top = nieuwehoogte + 'px';
     blad.style.transform = 'rotateX(360deg) rotateY(360deg) rotateZ(360deg)';
 
     var blad2 = document.getElementById('blad2');
-    blad2.style.top = hoogte - blad2.height;
+    var nieuwehoogte = hoogte - blad2.height;
+    blad2.style.top = nieuwehoogte + 'px';
     blad2.style.transform = 'rotateX(360deg) rotateY(360deg) rotateZ(360deg)';
 }
 ```
@@ -278,12 +282,13 @@ Plak de volgende code in ```javascript.js```:
 ```javascript
 function nieuwblad(){
     var nieuwblad = document.createElement('img');
-    nieuwblad.src = 'http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png';
+    nieuwblad.src = 'https://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png';
     nieuwblad.className = 'blad';
     nieuwblad.style.left = '20%';
     nieuwblad.style.transition = 'top 5s ease-in, transform 5s ease-in';
     nieuwblad.onload=function(){
-        this.style.top=hoogte-this.height;
+		var nieuwehoogte = hoogte - this.height;
+		blad.style.top = nieuwehoogte + 'px';
         this.style.transform = 'rotateX(360deg) rotateY(360deg) rotateZ(360deg)';
     }
     document.body.appendChild(nieuwblad);
@@ -431,7 +436,7 @@ Met bijvoorbeeld de 4 voorbeelden uit het begin is dat dan zo:
 
 ```javascript
 var bladeren = [
-    'http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png',
+    'https://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png',
     'https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg',
     'https://cdn.icon-icons.com/icons2/2199/PNG/512/brown_leaf_icon_133976.png',
     'https://cdn.icon-icons.com/icons2/1446/PNG/512/22338mapleleaf_98750.png'
@@ -460,4 +465,3 @@ Dus zo:
 {:class="note"}
 Het kan korter zonder een extra functie ```willekeurigblad()```, met alle code op 1 regel: ```nieuwblad.src = bladeren[ Math.floor( willekeurig(bladeren.length) ) ]```
 Kun je controleren of dat klopt?
-
