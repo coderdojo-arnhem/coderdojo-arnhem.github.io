@@ -5,14 +5,29 @@ tags: [materiaal, scratch]
 redirect_from: /materiaal/scratch/haai.html
 ---
 
+<style>
+scratch.waarnemen {
+  background-color: #5cb1d6;
+  border-color: #2e8eb8;
+}
+scratch.categorie.waarnemen::before {
+  color: #5cb1d6;
+}
+scratch.uiterlijk {
+  fill: #9966ff;
+  stroke: #603ea4;
+}
+</style>
+
 ## Haai
 
-In deze beginners les maken we eee spel met een haai!
+In deze beginners les maken we een spel met een haai!
 
-![Spirograaf](/static/img/scratch-spirograaf-1.png)
+![Spirograaf](/static/img/scratch_haai_preview.png)
 
 {:class="action"}
-Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om Scratch te openen, en klik op `Aan de slag` of `Maak`.
+Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om Scratch te openen,
+en klik op `Aan de slag` of `Maak`.
 
 {:class="license"}
 Dit materiaal is een bewerking van de les [Haai op Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/projects/cd-beginner-scratch-sushi).
@@ -32,7 +47,7 @@ wanneer groene vlag wordt aangeklikt
 > Ga nu naar <scratch class="categorie uiterlijken">Uiterlijken</scratch> bij de het code blokken en zoek dit blok:
 
 ```scratch
-    zeg [Hallo!] (2) sec
+    zeg (Hallo!) (2) sec.
 ```
 
 > Klik erop, houd de muisknop ingedrukt en sleep hem naar het huidige sprite paneel en laat de knop los.
@@ -41,7 +56,7 @@ Nu het tweede blok ook in het huidige sprite paneel staat, verbind je het aan de
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
-zeg [Hallo!] (2) sec
+zeg (Hallo!) (2) sec.
 ```
 
 > Klik nu op de groene vlag en kijk wat er gebeurt!
@@ -79,8 +94,10 @@ Opmerking: als je te vaak op de vlag klikt en de kat loopt uit beeld, dan kun je
 
 ```scratch
   wanneer groene vlag wordt aangeklikt
-  draai (15) graden
+  draai (15) graden naar rechts
 ```
+
+Dit blok zorgt ervoor dat de sprite 15 graden van de volledige 360 ​​graden draait die een cirkel vormen.
 
 ## Het instellen van de scène
 
@@ -168,7 +185,7 @@ Neem twee <scratch class="beweging">verander y met</scratch> blokken en werk je 
 
 Als je nu op de pijltjestoetsen klikt, beweegt je haai over het hele speelveld!
 
-# Het spel herstarten
+<h2>Het spel herstarten</h2>
 
 De haai beweegt nu over je hele scherm, maar stel je voor dat dit een spel is: hoe herstart je het dan, en wat gebeurt er aan het begin van elk spel?
 
@@ -211,7 +228,7 @@ Nu heb je een haai die je kunt laten bewegen met de pijltjestoetsen. Gaaf! Hoog 
 
 Geweldig! Later zul je code toevoegen om de vis zelfstandig te laten bewegen, zonder dat de speler helpt. Je speler zal de haai aansturen om te proberen de vis te vangen.
 
-# Achterstevoren?
+<h2>Achterstevoren?</h2>
 
 Het ziet er een beetje gek uit om de haai achterstevoren te laten zwemmen. Net zoals jij je liever omdraait in plaats van achteruit te lopen, wil de haai zich ook omdraaien in plaats van achterstevoren te zwemmen. Gelukkig heeft Scratch hier een blok voor!
 
@@ -267,7 +284,7 @@ Tjonge, die vis botste tegen de zijkant van het Speelveld en ging véél te snel
 Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze inlassen als de vis 10 stappen genomen heeft. Er is een <scratch class="categorie besturen">Besturen</scratch> blok dat je hierbij helpt:
 
 ```scratch
-    wacht (1) sec
+    wacht (1) sec.
 ```
 
 > Voeg het <scratch class="besturen">wacht</scratch> blok toe aan je code binnen het <scratch class="besturen">herhaal</scratch> blok, en verander het getal naar `0.5`:
@@ -276,7 +293,7 @@ Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze
 wanneer groene vlag wordt aangeklikt
 herhaal
   neem (10) stappen
-  wacht (0.5) sec
+  wacht (0.5) sec.
 ```
 
 Je kunt verschillende getallen bij <scratch class="besturen">wacht</scratch> invoeren om uit te zoeken wat het beste bij het spel past. En onthoud dat je het aantal stappen binnen het <scratch class="beweging">neem stappen</scratch> blok ook kunt veranderen!
@@ -293,7 +310,7 @@ Natuurlijk betekent dit dat je vis ondersteboven gaat zwemmen, dus heb je weer e
 wanneer groene vlag wordt aangeklikt
 herhaal
   neem (10) stappen
-  wacht (0.5) sec
+  wacht (0.5) sec.
   keer om aan de rand
 ```
 
@@ -308,8 +325,8 @@ wanneer groene vlag wordt aangeklikt
 maak draaistijl [links-rechts v]
 herhaal
   neem (10) stappen
-  draai (10) graden
-  wacht (0.5) sec
+  draai (10) graden naar rechts
+  wacht (0.5) sec.
   keer om aan de rand
 ```
 
@@ -323,8 +340,8 @@ wanneer groene vlag wordt aangeklikt
 maak draaistijl [links-rechts v]
 herhaal
   neem (10) stappen
-  draai (willekeurig gtal tussen (1) en (10)) graden
-  wacht (0.5) sec
+  draai (willekeurig getal tussen (1) en (10)) graden naar rechts
+  wacht (0.5) sec.
   keer om aan de rand
 ```
 
@@ -349,8 +366,8 @@ wanneer groene vlag wordt aangeklikt
 maak draaistijl [links-rechts v]
 herhaal
   neem (10) stappen
-  draai (willekeurig gtal tussen (1) en (10)) graden
-  wacht (0.5) sec
+  draai (willekeurig getal tussen (1) en (10)) graden naar rechts
+  wacht (0.5) sec.
   keer om aan de rand
     als <raak ik [Sprite1 v]> dan
 ```
@@ -383,8 +400,8 @@ Dat is al beter, maar je wilt niet dat de speler het spel moet herstarten zodra 
 ```scratch
   als <raak ik [Sprite1 v]> dan
     verdwijn
-    wacht (1) sec
-    ga naar x: (willekeurig gtal tussen (-240) en (240)) y: (willekeurig gtal tussen (-180) en (180))
+    wacht (1) sec.
+    ga naar x: (willekeurig getal tussen (-240) en (240)) y: (willekeurig getal tussen (-180) en (180))
     verschijn
 ```
 
@@ -413,7 +430,7 @@ De Score variabele wordt weergegeven in het speelveld.
 
 Nu moet de variabele elke keer bijgewerkt worden als de haai een vis pakt, en opnieuw beginnen als het spel wordt herstart. Beide zijn vrij simpel om te doen:
 
-> Pak uit de <scratch class="categorie variabelen">Variabelen</scratch> categorie de <scratch class="variabelen">maak [mijn variabele v] [0] en verander [mijn variabele v] met [1]</scratch> blokken. Klik op de kleine pijltjes in de blokken, kies `score` uit de lijst, en zet de blokken in je programma:
+> Pak uit de <scratch class="categorie variabelen">Variabelen</scratch> categorie de <scratch class="variabelen">maak [mijn variabele v] [0]</scratch> en <scratch class="variabelen">verander [mijn variabele v] met [1]</scratch> blokken. Klik op de kleine pijltjes in de blokken, kies `score` uit de lijst, en zet de blokken in je programma:
 
 Code voor de haai
 
@@ -421,7 +438,7 @@ Code voor de haai
 wanneer groene vlag wordt aangeklikt
 maak [score v] (0)
 maak draaistijl [links-rechts v]
-ga naa x: (0) y: (0)
+ga naar x: (0) y: (0)
 ```
 
 Code voor de vis
@@ -430,8 +447,8 @@ Code voor de vis
   als <raak ik [Sprite1 v]> dan
     verander [score v] met (1)
     verdwijn
-    wacht (1) sec
-    ga naar x: (willekeurig gtal tussen (-240) en (240)) y: (willekeurig gtal tussen (-180) en (180))
+    wacht (1) sec.
+    ga naar x: (willekeurig getal tussen (-240) en (240)) y: (willekeurig getal tussen (-180) en (180))
     verschijn
 ```
 
