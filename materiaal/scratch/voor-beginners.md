@@ -34,7 +34,7 @@ Je hoeft de lesjes in de leerpaden niet op volgorde te doen, je kunt er ook door
 
 ## Handleidingen
 
-Is dit je eerste keer Scratch en wil je geen leerpad volgen? Begin dan met de les [Beginner Sushi-kaarten](https://projects.raspberrypi.org/nl-NL/projects/cd-beginner-scratch-sushi).
+Is dit je eerste keer Scratch en wil je geen leerpad volgen? Begin dan met de les [Haai](/materiaal/scratch/haai/).
 
 Deze les is ook van Raspberry Pi Projects, waar [meer leuke lesjes](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=scratch) te vinden zijn die je kunt doen.
 

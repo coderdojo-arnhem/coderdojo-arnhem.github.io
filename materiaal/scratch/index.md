@@ -17,11 +17,12 @@ Met programmeren kun je alles maken, ook een kunstwerk! In deze les leer je  ove
 Hier vind je de instructies om het spel te maakten wat we tijdens CoderDojo #10 gedaan hebben. Probeer en voetbal hoogte houdenmet je webcam!
 - [![Bouw Flappy Bird in Scratch](/static/img/flappybird.png)
  Flappy Bird](/materiaal/scratch/flappybird)
+- [![Haai](https://projects-static.raspberrypi.org/projects/cd-beginner-scratch-sushi/c62918851d3bb02b95185c8ba428ea97dbef80a7/nl-NL/images/banner.png) Haai](materiaal/scratch/haai/)
+  Een goed lesje om mee te beginnen is de haai.
 Ken je het spelletje Flappy Bird nog? Als je dit zelf eens wilt proberen te maken, vind je hier de instructies die we voor CoderDojo #12 maakten.
 - [![Scratch Kerst opdrachten](/static/img/kerstspel-300x228.png) Kerstspel 2018](/materiaal/scratch-kerst)
 Help de kerstman om de kadootjes te verzamelen, maar pas op voor de kerstballen, anders breken ze!
-- [![Scratchles.nl](/static/img/scratchles.png) Scratchles.nl](https://scratchles.nl/)
-Hier vind je meerdere leuke scratch opdrachten. Animeer bijvoorbeeld je eigen Donald Duck strip of maak je eigen quiz.
+
 
 CoderDojo Arnhem Studio
 -----------------------
