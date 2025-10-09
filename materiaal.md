@@ -10,7 +10,7 @@ Met Scratch kun je games, verhalen, animaties en muziek maken. Het is gratis en 
 {:class="gallery"}
 - [![Scratch](/static/img/scratch.png) Scratch](/materiaal/scratch-voor-beginners)
   Ben je voor het eerst bij CoderDojo? Kijk dan hier eens om met Scratch te beginnen.
-- [![Haai](https://projects-static.raspberrypi.org/projects/cd-beginner-scratch-sushi/c62918851d3bb02b95185c8ba428ea97dbef80a7/nl-NL/images/banner.png) Haai](materiaal/scratch/haai/)
+- [![Haai](https://projects-static.raspberrypi.org/projects/cd-beginner-scratch-sushi/c62918851d3bb02b95185c8ba428ea97dbef80a7/nl-NL/images/banner.png) Haai](/materiaal/scratch/haai/)
   Een goed lesje om mee te beginnen is de haai.
 - [![Scratch leerpad](https://projects-static.raspberrypi.org/pathways/assets/scratch-intro.png) Leerpad Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/collections/scratch)
   Met het leerpad leer je met een aantal lesjes stap voor stap meer. En verzamel stempels op onze stempelkaart!
