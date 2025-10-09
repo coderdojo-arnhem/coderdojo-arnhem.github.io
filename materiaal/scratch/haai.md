@@ -28,14 +28,14 @@ In deze beginners les maken we een spel met een haai!
 {:class="action"}
 Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om Scratch te openen.
 
-En klik daar op `Aan de slag` of `Maak`.
+> En klik daar op `Aan de slag` of `Maak`.
 
 {:class="license"}
 Dit materiaal is een bewerking van de les [Haai op Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/projects/cd-beginner-scratch-sushi).
 
 ## Het begin
 
-![Sprite lijst](https://projects-static.raspberrypi.org/projects/cd-beginner-scratch-sushi/c62918851d3bb02b95185c8ba428ea97dbef80a7/nl-NL/images/hlSpriteList.png")
+![Sprite lijst](https://projects-static.raspberrypi.org/projects/cd-beginner-scratch-sushi/c62918851d3bb02b95185c8ba428ea97dbef80a7/nl-NL/images/hlSpriteList.png)
 
 > Klik op de Scratch kat in de sprite lijst. De kat is nu de huidige sprite.
 
