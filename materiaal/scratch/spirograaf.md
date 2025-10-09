@@ -41,7 +41,7 @@ Een <scratch class="categorie gebeurtenissen">Gebeurtenissen</scratch> blokje ge
 
 Nu gaan we _iets_ laten gebeuren. We gaan als eerste de pen verschuiven.
 
-> Ga naar <scratch class="categorie bewegingen">Bewegingen</scratch> en sleep een <scratch class="beweging">ga naar x <input /> y <input /></scratch> blokje onder je <scratch class="gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</scratch> blokje.
+> Ga naar <scratch class="categorie bewegingen">Beweging</scratch> en sleep een <scratch class="beweging">ga naar x <input /> y <input /></scratch> blokje onder je <scratch class="gebeurtenis">wanneer op <span class="flag">⚑</span> wordt geklikt</scratch> blokje.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
@@ -95,7 +95,7 @@ Dan zit je op de goede weg!
 
 ## Draaien maar
 
-Voor een mooie spirograaftekening willen we natuurlijk niet alleen een rechte lijn. we willen ook mooie bochtjes. Daarvoor moet de pen gaan draaien. Daar is ook een blokje voor, het zit ook bij <scratch class="categorie bewegingen">Bewegingen</scratch>.
+Voor een mooie spirograaftekening willen we natuurlijk niet alleen een rechte lijn. we willen ook mooie bochtjes. Daarvoor moet de pen gaan draaien. Daar is ook een blokje voor, het zit ook bij <scratch class="categorie bewegingen">Beweging</scratch>.
 
 > Plak een <scratch class="beweging">draai <span class="glyphicon glyphicon-repeat"></span> <input /> graden naar</scratch> blokje onderaan, en maak het getal maar wat groter, dan zie je het goed. Bijvoorbeeld `50`.
 
