@@ -10,7 +10,7 @@ scratch.waarnemen {
   background-color: #5cb1d6;
   border-color: #2e8eb8;
 }
-scratch.categoriewaarnemen::before {
+scratch.catwaarnemen::before {
   color: #5cb1d6;
 }
 scratch.uiterlijk {
@@ -26,10 +26,9 @@ In deze beginners les maken we een spel met een haai!
 ![Spirograaf](/static/img/scratch_haai_preview.png)
 
 {:class="action"}
-Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om Scratch te openen,
+Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om Scratch te openen.
 
-{:class="action"}
-en klik op `Aan de slag` of `Maak`.
+En klik daar op `Aan de slag` of `Maak`.
 
 {:class="license"}
 Dit materiaal is een bewerking van de les [Haai op Raspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/projects/cd-beginner-scratch-sushi).
@@ -357,7 +356,7 @@ Cool! Volgende stap: pak die vis!
 
 De haai beweegt, de vis zwemt, maar ze reageren niet op elkaar: als de vis in de bek van de haai zwemt, gebeurt er niets. Hoog tijd om dat te veranderen!
 
-Eerst moet je weten of de vis de haai aanraakt. Hiervoor heb je een <scratch class="categorie besturen">Besturen</scratch> blok en een <scratch class="categoriewaarnemen">Waarnemen</scratch> blok nodig.
+Eerst moet je weten of de vis de haai aanraakt. Hiervoor heb je een <scratch class="categorie besturen">Besturen</scratch> blok en een <scratch class="categorie catwaarnemen">Waarnemen</scratch> blok nodig.
 
 > Voeg het <scratch class="besturen">als...dan</scratch> blok toe aan de <scratch class="categorie besturen">herhaal</scratch> lus van de vis sprite, onder het <scratch class="beweging">keer om aan de rand</scratch> blok.
 
