@@ -10,7 +10,7 @@ scratch.waarnemen {
   background-color: #5cb1d6;
   border-color: #2e8eb8;
 }
-scratch.categorie.waarnemen::before {
+scratch.categorie_waarnemen::before {
   color: #5cb1d6;
 }
 scratch.uiterlijk {
@@ -27,6 +27,7 @@ In deze beginners les maken we een spel met een haai!
 
 {:class="action"}
 Ga naar [https://scratch.mit.edu](https://scratch.mit.edu) om Scratch te openen,
+
 en klik op `Aan de slag` of `Maak`.
 
 {:class="license"}
@@ -99,7 +100,7 @@ Opmerking: als je te vaak op de vlag klikt en de kat loopt uit beeld, dan kun je
 
 Dit blok zorgt ervoor dat de sprite 15 graden van de volledige 360 ​​graden draait die een cirkel vormen.
 
-## Het instellen van de scène
+## Het instellen van de omgeving
 
 Scratch heeft een bibliotheek met achtergronden en sprites die je kunt gebruiken om je project er geweldig uit te laten zien.
 
@@ -185,7 +186,7 @@ Neem twee <scratch class="beweging">verander y met</scratch> blokken en werk je 
 
 Als je nu op de pijltjestoetsen klikt, beweegt je haai over het hele speelveld!
 
-<h2>Het spel herstarten</h2>
+<b>Het spel herstarten</b>
 
 De haai beweegt nu over je hele scherm, maar stel je voor dat dit een spel is: hoe herstart je het dan, en wat gebeurt er aan het begin van elk spel?
 
@@ -228,7 +229,7 @@ Nu heb je een haai die je kunt laten bewegen met de pijltjestoetsen. Gaaf! Hoog 
 
 Geweldig! Later zul je code toevoegen om de vis zelfstandig te laten bewegen, zonder dat de speler helpt. Je speler zal de haai aansturen om te proberen de vis te vangen.
 
-<h2>Achterstevoren?</h2>
+<b>Achterstevoren?</b>
 
 Het ziet er een beetje gek uit om de haai achterstevoren te laten zwemmen. Net zoals jij je liever omdraait in plaats van achteruit te lopen, wil de haai zich ook omdraaien in plaats van achterstevoren te zwemmen. Gelukkig heeft Scratch hier een blok voor!
 
@@ -355,7 +356,7 @@ Cool! Volgende stap: pak die vis!
 
 De haai beweegt, de vis zwemt, maar ze reageren niet op elkaar: als de vis in de bek van de haai zwemt, gebeurt er niets. Hoog tijd om dat te veranderen!
 
-Eerst moet je weten of de vis de haai aanraakt. Hiervoor heb je een <scratch class="categorie besturen">Besturen</scratch> blok en een <scratch class="categorie waarnemen">Waarnemen</scratch> blok nodig.
+Eerst moet je weten of de vis de haai aanraakt. Hiervoor heb je een <scratch class="categorie besturen">Besturen</scratch> blok en een <scratch class="categorie_waarnemen">Waarnemen</scratch> blok nodig.
 
 > Voeg het <scratch class="besturen">als...dan</scratch> blok toe aan de <scratch class="categorie besturen">herhaal</scratch> lus van de vis sprite, onder het <scratch class="beweging">keer om aan de rand</scratch> blok.
 
@@ -374,9 +375,9 @@ herhaal
 
 Uiteraard heb je net een <scratch class="besturen">als...dan</scratch> blok toegevoegd zonder iets voor het ‘dan’ gedeelte te zetten. Dus nu controleert je code of de vis de haai aanraakt, maar gebeurt er verder helemaal niets.
 
-Je kunt de vis laten verdwijnen, alsof de haai hem heeft opgegeten, door het <scratch class="uiterlijken">verdwijn</scratch> blok te gebruiken.
+Je kunt de vis laten verdwijnen, alsof de haai hem heeft opgegeten, door het <scratch class="uiterlijk">verdwijn</scratch> blok te gebruiken.
 
-> Zoek het <scratch class="uiterlijken">verdwijn</scratch> blok in <scratch class="categorie uiterlijken">Uiterlijken</scratch> en zet het in het <scratch class="besturen">als...dan</scratch> blok:
+> Zoek het <scratch class="uiterlijk">verdwijn</scratch> blok in <scratch class="categorie uiterlijken">Uiterlijken</scratch> en zet het in het <scratch class="besturen">als...dan</scratch> blok:
 
 ```scratch
   als <raak ik [Sprite1 v]> dan
@@ -385,7 +386,7 @@ Je kunt de vis laten verdwijnen, alsof de haai hem heeft opgegeten, door het <sc
 
 Als de haai nu de vis pakt, verdwijnt de vis definitief. Dat is niet zo mooi.
 
-> Zet het <scratch class="uiterlijken">verschijn</scratch> blok uit <scratch class="categorie uiterlijken">Uiterlijken</scratch> helemaal aan het begin van de vis code, zodat je het spel kunt hervatten.
+> Zet het <scratch class="uiterlijk">verschijn</scratch> blok uit <scratch class="categorie uiterlijken">Uiterlijken</scratch> helemaal aan het begin van de vis code, zodat je het spel kunt hervatten.
 
 ```scratch
 wanneer groene vlag wordt aangeklikt
