@@ -352,6 +352,7 @@ Het maakt niet uit welk getal je als groep kiest. Maar als er anderen in je omge
 
 Je kunt voor elke micro:bit aparte code maken en apart uploaden. Dan moet je zorgen dat beide micro:bits dit blok hebben om op dezelfde groep te worden ingesteld.
 Voor het gemak maken we nu voor beide micro:bits dezelfde code, dan heb je het blok maar &eacute;&eacute;n keer nodig.
+Upload de code wel naar beide micro:bits.
 
 - We gaan nu voor de afstandbediening maken dat er een signaal wordt verstuurd als op de knoppen wordt gedrukt. We voegen ook de knoppen `A+B` tegelijk toe om rechtdoor te gaan:
 
@@ -360,7 +361,7 @@ Voor het gemak maken we nu voor beide micro:bits dezelfde code, dan heb je het b
 Ook hierbij maakt het niet veel uit welke getallen je invult. Maar de getallen moeten wel verschillend zijn. En je moet onthouden welk nummer bij welke knoppen hoort.
 
 - Voor het ontvangen van de `radio` signalen is er het blok `wanneer de radio ontvangt (receivedNumber)`. Het ronde blok `receivedNumber` wat daarin staat kun je slepen naar een vergelijking blok die je in het menu bij `Logisch` kunt vinden.
-We willen knop `A` gebruiken om naar links te gaan. Hiervoor hebben we het nummer `1` gekoppeld aan knop `A`, dus als `receivedNumber = 1` willen we naar rechts. Dat doen we met een `Als ... dan` blok:
+We willen knop `A` gebruiken om naar links te gaan. Hiervoor hebben we het nummer `1` gekoppeld aan knop `A`. Dus als `receivedNumber = 1` willen we naar rechts. Dat doen we met een `Als ... dan` blok:
 
 ![radio ontvangt receivedNumber 1](/static/img/maqueen/received_1.png)
 
@@ -373,6 +374,8 @@ Je hebt dan deze code in het `Als ... dan` blok:
 ![als receivedNumber = 1 naar links](/static/img/maqueen/naar_links.png)
 
 - De getallen bij `speed` en `pauzeer` kun je aanpassen om sneller, langzamer, korter of langer de bocht om te gaan. Probeer maar wat andere getallen uit.
+
+Als je alleen aanpassingen aan de motoren van de Maqueen maakt, hoef je dat alleen opnieuw te uploaden naar de micro:bit in de Maqueen. Dus je hoeft het dan niet ook opnieuw naar de afstandbediening te downloaden.
 
 - Voor rechtsaf kun een nieuw `Als ... dan` blok toevoegen, met je andere `receivedNumber` en de andere motor.
 
