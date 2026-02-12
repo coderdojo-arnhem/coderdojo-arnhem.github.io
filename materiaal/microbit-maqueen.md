@@ -301,7 +301,116 @@ Door de twee motoren met verschillende snelheid te laten rijden of zelfs in een 
 
 ![sprites](/static/img/maqueen/image-024.png)
 
+## Ultrasoon: obstakels vermijden
+
+Met de ultrasoon sensor kan de Maqueen de afstand meten tussen zichzelf en een
+obstakel wat voor hem staat. Dat is handig om obstakels te kunnen ontwijken.
+
+Eerst gaan we testen door de afstand tot een object te tonen op de micro:bit. Dat doen
+we met een blok `de hele tijd`. We willen dat de Maqueen continu afstanden blijft
+meten. Plaats binnen dit blok een blok `toon nummer` met daarbinnen de variabele
+`read ultrasonic sensor`. Zet de maateenheid in cm.
+
+![sprites](/static/img/maqueen/image-033.png)
+
+Test je programma met de Maqueen. Plaats je hand of een ander object op een
+bepaalde afstand. Op de display van de micro:bit verschijnt de gemeten afstand in
+centimeters.
+
+Het voorgaande gaan we nu gebruiken in een programma. We gaan de Maqueen leren
+om zelfstandig te rijden. We schrijven een programma waarin de auto in principe
+rechtdoor mag rijden. Zodra de Maqueen een object ziet in minder dan 20 cm, dan
+moet de auto 1 seconde een bocht achteruit rijden. Daarna mag de auto weer vooruit
+gaan rijden, mits er geen object gezien wordt op een afstand van 20 cm of minder. De
+Maqueen zal op deze manier altijd blijven rijden en obstakels vermijden.
+
+![sprites](/static/img/maqueen/image-034.png)
+
+Het voorgaande programma werkt, maar het kan veiliger. In het voorgaande
+programma hebben we een `ALS...DAN` blok gebruikt. Nu gaan we een
+`ALS...DAN...ANDERS` instructie gebruiken. Pas het voorgaande programma aan. Haal de
+eerst instructie (motor all move forward at speed 100) weg en klik op het `+` symbool.
+Je ziet dat de opdracht een ANDERS deel erbij krijgt. Plaats hierbinnen het codeblok
+`motor all move forward at speed 100`.
+
+Dit is een betere manier van programmeren. Je stelt eerst een voorwaarde “kijk of er
+een obstakel binnen 20 cm aanwezig is”, zo ja, dan moet de auto een bocht naar
+achteren rijden, zo niet, dan pas mag de auto vooruit gaan rijden. Het programma is
+nu veel veiliger.
+
+## Afstandsbediening met micro:bit
+
+Micro:bits kunnen signalen naar elkaar sturen via `radio`. Dat kun je gebruiken om een micro:bit als afstandsbediening te gebruiken door met `radio` signalen naar de andere micro:bit in de maqueen te sturen.
+Bijvoorbeeld dat de Maqueen naar links moet gaan als je op de afstandsbediening op knop `A` drukt, en naar rechts als knop `B` wordt ingedrukt.
+
+- Om te beginnen moet je instellen dat beide micro:bits op hetzelfde radiokanaal werken. Zet daarvoor het blok `Radio instellen groep` in het `bij opstarten` blok:
+
+![radio groep instellen](/static/img/maqueen/radioinstellen.png)
+
+{:class="note"}
+Het maakt niet uit welk getal je als groep kiest. Maar als er anderen in je omgeving ook met radio signalen werken, moet je zorgen dat je een andere groep kiest, anders verstoor je elkaar!
+
+Je kunt voor elke micro:bit aparte code maken en apart uploaden. Dan moet je zorgen dat beide micro:bits dit blok hebben om op dezelfde groep te worden ingesteld.
+Voor het gemak maken we nu voor beide micro:bits dezelfde code, dan heb je het blok maar &eacute;&eacute;n keer nodig.
+
+- We gaan nu voor de afstandbediening maken dat er een signaal wordt verstuurd als op de knoppen wordt gedrukt. We voegen ook de knoppen `A+B` tegelijk toe om rechtdoor te gaan:
+
+![radio verzend nummer knop A en B](/static/img/maqueen/radio_knopAenB.png)
+
+Ook hierbij maakt het niet veel uit welke getallen je invult. Maar de getallen moeten wel verschillend zijn. En je moet onthouden welk nummer bij welke knoppen hoort.
+
+- Voor het ontvangen van de `radio` signalen is er het blok `wanneer de radio ontvangt (receivedNumber)`. Het ronde blok `receivedNumber` wat daarin staat kun je slepen naar een vergelijking blok die je in het menu bij `Logisch` kunt vinden.
+We willen knop `A` gebruiken om naar links te gaan. Hiervoor hebben we het nummer `1` gekoppeld aan knop `A`, dus als `receivedNumber = 1` willen we naar rechts. Dat doen we met een `Als ... dan` blok:
+
+![radio ontvangt receivedNumber 1](/static/img/maqueen/received_1.png)
+
+- Om de bocht om te gaan moet &eacute;&eacute;n van beide wielen harder draaien dan het andere wiel. Om een bocht naar links te maken moet de motor van het rechter wiel draaien.
+- Om te bepalen hoe lang de bocht duurt voegen we een `pauzeer` blok toe.
+- Daarna moet de motor weer stoppen, om niet de hele tijd rondjes te blijven draaien.
+
+Je hebt dan deze code in het `Als ... dan` blok:
+
+![als receivedNumber = 1 naar links](/static/img/maqueen/naar_links.png)
+
+- De getallen bij `speed` en `pauzeer` kun je aanpassen om sneller, langzamer, korter of langer de bocht om te gaan. Probeer maar wat andere getallen uit.
+
+- Voor rechtsaf kun een nieuw `Als ... dan` blok toevoegen, met je andere `receivedNumber` en de andere motor.
+
+- Om rechtdoor te gaan gebruiken we nog een `Als ... dan` blok voor beide motoren tegelijk:
+
+![radio ontvangt receivedNumber 1, 2 of 3](/static/img/maqueen/received_123.png)
+
+Voor de afstandsbediening kun je ook andere ` Invoer` gebruiken in plaats van de knoppen, zoals kantelen of schudden.
+
 Meer experimenteren met het rijden met de Maqueen? Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/) _A. Robotdans_ en _B. Patronen rijden_.
+
+## Infrarood besturing
+
+De Maqueen is ook aan te sturen met een willekeurige infrarood afstandsbediening.
+Voordat je gaat programmeren met een afstandsbediening, zul je eerst moeten weten
+welke nummers horen bij welke knoppen op je afstandsbediening. Kies 5 knoppen op
+de afstandsbediening die je wil toewijzen aan 5 functies van de Maqueen. Wij kiezen
+vooruit, achteruit, bocht links, bocht rechts en stoppen maar je kunt ook wat anders
+kiezen om de Maqueen te laten doen.
+
+![sprites](/static/img/maqueen/image-039.jpg)
+
+Nu gaan we uitzoeken welke message jouw afstandsbediening stuurt bij het indrukken
+van een knop. Plaats in de MakeCode omgeving het blokje `on IR received message` uit het IR menu. Hiermee geeft je de Maqueen de opdracht om de infrarood
+sensor te activeren en te wachten tot het een signaal binnen krijgt. Dat signaal is de message, het bericht. Zodra er op de afstandsbediening op een knop gedrukt wordt,
+dan wordt er een message verstuurd. We willen het nummer van deze message op de display van de micro:bit zien. Dat kan met de volgende code; hierin wordt de variabele message gebruikt:
+
+![sprites](/static/img/maqueen/image-040.png)
+
+Zet dit programma op de Micro:Bit. Zet de micro:bit in de Maqueen. Klik op de
+knoppen van de afstandsbediening en kijk welk nummer verschijnt. Noteer de knop en de bijbehorende nummers!
+
+Nu kun je de knoppen/nummers koppelen aan acties van de Maqueen. In het
+onderstaande programma is `9` gebruikt voor vooruit rijden, `8` voor achteruit, `10` voor rechts, `0` voor links en `15` voor stoppen.
+
+![sprites](/static/img/maqueen/image-041.png)
+
+Probeer je eigen afstandsbediening en bestuur de Maqueen met functies die je zelf gekozen hebt!
 
 ## Geluid
 
@@ -408,43 +517,6 @@ Dit kan ook door nog slimmer te programmeren met een herhaalblok en een variabel
 
 Meer experimenteren met de Neopixels? Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/) _E. Neopixels infaden en uitfaden (en regenboogkleuren)_. Daar leer je ook hoe je regenboogkleuren maakt.
 
-## 5. Ultrasoon: obstakels vermijden
-
-Met de ultrasoon sensor kan de Maqueen de afstand meten tussen zichzelf en een
-obstakel wat voor hem staat. Dat is handig om obstakels te kunnen ontwijken.
-
-Eerst gaan we testen door de afstand tot een object te tonen op de Micro:Bit. Dat doen
-we met een blok `de hele tijd`. We willen dat de Maqueen continu afstanden blijft
-meten. Plaats binnen dit blok een blok `toon nummer` met daarbinnen de variabele
-`read ultrasonic sensor`. Zet de maateenheid in cm.
-
-![sprites](/static/img/maqueen/image-033.png)
-
-Test je programma met de Maqueen. Plaats je hand of een ander object op een
-bepaalde afstand. Op de display van de Micro:Bit verschijnt de gemeten afstand in
-centimeters.
-
-Het voorgaande gaan we nu gebruiken in een programma. We gaan de Maqueen leren
-om zelfstandig te rijden. We schrijven een programma waarin de auto in principe
-rechtdoor mag rijden. Zodra de Maqueen een object ziet in minder dan 20 cm, dan
-moet de auto 1 seconde een bocht achteruit rijden. Daarna mag de auto weer vooruit
-gaan rijden, mits er geen object gezien wordt op een afstand van 20 cm of minder. De
-Maqueen zal op deze manier altijd blijven rijden en obstakels vermijden.
-
-![sprites](/static/img/maqueen/image-034.png)
-
-Het voorgaande programma werkt, maar het kan veiliger. In het voorgaande
-programma hebben we een `ALS...DAN` blok gebruikt. Nu gaan we een
-`ALS...DAN...ANDERS` instructie gebruiken. Pas het voorgaande programma aan. Haal de
-eerst instructie (motor all move forward at speed 100) weg en klik op het `+` symbool.
-Je ziet dat de opdracht een ANDERS deel erbij krijgt. Plaats hierbinnen het codeblok
-`motor all move forward at speed 100`.
-
-Dit is een betere manier van programmeren. Je stelt eerst een voorwaarde “kijk of er
-een obstakel binnen 20 cm aanwezig is”, zo ja, dan moet de auto een bocht naar
-achteren rijden, zo niet, dan pas mag de auto vooruit gaan rijden. Het programma is
-nu veel veiliger.
-
 ## Lijn volgen
 
 De Maqueen kan een zwarte lijn volgen. Daarvoor gebruikt hij de twee sensoren aan de
@@ -487,41 +559,6 @@ volgen?
 ![sprites](/static/img/maqueen/image-038.png)
 
 Meer experimenteren met afstand meten en hier acties aan verbinden? Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/) _C Lijn volgen én anti botsing_.
-
-## 7 .Infrarood besturing
-
-De Maqueen is ook aan te sturen met een willekeurige infrarood afstandsbediening.
-Voordat je gaat programmeren met een afstandsbediening, zul je eerst moeten weten
-welke nummers horen bij welke knoppen op je afstandsbediening. Kies 5 knoppen op
-de afstandsbediening die je wil toewijzen aan 5 functies van de Maqueen. Wij kiezen
-vooruit, achteruit, bocht links, bocht rechts en stoppen maar je kunt ook wat anders
-kiezen om de Maqueen te laten doen.
-
-![sprites](/static/img/maqueen/image-039.jpg)
-
-Nu gaan we uitzoeken welke message jouw afstandsbediening stuurt bij het indrukken
-van een knop. Plaats in de MakeCode omgeving het blokje `on IR received
-message` uit het IR menu. Hiermee geeft je de Maqueen de opdracht om de infrarood
-sensor te activeren en te wachten tot het een signaal binnen krijgt. Dat signaal is de
-message, het bericht. Zodra er op de afstandsbediening op een knop gedrukt wordt,
-dan wordt er een message verstuurd. We willen het nummer van deze message op de
-display van de Micro:Bit zien. Dat kan met de volgende code; hierin wordt de variabele
-message gebruikt:
-
-![sprites](/static/img/maqueen/image-040.png)
-
-Zet dit programma op de Micro:Bit. Zet de Micro:Bit in de Maqueen. Klik op de
-knoppen van de afstandsbediening en kijk welk nummer verschijnt. Noteer de knop en
-de bijbehorende nummers!
-
-Nu kun je de knoppen/nummers koppelen aan acties van de Maqueen. In het
-onderstaande programma is `9` gebruikt voor vooruit rijden, `8` voor achteruit, `10` voor
-rechts, `0` voor links en `15` voor stoppen.
-
-![sprites](/static/img/maqueen/image-041.png)
-
-Probeer je eigen afstandsbediening en bestuur de Maqueen met functies die je zelf
-gekozen hebt!
 
 ## Lichtsterkte gebruiken
 
