@@ -50,9 +50,11 @@ toegevoegd worden in de MakeCode programmeeromgeving van de Micro:Bit.
 
 ![sprites](/static/img/maqueen/image-000.jpg)
 
-- Je ziet dat er tussen de programmeerblokken een menu onderdeel is toegevoegd:
+- Je ziet dat er tussen de programmeerblokken een menu onderdeel `Maqueen v4` is toegevoegd:
 
-![sprites](/static/img/maqueen/image-001.png)
+![Maqueen v4 in menu](/static/img/maqueen/maqueen_menu_v4.png)
+
+`Maqueen v5` is een andere versie, die gebruiken wij niet.
 
 ### Micro:Bit in de Maqueen plaatsen
 
@@ -250,7 +252,7 @@ Lees voor het programmeren verder in paragraaf _8. Lichtsterkte gebruiken_.
 
 ![sprites](/static/img/maqueen/image-018.jpg)
 
-## 1. Koplampen laten branden
+## Koplampen laten branden
 
 In de basis uitleg staat de code om de rode LED lampjes aan de voorkant continu te
 laten branden. Dat is wel een beetje saai. We gaan nu de rechter koplamp laten
@@ -273,7 +275,7 @@ laten branden. Valt je nog wat anders op?
 
 Meer experimenteren met de koplampen? Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/) _A. Robotdans_ en _.D Knipperen op de zebra._
 
-## 2. Rijden en sturen
+## Rijden en sturen
 
 Nu gaan we de Maqueen laten rijden. Dat doen we door de motoren van de wielen aan
 te sturen.
@@ -301,7 +303,7 @@ Door de twee motoren met verschillende snelheid te laten rijden of zelfs in een 
 
 Meer experimenteren met het rijden met de Maqueen? Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/) _A. Robotdans_ en _B. Patronen rijden_.
 
-## 3. Geluid
+## Geluid
 
 Bij het stukje over de rode koplampen heb je
 al gebruik gemaakt van de geluid optie op de
@@ -328,7 +330,7 @@ wat uit, maar zelf maken is natuurlijk het allerleukste!
 
 Meer experimenteren met muziek? Kijk bij Kijk bij de [combinatie opdrachten](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen-combinatie-opdrachten/)  _A. Robotdans_ en _F. Obstakels vermijden en waarschuwing geven_.
 
-## 4. Neopixels aan de onderkant
+## Neopixels aan de onderkant
 
 Onder op de Maqueen zitten 4 Rood/Groen/Blauw Neopixels lampjes. In de basis paragrafen is uitgelegd hoe je de programmeerblokken voor deze Neopixels kunt
 toevoegen.
@@ -443,7 +445,7 @@ een obstakel binnen 20 cm aanwezig is”, zo ja, dan moet de auto een bocht naar
 achteren rijden, zo niet, dan pas mag de auto vooruit gaan rijden. Het programma is
 nu veel veiliger.
 
-## 6. Lijn volgen
+## Lijn volgen
 
 De Maqueen kan een zwarte lijn volgen. Daarvoor gebruikt hij de twee sensoren aan de
 onderkant die zwart of wit kunnen detecteren. Wit is `1` (reflecteert alles) en Zwart is `0` (geen reflectie).
@@ -521,7 +523,7 @@ rechts, `0` voor links en `15` voor stoppen.
 Probeer je eigen afstandsbediening en bestuur de Maqueen met functies die je zelf
 gekozen hebt!
 
-## 8. Lichtsterkte gebruiken
+## Lichtsterkte gebruiken
 
 De LEDs op de display van de Micro:Bit kunnen niet alleen licht tonen, maar ze kunnen
 ook het aanwezige licht meten. Dit gaan we gebruiken. We gaan de lichtmeter van de

@@ -15,7 +15,7 @@ In deze handleiding van CoderDojo Arnhem staan een aantal opdrachten waarbij je 
 
 ![sprites](/static/img/maqueen/image-005.jpg)
 
-Er wordt uitgegaan van enige basiskennis van de Micro:Bit Maqueen Robotautog. Heb je dit nog niet, probeer dan eerst [het
+Er wordt uitgegaan van enige basiskennis van de micro:bit Maqueen Robotauto. Heb je dit nog niet, probeer dan eerst [het
 beginnersprogramma voor de Maqueen Robotauto](https://coderdojo-arnhem.github.io/materiaal/microbit-maqueen/).
 
 Deze handleiding hoeft niet perse van voor tot
