@@ -12,8 +12,10 @@ Lopen met JavaScript
 -------------------------
 
 In Scratch heb je waarschijnlijk wel eens gemaakt dat je met de toetsen op je toetsenbord een sprite kunt laten bewegen.
+
 Maar kan dat ook met javascript? En hoe dan?
-Dat ga je in dit lesje leren.
+
+Dat ga je in dit korte lesje leren.
 
 Open een teksteditor zoals <b>Kladblok</b>.
 
@@ -22,7 +24,7 @@ Begin met de basis tags voor een html pagina:
 ```html
 <html>
   <head>
-    <title>Besturen in HTML</title>
+    <title>Lopen in HTML</title>
     <style>
     </style>
     <script>
@@ -38,30 +40,30 @@ De sprite
 
 Voor de sprite hebben we een plaatje nodig.
 
-Kies bijvoorbeeld eacute;eacute;n van deze plaatjes:
+Kies bijvoorbeeld &eacute;&eacute;n van deze plaatjes:
 
-<img src="/static/img/karakters/bird.png" style="height:40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/bird.png </code>
+<img src="/static/img/karakters/bird.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/bird.png </code>
 
-<img src="/static/img/karakters/dog.png" style="height:40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/dog.png </code>
+<img src="/static/img/karakters/dog.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/dog.png </code>
 
-<img src="/static/img/karakters/shark.png" style="height:40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/shark.png </code>
+<img src="/static/img/karakters/shark.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/shark.png </code>
 
-<img src="/static/img/karakters/jumping.png" style="height:40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/jumping.png </code>
+<img src="/static/img/karakters/jumping.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/jumping.png </code>
 
-<img src="/static/img/karakters/female2.png" style="height:40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/female2.png </code>
+<img src="/static/img/karakters/female2.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/female2.png </code>
 
-<img src="/static/img/karakters/robot.png" style="height:40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot.png </code>
+<img src="/static/img/karakters/robot.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot.png </code>
 
-<img src="/static/img/karakters/robot_body.png" style="height:40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot_body.png </code>
+<img src="/static/img/karakters/robot_body.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot_body.png </code>
 
-<img src="/static/img/karakters/cake.png" style="height:40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/cake.png </code>
+<img src="/static/img/karakters/cake.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/cake.png </code>
 
-Je kunt ook zelf een plaatje op internet opzoeken. Klik dan met je rechter muisknop op het plaatje en kies voor 'Adres van afbeelding kopi&euml;ren'.
+Je kunt ook zelf een plaatje op internet opzoeken. Klik dan met je rechter muisknop op het plaatje en kies voor `Adres van afbeelding kopi&euml;ren`.
 
-Zet het plaatje in een img tag tussen `<body>` en `</body>` met de volgende code:
+Zet de link naar het plaatje in een img tag tussen `<body>` en `</body>` met de volgende code:
 
 ```html
-<img src="https://intro.coderdojo-dieren.nl/img/characters/jumping.png" id="sprite" alt="">
+<img src="https://coderdojo-arnhem.github.io/static/img/karakters/jumping.png" id="sprite" alt="">
 ```
 
 Als je een ander plaatje hebt uitgezocht, vervang je de link door de link van jouw plaatje.
@@ -78,16 +80,15 @@ width: 10%;
 
 Sla het bestand op als `lopen.html`. (Of een andere naam met .html, maar let let op dat je bij `Opslaan als..` kiest voor `Alle bestanden (*.*)` en niet `*.txt`).
 
-{:class="note"}
-Hoe het bestand heet is niet zo belangrijk, je mag het ook `bewegen.html` noemen.
-
 Open het bestand met een browser, en kijk of je sprite mooi in het midden van de pagina staat.
+
 Zo niet, dan kun je de top, left of width aanpassen (sla je code dan opnieuw op en herlaad de pagina in de browser).
 
 Het bewegen
 -----------
 
 Voor het bewegen gaan we een javascript functie toevoegen die we 'toets' gaan noemen.
+
 Als op het toetsenbord een toets (of 'key' in het Engels) wordt ingedrukt, heet dat een 'event'. Dat 'event' kunnen we in een functie meegeven door het aan de `body` tag die we al hebben, op de volgende manier:
 
 ```html
@@ -95,6 +96,7 @@ Als op het toetsenbord een toets (of 'key' in het Engels) wordt ingedrukt, heet 
 ```
 
 De javascipt functie gaan we maken tussen de tags `<script>` en `</script>`.
+
 We beginnen met de naam van de functie, en een `{` om het begin van het code blok aan te geven.
 
 ```javascript
@@ -114,7 +116,9 @@ var positie = sprite.getBoundingClientRect();
 ```
 
 Laten we beginnen met het naar rechts bewegen met 'pijltje naar rechts'.
+
 In CSS is left hetzelfde als x, wat je waarschijnlijk nog kent uit Scratch.
+
 We gebruiken een if-blok waarin we eerst kijken welke key aan het event `e` is gekoppeld. Voor naar rechts is dat de key `ArrowRight`:
 
 ```javascript
@@ -155,8 +159,9 @@ Gaat het bewegen goed?
 
 Merk je ook dat de sprite uit het scherm verdwijnt als je te ver naar links of naar boven beweegt?
 Om dat te voorkomen kunnen we een extra controle aan de if toevoegen bij naar links en omhoog.
+
 Voeg `&& positie.left > 0` toe achter `e.key=='ArrowLeft'`
-en ` && positie.top>0` achter `e.key=='ArrowUp'`.
+en `&& positie.top>0` achter `e.key=='ArrowUp'`.
 
 Alles samen
 -----------
@@ -166,7 +171,7 @@ Voor als het nog niet is gelukt hier nog een keer de totale code.
 ```html
 <html>
   <head>
-	<title>Besturen in HTML</title>
+	<title>Lopen in HTML</title>
 	<style>
 		#sprite {
 			position: absolute;
