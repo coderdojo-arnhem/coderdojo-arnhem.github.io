@@ -42,23 +42,23 @@ Voor de sprite hebben we een plaatje nodig.
 
 Kies bijvoorbeeld &eacute;&eacute;n van deze plaatjes:
 
-<img src="/static/img/karakters/bird.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/bird.png </code>
+<img src="/static/img/karakters/bird.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/bird.png </code>
 
-<img src="/static/img/karakters/dog.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/dog.png </code>
+<img src="/static/img/karakters/dog.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/dog.png </code>
 
-<img src="/static/img/karakters/shark.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/shark.png </code>
+<img src="/static/img/karakters/shark.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/shark.png </code>
 
-<img src="/static/img/karakters/jumping.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/jumping.png </code>
+<img src="/static/img/karakters/jumping.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/jumping.png </code>
 
-<img src="/static/img/karakters/female2.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/female2.png </code>
+<img src="/static/img/karakters/female2.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/female2.png </code>
 
-<img src="/static/img/karakters/robot.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot.png </code>
+<img src="/static/img/karakters/robot.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot.png </code>
 
-<img src="/static/img/karakters/robot_body.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot_body.png </code>
+<img src="/static/img/karakters/robot_body.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot_body.png </code>
 
-<img src="/static/img/karakters/cake.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/karakters/cake.png </code>
+<img src="/static/img/karakters/cake.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/cake.png </code>
 
-Je kunt ook zelf een plaatje op internet opzoeken. Klik dan met je rechter muisknop op het plaatje en kies voor `Adres van afbeelding kopi&euml;ren`.
+Je kunt ook zelf een plaatje op internet opzoeken. Klik dan met je rechter muisknop op het plaatje en kies voor 'Adres van afbeelding kopi&euml;ren'.
 
 Zet de link naar het plaatje in een img tag tussen `<body>` en `</body>` met de volgende code:
 
@@ -161,6 +161,7 @@ Merk je ook dat de sprite uit het scherm verdwijnt als je te ver naar links of n
 Om dat te voorkomen kunnen we een extra controle aan de if toevoegen bij naar links en omhoog.
 
 Voeg `&& positie.left > 0` toe achter `e.key=='ArrowLeft'`
+
 en `&& positie.top>0` achter `e.key=='ArrowUp'`.
 
 Alles samen
@@ -187,15 +188,15 @@ Voor als het nog niet is gelukt hier nog een keer de totale code.
 			// bepaal positie van het plaatje
 			var positie = sprite.getBoundingClientRect();
 
-			if(e.key=='ArrowUp' && positie.top>0){
-				sprite.style.top = (positie.top - 10) + 'px';
-			}
 			if(e.key=='ArrowDown'){
 				sprite.style.top = (positie.top + 10) + 'px';
 			}
 			if(e.key=='ArrowRight'){
 				// left is hetzelfde als x positie
 				sprite.style.left = (positie.left + 10) + 'px';
+			}
+			if(e.key=='ArrowUp' && positie.top>0){
+				sprite.style.top = (positie.top - 10) + 'px';
 			}
 			if(e.key=='ArrowLeft' && positie.left>0){
 				sprite.style.left = (positie.left - 10) + 'px';
