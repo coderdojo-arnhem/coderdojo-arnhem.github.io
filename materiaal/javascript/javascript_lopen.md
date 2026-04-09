@@ -46,17 +46,17 @@ Kies bijvoorbeeld &eacute;&eacute;n van deze plaatjes:
 
 <img src="/static/img/karakters/dog.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/dog.png </code>
 
-<img src="/static/img/karakters/shark.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/shark.png </code>
+<img src="/static/img/karakters/shark.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:86px;'>https://coderdojo-arnhem.github.io/static/img/karakters/shark.png </code>
 
-<img src="/static/img/karakters/jumping.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/jumping.png </code>
+<img src="/static/img/karakters/jumping.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:105px;'>https://coderdojo-arnhem.github.io/static/img/karakters/jumping.png </code>
 
-<img src="/static/img/karakters/female2.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/female2.png </code>
+<img src="/static/img/karakters/female2.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:97px;'>https://coderdojo-arnhem.github.io/static/img/karakters/female2.png </code>
 
 <img src="/static/img/karakters/robot.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot.png </code>
 
-<img src="/static/img/karakters/robot_body.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot_body.png </code>
+<img src="/static/img/karakters/robot_body.png" style="width:75px;min-width:75px;float:left;margin-right:1em"> <code style='line-height:99px;'>https://coderdojo-arnhem.github.io/static/img/karakters/robot_body.png </code>
 
-<img src="/static/img/karakters/cake.png" style="width:80px;min-width:80px;float:left;margin-right:1em"> <code style='line-height:71px;'>https://coderdojo-arnhem.github.io/static/img/karakters/cake.png </code>
+<img src="/static/img/karakters/cake.png" style="width:74px;min-width:74px;float:left;margin-right:1em"> <code style='line-height:95px;'>https://coderdojo-arnhem.github.io/static/img/karakters/cake.png </code>
 
 Je kunt ook zelf een plaatje op internet opzoeken. Klik dan met je rechter muisknop op het plaatje en kies voor 'Adres van afbeelding kopi&euml;ren'.
 
