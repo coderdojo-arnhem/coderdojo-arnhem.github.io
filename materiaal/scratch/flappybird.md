@@ -89,25 +89,23 @@ Nu gaan we de vogel laten vliegen! We zitten nog steeds in het tabblad __code__ 
 Als de spatiebalk ingedrukt wordt, stellen we de `zwaartekracht` in op `6`. 
 De y-positie (verticaal) wordt hierdoor voor korte tijd hoger.
 
-![Stap 3](/static/img/scratch-flappybird-3.svg)
-
 {:start="3"}
-
 3. Voeg een nieuw _wanneer &#9873; wordt aangeklikt_ blok toe.
 
    Voeg een _herhaal_ blok toe met daarbinnen _wacht tot toets_ `spatiebalk` _ingedrukt_.
 
    Voeg een _maak_ `zwaartekracht` blok toe en stel die in op `6`.
 
+![Stap 3](/static/img/scratch-flappybird-3.svg)
+
 We voegen ook nog wat geluid en beweging toe. 
 
-![Stap 4](/static/img/scratch-flappybird-4.svg)
-
 {:start="4"}
-
 4. Voeg een _start geluid_ blok toe en stel die in op `flap`.
 
    Voeg een _volgend uiterlijk_ blok toe.
+
+![Stap 4](/static/img/scratch-flappybird-4.svg)
 
 Start het spel en druk op de spatiebalk om te kijken wat er gebeurt. Schiet Flappy Bird kort omhoog?
 En zie je de vleugels bewegen en hoor je het geluid alsof de vogel echt vliegt?
@@ -120,10 +118,7 @@ Klik rechtsonder in het scherm op het plaatje van de __buizen__ om die __sprite_
 We gaan bij deze sprite eerst programmeren wat er moet gebeuren als het programma start. 
 Elke 2 seconden moet een nieuwe buis verschijnen. Dat doen we door elke 2 seconden een __kloon__ te maken. 
 
-![Stap 5](/static/img/scratch-flappybird-7.svg)
-
 {:start="5"}
-
 5. Voeg een _ga naar x `220` en y `0`_ toe. Hierdoor begint de buis rechts buiten het scherm.
 
     Voeg een _verdwijn_ blok toe om de buis direct onzichtbaar te maken.
@@ -132,25 +127,23 @@ Elke 2 seconden moet een nieuwe buis verschijnen. Dat doen we door elke 2 second
 
     Zet in het herhaalblok _Maak een kloon van `mezelf`_ en een blok _wacht `2` sec_.
 
+![Stap 5](/static/img/scratch-flappybird-7.svg)
+
 Nu gaan we er voor zorgen dat elke 2 seconden een nieuwe buis in beeld komt waarbij het iedere keer een verrassing is welk __uiterlijk__ verschijnt. 
 
-![Start 6](/static/img/scratch-flappybird-8.svg)
-
 {:start="6"}
-
 6. Kies een _Wanneer ik als kloon start_ blok.
   
     Voeg een blok _verander uiterlijk naar `willekeurig getal tussen` `1` en `3`_ toe. Hiermee krijgt de buis één van de drie uiterlijken.
   
     Laat de buis verschijnen met het blok _verschijn_.
-  
+
+![Start 6](/static/img/scratch-flappybird-8.svg)
+
 Tot slot voegen we beweging toe. We laten de buizen van rechts naar links bewegen. Hierdoor lijkt het net of flappy bird door het landschap vliegt! 
 Een buis moet verdwijnen wanneer hij de rand van het scherm raakt.
 
-![Start 7](/static/img/scratch-flappybird-10.svg)
-
 {:start="7"}
-
 7. Voeg een _herhaal_ blok toe.
 
     Zet hierbinnen een blok _verander x met `-4`_.
@@ -158,6 +151,8 @@ Een buis moet verdwijnen wanneer hij de rand van het scherm raakt.
     Voeg een _als `raak ik rand` dan_ blok toe.
   
     Daarbinnen het blok _verwijder deze kloon_.
+
+![Start 7](/static/img/scratch-flappybird-10.svg)
 
 Start het spel om te kijken wat er gebeurt. Zie je de buizen in beeld komen en weer verdwijnen?
 Stop het spel voordat je verder gaat.
@@ -169,10 +164,7 @@ Flappy Bird vliegt nu nog dwars door de buizen. Dat is niet de bedoeling. Hij mo
 
 Maak linksonder in het scherm de __vogel sprite__ actief en ga naar het tabblad __code__.
 
-![Stap 8](/static/img/scratch-flappybird-14.svg)
-
 {:start="8"}
-
 8. Voeg een nieuw _wanneer &#9873; wordt aangeklikt_ blok toe.
 
    Voeg een blok _wacht tot `raak ik buizen`_ toe.
@@ -181,6 +173,8 @@ Maak linksonder in het scherm de __vogel sprite__ actief en ga naar het tabblad 
    
    Als flappy bird één van de buizen raakt dan is hij af en moet het spel stoppen. 
    Voeg daarom onderaan je code een blok _Stop `alle`_ toe.
+
+![Stap 8](/static/img/scratch-flappybird-14.svg)
 
 Gefeliciteerd! Je basisspel is helemaal af. Hoe lang lukt het jou om flappy bird tussen de buizen door te laten vliegen?
 

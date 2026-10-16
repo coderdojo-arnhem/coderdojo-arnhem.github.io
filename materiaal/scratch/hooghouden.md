@@ -13,52 +13,47 @@ Tijdens CoderDojo Arnhem #10 hebben we dit spel in Scratch gemaakt, waarin je ee
 
 ## De bal laten vallen
 
-![Stap 1](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-1.svg)
-
 {:start="1"}
-
 1. Zet bij het starten van het spel de `y-positie` op `0`
 
-![Stap 2](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-2.svg)
+![Stap 1](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-1.svg)
 
 {:start="2"}
-
 2. Verander iedere herhaling de y-positie met de zwaartekracht.
 
    Zwaartekracht is een **variabele**. Maak deze aan bij _Data_ en sleep hem dan op het blauwe blokje.
 
    Een variabele is ‘iets’ dat je een waarde kunt geven die je op een andere plek weer kunt gebruiken.
 
-![Stap 3](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-3.svg)
+![Stap 2](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-2.svg)
 
 {:start="3"}
-
 3. Verander nu ook bij iedere herhaling de zwaartekracht met `-1`. Hierdoor zal de bal steeds iets sneller vallen.
+
+![Stap 3](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-3.svg)
 
    Start het spel om te kijken wat er gebeurt.
    <br/>Stop het spel voordat je verder gaat.
 
 ## De bal laten stuiteren
 
-![Stap 4](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-4.svg)
-
 {:start="4"}
-
 4. Test iedere herhaling of de `y-positie` kleiner dan `-140` is. Dit de onderkant van het scherm.
+
+![Stap 4](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-4.svg)
 
    Het groene blokje is de _kleiner-dan_ functie. Deze functie geeft `waar` of `niet-waar` terug.
 
    Voer de `y-positie` van bal in de kleiner-dan functie. Dit blok vind je onder _Waarnemen_ en kun je op het functie-blokje slepen.
 
-![Stap 5](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-5.svg)
-
 {:start="5"}
-
 5. **als**
    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de bal de onderkant van het scherm raakt
    <br/>**dan**
    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maak zwaartekracht `12`
    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;start het geluid `kick`
+
+![Stap 5](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-5.svg)
 
    Start het spel om te kijken wat er gebeurt.
    <br/>Stop het spel voordat je verder gaat.
@@ -67,55 +62,50 @@ Tijdens CoderDojo Arnhem #10 hebben we dit spel in Scratch gemaakt, waarin je ee
 
 ## De bal laten rollen
 
-![Stap 6](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-6.svg)
-
 {:start="6"}
-
 6. Voeg een nieuw startblok toe.
+
+![Stap 6](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-6.svg)
 
    Je kunt zoveel startblokken toevoegen als je wilt. Op die manier kun je je programma in stukjes delen om overzichtelijk te houden.
 
-![Stap 7](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-7.svg)
-
 {:start="7"}
-
 7. Voeg een herhaal blok toe.
 
    Verander iedere herhaling naar het volgend uiterlijk van de bal. Wacht steeds een eventjes, zodat de bal niet te snel rolt.
+
+![Stap 7](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-7.svg)
 
    Start het spel om te kijken wat er gebeurt.
    <br/>Stop het spel voordat je verder gaat.
 
 ## De bal hooghouden
 
-![Stap 8](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-8.svg)
-
 {:start="8"}
-
 8. We gaan de bal hooghouden met de camera van je computer!
 
    Voeg een nieuw _startblok_ toe en zet als eerste de video aan. Dit blok vind je onder _Waarnemen_.
 
-![Stap 9](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-9.svg)
+![Stap 8](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-8.svg)
 
 {:start="9"}
-
 9. Voeg een _herhaal_ blok toe.
 
    Gebruik het _als_ blok. Voeg de _groter-dan_ functie toe. Sleep hierop het _video-beweging-op_ blok en stel deze in op deze sprite.
 
    Vul als _groter-dan_ waarde `40` in.
 
-![Stap 10](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-10.svg)
+![Stap 9](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-9.svg)
 
 {:start="10"}
-
 10. **als**
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de video beweging op de bal groter dan `40` is
     <br/>**dan**
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maak de zwaartekracht `12`
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;start het geluid `kick`
     <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wacht een halve seconde
+
+![Stap 10](/static/img/blog/2017-05-20-scratch-hooghouden/scratch-hooghouden-10.svg)
 
     Start het spel!
 
