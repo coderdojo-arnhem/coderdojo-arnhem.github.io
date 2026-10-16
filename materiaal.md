@@ -68,7 +68,7 @@ Wil je zelf een website maken? Daarvoor moet je HTML leren. En als je wat verder
 
 ## AI
 
-<h3>leer de computer kijken<h3>
+<h3>Leer de computer kijken</h3>
 Hoe kan een computer zien wat jij doet? Door heel veel voorbeelden te geven. In deze lessen werk je met zo'n model. Les 1 doe je gewoon in Scratch, les 2 en 3 (vanaf volgende maand) met de website [Machine Learning for Kids](https://machinelearningforkids.co.uk/). Je hebt geen account nodig, wel een laptop met webcam.
 
 {:class="gallery"}
