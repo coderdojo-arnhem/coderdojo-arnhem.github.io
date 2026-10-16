@@ -50,7 +50,7 @@ Hoe het bestand heet is niet zo belangrijk, je mag het ook `herfst.html` noemen.
 Voor het blad hebben we een plaatje nodig.
 Je kunt bijvoorbeeld een van deze gebruiken:
 
-<img src="https://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png" style="min-width:40px;width: 40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png </code>
+<img src="/static/img/herfstblad.png" style="min-width:40px;width: 40px;float:left;margin-right:1em"> <code style='line-height:46px;'>https://coderdojo-arnhem.github.io/static/img/herfstblad.png </code>
 
 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg" style="min-width:40px;width: 40px;float:left;margin-right: 1em"> <code style='line-height:46px;'>https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg </code>
 
