@@ -66,6 +66,15 @@ Wil je zelf een website maken? Daarvoor moet je HTML leren. En als je wat verder
 - [![JavaScript](/static/img/paasei.png) Verstopt paasei](/materiaal/paasei.html)
   Een klein stukje CSS om een paasei op je website te verstoppen
 
+## AI
+
+<h3>leer de computer kijken<h3>
+Hoe kan een computer zien wat jij doet? Door heel veel voorbeelden te geven. In deze lessen werk je met zo'n model. Les 1 doe je gewoon in Scratch, les 2 en 3 (vanaf volgende maand) met de website [Machine Learning for Kids](https://machinelearningforkids.co.uk/). Je hebt geen account nodig, wel een laptop met webcam.
+
+{:class="gallery"}
+- [![Gezichten in Scratch](/static/img/ai/scratch-face-sensing-tegel.png) Les 1: Gezichten in Scratch](/materiaal/ai-les-1-gezichten)
+  Scratch kan al gezichten herkennen, zonder dat jij iets traint. Maak een spel waarin je eten vangt met je mond.
+
 ## Code schrijven
 
 {:class="gallery"}
