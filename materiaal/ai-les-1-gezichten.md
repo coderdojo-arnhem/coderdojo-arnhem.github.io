@@ -27,7 +27,7 @@ In les 2 (volgende maand) train je daarna zelf een model.
 
 ![De tegel Face Sensing in de lijst met uitbreidingen](/static/img/ai/scratch-face-sensing-tegel.png)
 
-De browser vraagt of Scratch je camera mag gebruiken. Klik op **Toestaan**. Je ziet jezelf op het podium.
+De browser vraagt of Scratch je camera mag gebruiken. Klik op **Toestaan**. Je ziet jezelf op het scherm.
 
 Er is een categorie **Face Sensing** bijgekomen. Deze blokken zijn in het Engels, ook als de rest van Scratch in het Nederlands staat.
 
@@ -90,7 +90,7 @@ Kies bij **Geluiden** een geluid voor je sprite, bijvoorbeeld *Chomp*. Klik op d
 {:class="note"}
 Valt de appel te snel of te langzaam? Verander het getal in <scratch class="beweging">verander y met <input /></scratch>.
 
-## Bewaren
+<b>Bewaren</b>
 
 > Klik op **Bestand** en dan op **Opslaan op je computer**. Heb je een Scratch-account en ben je ingelogd, dan kun je ook gewoon op **Opslaan nu** klikken.
 
@@ -109,9 +109,10 @@ einde
 einde
 ```
 
-- **Een bril.** Zet een sprite op *left eye* en een tweede sprite op *right eye*.
+- **Een bril.** Zet een (zonne)bril op of af.
+- **Verschillende ogen.** Zet een sprite op *left eye* en een tweede sprite op *right eye*.
 - **Sturen met je hoofd.** Gebruik <scratch class="pen">when face tilts [left]</scratch> en <scratch class="pen">when face tilts [right]</scratch> om een auto naar links en rechts te sturen.
-- **Te dichtbij.** Zet het vinkje aan bij <scratch class="pen">face size</scratch>, dan zie je het getal op het podium. Kijk welk getal erbij hoort als je normaal zit, en welk getal als je met je neus bijna tegen het scherm zit. Laat een sprite "Niet zo dichtbij!" zeggen zodra dat getal te hoog wordt.
+- **Te dichtbij.** Zet het vinkje aan bij <scratch class="pen">face size</scratch>, dan zie je het getal op het scherm. Kijk welk getal erbij hoort als je normaal zit, en welk getal als je met je neus bijna tegen het scherm zit. Laat een sprite "Niet zo dichtbij!" zeggen zodra dat getal te hoog wordt.
 - **Sneller.** Laat de appel sneller vallen naarmate je score hoger wordt.
 
 ## Wat heb je geleerd?
@@ -121,3 +122,5 @@ einde
 - Het werkt goed op gezichten die lijken op de trainingsfoto's, en minder goed op alles wat daarvan afwijkt.
 
 In les 2(volgende maand) train je zelf een model. Dan bepaal jíj welke voorbeelden erin gaan.
+
+In de les [Hooghouden met je webcam](/materiaal/scratch/hooghouden) wordt ook de camera gebruikt in Scratch.
