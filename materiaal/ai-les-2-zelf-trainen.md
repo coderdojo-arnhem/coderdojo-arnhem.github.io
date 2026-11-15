@@ -43,6 +43,9 @@ Kies twee dingen die je voor de webcam kunt laten zien. Ze moeten er anders uitz
 Schrijf de twee dingen op. Dat worden straks je **labels**.
 
 {:class="note"}
+Heb je geen webcam? Je kunt ook foto's uploaden of van internet halen.
+
+{:class="note"}
 Maak foto's van je handen of van spullen, niet van je gezicht. Voor deze les is dat niet nodig, en zo blijven er geen foto's van jou op de laptop staan.
 
 {:class="note"}
@@ -52,18 +55,18 @@ Kies niet twee dingen die alleen in kleur verschillen, bijvoorbeeld een rode en 
 
 > Ga naar [machinelearningforkids.co.uk](https://machinelearningforkids.co.uk/).
 >
-> Klik bovenin in het menu op **Log In**. Dat staat naast *Help*, niet helemaal rechts. De grote blauwe knop **Get started** midden op de pagina brengt je naar hetzelfde scherm.
->
+> Klik bovenin in het menu op **Log In**. Dat staat naast *Help*, niet helemaal rechts. De grote blauwe knop **Begin** midden op de pagina brengt je naar hetzelfde scherm.
+
+{:class="note"}
+Staat de website in het Engels? Klik rechtsboven op **Language** en kies **Nederlands**. Niet alles is vertaald: een paar knoppen blijven Engels. Die staan in deze les precies zo opgeschreven als je ze op het scherm ziet.
+
 > Klik daar onder het kopje *Probeer zonder te registreren* op **Probeer nu**.
 >
-> Er verschijnt een vakje **Ik ben geen robot**. Vink dat aan en wacht even.
+> (Er verschijnt een vakje **Ik ben geen robot**. Vink dat aan als dat wordt gevraagd en wacht even).
 
 ![Probeer nu, zonder account](/static/img/ai/ml4k-probeer-nu.png)
 
 Je komt op de pagina *Je machine learning projecten*.
-
-{:class="note"}
-Staat de website in het Engels? Klik rechtsboven op **Language** en kies **Nederlands**. Niet alles is vertaald: een paar knoppen blijven Engels. Die staan in deze les precies zo opgeschreven als je ze op het scherm ziet.
 
 {:class="note"}
 Wat je zonder account maakt, wordt na ongeveer vier uur weggegooid. Voor één dojo-middag is dat genoeg. Wil je thuis verder? Dan maak je gewoon opnieuw een project.
@@ -78,7 +81,7 @@ Vul precies dit in:
 - **Project Type:** *Herkenning afbeeldingen*
 - **Storage:** *In your web browser*
 
-> Klik op **Creëer** en daarna op je nieuwe project.
+> Klik op **Creëer** en daarna op (de naam van) je nieuwe project.
 
 Je ziet drie knoppen: **Train**, **Leer & Test** en **Maak**. Dat is de hele les, van links naar rechts.
 
@@ -100,6 +103,12 @@ Nu de foto's.
 
 {:class="note"}
 Weet je nog: verschillende voorbeelden zijn belangrijker dan veel voorbeelden. Maak niet tien keer dezelfde foto.
+
+{:class="note"}
+Zorg voor zo weinig mogelijk afleiding op de foto, denk aan wat er op de achtergrond te zien is. Als het ene ding steeds hetzelfde op de achtergrond heeft (bijvoorbeeld de tafel), en het andere ding iets anders maar ook steeds hetzelfde (bijvoorbeeld een trui), dan leert het model de achtergrond en niet het ding. 
+
+{:class="note"}
+Gebruik je geen webcam? Met `www` en `file` kun je andere foto's toevoegen. Maar let erop dat alleen `.jpg` en `.png` bestanden gebruikt kunnen worden.
 
 Klaar met allebei de labels? Tel na. Ongeveer evenveel foto's per label is het beste.
 
@@ -124,7 +133,7 @@ Nu wordt het spannend. Het model herkent jouw dingen, op jouw plek, in dit licht
 Maak op papier een tabel met drie kolommen: **wat ik deed**, **wat de computer zei**, **zekerheid**. Doe daarna deze tien tests en vul de tabel in:
 
 1. Ga ergens anders in de zaal staan, met een andere achtergrond.
-2. Draai de laptop een halve slag.
+2. Draai de laptop of camera een halve slag.
 3. Laat je buurman of buurvrouw hetzelfde doen als jij.
 4. Hou het veel dichter bij de camera.
 5. Hou het veel verder weg.
@@ -141,13 +150,30 @@ Kijk naar de tabel. Bij welke tests ging het mis? Waarom, denk je?
 {:class="note"}
 Bij test 10 komt er tóch een van je twee labels uit, vaak zelfs met een hoog percentage. Er is geen uitkomst "weet ik niet". Het model kent alleen de labels die jij hebt gemaakt.
 
+## Opslaan
+
+> Je model wordt maar 4 uur bewaard. Wil je het langer bewaren om later mee verder te gaan? Dan kun je het downloaden.
+>
+> Ga rechtsboven naar **Projecten**.
+>
+> Klik op het computer icoontje recht van je project:
+
+![Button voor opslaan](/static/img/ai/ml4k-opslaan.png)
+
+> Klik op **SAVE** en sla het bestand op op je computer.
+>
+> Zit je niet achter je eigen laptop? Zet het dan bijvoorbeeld op een USB-stick of stuur het als bijlage per e-mail naar jezelf.
+>
+> Met **Import from file** kun je je model later weer gebruiken, bijvoorbeeld in Scratch.
+
 ## Verbeter het
 
 Het model maakt fouten omdat jouw voorbeelden nog niet goed genoeg waren. Dat kun je zelf repareren.
 
 > Kijk in je tabel waar het misging. Ga precies op die plek staan, of doe precies dat wat misging.
 >
-> Ga terug naar **Train** en maak daar bij allebei de labels nog 5 tot 10 foto's bij.
+> Klik op **Terug naar project** en ga dan weer naar **Train**.
+> Maak daar bij allebei de labels nog 5 tot 10 foto's bij.
 >
 > Ga naar **Leer & Test** en klik weer op **Train nieuw machine learning model**.
 
@@ -159,7 +185,7 @@ Is je score omhoog gegaan? Bij bijna iedereen wel. En je hebt niets aan de compu
 
 - **Drie dingen.** Voeg een derde label toe, bijvoorbeeld *duim opzij*. Train opnieuw. Wordt het moeilijker? Welke twee labels worden door elkaar gehaald?
 - **Expres scheef.** Maak bij het ene label 30 foto's en bij het andere maar 5. Train opnieuw en hou iets ertussenin voor de camera. Welk label wint? Waarom?
-- **Alleen kleur.** Kies een rode en een blauwe pen. Train. Test daarna met een rode gum. Wat is de uitkomst? Wat heeft het model eigenlijk geleerd?
+- **Alleen kleur.** Kies een witte en een blauwe pen. Train. Test daarna met een witte gum. Wat is de uitkomst? Wat heeft het model eigenlijk geleerd?
 - **Jij of de muur?** Maak alle foto's van label 1 voor een witte muur en alle foto's van label 2 voor het raam. Train. Hou nu label 1 voor het raam. Wat gebeurt er?
 
 ## Wat heb je geleerd?

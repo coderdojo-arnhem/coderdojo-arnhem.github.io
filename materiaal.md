@@ -69,11 +69,15 @@ Wil je zelf een website maken? Daarvoor moet je HTML leren. En als je wat verder
 ## AI
 
 <h3>Leer de computer kijken</h3>
-Hoe kan een computer zien wat jij doet? Door heel veel voorbeelden te geven. In deze lessen werk je met zo'n model. Les 1 doe je gewoon in Scratch, les 2 en 3 (vanaf volgende maand) met de website [Machine Learning for Kids](https://machinelearningforkids.co.uk/). Je hebt geen account nodig, wel een laptop met webcam.
+Hoe kan een computer zien wat jij doet? Door heel veel voorbeelden te geven. In deze lessen werk je met zo'n model, test je hoe goed het is, en maak je het beter. Les 1 doe je gewoon in Scratch, les 2 en 3 met de website [Machine Learning for Kids](https://machinelearningforkids.co.uk/). Je hebt geen account nodig, wel een laptop met webcam.
 
 {:class="gallery"}
 - [![Gezichten in Scratch](/static/img/ai/scratch-face-sensing-tegel.png) Les 1: Gezichten in Scratch](/materiaal/ai-les-1-gezichten)
   Scratch kan al gezichten herkennen, zonder dat jij iets traint. Maak een spel waarin je eten vangt met je mond.
+- [![Leer de computer kijken](/static/img/ai/ml4k-nieuw-project-afbeeldingen.png) Les 2: Leer de computer kijken](/materiaal/ai-les-2-zelf-trainen)
+  Kies twee dingen, maak foto's met je webcam en train een model dat ze uit elkaar houdt. Test hoe goed het is en maak het beter.
+- [![Steen, papier, schaar](/static/img/ai/scratch-ml4k.png) Les 3: Steen, papier, schaar](/materiaal/ai-les-3-steen-papier-schaar)
+  Train de computer om je hand te herkennen en speel steen, papier, schaar tegen de computer in Scratch.
 
 ## Code schrijven
 

@@ -17,7 +17,8 @@ Maar eerst moet een model jouw hand leren herkennen. Dat doe je zelf, net als in
 
 > Ga naar [machinelearningforkids.co.uk](https://machinelearningforkids.co.uk/).
 >
-> Klik bovenin in het menu op **Log In** (naast *Help*) en dan op **Probeer nu**, onder het kopje *Probeer zonder te registreren*. Vink **Ik ben geen robot** aan.
+> Klik op **Begin** en dan op **Probeer nu**, onder het kopje *Probeer zonder te registreren*.
+> Vink **Ik ben geen robot** aan als dat nodig is.
 >
 > Klik op **Voeg een nieuw project toe** en vul in:
 
@@ -28,7 +29,10 @@ Maar eerst moet een model jouw hand leren herkennen. Dat doe je zelf, net als in
 > Klik op **Creëer** en open je project.
 
 {:class="note"}
-Heb je in les 2 al een project gemaakt en staat dat er nog? Je mag zonder account maar één project tegelijk hebben. Verwijder het oude project eerst. Staat de site in het Engels? Rechtsboven bij **Language** kies je **Nederlands**.
+Staat de site in het Engels? Rechtsboven bij **Language** kies je **Nederlands**.
+
+{:class="note"}
+Heb je in les 2 al een project gemaakt en staat dat er nog? Je mag zonder account maar één project tegelijk hebben. Verwijder het oude project eerst.
 
 ## Drie labels, dertig foto's
 
@@ -64,13 +68,7 @@ Scratch opent in een nieuw tabblad. Dit kan even duren.
 
 Scrol in de blokkenlijst links helemaal naar beneden. Onder **Mijn blokken** staat een categorie met de naam van je project: **steen papier schaar**. Daarin zitten deze blokken:
 
-```scratch
-(herken afbeelding [image] (label) :: extension)
-(herken afbeelding [image] (zekerheid) :: extension)
-(steen :: extension)
-(papier :: extension)
-(schaar :: extension)
-```
+![Blokken steen, papier, schaar](/static/img/ai/scratch-steen-papier-schaar.png)
 
 Het eerste blok is het belangrijkste: je stopt er een afbeelding in, en er komt *steen*, *papier* of *schaar* uit. Maar hoe krijg je een foto van je hand in dat blok? Daarvoor staat er nog een categorie in de blokkenlijst.
 
@@ -91,7 +89,7 @@ Staan de blokken van je project er niet? Dan was Scratch al open voordat het mod
 
 ## Zet de camera aan
 
-Het is handig als je jezelf op het podium ziet, dan weet je of je hand goed in beeld is.
+Het is handig als je jezelf op het scherm ziet, dan weet je of je hand goed in beeld is.
 
 > Klik linksonder op **Voeg een uitbreiding toe** (het blokje met de plus) en kies **Video** (in het Engels: *Video Sensing*).
 
@@ -176,7 +174,7 @@ Speel tien rondes en schrijf op:
 Ging het vaak mis? Dan heeft je model meer voorbeelden nodig. Ga terug naar het tabblad van Machine Learning for Kids, maak bij **Train** extra foto's van precies dat wat misging, en train opnieuw bij **Leer & Test**. Sluit daarna Scratch en open het opnieuw via **Maak**, anders gebruikt Scratch nog het oude model.
 
 {:class="note"}
-Sla je Scratch-project eerst op (zie de laatste stap), anders ben je je blokken kwijt.
+Sla je Scratch-project eerst op (zie volgende stap), anders ben je je blokken kwijt.
 
 ## Bewaren
 
@@ -185,7 +183,7 @@ Sla je Scratch-project eerst op (zie de laatste stap), anders ben je je blokken 
 Er komt een bestand dat eindigt op `.sb3` in de map Downloads. Geef het je eigen naam.
 
 {:class="note"}
-Dit bestand werkt **niet** op scratch.mit.edu, want gewone Scratch kent jouw AI-blokken niet. Het opent wél weer in de Scratch van Machine Learning for Kids, via **Bestand** en **Laden van je computer**. Je model is dan wel weg (na vier uur), dus train thuis eerst opnieuw een model met dezelfde drie labels.
+Dit bestand werkt **niet** op scratch.mit.edu, want gewone Scratch kent jouw AI-blokken niet. Het opent wél weer in de Scratch van Machine Learning for Kids, via **Bestand** en **Laden van je computer**. Je model is dan wel weg (na vier uur), dus upload die ook weer als je die gedownload hebt (zie les 2). Of train eerst weer opnieuw een model met dezelfde drie labels.
 
 ## Extra uitdagingen
 
@@ -193,10 +191,12 @@ Dit bestand werkt **niet** op scratch.mit.edu, want gewone Scratch kent jouw AI-
 - **Laat het zien.** Zet een tweede sprite op het podium die het uiterlijk van de computerzet aanneemt: een steen, een vel papier, een schaar. Teken ze zelf bij **Uiterlijken**.
 - **Beste van vijf.** Tel ook de punten van de computer en stop het spel als iemand drie punten heeft.
 - **Aftellen.** Laat de kat "steen... papier... schaar!" zeggen en maak pas dan de foto. Dat is eerlijker.
-- **Vier gebaren.** Voeg in Machine Learning for Kids een vierde label toe, bijvoorbeeld *hagedis* of *Spock*. Train opnieuw, open Scratch opnieuw, en pas de regels aan.
+- **Vier gebaren.** Voeg in Machine Learning for Kids een vierde label toe, bijvoorbeeld *wijzen* of *vrede*. Train opnieuw, open Scratch opnieuw, en pas de regels aan.
 
 ## Wat heb je geleerd?
 
 - Een zelfgetraind model kun je **gebruiken in je eigen programma**. In Scratch wordt het gewoon een blokje.
 - Je programma is maar zo goed als je model. Gaat het mis, dan help je met **betere foto's**, niet met meer code.
 - Met de **zekerheid** kan je programma "weet ik niet" als uitkomst geven. Dat is slimmer dan altijd maar iets kiezen.
+
+Op [Paspberry Pi Projects](https://projects.raspberrypi.org/nl-NL/pathways/scratch-machine-learning) staan meer lesjes met 'machinelearningforkids' in Scratch.

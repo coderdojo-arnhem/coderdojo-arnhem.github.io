@@ -11,7 +11,7 @@ Scratch kan gezichten herkennen: waar je neus zit, waar je mond zit, en of je ho
 
 In deze les maak je een spel: er valt eten uit de lucht en jij vangt het met je mond. Eerst probeer je de nieuwe blokken uit met een sticker op je neus.
 
-In les 2 (volgende maand) train je daarna zelf een model.
+In [les 2](/materiaal/ai-les-2-zelf-trainen) train je daarna zelf een model.
 
 **Wat heb je nodig?** Een laptop met webcam en Chrome of Edge. Je werkt gewoon op [scratch.mit.edu](https://scratch.mit.edu/).
 
@@ -121,6 +121,6 @@ einde
 - Jij hebt niets getraind. Je hebt het model alleen gebruikt, als een blokje.
 - Het werkt goed op gezichten die lijken op de trainingsfoto's, en minder goed op alles wat daarvan afwijkt.
 
-In les 2(volgende maand) train je zelf een model. Dan bepaal jíj welke voorbeelden erin gaan.
+In [les 2](/materiaal/ai-les-2-zelf-trainen) train je zelf een model. Dan bepaal jíj welke voorbeelden erin gaan.
 
 In de les [Hooghouden met je webcam](/materiaal/scratch/hooghouden) wordt ook de camera gebruikt in Scratch.
